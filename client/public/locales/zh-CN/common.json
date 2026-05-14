@@ -1,0 +1,2654 @@
+{
+  "nav": {
+    "dashboard": "仪表板",
+    "documents": "文档",
+    "contacts": "联系人",
+    "templates": "模板",
+    "auditLog": "审计日志",
+    "profile": "个人资料",
+    "logout": "登出",
+    "login": "登录",
+    "manual": "手册",
+    "settings": "设置",
+    "inbox": "收件箱"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "create": "创建",
+    "search": "搜索",
+    "filter": "筛选",
+    "close": "关闭",
+    "open": "打开",
+    "next": "下一步",
+    "back": "返回",
+    "done": "完成",
+    "confirm": "确认",
+    "submit": "提交",
+    "loading": "加载中...",
+    "loadingTimeout": "加载时间过长，请重试。",
+    "reload": "重新加载",
+    "creating": "创建中...",
+    "error": "错误",
+    "success": "成功",
+    "warning": "警告",
+    "info": "信息",
+    "noData": "无数据",
+    "actions": "操作",
+    "status": "状态",
+    "name": "姓名",
+    "email": "电子邮件",
+    "phone": "电话号码",
+    "company": "公司名称",
+    "department": "部门",
+    "title": "标题",
+    "description": "描述",
+    "date": "日期",
+    "createdAt": "创建日期",
+    "updatedAt": "更新日期",
+    "yes": "是",
+    "no": "否",
+    "all": "全部",
+    "none": "无",
+    "download": "下载",
+    "upload": "上传",
+    "copy": "复制",
+    "share": "分享",
+    "settings": "设置",
+    "language": "语言",
+    "user": "用户",
+    "role": "角色",
+    "owner": "管理员",
+    "admin": "管理员",
+    "member": "成员",
+    "free": "免费",
+    "comingSoon": "即将推出"
+  },
+  "dashboard": {
+    "title": "仪表板",
+    "welcome": "欢迎回来",
+    "recentDocuments": "最近的文档",
+    "pendingSignatures": "等待签名",
+    "completedDocuments": "已完成的文档",
+    "totalDocuments": "文档总数",
+    "totalContacts": "联系人总数",
+    "totalTemplates": "模板总数",
+    "monthlyUsage": "本月发送数",
+    "quickActions": "快捷操作",
+    "newDocument": "新建文档",
+    "viewAll": "查看全部",
+    "welcomeMessage": "在这里创建、发送和管理合同。",
+    "newDocUpload": "上传 PDF",
+    "newDocUploadDesc": "从 PDF 文件创建合同",
+    "newDocTemplate": "从模板创建",
+    "newDocTemplateDesc": "使用已保存的模板"
+  },
+  "documents": {
+    "title": "文档管理",
+    "new": "新建文档",
+    "sent": "已发送",
+    "completed": "已完成",
+    "drafts": "草稿",
+    "actionRequired": "需要处理",
+    "voided": "已作废",
+    "all": "全部",
+    "searchPlaceholder": "搜索文档...",
+    "filterClear": "清除过滤器",
+    "noPdf": "没有可用的 PDF",
+    "detailView": "查看详情",
+    "resendReminder": "重新发送提醒",
+    "continueEdit": "继续编辑",
+    "deleteConfirm": "删除这个文档？",
+    "noDocuments": "没有文档",
+    "createFirst": "创建您的第一份文档",
+    "status": {
+      "draft": "草稿",
+      "pending_approval": "等待批准",
+      "pending_internal_approval": "等待内部审批",
+      "sent": "已发送",
+      "viewed": "已查看",
+      "partially_signed": "部分已签名",
+      "completed": "已完成",
+      "declined": "已拒绝",
+      "voided": "已作废",
+      "expired": "已过期",
+      "pending": "待办的",
+      "signed": "签名"
+    },
+    "dateFilter": {
+      "all": "全部时间",
+      "7d": "过去7天",
+      "30d": "过去30天",
+      "90d": "过去90天",
+      "6m": "过去6个月",
+      "1y": "过去1年"
+    },
+    "detail": {
+      "documentInfo": "文档信息",
+      "signers": "签名人",
+      "activityLog": "活动日志",
+      "downloadPdf": "下载PDF",
+      "downloadSigned": "下载已签名的PDF",
+      "voidDocument": "作废文档",
+      "resend": "重新发送",
+      "sendReminder": "发送提醒"
+    },
+    "create": {
+      "step1": "准备文件",
+      "step2": "设置收件人",
+      "step3": "设置输入项",
+      "step4": "确认发送内容",
+      "step5": "发送完成",
+      "uploadPdf": "上传合同PDF",
+      "dragDrop": "拖放文件或点击选择",
+      "documentTitle": "文档标题",
+      "addRecipient": "添加收件人",
+      "recipientName": "收件人姓名",
+      "recipientEmail": "电子邮件地址",
+      "recipientRole": "角色",
+      "recipientLocale": "语言",
+      "signer": "签名人",
+      "cc": "抄送",
+      "approver": "批准人",
+      "order": "签名顺序",
+      "accessCode": "访问代码",
+      "message": "消息",
+      "expirationDays": "有效期（天）",
+      "reminderDays": "提醒间隔（天）",
+      "send": "发送签名请求",
+      "saveDraft": "保存草稿",
+      "sendSuccess": "已发送签名请求",
+      "confirmSend": "您确定要发送签名请求吗？",
+      "fromTemplate": "从模板创建",
+      "fromScratch": "新建",
+      "honorificHint": "如有需要，请在姓名中包含称谓（如先生/女士）",
+      "globalComment": "全体消息（可选）",
+      "globalCommentPlaceholder": "输入将显示给所有收件人的消息",
+      "previewEmail": "预览邮件",
+      "previewEmailDesc": "发送前预览邮件内容",
+      "emailPreviewTitle": "邮件预览",
+      "emailPreviewClose": "关闭",
+      "emailPreviewFrom": "发件人",
+      "emailPreviewTo": "收件人",
+      "emailPreviewSubject": "主题",
+      "invalidFile": "文件无效。",
+      "cancelAndDelete": "取消并删除",
+      "stepNavAria": "文档创建步骤",
+      "templateInherit": "从模板设置创建：“{{title}}”",
+      "templatePdfBadge": "PDF（{{count}} 页）",
+      "templateFieldsBadge": "签名字段 ({{count}})",
+      "changeFile": "更改文件",
+      "dropHere": "将您的文件放在此处",
+      "selectFile": "选择文件",
+      "pdfOnly": "仅 PDF 文件（最大 20MB）",
+      "required": "必需的",
+      "optional": "选修的",
+      "titlePlaceholder": "输入文档标题",
+      "titleHint": "上传的文件名是自动设置的并且可以编辑。",
+      "counterpartyLabel": "交易对手名称",
+      "counterpartyPlaceholder": "输入收件人公司名称等。",
+      "recipientEmailRequired": "电子邮件 *",
+      "recipientNameRequiredLabel": "姓名 *",
+      "recipientNamePlaceholder": "约翰·多伊",
+      "companyPlaceholder": "艾克米公司",
+      "roleSigner": "需要签名",
+      "roleCc": "仅供查看 (CC)",
+      "accessCodeOptional": "访问代码（可选）",
+      "accessCodePlaceholder": "设置密码",
+      "individualMessageOptional": "单独留言（可选）",
+      "individualMessagePlaceholder": "给签名者的消息",
+      "selectFromContacts": "从联系人中选择",
+      "addRecipientCta": "添加收件人",
+      "sendOptions": "发送选项",
+      "sequentialRouting": "顺序路由",
+      "sequentialRoutingHint": "启用后，签名请求将按顺序一一发送。",
+      "expirationPlaceholder": "例如30",
+      "reminderPlaceholder": "例如3",
+      "relatedParties": "相关各方",
+      "fieldLabel": "场地",
+      "signerLabel": "西格纳",
+      "signerIndex": "签名者{{count}}",
+      "internalApproval": {
+        "title": "内部审批流程",
+        "description": "在外部发送之前配置审批流程。",
+        "approverNamePlaceholder": "审批人姓名",
+        "addApprover": "添加审批人",
+        "orderHint": "批准按从上到下的顺序进行。全部审核通过后对外发送。",
+        "summaryTitle": "内部审批流程（预发送）",
+        "summaryHint": "* 所有审批人完成审批后对外发送。"
+      },
+      "preparingPdf": "正在准备 PDF...",
+      "preparingPdfHint": "文件上传完成，请稍候。",
+      "fieldPlacementHint": "拖放字段以将输入区域放置在文档上。",
+      "placedFields": "放置的字段 ({{count}})",
+      "expirationValue": "{{count}} 天",
+      "reminderValue": "每{{count}}天",
+      "signatureFieldsLabel": "签名字段",
+      "signatureFieldsValue": "{{count}} 字段",
+      "routingLabel": "路由",
+      "senderFallback": "发件人",
+      "emailSubjectPreview": "来自 {{sender}} 的“{{title}}”签名请求",
+      "emailHeaderRequest": "{{sender}} 向您发送了签名请求",
+      "emailHeaderRequestDesc": "请检查并签署“{{title}}”",
+      "messageFromSender": "来自发件人的消息",
+      "documentNameLabel": "文档：{{title}}",
+      "senderLabel": "发件人：{{sender}}",
+      "previewPlgHeadline": "自托管 OSS 电子签名。",
+      "previewPlgSubtext": "在自己的环境中管理签署、模板和审计日志。",
+      "previewPerMonth": "自托管",
+      "complete": {
+        "internalApprovalTitle": "内部审批流程启动",
+        "internalApprovalDesc": "批准请求电子邮件已发送。全部审核通过后，会自动对外发送。",
+        "sentTitle": "发送成功",
+        "sentDesc": "签名请求电子邮件已发送给收件人。"
+      },
+      "validation": {
+        "uploadPdf": "请上传合同 PDF。",
+        "titleRequired": "请输入标题。",
+        "titleTooLong": "标题不得超过 500 个字符。",
+        "recipientRequired": "请添加至少一名收件人。",
+        "signerRequired": "请至少设置一名签名者。",
+        "invalidEmail": "“{{email}}”不是有效的电子邮件地址。",
+        "recipientNameRequired": "请填写所有收件人的姓名。",
+        "fieldRequired": "请至少放置一个签名字段。",
+        "signerFieldMissing": "没有签名字段分配给{{signer}}。"
+      },
+      "createError": "创建文档失败。",
+      "sendError": "发送失败。",
+      "saveDraftSuccess": "草稿已保存。",
+      "saveDraftError": "保存失败。"
+    },
+    "deleteSuccess": "文件已删除",
+    "deleteFailed": "删除文件失败",
+    "voidSuccess": "文档已成功作废",
+    "voidConfirm": "确定要作废此文档吗？此操作无法撤销。",
+    "sendReminderSuccess": "提醒已发送",
+    "backToList": "返回文档列表",
+    "preview": "文档预览",
+    "info": "文档信息",
+    "recipients": "收件人列表",
+    "activityTab": "活动",
+    "role": {
+      "signer": "签名人",
+      "cc": "抄送",
+      "approver": "审批人"
+    },
+    "colDocument": "文件名",
+    "colSender": "发送方组织",
+    "colAction": "操作",
+    "downloadSuccess": "下载开始",
+    "deleteConfirmPermanent": "删除文书后无法恢复。确定要删除吗？",
+    "bulkDeleteSelected": "删除选中的文书 ({{count}})"
+  },
+  "inbox": {
+    "pendingCount": "有 {{count}} 封需要处理的邮件",
+    "noPending": "没有需要处理的邮件",
+    "filterActionRequired": "待处理",
+    "filterAll": "全部",
+    "searchPlaceholder": "按主题、文档或发件人搜索...",
+    "noResults": "未找到结果",
+    "noResultsDesc": "请尝试其他关键词",
+    "empty": "收件箱为空",
+    "emptyDesc": "发给你的签署请求和审批请求会显示在这里",
+    "colMessage": "邮件",
+    "colStatus": "状态",
+    "colUpdated": "更新时间",
+    "from": "发件人",
+    "to": "收件人",
+    "date": "日期",
+    "document": "文档",
+    "actionRequired": "待处理",
+    "backToInbox": "返回收件箱",
+    "loadingDetail": "正在加载邮件...",
+    "notFoundTitle": "未找到邮件",
+    "notFoundDesc": "该邮件不存在，或你无权访问。",
+    "kind": {
+      "signature": "签署请求",
+      "approval": "审批请求",
+      "cc": "抄送通知"
+    },
+    "status": {
+      "signature": {
+        "sent": "等待签署",
+        "viewed": "已查看",
+        "signed": "已签署",
+        "declined": "已拒绝",
+        "expired": "已过期"
+      },
+      "approval": {
+        "pending": "等待审批",
+        "approved": "已批准",
+        "rejected": "已拒绝"
+      },
+      "cc": "仅供查看"
+    },
+    "cta": {
+      "sign": "签署",
+      "approve": "打开审批",
+      "view": "打开详情"
+    },
+    "preview": {
+      "signature": "你收到“{{title}}”的签署请求。",
+      "approval": "你收到“{{title}}”的审批请求。",
+      "cc": "你收到“{{title}}”的抄送通知。"
+    },
+    "detail": {
+      "defaultBody": {
+        "signature": "{{sender}} 向你发送了“{{title}}”的签署请求。请查看文档并在签署页面完成处理。",
+        "approval": "{{sender}} 向你发送了“{{title}}”的内部审批请求。请查看文档并批准或拒绝。",
+        "cc": "{{sender}} 向你发送了“{{title}}”的抄送通知。如需查看，请打开文档。"
+      }
+    }
+  },
+  "signing": {
+    "title": "签署文档",
+    "reviewAndSign": "查看并签名",
+    "consentTitle": "同意电子签名",
+    "consentMessage": "我同意使用电子签名和电子记录。",
+    "consentCheck": "我同意上述内容",
+    "signHere": "在此处签名",
+    "dateHere": "日期",
+    "initialHere": "姓名缩写",
+    "stampHere": "印章",
+    "nameHere": "姓名",
+    "fieldsRemaining": "还有{{count}}个字段需要填写",
+    "allFieldsComplete": "所有字段均已完成",
+    "finishSigning": "完成签名",
+    "decline": "拒绝签名",
+    "delegate": "转交",
+    "declineReason": "拒绝原因",
+    "alreadySigned": "此文档已签名",
+    "expired": "此签名请求已过期",
+    "emailVerification": {
+      "title": "身份验证",
+      "description": "签名之前，请从签名请求电子邮件中验证您的电子邮件地址。",
+      "placeholder": "例: yamada@example.com",
+      "enterEmailError": "请输入您的电子邮件地址。",
+      "invalidEmailError": "请输入有效的电子邮件地址。",
+      "notAuthorizedError": "该电子邮件地址无权签名。输入签名请求电子邮件中显示的电子邮件地址。",
+      "confirmAndStart": "验证并开始签名",
+      "securityNote": "为了安全起见，需要验证授权的电子邮件地址。"
+    },
+    "enterEmail": "请输入您的电子邮件地址",
+    "enterAccessCode": "请输入访问代码",
+    "signatureComplete": "签名已完成",
+    "thankYou": "谢谢",
+    "downloadSignedPdf": "下载已签名的PDF",
+    "createAccount": "创建免费账户",
+    "createAccountBenefit": "创建账户后，您可以随时查看和下载您签署的文档。",
+    "drawSignature": "手写签名",
+    "typeSignature": "字体签名",
+    "clearSignature": "清除",
+    "selectFont": "选择字体",
+    "stampInput": "印章（输入姓氏）",
+    "generatingSignedPdf": "正在生成已签名的PDF，请稍候。",
+    "accessVerified": "验证成功",
+    "loadingDocument": "正在加载文档...",
+    "accessDenied": "拒绝访问",
+    "successMessage": "您对“{{title}}”的签名已成功完成。发件人将会收到通知。",
+    "quickActions": {
+      "downloadTitle": "下载PDF",
+      "downloadDesc": "保存您签署的文档",
+      "viewTitle": "查看文档",
+      "viewDesc": "查看签名进度和详情"
+    },
+    "promo": {
+      "badge": "电子签名服务",
+      "titleLine1": "功能齐全，毫不妥协",
+      "titleLine2": "用于自托管",
+      "subtitle": "在 OSS 部署中提供 PDF 签署、收件人邮件链接、完成证书和审计日志。",
+      "monthlyLabel": "OSS",
+      "taxIncluded": "（含税）",
+      "priceNote": "自托管 · 本地员工账户 · 收件人无需账户",
+      "featureCertificate": "自动完成证书",
+      "featureAudit": "审核日志和活动",
+      "featureRealtime": "实时状态通知",
+      "registerHint": "如果您使用{{email}}注册，该文档将自动链接到您的帐户。",
+      "ctaNote": "自托管 · 本地账户管理 · 收件人无需账户"
+    },
+    "declineSuccess": "签名被拒绝",
+    "declineMessage": "您拒绝签署“{{title}}”。发件人已收到通知。",
+    "delegateSuccess": "委托签名",
+    "delegateMessage": "您将签名“{{title}}”委托给{{name}}。已通过电子邮件通知该代表。",
+    "accessCodeDescription": "需要访问代码才能查看此文档。输入发件人的代码。",
+    "consent": {
+      "title": "电子签名同意书",
+      "description": "请在签署“{{title}}”之前查看以下内容。",
+      "paragraph1": "该服务使用电子签名和记录。电子签名具有与手写签名同等的法律效力。",
+      "paragraph2": "签署即表示您承认并同意文件内容。签名后您将无法更改内容。",
+      "paragraph3": "如果您不同意，您可以拒绝签字或委托他人签字。",
+      "checkbox": "我同意使用电子签名和电子记录并了解其法律约束力。",
+      "agreeAndContinue": "同意并继续"
+    },
+    "declineDialog": {
+      "title": "拒绝签名？",
+      "description": "发件人将会收到通知。请输入拒绝的原因。",
+      "placeholder": "输入拒绝原因...",
+      "confirm": "确认拒绝"
+    },
+    "delegateDialog": {
+      "title": "委托他人签名",
+      "description": "请输入代表信息。代表将收到电子邮件通知。",
+      "nameLabel": "代表姓名",
+      "namePlaceholder": "例如约翰·多伊",
+      "emailLabel": "代表电子邮件",
+      "emailPlaceholder": "例: yamada@example.com"
+    },
+    "fieldType": {
+      "signature": "签名",
+      "date": "日期",
+      "name": "姓名",
+      "initials": "缩写"
+    },
+    "messageFromSender": "来自发件人的消息",
+    "nextField": "下一个字段",
+    "fieldFilled": {
+      "date": "输入日期",
+      "name": "输入姓名",
+      "initials": "输入姓名首字母"
+    },
+    "verifying": "正在验证...",
+    "stamp": {
+      "title": "盖章",
+      "description": "输入您的姓氏以生成圆形印章。",
+      "placeholder": "例如田中",
+      "generate": "产生",
+      "previewAlt": "印章预览",
+      "confirmQuestion": "用这个印章吗？",
+      "apply": "盖章",
+      "applied": "已加盖印章",
+      "enterLastName": "请输入您的姓氏。"
+    },
+    "errors": {
+      "accessDenied": "You do not have access to this signature request",
+      "requestNotFound": "Signature request not found",
+      "invalidAccessCode": "Incorrect access code",
+      "invalidEmail": "Please enter a valid email address",
+      "signatureDataTooLarge": "Signature data is too large",
+      "alreadySigned": "You have already signed this document",
+      "ccCannotSign": "CC recipients cannot sign documents",
+      "documentNotSignable": "This document cannot be signed in its current status",
+      "pdfAccessDenied": "You do not have permission to access this PDF",
+      "notYetSigned": "Your signature is not yet complete",
+      "documentNotComplete": "The document is not yet complete. All signatures are required.",
+      "notOrgMember": "You are not a member of the specified organization"
+    }
+  },
+  "contacts": {
+    "title": "联系人管理",
+    "new": "添加联系人",
+    "noContacts": "没有联系人",
+    "import": "导入",
+    "export": "导出",
+    "category": "类别",
+    "group": "群组",
+    "manageCategories": "管理类别",
+    "manageGroups": "管理群组",
+    "addToGroup": "添加到群组",
+    "removeFromGroup": "从群组中删除",
+    "selectAll": "全选",
+    "deleteSelected": "删除所选",
+    "grid": "网格视图",
+    "table": "表格视图",
+    "addContact": "添加联系人",
+    "editContact": "编辑联系人",
+    "deleteContact": "删除联系人",
+    "deleteConfirm": "删除此联系人？",
+    "createSuccess": "联系人已创建",
+    "updateSuccess": "联系人已更新",
+    "deleteSuccess": "联系人已删除",
+    "createError": "创建失败",
+    "updateError": "更新失败",
+    "deleteError": "删除失败",
+    "groupCreateSuccess": "群组已创建",
+    "groupUpdateSuccess": "群组已更新",
+    "groupDeleteSuccess": "群组已删除",
+    "categoryCreateSuccess": "类别已创建",
+    "categoryUpdateSuccess": "类别已更新",
+    "categoryDeleteSuccess": "类别已删除",
+    "searchPlaceholder": "按姓名、邮箱、公司搜索...",
+    "noResults": "没有找到结果",
+    "filterByCategory": "按类别筛选",
+    "filterByGroup": "按群组筛选",
+    "allCategories": "所有类别",
+    "allGroups": "所有群组",
+    "noContactsInGroup": "此群组中没有联系人",
+    "selectedCount": "已选择 {{count}} 项",
+    "bulkDeleteConfirm": "删除 {{count}} 个联系人？",
+    "bulkDeleteSuccess": "联系人已删除",
+    "importSuccess": "导入成功",
+    "exportSuccess": "导出成功",
+    "addToGroupSuccess": "已添加到群组",
+    "removeFromGroupSuccess": "已从群组中移除",
+    "totalCount": "{{count}} 联系人",
+    "companyPlaceholder": "艾克米公司",
+    "departmentPlaceholder": "销售量",
+    "categoryPlaceholder": "类别名称（例如客户、合作伙伴）",
+    "groupPlaceholder": "团体名称（例如销售团队、法务团队）",
+    "groupDescriptionPlaceholder": "描述（可选）",
+    "selectGroups": "选择分组...",
+    "noGroups": "暂无分组"
+  },
+  "templates": {
+    "title": "模板管理",
+    "new": "创建模板",
+    "noTemplates": "没有模板",
+    "useTemplate": "使用此模板",
+    "shared": "共享模板",
+    "my": "我的模板",
+    "locked": "已锁定",
+    "saveSuccess": "模板已保存",
+    "saveConfirm": "您确定要保存模板吗？",
+    "backToList": "返回模板列表",
+    "continueEditing": "继续编辑",
+    "createSuccess": "模板创建成功",
+    "createError": "创建模板失败",
+    "deleteConfirm": "确定要删除此模板吗？",
+    "deleteSuccess": "模板已删除",
+    "deleteError": "删除模板失败",
+    "uploadPdf": "上传 PDF",
+    "replacePdf": "替换",
+    "uploading": "上传中...",
+    "uploadSuccess": "PDF 上传成功（{{pageCount}} 页）",
+    "uploadError": "上传 PDF 失败",
+    "noTitle": "无标题",
+    "titleRequired": "请输入标题",
+    "editTemplate": "编辑模板",
+    "editDescription": "上传 PDF 并放置签名字段",
+    "savingFields": "保存...",
+    "saveFields": "保存字段 ({{count}})",
+    "placedFields": "已放置字段 ({{count}})",
+    "save": "节省",
+    "noTemplatesDesc": "上传 PDF 并设置签名位置，即可创建可重复使用的模板",
+    "createAndEdit": "创建并编辑",
+    "createNew": "新建模板",
+    "signerCount": "签名人数",
+    "searchPlaceholder": "搜索模板...",
+    "category": "类别",
+    "categoryPlaceholder": "合同 / 保密协议 / 订单",
+    "titleLabel": "标题 *",
+    "descriptionLabel": "描述",
+    "saveSuccessDialog": "保存成功",
+    "saveSuccessDialogDesc": "模板签名字段已成功保存。",
+    "signerCountLabel": "签名人数：",
+    "pdfFieldInstruction": "点击 PDF 放置签名字段，可拖动移动位置",
+    "updated": "更新: {{date}}",
+    "placeFields": "放置签名字段",
+    "saveError": "保存失败。"
+  },
+  "organization": {
+    "title": "设置",
+    "info": "组织信息",
+    "orgName": "组织名称",
+    "members": "成员",
+    "removeMember": "删除成员",
+    "changeRole": "更改角色",
+    "pending": "待处理",
+    "accepted": "已接受",
+    "deactivated": "已停用",
+    "nameRequired": "请输入组织名称",
+    "orgNamePlaceholder": "输入组织名称",
+    "loadingSettings": "正在加载设置...",
+    "preparingAccount": "正在准备账户...",
+    "teamMembers": "团队成员",
+    "unlimited": "无限制",
+    "adminRequired": "需要经理权限",
+    "managerRequired": "需要经理权限",
+    "optionalName": "姓名（可选）",
+    "namePlaceholderFull": "张三",
+    "emailRequired": "邮箱地址 *",
+    "managerBadge": "经理",
+    "removeMemberConfirm": "从组织中移除 {{name}}？\n* 该成员创建的文件将保留在团队中。",
+    "settingsHeader": "设置",
+    "removeMemberSuccessMsg": "成员已移除",
+    "updateRoleSuccessMsg": "角色已更新",
+    "memberCount": "{{count}}成员",
+    "security": {
+      "title": "安全与合规性",
+      "subtitle": "平台的基础信任信息",
+      "certificate": {
+        "title": "平台签名证书",
+        "description": "用于 PDF 签名的 X.509 证书",
+        "subject": "主题",
+        "type": "类型",
+        "selfSigned": "自签名",
+        "externalCa": "由外部 CA 颁发",
+        "validity": "有效期",
+        "validRange": "{{start}} ~ {{end}}（有效期）",
+        "showTechnicalDetails": "显示技术细节",
+        "serialNumber": "序列号",
+        "fingerprint": "指纹"
+      }
+    },
+    "audit": {
+      "title": "审核日志",
+      "subtitle": "所有操作均自动记录",
+      "refresh": "刷新",
+      "showStats": "显示统计数据",
+      "totalRecords": "总记录数",
+      "chainStatus": "连锁状态",
+      "chainHealthy": "健康",
+      "chainBroken": "已篡改（链已断裂）",
+      "chainPartial": "正常（{{count}} 条因缺少加密密钥无法验证）",
+      "chainUnverified": "未验证"
+    },
+    "nameUpdateSuccess": "组织名称已更新",
+    "organizationNameTitle": "组织名称",
+    "organizationNameDesc": "只有所有者可以更改组织名称。",
+    "organizationNameOwnerOnly": "只有所有者可以更改组织名称。",
+    "profileNameTitle": "用户名",
+    "profileNameLabel": "用户名",
+    "profileNameDesc": "你可以更改自己的显示名称。",
+    "profileNameUpdateSuccess": "用户名已更新"
+  },
+  "auditLog": {
+    "title": "审计日志",
+    "actor": "执行者",
+    "action": "操作",
+    "target": "目标",
+    "timestamp": "时间戳",
+    "ipAddress": "IP地址",
+    "userAgent": "用户代理",
+    "hashChain": "哈希链",
+    "verifyIntegrity": "验证完整性",
+    "verificationSuccess": "哈希链的完整性已确认",
+    "verificationFailed": "哈希链的完整性存在问题",
+    "noLogs": "没有审计日志",
+    "certificate": "证书信息",
+    "colDate": "日期/时间",
+    "colEvent": "事件",
+    "colEntity": "实体",
+    "colActor": "执行者",
+    "colIp": "IP",
+    "page": "第 {{current}} / {{total}} 页",
+    "prevPage": "上一页",
+    "nextPage": "下一页",
+    "verifySuccess": "验证：{{count}} 条记录完整",
+    "verifySuccessWithUnverifiable": "已验证: {{count}} 条正常, {{unverifiable}} 条因缺少加密密钥无法验证",
+    "verifyFail": "检测到篡改：链在记录ID {{id}} 处断裂",
+    "verifyError": "验证错误：{{message}}",
+    "events": {
+      "document": {
+        "created": "创建文件",
+        "uploaded": "上传PDF",
+        "sent": "发送签名请求",
+        "viewed": "查看文件",
+        "completed": "签名完成",
+        "voided": "文件已作废",
+        "deleted": "删除文件",
+        "imported": "导入文件",
+        "auto_imported": "自动导入文件"
+      },
+      "signature": {
+        "viewed": "查看签名页",
+        "signed": "文件已签名",
+        "declined": "拒绝签名",
+        "reminded": "已发送提醒",
+        "delegated": "委托签名"
+      },
+      "auth": {
+        "email_verified": "邮件已验证",
+        "access_code_verified": "访问码已验证",
+        "invitation_claimed": "已接受邀请"
+      },
+      "pdf": {
+        "signed": "PDF已签名",
+        "stored_worm": "WORM存储",
+        "certificate_appended": "附加证书",
+        "permission_lock_failed": "PDF权限锁定失败",
+        "worm_stored": "WORM存储完成"
+      },
+      "org": {
+        "created": "创建组织",
+        "updated": "更新组织",
+        "member_invited": "邀请成员",
+        "member_joined": "成员已加入",
+        "member_removed": "移除成员",
+        "role_changed": "更改角色"
+      },
+      "template": {
+        "created": "创建模板",
+        "updated": "更新模板",
+        "deleted": "删除模板"
+      },
+      "approval": {
+        "requested": "请求审批",
+        "approved": "已批准",
+        "rejected": "已拒绝"
+      }
+    },
+    "entities": {
+      "document": "文件",
+      "signature_request": "签名请求",
+      "user": "用户",
+      "organization": "组织",
+      "membership": "成员资格",
+      "invitation": "邀请",
+      "template": "模板",
+      "internal_approval": "内部审批",
+      "pdf": "PDF"
+    },
+    "dashboard": {
+      "noAccessTitle": "拒绝访问",
+      "noAccessDesc": "您需要所有者权限才能查看审核日志。",
+      "complianceSubtitle": "带哈希链的防篡改审计日志",
+      "refresh": "刷新",
+      "totalRecords": "总记录数",
+      "chainStatus": "连锁状态",
+      "chainHealthy": "健康",
+      "chainBroken": "已篡改（链已断裂）",
+      "chainPartial": "正常（{{count}} 条因缺少加密密钥无法验证）",
+      "chainUnverified": "未验证",
+      "certificateLabel": "签名证书",
+      "hashAlgorithm": "哈希算法",
+      "eventTypePlaceholder": "事件类型",
+      "allEvents": "所有活动",
+      "entityTypePlaceholder": "实体类型",
+      "allEntities": "所有实体",
+      "eventList": "活动列表",
+      "showingRange": "显示 {{start}}-{{end}} / {{total}}",
+      "idCol": "ID",
+      "targetCol": "目标",
+      "hashCol": "哈希值",
+      "actorFallback": "用户#{{id}}",
+      "certificateDesc": "系统颁发的完成证明证书",
+      "certificateSubject": "主题",
+      "autoGenerated": "自动生成",
+      "autoGeneratedYes": "是的",
+      "autoGeneratedNo": "不",
+      "validFrom": "有效期自",
+      "validTo": "有效期至",
+      "serialNumber": "序列号",
+      "fingerprint": "指纹",
+      "hashAlgorithmValue": "SHA-256 链"
+    }
+  },
+  "landing": {
+    "heroTitle": "重新定义电子签名，",
+    "heroTitleAccent": "用于自托管。",
+    "heroSubtitle": "自托管 OSS 电子签名，包含 PDF 发送、签署、模板、内部审批和 WORM 审计日志。",
+    "startFree": "免费开始",
+    "learnMore": "查看功能",
+    "goToDashboard": "前往仪表板",
+    "getStarted": "免费开始",
+    "noCreditCard": "自托管，无需托管账户",
+    "noPerSeat": "外部接收方无需账户",
+    "allFeatures": "包含核心电子签署流程",
+    "mockupTitle": "签名完成",
+    "mockupTime": "刚刚 · 全部2位签名人已完成",
+    "mockupCostLabel": "部署方式",
+    "mockupSigner1": "张伟 — 已签名",
+    "mockupSigner2": "李芳 — 已签名",
+    "mockupCTA": "从草稿到签署完成管理合同",
+    "mockupCTASub": "在您自己的自托管环境中运行",
+    "navFeatures": "功能",
+    "navFaq": "常见问题",
+    "footerTerms": "服务条款",
+    "footerPrivacy": "隐私政策",
+    "trustedBy": "深受众多企业信赖",
+    "solutions": "解决方案",
+    "caseStudies": "案例研究",
+    "faq": "常见问题",
+    "cta": "立即免费开始",
+    "ctaSubtitle": "在自托管环境中开始发送和签署文档。",
+    "heroDeclaration": "掌控自己的电子合同流程。",
+    "heroLine1": "掌控自己的",
+    "heroLine2": "电子合同流程。",
+    "heroTeamLabel": "团队专属",
+    "heroUnlimited": "员工管理 · 收件人无需账户",
+    "heroUnlimitedMain": "成员无限制。",
+    "heroUnlimitedSub": "外部签署人只需使用安全邮件链接。",
+    "heroRevealTitle": "以 OSS 形式提供实用电子签署流程。",
+    "heroRevealSub": "PDF 签署、证据管理、员工权限、模板和 4 种语言签署页面，集中在一个自托管 workspace 中。",
+    "diffTeam": "员工管理",
+    "diffTeamDesc": "管理员发放员工账户，外部签署人无需账户。",
+    "diffSecurity": "企业级安全",
+    "diffSecurityDesc": "TLS 1.3 / AES-256加密。符合法律要求。零AI训练。",
+    "diffGlobal": "支持4种语言",
+    "diffGlobalDesc": "邮件通知和签名界面支持4种语言，跨国合同更顺畅。",
+    "heroBadge": "完整企业级功能",
+    "mockupVsEnterprise": "部署方式",
+    "mockupVsBudget": "收件人",
+    "mockupNoAccount": "无需账户",
+    "heroStat1": "OSS",
+    "heroStat1Label": "支持自托管部署",
+    "heroStat2": "4",
+    "heroStat2Label": "核心语言",
+    "heroStat3": "无限制",
+    "heroStat3Label": "团队成员数",
+    "month": "莫",
+    "pageTitle": "Hundredth Sign – 自托管 OSS 电子签名",
+    "pageKeywords": "电子签名,电子合同,合同管理,Hundredth Sign",
+    "mockupNavDocs": "文档",
+    "mockupNavContacts": "联系人",
+    "mockupNavTemplates": "模板",
+    "mockupNavAudit": "审计日志",
+    "mockupNavSettings": "设置",
+    "mockupDocTitle": "服务合同_2024.pdf",
+    "mockupDocList": "文档列表",
+    "mockupStatusCollecting": "收集签名",
+    "mockupRemind": "提醒",
+    "mockupSignProgress": "签名进度",
+    "mockupProgressFmt": "2 / 3 完成",
+    "mockupSignerSigned": "已签名",
+    "mockupSignerPending": "未签名",
+    "mockupSigner1Name": "张",
+    "mockupSigner1Role": "总经理",
+    "mockupSigner2Name": "李",
+    "mockupSigner2Role": "财务总监",
+    "mockupSigner3Name": "王",
+    "mockupSigner3Role": "负责人",
+    "mockupSignAreaLabel": "王的签名区域",
+    "mockupSignAreaSub": "链接已发送 · 等待确认",
+    "mockupWaiting": "等待",
+    "mockupPhoneNotif": "通知",
+    "mockupPhoneSignRequest": "收到签署请求",
+    "mockupPhoneSignBtn": "立即签署",
+    "mockupPhone3min": "3分钟前",
+    "mockupTabletNewDoc": "+ 新建文件",
+    "mockupPhoneSignedFmt": "{{name}} 已签署",
+    "mockupDocTitleNda": "NDA_Acme.pdf",
+    "mockupDocTitleDev": "软件_开发_协议.pdf",
+    "mockupDocTitleMaster": "主采购协议.pdf",
+    "mockupNotificationDoc": "服务协议.pdf"
+  },
+  "trust": {
+    "encryptionTitle": "TLS 1.3 / AES-256加密",
+    "encryptionDesc": "业界领先的传输和存储数据加密技术",
+    "complianceTitle": "符合日本电子账簿保存法",
+    "complianceDesc": "内置防篡改、时间戳和审计日志功能",
+    "legalTitle": "符合日本电子签名法",
+    "legalDesc": "设计满足电子签名法的要求",
+    "auditTitle": "自动生成完成证书",
+    "auditDesc": "自动生成记录签名人、时间和IP的证书",
+    "title": "安全性与法律效力，",
+    "titleAccent": "绝不妥协。",
+    "subtitle": "Hundredth Sign以实惠的价格采用业界标准安全技术。",
+    "mockupSign": "签名",
+    "mockupStamp": "印章",
+    "mockupDate": "日期",
+    "mockupName": "姓名"
+  },
+  "features": {
+    "sectionTitle": "全部功能，",
+    "sectionTitleAccent": "从免费套餐起步。",
+    "sectionSubtitle": "Hundredth Sign只包含自由职业者和中小企业真正需要的功能。",
+    "highlightTitle": "以直观的设计简化合同流程",
+    "highlightDesc": "上传PDF，拖放签名字段，输入收件人邮箱并发送。无需复杂设置。",
+    "highlightCTA": "查看功能",
+    "createTitle": "文档创建与上传",
+    "createDesc": "上传PDF并自由放置签名和文本字段。保存为模板以便重复使用。",
+    "sendTitle": "发送签名请求",
+    "sendDesc": "只需输入邮箱即可发送签名请求。收件人无需账户。",
+    "signTitle": "电子签名与印章",
+    "signDesc": "通过输入、手写或图片上传进行签名。自动生成日式圆形和方形印章。",
+    "stampTitle": "自动生成印章",
+    "stampDesc": "输入姓名即可自动生成圆形和方形印章，适用于日式商务习惯。",
+    "contactsTitle": "团队与联系人管理",
+    "contactsDesc": "集中管理联系人，并快速选择接收方。",
+    "complianceTitle": "电子账簿与防篡改",
+    "complianceDesc": "PDF防篡改（扁平化）、时间戳和审计日志确保合规。自动生成完成证书。",
+    "i18nTitle": "20种语言",
+    "i18nDesc": "界面和邮件通知支持20种语言。以收件人母语发送签名请求。",
+    "auditTitle": "审计日志与证书",
+    "auditDesc": "记录谁在何时何地签名。自动生成具有法律效力的完成证书。",
+    "badge": "功能"
+  },
+  "security": {
+    "badge": "安全性与合规性",
+    "title": "自托管并不意味着降低安全性",
+    "subtitle": "Hundredth Sign 将安全、审计能力和法律证据保留为核心功能。",
+    "tls": "TLS 1.3 / AES-256加密",
+    "tlsDesc": "对传输和存储数据采用最高级别加密，防止窃听和篡改。",
+    "tamper": "PDF防篡改",
+    "tamperDesc": "已签名的PDF经过扁平化处理，防止篡改，技术上保证文档真实性。",
+    "law": "电子签名法与电子账簿保存法",
+    "lawDesc": "符合电子签名法和电子账簿保存法的要求，确保签名具有法律效力。",
+    "global": "国际交易",
+    "globalDesc": "邮件通知和签名界面支持4种语言，跨境合同更顺畅。",
+    "audit": "审计日志与证书",
+    "auditDesc": "记录所有操作的时间戳和IP地址，自动生成完成证书。",
+    "access": "访问代码认证",
+    "accessDesc": "为收件人设置访问代码，加强重要合同的身份验证。",
+    "badgeTLS": "TLS 1.3",
+    "badgeAES": "AES-256",
+    "badgeLaw": "电子签名法",
+    "badgeZeroAI": "Zero AI Training",
+    "zeroAI": "Zero AI Training",
+    "zeroAIDesc": "您的合同数据绝不会用于 AI 训练。数据所有权始终属于您。",
+    "zeroAITag": "数据主权",
+    "auditTag": "完成证书",
+    "tamperTag": "PDF 扁平化",
+    "lawTag": "法律合规",
+    "globalTag": "4 种语言",
+    "bottomNote": "我们削减的是不必要的成本，而非质量。安全是我们绝不妥协的领域。"
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": "Hundredth Sign的电子签名具有法律效力吗？",
+    "a1": "Hundredth Sign的设计符合电子签名法和电子账簿保存法的要求。所有签名均自动生成记录签名人、时间和IP地址的完成证书。请注意，法律效力的最终认定取决于具体合同内容和情况，如有需要请咨询法律专业人士。",
+    "q2": "OSS 版本有哪些变化？",
+    "a2": "OSS 版本是单一 workspace 的自托管应用。商业托管功能、plans、quotas 和外部 OAuth 登录已移除，同时保留 PDF 签署、模板、员工账户和审计日志。",
+    "q3": "签名方需要账户吗？",
+    "a3": "不需要。签名方无需注册账户，只需点击邮件中的链接即可签名。在PC或智能手机上，仅需浏览器即可完成签名。",
+    "q4": "外部收件人需要账户吗？",
+    "a4": "不需要。员工账户由管理员发放，外部接收方无需账户即可使用。",
+    "q5": "可以与非中文合作伙伴使用吗？",
+    "a5": "可以。界面支持包括中文和英文在内的多种语言，邮件通知支持4种语言。可以为每位收件人单独设置通知语言，以其母语发送签名请求。",
+    "q6": "有哪些安全措施？",
+    "a6": "通信采用TLS 1.3加密，存储数据采用AES-256加密。已签名的PDF经过防篡改处理（扁平化），所有操作均记录在审计日志中。签名人身份验证的访问代码功能作为标准功能提供。",
+    "badge": "常见问题"
+  },
+  "why": {
+    "badge": "为什么选择自托管 OSS",
+    "title": "在自己的环境中掌控合同流程。",
+    "titleSub": "无供应商锁定的自托管电子合同。",
+    "description": "OSS 版本面向希望摆脱供应商锁定和商业托管功能的团队。",
+    "aiTitle": "自托管部署",
+    "aiDesc": "使用自己的数据库、存储、邮件设置和管理员账户运行应用。",
+    "noSalesTitle": "无商业托管层",
+    "noSalesDesc": "Plans、quotas、payment-provider logic 和货币逻辑已从 OSS build 中移除。",
+    "noPerSeatTitle": "接收方无需账户",
+    "noPerSeatDesc": "客户可通过邮件链接查看、签署、拒签并下载文档，无需创建账户。",
+    "passOnTitle": "保留核心签署流程",
+    "passOnDesc": "PDF 签署、模板、联系人、内部审批和 WORM 审计日志仍可使用。"
+  },
+  "comparison": {
+    "badge": "部署方式比较",
+    "title": "托管服务，或自托管控制。",
+    "subtitle": "当您想以 OSS 方式拥有电子签署流程时，可以选择 Hundredth Sign。",
+    "price1000": "自托管",
+    "colEnterprise": "企业级服务商",
+    "colBudget": "低价竞争对手",
+    "recommended": "推荐",
+    "perSeat": "是否需要外部账户",
+    "perSeatEnterprise": "通常需要",
+    "perSeatBudget": "因服务而异",
+    "perSeatHundredth": "接收方不需要",
+    "features": "完整功能访问",
+    "featuresEnterprise": "取决于合同",
+    "featuresBudget": "核心功能受限",
+    "featuresHundredth": "包含核心流程",
+    "auditLog": "审计日志与证书",
+    "auditLogEnterprise": "外部认证时间戳",
+    "auditLogBudget": "仅基础日志",
+    "auditLogHundredth": "IP与哈希证书",
+    "zeroAI": "零AI训练",
+    "zeroAIEnterprise": "可能用于训练",
+    "zeroAIBudget": "未公开",
+    "zeroAIHundredth": "完全保证",
+    "i18n": "多语言支持",
+    "i18nEnterprise": "14种语言",
+    "i18nBudget": "语言支持有限",
+    "i18nHundredth": "20种语言",
+    "note": "※ 比较基于运营模式和功能范围。",
+    "priceEnterprise": "商业托管服务",
+    "priceBudget": "商业托管服务",
+    "priceHundredth": "由你控制的 OSS 部署",
+    "featureLabel": "功能",
+    "colEnterpriseNote": "DocuSign、Adobe Sign 等",
+    "colBudgetNote": "其他服务商"
+  },
+  "cta": {
+    "title": "数字化您的合同工作流程",
+    "subtitle": "免费开始使用Hundredth Sign。无需信用卡。",
+    "viewPricing": "查看功能"
+  },
+  "footer": {
+    "tagline": "用于电子签名的自托管 OSS 基础设施。",
+    "product": "产品",
+    "security": "安全性",
+    "resources": "资源",
+    "guide": "用户指南",
+    "legal": "法律信息",
+    "terms": "服务条款",
+    "privacy": "隐私政策",
+    "language": "语言",
+    "madeIn": "在日本东京用心打造",
+    "manual": "手册",
+    "customizationContact": "定制咨询"
+  },
+  "approvalPage": {
+    "title": "内部批准",
+    "loading": "正在加载批准详细信息...",
+    "notFoundTitle": "未找到批准详细信息",
+    "notFoundDescription": "该链接无效或该请求可能已被处理。",
+    "flowTitle": "审批流程",
+    "you": "你",
+    "approved": "得到正式认可的",
+    "rejected": "被拒绝",
+    "pending": "待办的",
+    "actionRequiredTitle": "需要您的批准",
+    "actionRequiredDescription": "在将此文档发送到外部之前，需要您的批准。请审查并批准或拒绝。",
+    "openPdf": "打开文档 (PDF)",
+    "commentOptional": "评论（可选）",
+    "commentPlaceholder": "输入批准/拒绝的原因或评论...",
+    "approveAction": "批准",
+    "rejectAction": "拒绝",
+    "allApprovedMessage": "所有审批人均已完成审批。该文件已发送给外部签署者。",
+    "nextApproverNotified": "已通知下一位审批人。",
+    "rejectedMessage": "该文件已回到草稿状态。发件人已收到通知。",
+    "processFailed": "无法处理批准。",
+    "footerTagline": "Hundredth Sign - 电子合同平台"
+  },
+  "documentView": {
+    "loading": "正在加载文档...",
+    "accessDenied": "拒绝访问",
+    "loginHint": "如果您已有帐户，请登录并从仪表板检查此文档。",
+    "loginAndOpen": "登录查看",
+    "accessVerified": "验证成功",
+    "accessCodeRequired": "需要访问代码才能查看此文档。",
+    "verifying": "正在验证...",
+    "noDownloadableFile": "没有可下载的文件。",
+    "allSigned": "所有签名均已完成",
+    "signProgress": "签名进度：{{signed}}/{{total}}",
+    "progressTitle": "标志性进展",
+    "signedCount": "{{signed}} / {{total}} 签名",
+    "savedTo": "保存至",
+    "inProgress": "进行中",
+    "yourSignature": "您的签名",
+    "downloadOriginalPdf": "下载原版 PDF",
+    "signedPdfNotReady": "签名 PDF 尚未准备好",
+    "signedPdfHint": "所有签名者完成签名后，将自动生成签名的 PDF。",
+    "plgLine1": "功能齐全，不妥协，",
+    "plgLine2": "以极低的价格。",
+    "monthlyExTax": "/月（不含税）",
+    "fullFeatures": "完全访问所有功能",
+    "manageInDashboard": "在仪表板中管理",
+    "safeStorageTitle": "安全保存此文档",
+    "featureSecureStorage": "安全地存储和管理签名文档",
+    "featureRealtimeTracking": "实时签名进度跟踪",
+    "featureCertificate": "具有法律效力的竣工证书",
+    "featureTemplates": "使用模板简化重复工作",
+    "dialogTitle": "最实惠的电子签名服务",
+    "dialogDescription": "免费启动的电子签名平台",
+    "dialogBenefitsIntro": "拥有帐户后，您可以免费使用以下功能：",
+    "registerWithEmailHint": "如果您使用{{email}}注册，该文档将自动链接到您的帐户。",
+    "createFreeAccount": "创建免费帐户",
+    "maybeLater": "也许稍后"
+  },
+  "hankoGenerator": {
+    "title": "创建图章",
+    "nameLabel": "姓氏（印在邮票上）",
+    "namePlaceholder": "例如田中",
+    "styleLabel": "邮票样式",
+    "topLabel": "顶部标签",
+    "colorLabel": "印章颜色",
+    "enterNameHint": "请输入姓名",
+    "useStamp": "使用此印章",
+    "colors": {
+      "red": "红色的",
+      "vermillion": "朱红",
+      "dark": "深红色",
+      "blue": "蓝色的"
+    },
+    "styles": {
+      "round": {
+        "label": "圆形的",
+        "description": "带姓氏的圆形邮票"
+      },
+      "data": {
+        "label": "数据",
+        "description": "批准/日期/名称"
+      },
+      "square": {
+        "label": "正方形",
+        "description": "带有姓氏的方形印章"
+      }
+    },
+    "topLabels": {
+      "approved": "得到正式认可的",
+      "confirmed": "确认的",
+      "checked": "已检查",
+      "done": "完毕",
+      "received": "已收到"
+    }
+  },
+  "pdfViewer": {
+    "pageCount": "{{count}} 页",
+    "zoomFit": "重置以适合",
+    "loading": "正在加载 PDF...",
+    "pleaseWait": "请稍等",
+    "loadError": "无法加载 PDF。",
+    "reloadHint": "请重新加载页面并重试。"
+  },
+  "signaturePad": {
+    "title": "创建签名",
+    "stampTab": "邮票",
+    "namePlaceholder": "输入姓名进行签名",
+    "drawHint": "在这里签名",
+    "confirm": "确认签名"
+  },
+  "errors": {
+    "notFound": "找不到页面",
+    "notFoundDesc": "抱歉，您查找的页面不存在。可能已被移动或删除。",
+    "unauthorized": "需要认证",
+    "forbidden": "没有访问权限",
+    "serverError": "发生服务器错误",
+    "networkError": "发生网络错误",
+    "tryAgain": "请再试一次",
+    "serverErrorDesc": "发生了意外错误，请稍后重试。",
+    "contactSupport": "如果问题仍然存在，请联系支持团队。",
+    "goHome": "返回首页",
+    "goDashboard": "返回仪表板",
+    "error": "错误",
+    "rateLimitExceeded": "已达到速率限制。请稍后重试。",
+    "auth": {
+      "adminRequired": "此操作仅限系统所有者",
+      "orgHeaderRequired": "Organization ID header is required",
+      "invalidOrgId": "Invalid organization ID",
+      "notOrgMember": "You are not a member of this organization",
+      "ipRestricted": "Access from this IP address is not allowed",
+      "managerRequired": "需要所有者或经理权限",
+      "ownerRequired": "Owner privileges required"
+    },
+    "documents": {
+      "ownDocumentsOnly": "Members can only operate on their own documents",
+      "notFound": "Document not found",
+      "accessDenied": "You do not have access to this document",
+      "importedNotFound": "Imported document not found",
+      "noReminderPermission": "You do not have permission to send reminders for another user's document",
+      "voided": "This document has been voided",
+      "draftOnlyPdf": "PDF can only be uploaded to draft documents",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file",
+      "sentNotEditable": "Sent documents cannot be edited",
+      "noEditPermission": "You do not have permission to edit another user's document",
+      "draftOnlySend": "Only draft documents can be sent",
+      "pdfRequired": "Please upload a PDF file",
+      "signerRequired": "Please specify at least one signer",
+      "signerFieldRequired": "One or more signers are missing their signature fields",
+      "noVoidPermission": "You do not have permission to void another user's document",
+      "voidStatusInvalid": "Only sent or declined documents can be voided",
+      "noDeletePermission": "You do not have permission to delete another user's document",
+      "deleteStatusInvalid": "Only draft documents can be deleted. For sent documents, please use 'Void'.",
+      "reminderStatusInvalid": "Reminders can only be sent for sent documents",
+      "noUnsignedRecipients": "There are no unsigned recipients",
+      "signedPdfNotReady": "Signed PDF has not been generated yet"
+    },
+    "templates": {
+      "notFound": "Template not found",
+      "accessDenied": "You do not have access to this template",
+      "limitReached": "You have reached the maximum number of templates",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file"
+    },
+    "signature": {
+      "dataRequired": "Signature data, signature font, or stamp is required",
+      "signedPdfNotFound": "Signed PDF not found",
+      "onlySignerCanConfigure": "Only signers can configure this setting",
+      "alreadyDeclined": "This signature request has already been declined",
+      "delegated": "This signature has been delegated to another user",
+      "expired": "This document has expired",
+      "invalidEmail": "This email address does not have signing authority. Please enter the email address from the signing request email.",
+      "pdfGenerationFailed": "Failed to generate or save the signed PDF. Please try again later.",
+      "requestAlreadyDeclined": "This signature request has already been declined",
+      "documentNotDeclinable": "This document cannot be declined in its current status",
+      "alreadyDelegated": "This signature has already been delegated to another user",
+      "documentNotDelegatable": "This document cannot be delegated in its current status",
+      "signedPdfNotAvailable": "The signed PDF is not yet available",
+      "signedPdfNotGenerated": "The signed PDF has not been generated yet",
+      "stampGenerationFailed": "Failed to generate stamp"
+    },
+    "contacts": {
+      "notFound": "Contact not found"
+    },
+    "categories": {
+      "notFound": "Category not found"
+    },
+    "groups": {
+      "notFound": "Group not found"
+    },
+    "organization": {
+      "cannotChangeOwnRole": "You cannot change your own role",
+      "memberNotFound": "Member not found",
+      "cannotChangeOwnerRole": "Cannot change the owner's role",
+      "adminDemoteOwnerOnly": "只有所有者才能降低经理的权限",
+      "cannotDeleteSelf": "You cannot delete yourself",
+      "cannotDeleteOwner": "Cannot delete the owner",
+      "adminCannotDeleteAdmin": "经理不能删除其他经理。请让所有者操作。",
+      "freeOrgLimit": "You have reached the maximum number of free organizations",
+      "disabled": "This organization is currently disabled",
+      "notFound": "Organization not found",
+      "accessDenied": "You do not have access to this organization",
+      "creationFailed": "Failed to create organization",
+      "slugTaken": "This slug is already in use",
+      "idMismatch": "Organization ID does not match"
+    },
+    "approvals": {
+      "notFound": "Approval information not found",
+      "reasonRequired": "A reason comment is required for rejection",
+      "alreadyProcessed": "This approval has already been processed"
+    }
+  },
+  "activity": {
+    "documentCreated": "已创建文档「{{title}}」",
+    "documentCreatedFromTemplate": "已从模板「{{title}}」创建文档",
+    "documentSent": "文档已发送给 {{count}} 位收件人",
+    "documentSentAfterApproval": "内部审批完成，文档已对外发送",
+    "documentVoided": "文档已作废",
+    "documentVoidedWithReason": "文档已作废。原因：{{reason}}",
+    "documentCompleted": "所有签名已完成，已生成签署PDF（WORM存储）",
+    "documentExpired": "文档已自动过期",
+    "reminderSent": "已向 {{count}} 位未签署人发送提醒邮件",
+    "autoReminderSent": "已自动向 {{count}} 位未签署人发送提醒邮件",
+    "signatureSigned": "{{signer}} 已签署",
+    "signatureDeclined": "{{signer}} 拒绝签署。原因：{{reason}}",
+    "signatureDelegated": "{{signer}} 将签署转给了 {{delegateName}}（{{delegateEmail}}）",
+    "nextSignerNotified": "已通知下一位签署人（{{signer}}）",
+    "internalApprovalStarted": "内部审批流程已启动（{{count}} 位审批人）",
+    "internalApprovalApproved": "{{approver}} 已批准",
+    "internalApprovalRejected": "{{approver}} 已拒绝",
+    "internalApprovalRejectedWithComment": "{{approver}} 已拒绝。评论：{{comment}}",
+    "internalApprovalRejectedRevert": "内部审批被拒绝，文档已退回草稿",
+    "event": "已记录活动",
+    "eventWithAction": "已记录活动：{{action}}",
+    "fallbackCreated": "文档已创建",
+    "fallbackSent": "文档已发送",
+    "fallbackSigned": "文档已签署",
+    "fallbackDeclined": "签署已被拒绝",
+    "fallbackReminder": "提醒已发送",
+    "fallbackCompleted": "文档已完成",
+    "fallbackVoided": "文档已作废或过期",
+    "memberRemoved": "已将 {{name}} 从组织中移除"
+  },
+  "cookieConsent": {
+    "ariaLabel": "Cookie同意",
+    "message": "我们使用Cookie来改善您的使用体验。网站功能需要必要的Cookie。",
+    "learnMore": "在我们的隐私政策中了解更多",
+    "acceptAll": "全部接受",
+    "essentialOnly": "仅必要项"
+  },
+  "legal": {
+    "terms": {
+      "title": "服务条款",
+      "lastUpdated": "最后更新：2026年3月",
+      "sections": {
+        "acceptance": {
+          "title": "1. 条款接受",
+          "body": "使用 Hundredth Sign 即表示您同意本服务条款。"
+        },
+        "serviceDescription": {
+          "title": "2. 服务描述",
+          "body": "Hundredth Sign 为企业提供基于云的电子签名服务。"
+        },
+        "electronicSignatures": {
+          "title": "3. 电子签名的法律效力",
+          "body": "通过 Hundredth Sign 创建的电子签名具有法律约束力。"
+        },
+        "userObligations": {
+          "title": "4. 用户义务",
+          "body": "您有责任维护账户凭据的保密性并遵守适用法律。"
+        },
+        "prohibited": {
+          "title": "5. 禁止活动",
+          "body": "禁止将本服务用于欺诈或伪造文件。"
+        },
+        "intellectualProperty": {
+          "title": "6. 知识产权",
+          "body": "Hundredth Sign 的所有知识产权均归服务提供商所有。"
+        },
+        "privacy": {
+          "title": "7. 隐私",
+          "body": "您对本服务的使用还受我们隐私政策的约束。"
+        },
+        "limitation": {
+          "title": "8. 责任限制",
+          "body": "在法律允许的最大范围内，我们不对间接损失承担责任。"
+        },
+        "termination": {
+          "title": "9. 终止",
+          "body": "如违反本条款，我们保留暂停账户的权利。"
+        },
+        "governingLaw": {
+          "title": "10. 适用法律",
+          "body": "本条款受日本法律管辖。"
+        },
+        "changes": {
+          "title": "11. 条款变更",
+          "body": "我们可能会不时更新本条款。"
+        }
+      }
+    },
+    "privacy": {
+      "title": "隐私政策",
+      "lastUpdated": "最后更新：2026年3月",
+      "sections": {
+        "overview": {
+          "title": "1. 概述",
+          "body": "Hundredth Sign 致力于保护您的隐私。"
+        },
+        "dataCollected": {
+          "title": "2. 我们收集的信息",
+          "body": "我们收集您直接提供的信息以及使用服务时产生的信息。"
+        },
+        "purpose": {
+          "title": "3. 信息使用目的",
+          "body": "我们使用您的信息来提供和改善服务。"
+        },
+        "thirdParty": {
+          "title": "4. 第三方服务",
+          "body": "运营者可配置可信的第三方服务用于文档存储、邮件发送和基础设施。OSS 发行版默认不需要外部身份提供商。"
+        },
+        "cookies": {
+          "title": "5. Cookie",
+          "body": "我们使用必要的 Cookie 进行身份验证和会话管理。"
+        },
+        "retention": {
+          "title": "6. 数据保留",
+          "body": "只要您的账户处于活动状态，我们就会保留您的数据。"
+        },
+        "rights": {
+          "title": "7. 您的权利",
+          "body": "您有权访问、更正或删除您的个人数据。"
+        },
+        "security": {
+          "title": "8. 安全",
+          "body": "我们实施行业标准的安全措施。"
+        },
+        "contact": {
+          "title": "9. 联系我们",
+          "body": "如有隐私相关问题，请发送邮件至 support@hundredthsign.com。"
+        }
+      }
+    }
+  },
+  "manual": {
+    "navAriaLabel": "手册导航",
+    "nav": {
+      "intro": "开始",
+      "setup": "初始设置与启动条件",
+      "basics": "基础使用",
+      "signing": "发送与签署",
+      "management": "管理功能",
+      "compliance": "审计与 WORM",
+      "inbox": "Inbox 工作箱",
+      "developer": "开发者规则",
+      "terms": "条款",
+      "disclaimer": "免责声明",
+      "contact": "联系",
+      "apiCli": "API / CLI",
+      "operations": "运维与 FAQ",
+      "title": "手册",
+      "usersRoutes": "用户、权限与页面",
+      "authStaff": "登录与员工管理",
+      "dashboard": "日常操作",
+      "documents": "文档、PDF 与签名字段",
+      "internalApproval": "内部审批",
+      "templates": "模板",
+      "contacts": "联系人",
+      "emailLocales": "邮件与语言",
+      "api": "REST API 接口",
+      "cli": "signctl CLI 工具",
+      "dataModel": "DB 表"
+    },
+    "usage": {
+      "eyebrow": "OSS 综合手册",
+      "title": "Hundredth Sign 完整手册",
+      "description": "面向管理员、员工、外部签署人、内部审批人、运维、开发者、外部集成负责人和 AI/CI 操作者的公开手册，覆盖产品边界、日常流程、审计、API、CLI、DB 与 FAQ。",
+      "tocLabel": "章节",
+      "ossNotice": {
+        "title": "OSS 版前提",
+        "body": "本手册覆盖 OSS 单工作区版本。不包含商业 SaaS 计费、租户切换或外部客户账号管理。"
+      },
+      "search": {
+        "label": "搜索手册",
+        "placeholder": "例如 PDF、API key、migration、language",
+        "results": "找到 {{count}} 个匹配章节",
+        "empty": "没有匹配章节，请更换关键词。"
+      },
+      "categoryIndex": {
+        "title": "按目的阅读"
+      },
+      "table": {
+        "item": "项目",
+        "description": "说明"
+      },
+      "contactCta": {
+        "title": "手册无法解决时",
+        "body": "请提供页面名、操作步骤、发生时间、文档 ID 与错误内容。不要发送密钥或连接字符串。",
+        "action": "查看联系方式"
+      },
+      "notFound": {
+        "title": "未找到章节",
+        "description": "指定的手册章节不存在。",
+        "body": "请从章节列表或搜索中重新选择。"
+      },
+      "chapters": {
+        "intro": {
+          "title": "开始与 OSS 产品边界",
+          "summary": "说明 OSS 版包含的范围、商业 SaaS 不包含的功能，以及公开页面和登录后页面的边界。",
+          "sections": {
+            "boundary": {
+              "title": "说明：Product scope",
+              "body": [
+                "说明：Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "说明：The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "说明：Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
+              ],
+              "bullets": [
+                "说明：Use the public routes for signing, document viewing, approvals, legal pages, and this manual.",
+                "说明：Use authenticated dashboard routes for daily staff operations.",
+                "说明：Use API keys and signctl only for server-side or trusted automation contexts.",
+                "说明：Never publish database URLs, API keys, session secrets, SMTP passwords, or storage credentials in tickets or screenshots.",
+                "说明：Audit and system audit records are append-only operational evidence.",
+                "说明：When behavior and documentation differ, treat the source code and product specification as the correction source and update this manual."
+              ],
+              "callouts": [
+                "说明：This page is public. It lists variable names and procedures, but it must never include real keys, connection strings, or customer data."
+              ]
+            },
+            "publicPrivate": {
+              "title": "说明：Route groups",
+              "body": [
+                "说明：Routes are split by who can access them and what security boundary they represent."
+              ],
+              "rows": {
+                "public": {
+                  "label": "说明：Public routes",
+                  "detail": "说明：/, /manual, /manual/*, /terms, /privacy, /contact, /sign/:token, /document-view/:token, /approve/:token are reachable without staff login."
+                },
+                "authenticated": {
+                  "label": "说明：Authenticated routes",
+                  "detail": "说明：/dashboard and its child routes require staff authentication and are the normal working area for documents, inbox, contacts, templates, and settings."
+                },
+                "operator": {
+                  "label": "说明：Operator setup",
+                  "detail": "说明：/setup is used only when the instance still needs bootstrap or operational setup."
+                },
+                "integration": {
+                  "label": "说明：Integration routes",
+                  "detail": "说明：REST API endpoints and webhooks are not human UI pages; they are authenticated automation surfaces."
+                }
+              }
+            }
+          }
+        },
+        "usersRoutes": {
+          "title": "用户、权限与页面",
+          "summary": "说明管理员、成员、签署人、CC、内部审批人和集成客户端的区别。",
+          "sections": {
+            "roles": {
+              "title": "说明：Role definitions",
+              "body": [
+                "说明：Each actor has a different security boundary. Do not reuse a staff account or API key for a person or system that should have narrower access."
+              ],
+              "rows": {
+                "admin": {
+                  "label": "说明：Administrator",
+                  "detail": "说明：Manages staff, instance settings, templates, contacts, API keys, and audit review. Admins can perform high-impact configuration changes."
+                },
+                "member": {
+                  "label": "说明：Member",
+                  "detail": "说明：Creates documents, sends requests, checks dashboard tasks, manages assigned workflows, and uses contacts/templates according to permissions."
+                },
+                "signer": {
+                  "label": "说明：External signer",
+                  "detail": "说明：Uses a tokenized signing link. Does not need a staff account. May sign, decline, or delegate if the request permits it."
+                },
+                "cc": {
+                  "label": "说明：CC recipient",
+                  "detail": "说明：Receives visibility or completion notifications but is not a required signer unless also configured as a signer."
+                },
+                "approver": {
+                  "label": "说明：Internal approver",
+                  "detail": "说明：Reviews internal approval requests and approves or rejects before the downstream workflow continues."
+                },
+                "apiClient": {
+                  "label": "说明：External integration client",
+                  "detail": "说明：Uses API keys with explicit scopes. It is not a human user and all calls must be auditable."
+                }
+              }
+            },
+            "routes": {
+              "title": "说明：Screen map",
+              "body": [
+                "说明：Use this map to answer where an operation belongs before changing code or escalating a support request."
+              ],
+              "rows": {
+                "public": {
+                  "label": "说明：Public manual/legal/signing",
+                  "detail": "说明：Manual, terms, privacy, contact, signing, document view, and approval token routes are public surfaces."
+                },
+                "app": {
+                  "label": "说明：Dashboard",
+                  "detail": "说明：Dashboard, documents, document detail, inbox, contacts, and templates are authenticated staff surfaces."
+                },
+                "settings": {
+                  "label": "说明：Settings",
+                  "detail": "说明：Organization settings, staff, mail, language, API key, and audit-related settings belong to authenticated administrator surfaces."
+                },
+                "api": {
+                  "label": "说明：API",
+                  "detail": "说明：REST endpoints are for integrations and CI/AI operators. They require API key authentication and scope checks."
+                },
+                "sign": {
+                  "label": "说明：Token pages",
+                  "detail": "说明：Signing and approval URLs identify the request by token, not by staff session."
+                }
+              }
+            }
+          }
+        },
+        "setup": {
+          "title": "初始设置、环境变量与启动条件",
+          "summary": "覆盖必需/可选环境变量、启动 migration check、标准命令与密钥处理。",
+          "sections": {
+            "environment": {
+              "title": "说明：Environment variables",
+              "body": [
+                "说明：Keep required values in .env or the hosting secret store. Commit only example names and safe defaults.",
+                "说明：A production-like instance must have a database URL, session secret, application URL, mail delivery configuration, and storage/proxy settings appropriate to the deployment."
+              ],
+              "rows": {
+                "databaseUrl": {
+                  "label": "说明：DATABASE_URL",
+                  "detail": "说明：Required. MySQL connection string used by Drizzle migrations and the application server."
+                },
+                "sessionSecret": {
+                  "label": "说明：SESSION_SECRET",
+                  "detail": "说明：Required in real deployments. Used to protect staff authentication sessions."
+                },
+                "appUrl": {
+                  "label": "说明：APP_URL / PUBLIC_APP_URL",
+                  "detail": "说明：Required for links in email, signing URLs, approval URLs, and API/CLI output."
+                },
+                "smtp": {
+                  "label": "说明：SMTP_*",
+                  "detail": "说明：Required for real email delivery. Local development may use a mail catcher or disabled delivery."
+                },
+                "storage": {
+                  "label": "说明：Storage and PDF proxy variables",
+                  "detail": "说明：Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
+                },
+                "openai": {
+                  "label": "说明：OPENAI_API_KEY",
+                  "detail": "说明：Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "说明：Example .env names",
+                  "code": "说明：DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                }
+              },
+              "callouts": [
+                "说明：Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+              ]
+            },
+            "startup": {
+              "title": "说明：Startup and migration check",
+              "body": [
+                "说明：At startup, the server validates whether Drizzle migrations are applied. If migrations are missing or hashes differ, startup can stop before the UI is usable."
+              ],
+              "steps": [
+                "说明：Install dependencies with pnpm through Corepack.",
+                "说明：Prepare .env with required variables.",
+                "说明：Run migrations with the project-approved command.",
+                "说明：Start the dev server and confirm the target port.",
+                "说明：Run test and type-check before reporting completion."
+              ],
+              "code": {
+                "commands": {
+                  "title": "说明：Standard commands",
+                  "code": "说明：corepack pnpm dev\ncorepack pnpm db:push\ncorepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            }
+          }
+        },
+        "authStaff": {
+          "title": "登录、员工管理与实例设置",
+          "summary": "说明登录、初始化、员工邀请、角色、语言和实例设置的运维规则。",
+          "sections": {
+            "login": {
+              "title": "说明：Login and account basics",
+              "body": [
+                "说明：Staff users sign in before using dashboard functions. Public signers do not need staff accounts.",
+                "说明：If login loops, first confirm the app URL, session secret, cookie settings, and whether the browser is using the intended hostname and protocol."
+              ],
+              "bullets": [
+                "说明：Initial setup creates or enables the first administrator.",
+                "说明：Forgot-password and reset-password pages handle account recovery.",
+                "说明：The authenticated dashboard redirects unauthenticated staff to login.",
+                "说明：Do not share staff accounts between people.",
+                "说明：Language can be resolved from user preference, request parameter, or browser settings depending on the surface."
+              ]
+            },
+            "staff": {
+              "title": "说明：Staff and instance settings",
+              "body": [
+                "说明：Administrators keep the staff list, roles, organization settings, mail settings, and integration settings current."
+              ],
+              "rows": {
+                "invite": {
+                  "label": "说明：Invite",
+                  "detail": "说明：Add only people who should operate the workspace. Use a unique email for each person."
+                },
+                "role": {
+                  "label": "说明：Role",
+                  "detail": "说明：Assign the minimum role needed. Administrator privileges should be rare and reviewed."
+                },
+                "deactivate": {
+                  "label": "说明：Deactivate",
+                  "detail": "说明：Deactivate users who leave the organization. Do not delete evidence that belongs to completed workflows."
+                },
+                "locale": {
+                  "label": "说明：Locale",
+                  "detail": "说明：Store staff language preference where supported; it is used before browser fallback for staff UI and email."
+                }
+              }
+            }
+          }
+        },
+        "dashboard": {
+          "title": "日常操作与 Dashboard",
+          "summary": "说明日常检查点、文档状态、待办任务和常用操作入口。",
+          "sections": {
+            "daily": {
+              "title": "说明：Daily operating checklist",
+              "body": [
+                "说明：The dashboard is the staff starting point for work-in-progress documents and operational alerts.",
+                "说明：Use it to find drafts, sent requests, pending approvals, completed documents, and exceptions that need action."
+              ],
+              "bullets": [
+                "说明：Check documents waiting for staff action.",
+                "说明：Review signature requests that are sent, viewed, or close to expiry.",
+                "说明：Open Inbox for tasks assigned to the current staff user.",
+                "说明：Create a new document only after the source PDF is final.",
+                "说明：Use templates when the same document structure repeats.",
+                "说明：Check audit logs before assuming a workflow step did not happen.",
+                "说明：Escalate with document ID and timestamp when support is needed."
+              ]
+            },
+            "status": {
+              "title": "说明：Document and signature request statuses",
+              "body": [
+                "说明：Statuses answer what can happen next. They should not be changed casually because API, Inbox, email, and audit behavior depend on them."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "说明：draft",
+                  "detail": "说明：Document exists but has not been sent. Fields and recipients can still be prepared."
+                },
+                "sent": {
+                  "label": "说明：sent",
+                  "detail": "说明：Signature request was sent to the next signer or recipient."
+                },
+                "viewed": {
+                  "label": "说明：viewed",
+                  "detail": "说明：Signer opened the link. This is evidence that delivery worked, not a signature."
+                },
+                "signed": {
+                  "label": "说明：signed",
+                  "detail": "说明：A signer completed their assigned signing action."
+                },
+                "declined": {
+                  "label": "说明：declined",
+                  "detail": "说明：A signer refused. The workflow should stop or follow the configured exception path."
+                },
+                "completed": {
+                  "label": "说明：completed",
+                  "detail": "说明：All required steps are done and completed PDF/certificate evidence should be available."
+                },
+                "expired": {
+                  "label": "说明：expired",
+                  "detail": "说明：The signing link is no longer valid and the request needs resend or replacement."
+                }
+              }
+            }
+          }
+        },
+        "documents": {
+          "title": "文档、PDF 与签名字段",
+          "summary": "说明 PDF 上传条件、20MB 限制、验证、字段类型和发送前检查。",
+          "sections": {
+            "pdf": {
+              "title": "说明：PDF upload and validation",
+              "body": [
+                "说明：The source file must be a PDF and must pass server-side validation before fields and recipients are finalized.",
+                "说明：The current manual policy uses a 20 MB upload limit. Reject files that exceed the limit or fail PDF validation instead of trying to repair them silently."
+              ],
+              "bullets": [
+                "说明：Confirm the PDF is final before uploading.",
+                "说明：Do not upload password-protected PDFs unless the implementation explicitly supports them.",
+                "说明：Keep page count and file size reasonable for browser signing.",
+                "说明：Store the original PDF and generated signed PDF as separate evidence artifacts.",
+                "说明：Use PDF proxying for secure viewing instead of exposing raw storage paths.",
+                "说明：If validation fails, recreate/export the PDF from the source application.",
+                "说明：Do not bypass validation from the UI, API, or CLI."
+              ],
+              "callouts": [
+                "说明：A successful upload is not a completed contract. It only creates the source document for the workflow."
+              ]
+            },
+            "fields": {
+              "title": "说明：Signature field types",
+              "body": [
+                "说明：Fields define what a signer must provide and where the result is placed on the PDF."
+              ],
+              "rows": {
+                "signature": {
+                  "label": "说明：Signature",
+                  "detail": "说明：Drawn or typed signature required from a signer."
+                },
+                "initial": {
+                  "label": "说明：Initial",
+                  "detail": "说明：Short confirmation mark used when the document requires initials."
+                },
+                "stamp": {
+                  "label": "说明：Stamp",
+                  "detail": "说明：Seal/stamp image or equivalent field when business rules require it."
+                },
+                "text": {
+                  "label": "说明：Text",
+                  "detail": "说明：Free text input such as company name, title, or address."
+                },
+                "date": {
+                  "label": "说明：Date",
+                  "detail": "说明：Date field populated by the signer or system according to workflow rules."
+                },
+                "checkbox": {
+                  "label": "说明：Checkbox",
+                  "detail": "说明：Explicit binary confirmation such as consent or acknowledgement."
+                }
+              }
+            }
+          }
+        },
+        "signing": {
+          "title": "发送、签署、拒签、委托与最终 PDF",
+          "summary": "覆盖顺序签署、访问码、签署链接、拒签、委托、完成证书和 WORM 签署 PDF。",
+          "sections": {
+            "request": {
+              "title": "说明：Sending and signing flow",
+              "body": [
+                "说明：A signature request connects one document, recipients, field assignments, delivery email, access control, and audit records.",
+                "说明：Sequential signing sends the next action only after the previous required signer completes their step."
+              ],
+              "bullets": [
+                "说明：Set signer order before sending when sequential signing is required.",
+                "说明：Use access codes when the recipient identity needs an additional shared secret.",
+                "说明：A signing token should be treated as sensitive until the workflow completes or expires.",
+                "说明：Signer actions must create audit log entries.",
+                "说明：Decline captures the reason and stops or branches the workflow.",
+                "说明：Delegation changes who can complete the step and must be recorded.",
+                "说明：Completion generates signed PDF evidence and a completion certificate where implemented.",
+                "说明：Signed PDFs are WORM-style evidence and must not be overwritten casually."
+              ],
+              "diagramTitle": "说明：Sequential signing lifecycle",
+              "diagram": [
+                "说明：Draft document",
+                "说明：Send request",
+                "说明：Signer opens link",
+                "说明：Signer signs or declines",
+                "说明：Next signer or completion",
+                "说明：Completed PDF and certificate"
+              ]
+            },
+            "outcomes": {
+              "title": "说明：Signer outcomes",
+              "body": [
+                "说明：Each outcome has a different operational meaning and audit consequence."
+              ],
+              "rows": {
+                "signed": {
+                  "label": "说明：Signed",
+                  "detail": "说明：The signer filled required fields and confirmed. Continue to the next signer or completion."
+                },
+                "declined": {
+                  "label": "说明：Declined",
+                  "detail": "说明：The signer refused. Record the reason and do not treat the document as complete."
+                },
+                "delegated": {
+                  "label": "说明：Delegated",
+                  "detail": "说明：The signer transferred action to another person where allowed. Record original and delegated recipient."
+                },
+                "completedPdf": {
+                  "label": "说明：Completed PDF",
+                  "detail": "说明：Generated final PDF with signature evidence after all required steps finish."
+                },
+                "certificate": {
+                  "label": "说明：Completion certificate",
+                  "detail": "说明：Evidence summary such as signer, timestamp, request ID, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "internalApproval": {
+          "title": "内部审批",
+          "summary": "说明审批状态、同意/拒绝时的行为，以及审批与签名请求的关系。",
+          "sections": {
+            "flow": {
+              "title": "说明：Approval statuses",
+              "body": [
+                "说明：Internal approvals are staff workflows that gate or document an internal decision.",
+                "说明：Approval and signature workflows are related but separate; rejecting an approval is not the same event as an external signer declining."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "说明：draft",
+                  "detail": "说明：Approval request is being prepared."
+                },
+                "pending": {
+                  "label": "说明：pending",
+                  "detail": "说明：Approver action is required."
+                },
+                "approved": {
+                  "label": "说明：approved",
+                  "detail": "说明：The approver accepted. Downstream work may continue according to workflow rules."
+                },
+                "rejected": {
+                  "label": "说明：rejected",
+                  "detail": "说明：The approver rejected. Capture reason and stop or return the document to preparation."
+                },
+                "cancelled": {
+                  "label": "说明：cancelled",
+                  "detail": "说明：The approval was intentionally stopped by an authorized staff user."
+                }
+              },
+              "callouts": [
+                "说明：Approval decisions must be auditable because they explain why a signature request was sent, stopped, or changed."
+              ]
+            },
+            "actions": {
+              "title": "说明：Approver actions",
+              "bullets": [
+                "说明：Open the approval link or Inbox item.",
+                "说明：Review the document, request metadata, and business context.",
+                "说明：Approve only when the document is ready for the next workflow step.",
+                "说明：Reject with a clear reason when correction is required.",
+                "说明：Do not use approval comments for secrets.",
+                "说明：Confirm the resulting status before escalating a missing task."
+              ]
+            }
+          }
+        },
+        "inbox": {
+          "title": "员工 Inbox",
+          "summary": "说明 Inbox 不是邮箱，而是从现有工作流记录生成的虚拟 Inbox。",
+          "sections": {
+            "concept": {
+              "title": "说明：Virtual Inbox concept",
+              "body": [
+                "说明：Inbox is not an email inbox and it does not store independent mail messages.",
+                "说明：It is a virtual view assembled from existing workflow rows such as signature requests, approvals, delegations, and CC visibility.",
+                "说明：Because of this design, fixing Inbox issues usually means checking the underlying workflow row and status, not a separate inbox table."
+              ],
+              "callouts": [
+                "说明：Do not add a second source of truth for Inbox unless the data model and audit rules are deliberately redesigned."
+              ]
+            },
+            "items": {
+              "title": "说明：Inbox item types",
+              "rows": {
+                "signature": {
+                  "label": "说明：Signature task",
+                  "detail": "说明：A staff user has a document-related action or follow-up."
+                },
+                "approval": {
+                  "label": "说明：Approval task",
+                  "detail": "说明：An internal approval requires a decision."
+                },
+                "delegation": {
+                  "label": "说明：Delegation",
+                  "detail": "说明：A delegated signing or review action points to the current user."
+                },
+                "cc": {
+                  "label": "说明：CC visibility",
+                  "detail": "说明：The user is informed about progress without being the required actor."
+                }
+              }
+            }
+          }
+        },
+        "templates": {
+          "title": "模板",
+          "summary": "说明文档复用、字段摆放、变量以及修改模板时的注意事项。",
+          "sections": {
+            "usage": {
+              "title": "说明：Template use",
+              "body": [
+                "说明：Templates reduce repeated setup for common documents by preserving layout, fields, recipient patterns, and message defaults where supported.",
+                "说明：Changing a template should not rewrite completed document evidence."
+              ],
+              "bullets": [
+                "说明：Create templates only from reviewed document patterns.",
+                "说明：Name templates by business purpose, not by a temporary file name.",
+                "说明：Review fields after duplicating a template.",
+                "说明：Keep signer roles understandable for staff and API clients.",
+                "说明：Retire obsolete templates instead of silently changing history.",
+                "说明：Update the manual when template behavior changes."
+              ]
+            },
+            "variables": {
+              "title": "说明：Template variables",
+              "rows": {
+                "document": {
+                  "label": "说明：Document variables",
+                  "detail": "说明：Title, document ID, creation time, and request metadata."
+                },
+                "recipient": {
+                  "label": "说明：Recipient variables",
+                  "detail": "说明：Signer name, email, role, order, locale, and access-code requirement."
+                },
+                "sender": {
+                  "label": "说明：Sender variables",
+                  "detail": "说明：Staff sender, organization, reply-to, and configured branding."
+                },
+                "workflow": {
+                  "label": "说明：Workflow variables",
+                  "detail": "说明：Due date, reminder policy, approval state, completion links, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "contacts": {
+          "title": "联系人、分类与组",
+          "summary": "整理外部收件人管理、分类、组和发送时的收件人选择。",
+          "sections": {
+            "directory": {
+              "title": "说明：Contact management",
+              "body": [
+                "说明：Contacts help staff select recurring external recipients consistently.",
+                "说明：A contact is not a staff user and does not imply login access."
+              ],
+              "bullets": [
+                "说明：Keep legal names and email addresses accurate.",
+                "说明：Use categories for business classification.",
+                "说明：Use groups for repeated recipient sets.",
+                "说明：Check locale before sending multilingual requests.",
+                "说明：Remove or archive obsolete contacts according to policy.",
+                "说明：Do not store secrets in contact notes."
+              ]
+            },
+            "classification": {
+              "title": "说明：Classification",
+              "rows": {
+                "contact": {
+                  "label": "说明：Contact",
+                  "detail": "说明：A reusable external recipient record."
+                },
+                "category": {
+                  "label": "说明：Category",
+                  "detail": "说明：Business classification such as customer, vendor, or partner."
+                },
+                "group": {
+                  "label": "说明：Group",
+                  "detail": "说明：Reusable set of contacts for repeated sending patterns."
+                },
+                "recipient": {
+                  "label": "说明：Recipient",
+                  "detail": "说明：A specific person assigned to a specific document workflow."
+                }
+              }
+            }
+          }
+        },
+        "compliance": {
+          "title": "审计日志、WORM 与电子账簿合规",
+          "summary": "说明 activityLogs、systemAuditLogs、哈希链、PDF 代理和禁止删除策略。",
+          "sections": {
+            "audit": {
+              "title": "说明：Audit evidence",
+              "body": [
+                "说明：Audit data explains who did what, when, from which workflow, and with which result.",
+                "说明：WORM design means evidence should be appended and preserved rather than edited or deleted."
+              ],
+              "bullets": [
+                "说明：Record login, document, signature, approval, API, and system-sensitive events.",
+                "说明：Use activityLogs for user/workflow activity.",
+                "说明：Use systemAuditLogs for system-level and integration-sensitive events.",
+                "说明：Hash chains help detect tampering.",
+                "说明：PDF proxying prevents accidental exposure of raw storage paths.",
+                "说明：Signed PDFs and completion evidence should be treated as immutable.",
+                "说明：Deletion policies must preserve required evidence.",
+                "说明：If an audit row looks wrong, investigate source logic instead of editing evidence."
+              ]
+            },
+            "worm": {
+              "title": "说明：WORM and no-delete policy",
+              "body": [
+                "说明：Compliance behavior is a product boundary. Avoid convenience changes that weaken evidence retention."
+              ],
+              "rows": {
+                "activityLogs": {
+                  "label": "说明：activityLogs",
+                  "detail": "说明：Append-only workflow/user activity records."
+                },
+                "systemAuditLogs": {
+                  "label": "说明：systemAuditLogs",
+                  "detail": "说明：Append-only system, security, integration, and operational records."
+                },
+                "pdfProxy": {
+                  "label": "说明：PDF proxy",
+                  "detail": "说明：Controlled route for PDF viewing/downloading without exposing storage internals."
+                },
+                "hashChain": {
+                  "label": "说明：Hash chain",
+                  "detail": "说明：Links records so later tampering can be detected."
+                },
+                "deletePolicy": {
+                  "label": "说明：Delete policy",
+                  "detail": "说明：Completed evidence is retained. Deleting business records must not erase required audit evidence."
+                }
+              }
+            }
+          }
+        },
+        "emailLocales": {
+          "title": "邮件与语言设置",
+          "summary": "说明邮件类型、UI 语言、仅邮件语言、语言优先级和 ?lng 的含义。",
+          "sections": {
+            "mail": {
+              "title": "说明：Email types",
+              "body": [
+                "说明：Emails are part of the workflow, not just notifications. Missing email can block signing or approval."
+              ],
+              "rows": {
+                "invitation": {
+                  "label": "说明：Staff invitation",
+                  "detail": "说明：Sent when a staff account is invited or activated."
+                },
+                "signatureRequest": {
+                  "label": "说明：Signature request",
+                  "detail": "说明：Sent to external signers with the signing link and optional access-code instructions."
+                },
+                "reminder": {
+                  "label": "说明：Reminder",
+                  "detail": "说明：Sent when a request is pending and reminder policy requires follow-up."
+                },
+                "completion": {
+                  "label": "说明：Completion",
+                  "detail": "说明：Sent when a workflow completes and evidence is ready."
+                },
+                "approval": {
+                  "label": "说明：Approval",
+                  "detail": "说明：Sent to internal approvers when their decision is required."
+                }
+              }
+            },
+            "locale": {
+              "title": "说明：Locale priority and ?lng",
+              "body": [
+                "说明：UI locales are ja, en, th, and zh-CN. Some additional locales may be email-only and should not be added to UI selectors unless the UI is translated.",
+                "说明：?lng changes the requested language for public links when supported. It is useful for signing links, approval links, and manual verification."
+              ],
+              "bullets": [
+                "说明：Prefer explicit ?lng when a public link must open in a specific language.",
+                "说明：Use staff preference for authenticated staff surfaces.",
+                "说明：Use recipient/contact locale for external emails where available.",
+                "说明：Fall back to browser or default locale when no stored preference exists.",
+                "说明：Do not change email-only locales when updating UI manual content."
+              ],
+              "callouts": [
+                "说明：If raw translation keys appear, compare the manual.* key set across ja, en, th, and zh-CN."
+              ]
+            }
+          }
+        },
+        "api": {
+          "title": "外部集成 REST API",
+          "summary": "说明 API Key 认证、Scope、Endpoint、幂等性、Webhook 与审计记录。",
+          "sections": {
+            "auth": {
+              "title": "说明：Authentication, scopes, and idempotency",
+              "body": [
+                "说明：The REST API is for trusted integrations. Authenticate with an API key, validate scope, and write audit records for sensitive actions.",
+                "说明：Use an Idempotency-Key header for create operations so retries do not duplicate documents or requests."
+              ],
+              "rows": {
+                "token": {
+                  "label": "说明：API key",
+                  "detail": "说明：Send as a bearer token or the project-supported header. Store only in a server-side secret store."
+                },
+                "scope": {
+                  "label": "说明：Scope",
+                  "detail": "说明：Limits what the integration can do, such as document write, request send, or webhook management."
+                },
+                "idempotency": {
+                  "label": "说明：Idempotency",
+                  "detail": "说明：Required for safe retries of create/send operations."
+                },
+                "audit": {
+                  "label": "说明：Audit",
+                  "detail": "说明：API actions must record actor, key, scope, target, and result where implemented."
+                }
+              },
+              "code": {
+                "curl": {
+                  "title": "说明：Example request",
+                  "code": "说明：curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                }
+              }
+            },
+            "endpoints": {
+              "title": "说明：Representative endpoints",
+              "rows": {
+                "createDocument": {
+                  "label": "说明：Create document",
+                  "detail": "说明：Uploads or registers a source document and returns the document identifier."
+                },
+                "createRequest": {
+                  "label": "说明：Create/send signature request",
+                  "detail": "说明：Creates recipients, fields, access rules, and sends the workflow when requested."
+                },
+                "getStatus": {
+                  "label": "说明：Get status",
+                  "detail": "说明：Returns document/request state for polling or reconciliation."
+                },
+                "downloadPdf": {
+                  "label": "说明：Download completed PDF",
+                  "detail": "说明：Returns or redirects to controlled completed-PDF access when the workflow is complete."
+                },
+                "webhooks": {
+                  "label": "说明：Webhooks",
+                  "detail": "说明：Notify external systems about status changes. Verify signatures and retry safely."
+                }
+              }
+            }
+          }
+        },
+        "cli": {
+          "title": "signctl CLI 工具",
+          "summary": "说明 AI/CI 操作者使用的环境变量、主要命令、输出和幂等性。",
+          "sections": {
+            "environment": {
+              "title": "说明：CLI environment",
+              "body": [
+                "说明：signctl is the command-line surface for operators, CI, and AI agents. It should call the public integration boundary instead of writing directly to the database."
+              ],
+              "rows": {
+                "baseUrl": {
+                  "label": "说明：SIGN_API_BASE_URL",
+                  "detail": "说明：Base URL of the target Hundredth Sign instance."
+                },
+                "apiKey": {
+                  "label": "说明：SIGN_API_KEY",
+                  "detail": "说明：API key with the minimum required scopes."
+                },
+                "idempotency": {
+                  "label": "说明：SIGN_IDEMPOTENCY_PREFIX",
+                  "detail": "说明：Optional prefix to make automated retries traceable."
+                },
+                "output": {
+                  "label": "说明：--json",
+                  "detail": "说明：Use machine-readable JSON output for CI/AI automation."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "说明：CLI environment",
+                  "code": "说明：SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                }
+              }
+            },
+            "commands": {
+              "title": "说明：Main commands",
+              "body": [
+                "说明：Exact command names should follow scripts/signctl.mjs. Keep this manual synchronized when commands change."
+              ],
+              "code": {
+                "examples": {
+                  "title": "说明：Representative commands",
+                  "code": "说明：node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                }
+              },
+              "callouts": [
+                "说明：Do not give signctl a database URL. CLI automation should stay behind the audited REST API boundary."
+              ]
+            }
+          }
+        },
+        "dataModel": {
+          "title": "DB 表概览",
+          "summary": "概览关键表、状态流转、代表性唯一约束和禁止删除的数据。",
+          "sections": {
+            "tables": {
+              "title": "说明：Primary table groups",
+              "body": [
+                "说明：The actual schema is defined in drizzle/schema.ts. This section is an operator-readable map, not a replacement for migrations."
+              ],
+              "rows": {
+                "users": {
+                  "label": "说明：users / staff-related tables",
+                  "detail": "说明：Staff identity, role, status, locale, and login-related data."
+                },
+                "documents": {
+                  "label": "说明：documents",
+                  "detail": "说明：Source document metadata, ownership, status, and file references."
+                },
+                "signatureRequests": {
+                  "label": "说明：signatureRequests",
+                  "detail": "说明：Sending workflow, status, order, due date, token, and completion state."
+                },
+                "signers": {
+                  "label": "说明：signers / recipients",
+                  "detail": "说明：Recipient identity, order, access-code flags, locale, and signer outcome."
+                },
+                "signatureFields": {
+                  "label": "说明：signatureFields",
+                  "detail": "说明：Field type, page, coordinates, required flag, and assigned signer."
+                },
+                "templates": {
+                  "label": "说明：templates",
+                  "detail": "说明：Reusable document and field definitions."
+                },
+                "contacts": {
+                  "label": "说明：contacts / categories / groups",
+                  "detail": "说明：External recipient directory and classification."
+                },
+                "approvals": {
+                  "label": "说明：internal approvals",
+                  "detail": "说明：Internal decision workflow and approver outcome."
+                },
+                "audit": {
+                  "label": "说明：activityLogs / systemAuditLogs",
+                  "detail": "说明：Append-only evidence and security/operational audit trail."
+                },
+                "integrations": {
+                  "label": "说明：API keys / webhooks",
+                  "detail": "说明：Integration credentials, scopes, webhook subscriptions, and delivery state."
+                }
+              }
+            },
+            "constraints": {
+              "title": "说明：Constraints and invariants",
+              "bullets": [
+                "说明：Email-like identifiers must be unique where the schema requires it.",
+                "说明：Tokens and API keys must be unique and treated as secrets.",
+                "说明：A signature field belongs to one document and usually one assigned signer.",
+                "说明：A completed workflow must retain PDF and audit evidence.",
+                "说明：Status transitions should be explicit and auditable.",
+                "说明：Hash chain inputs must not be rewritten after evidence is recorded.",
+                "说明：Schema changes require documentation and tests in the same change set."
+              ]
+            }
+          }
+        },
+        "operations": {
+          "title": "运维、故障处理与 FAQ",
+          "summary": "减少关于登录、邮件未达、PDF、签署链接、API Key、审计日志、migration 和语言设置的问题。",
+          "sections": {
+            "faq": {
+              "title": "说明：FAQ by symptom",
+              "body": [
+                "说明：Start with the symptom, then verify the responsible boundary before changing data."
+              ],
+              "rows": {
+                "login": {
+                  "label": "说明：Cannot log in",
+                  "detail": "说明：Check app URL, cookie domain, session secret, account status, password reset flow, and browser hostname."
+                },
+                "mail": {
+                  "label": "说明：Email not received",
+                  "detail": "说明：Check SMTP settings, recipient address, spam folder, mail logs, locale template, and whether delivery is disabled in development."
+                },
+                "pdf": {
+                  "label": "说明：PDF upload fails",
+                  "detail": "说明：Confirm file type, 20 MB limit, password protection, PDF validation error, and server logs."
+                },
+                "signingLink": {
+                  "label": "说明：Signing link does not open",
+                  "detail": "说明：Check token, expiry, request status, access code, route URL, and ?lng parameter."
+                },
+                "apiKey": {
+                  "label": "说明：API key fails",
+                  "detail": "说明：Check key value, scope, target base URL, Authorization header, idempotency key, and audit logs."
+                },
+                "auditLog": {
+                  "label": "说明：Audit log missing",
+                  "detail": "说明：Check whether the action actually occurred and whether the code path inserts activityLogs or systemAuditLogs."
+                },
+                "migration": {
+                  "label": "说明：Migration error",
+                  "detail": "说明：Check DATABASE_URL, applied migration table, hash mismatch, statement breakpoints, and current schema."
+                },
+                "locale": {
+                  "label": "说明：Wrong language",
+                  "detail": "说明：Check ?lng, staff preference, recipient locale, browser language, and UI vs email-only locale support."
+                }
+              }
+            },
+            "runbook": {
+              "title": "说明：Operational runbook",
+              "steps": [
+                "说明：Capture screen, route, document/request ID, user or recipient, timestamp, and exact error.",
+                "说明：Check whether the issue is UI, API, email, PDF, DB migration, or audit evidence.",
+                "说明：Verify environment variables without exposing their real values.",
+                "说明：Run the standard test and type-check commands after code changes.",
+                "说明：For DB-backed fixes, apply or hand off the migration before claiming operational completion.",
+                "说明：Update the manual and product specification when behavior changes."
+              ],
+              "code": {
+                "verify": {
+                  "title": "说明：Verification commands",
+                  "code": "说明：corepack pnpm test\ncorepack pnpm check\nnode scripts/verify-manual-locales.mjs # if present in your branch"
+                }
+              }
+            }
+          }
+        },
+        "developer": {
+          "title": "开发者变更规则与验证步骤",
+          "summary": "保持规格、DB、审计、翻译、测试和手册同步的变更规则。",
+          "sections": {
+            "rules": {
+              "title": "说明：Change rules",
+              "body": [
+                "说明：Treat documentation, migrations, translations, and tests as part of the product surface, not cleanup work."
+              ],
+              "bullets": [
+                "说明：Read docs/architecture.md and the relevant docs/spec file before implementation.",
+                "说明：If drizzle/schema.ts changes, update docs/domain/data-model.md.",
+                "说明：Never remove INSERT behavior for activityLogs or systemAuditLogs when it protects WORM evidence.",
+                "说明：Do not hardcode secrets; read from environment variables.",
+                "说明：Keep UI manual keys aligned across ja, en, th, and zh-CN.",
+                "说明：Do not edit email-only locales for UI-only manual changes.",
+                "说明：Run pnpm test and pnpm check before completion.",
+                "说明：When a feature changes public behavior, update this manual in the same branch."
+              ],
+              "code": {
+                "commands": {
+                  "title": "说明：Developer verification",
+                  "code": "说明：corepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            },
+            "checklist": {
+              "title": "说明：Release checklist",
+              "rows": {
+                "schema": {
+                  "label": "说明：Schema",
+                  "detail": "说明：Migration created/applied, data model docs updated, no unsafe data loss."
+                },
+                "audit": {
+                  "label": "说明：Audit",
+                  "detail": "说明：Sensitive actions write activityLogs or systemAuditLogs and preserve evidence."
+                },
+                "locale": {
+                  "label": "说明：Locale",
+                  "detail": "说明：No raw manual.* keys in ja/en/th/zh-CN and email-only locales untouched."
+                },
+                "manual": {
+                  "label": "说明：Manual",
+                  "detail": "说明：Manual reflects product-spec.ja.md and any changed behavior."
+                },
+                "test": {
+                  "label": "说明：Tests",
+                  "detail": "说明：Relevant unit/integration/E2E checks pass or the blocker is documented."
+                }
+              }
+            }
+          }
+        }
+      },
+      "screenshots": {
+        "openFullSize": "放大图片",
+        "login": {
+          "alt": "登录页面",
+          "caption": "登录页面",
+          "title": "登录页面"
+        },
+        "setup": {
+          "alt": "初始设置页面",
+          "caption": "初始设置页面",
+          "title": "初始设置页面"
+        },
+        "dashboard": {
+          "alt": "Dashboard 页面",
+          "caption": "Dashboard 页面",
+          "title": "Dashboard 页面"
+        },
+        "documents": {
+          "alt": "文档列表",
+          "caption": "文档列表",
+          "title": "文档列表"
+        },
+        "documentNew": {
+          "alt": "新建文档页面",
+          "caption": "新建文档页面",
+          "title": "新建文档页面"
+        },
+        "signing": {
+          "alt": "签署页面",
+          "caption": "签署页面",
+          "title": "签署页面"
+        },
+        "inbox": {
+          "alt": "Inbox 页面",
+          "caption": "Inbox 页面",
+          "title": "Inbox 页面"
+        },
+        "templates": {
+          "alt": "模板页面",
+          "caption": "模板页面",
+          "title": "模板页面"
+        },
+        "contacts": {
+          "alt": "联系人页面",
+          "caption": "联系人页面",
+          "title": "联系人页面"
+        },
+        "audit": {
+          "alt": "审计日志页面",
+          "caption": "审计日志页面",
+          "title": "审计日志页面"
+        },
+        "settings": {
+          "alt": "设置页面",
+          "caption": "设置页面",
+          "title": "设置页面"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "OSS条款",
+      "title": "OSS版使用条款",
+      "description": "自托管OSS版的运维指引。请对照贵司法务、安全和运维要求进行审查。",
+      "sections": {
+        "scope": {
+          "title": "指南：Scope and relationship to the license",
+          "body": {
+            "0": "指南：These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
+            "1": "指南：If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "2": "指南：Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
+          }
+        },
+        "license": {
+          "title": "指南：OSS usage and redistribution",
+          "body": {
+            "0": "指南：The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
+            "1": "指南：The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "2": "指南：Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
+          }
+        },
+        "operator": {
+          "title": "运营方责任",
+          "body": {
+            "0": "运营组织负责账号、访问控制、数据库、存储、邮件发送、备份、监控和事件响应。",
+            "1": "使用真实合同前，请验证恢复流程、邮件到达、域名设置、存储留存和用户权限。",
+            "2": "管理员账号应限制在确实需要文档访问的人员范围内。",
+            "3": "指南：The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+          }
+        },
+        "accounts": {
+          "title": "指南：Accounts, roles, and access",
+          "body": {
+            "0": "指南：The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "1": "指南：External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
+            "2": "指南：Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
+          }
+        },
+        "integrations": {
+          "title": "指南：API, CLI, and webhook use",
+          "body": {
+            "0": "指南：External systems must use the integration API or signctl rather than direct database writes. Direct writes can bypass audit, WORM, PDF completion, status transitions, and email side effects.",
+            "1": "指南：API keys must be stored as secrets, rotated before expiry, scoped narrowly, and revoked immediately when a system, operator, or AI agent no longer needs access.",
+            "2": "指南：Webhook receivers must verify the HMAC signature, handle duplicate deliveries, and avoid treating a delivery as the sole source of truth; Sign remains the source of record."
+          }
+        },
+        "data": {
+          "title": "数据保护和留存",
+          "body": {
+            "0": "运营方控制自托管环境中的个人数据、已签署PDF、访问令牌、审计记录和备份。",
+            "1": "真实使用前，请定义留存、删除、加密和访问策略。",
+            "2": "请审查各业务和管辖下的隐私与记录保存义务。",
+            "3": "指南：If real production data is used for development, support, or customization, mask or minimize it unless there is a documented operational need."
+          }
+        },
+        "compliance": {
+          "title": "法务和合规审查",
+          "body": {
+            "0": "电子签名有效性取决于文档、签署人身份流程、管辖、证据策略和运行控制。",
+            "1": "审计和WORM功能支持证据保存，但不会自动保证法律适用性。",
+            "2": "生产使用前请咨询法务、税务、安全和合规专家。",
+            "3": "指南：Consult qualified legal, tax, accounting, security, and compliance professionals before relying on the system for regulated or high-value documents."
+          }
+        },
+        "prohibited": {
+          "title": "指南：Prohibited or unsafe use",
+          "body": {
+            "0": "指南：Do not use the system to impersonate another person, forge consent, bypass required approvals, unlawfully collect personal data, distribute malware, or interfere with third-party systems.",
+            "1": "指南：Do not disable audit inserts, WORM retention, token validation, access-code checks, or signed-PDF generation in a way that misrepresents evidence.",
+            "2": "指南：Do not publish API keys, webhook secrets, database URLs, storage credentials, JWT secrets, or private signing certificates."
+          }
+        },
+        "noSupport": {
+          "title": "不包含一般支持",
+          "body": {
+            "0": "OSS版不包含普通产品支持、运维支持、个别调试或服务级别承诺。",
+            "1": "问题可由运营方内部调查，也可作为单独的付费定制或导入支持咨询。",
+            "2": "不应期待公开OSS发行版诊断贵司基础设施、邮件系统、法律流程或数据库状态。"
+          }
+        },
+        "customization": {
+          "title": "付费定制",
+          "body": {
+            "0": "可另行咨询业务专属定制。",
+            "1": "典型范围包括文档格式、审批路径、外部集成、语言行为、报表和运营仪表盘。",
+            "2": "定制不会消除运营方审查并接受最终系统的责任。"
+          }
+        },
+        "changes": {
+          "title": "指南：Changes and precedence",
+          "body": {
+            "0": "指南：This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "1": "指南：A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
+            "2": "指南：The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "eyebrow": "免责声明",
+      "title": "OSS版免责声明",
+      "description": "在生产运维或业务专属定制 Hundredth Sign OSS 前请阅读。",
+      "sections": {
+        "warranty": {
+          "title": "无担保提供",
+          "body": {
+            "0": "OSS版按现状提供，不担保可用性、特定目的适用性、法律效力、安全性或不间断运行。",
+            "1": "运营方必须评估系统是否满足技术、运维和法律要求。",
+            "2": "公开OSS发行版可能变化、存在缺陷，或在生产使用前需要额外审查。",
+            "3": "指南：The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
+          }
+        },
+        "legal": {
+          "title": "不构成法律建议",
+          "body": {
+            "0": "本手册和软件是技术资料，不是法律、税务、会计或安全建议。",
+            "1": "电子签名有效性和记录保存的最终决定由运营组织负责。",
+            "2": "请向相关管辖内合格专家确认要求。",
+            "3": "指南：Confirm requirements with qualified specialists in the relevant jurisdiction before relying on the system."
+          }
+        },
+        "compliance": {
+          "title": "指南：Electronic signature and recordkeeping limitations",
+          "body": {
+            "0": "指南：Electronic signature laws and recordkeeping rules vary by document type, jurisdiction, identity assurance, consent process, retention period, and evidence handling.",
+            "1": "指南：Audit logs, completion certificates, WORM records, and PDF signatures support evidence, but they do not automatically satisfy every legal, tax, or internal-control requirement.",
+            "2": "指南：Some documents may require handwritten signatures, qualified signatures, notarization, special storage, additional identity verification, or a different retention workflow.",
+            "3": "指南：Operators must test whether generated PDFs, logs, timestamps, search fields, and exports remain readable and retrievable for the required period."
+          }
+        },
+        "security": {
+          "title": "指南：Security and operational risk",
+          "body": {
+            "0": "指南：Self-hosting moves security responsibility to the operator. This includes server hardening, patching, network exposure, secrets management, TLS, authentication, IP restrictions, logging, alerting, and vulnerability response.",
+            "1": "指南：API keys, webhook secrets, JWT secrets, database credentials, storage credentials, email credentials, and signing certificates must be protected and rotated when risk changes.",
+            "2": "指南：Backups are useful only if restoration is tested. Monitoring is useful only if someone is responsible for responding.",
+            "3": "指南：AI or CI automation must use narrowly scoped keys, idempotency keys for retries, and explicit approval boundaries for destructive operations."
+          }
+        },
+        "data": {
+          "title": "数据和运维风险",
+          "body": {
+            "0": "个人数据、已签署文档、凭证、数据库备份、存储和邮件设置的保护由运营方负责。",
+            "1": "生产使用前，请测试备份恢复、审计留存、访问限制和事件响应。",
+            "2": "由运维或定制导致的丢失、泄露、损坏或误投递不属于一般OSS支持范围。",
+            "3": "指南：Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
+          }
+        },
+        "integrations": {
+          "title": "指南：API, CLI, and webhook risk",
+          "body": {
+            "0": "指南：The integration API and signctl are powerful operational interfaces. A key with send, download, webhook, or API-key management scope can materially affect production workflows.",
+            "1": "指南：Webhook delivery is best-effort with retries. Receivers must handle duplicates, failures, delayed delivery, signature verification, and reconciliation against the document status API.",
+            "2": "指南：Direct database writes by external systems are outside the supported integration model and can break audit, WORM, status, and PDF completion behavior."
+          }
+        },
+        "ai": {
+          "title": "AI辅助代码库",
+          "body": {
+            "0": "本OSS版包含AI辅助编写的代码。",
+            "1": "AI辅助开发可以降低定制成本，但不意味着无需审查、测试、安全评估或运维验证。",
+            "2": "认证、签署、审计日志、存储和合规相关修改需要格外谨慎。"
+          }
+        },
+        "customization": {
+          "title": "定制另行处理",
+          "body": {
+            "0": "AI辅助开发使贴合各公司业务的后台系统比以往更容易以现实成本构建。",
+            "1": "付费定制可将OSS版适配到文档、审批、语言、外部集成和内部运营。",
+            "2": "定制工作应单独确定范围，并包含运营组织的验收测试。"
+          }
+        },
+        "references": {
+          "title": "指南：Reference information used when drafting this notice",
+          "body": {
+            "0": "指南：This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "1": "指南：Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
+            "2": "指南：This page is a practical risk notice, not a substitute for the official legal text or professional advice."
+          }
+        }
+      }
+    }
+  },
+  "ossContact": {
+    "eyebrow": "定制咨询",
+    "title": "为贵司业务定制 Hundredth Sign OSS",
+    "description": "OSS版可免费使用。需要贴合自身运营的组织可以咨询付费定制。",
+    "body": {
+      "0": "Hundredth Sign OSS 不包含普通OSS使用的一般支持。",
+      "1": "如果希望系统适配贵司合同、审批路径、内部控制、多语言运营、外部集成或后台工作流，可以咨询付费实施支持。",
+      "2": "随着AI辅助编码普及，比通用SaaS流程更贴合各公司业务的系统会更加可行。",
+      "3": "请简要说明希望改善的流程、当前痛点、用户、文档类型和期望时间。"
+    },
+    "requestTitle": "建议提供的信息",
+    "requestItems": {
+      "0": "当前文档和审批流程",
+      "1": "需要的自定义页面、字段或外部集成",
+      "2": "托管和安全限制",
+      "3": "期望上线时间和优先级"
+    },
+    "emailTitle": "联系方式",
+    "emailDescription": "请将希望定制的工作流、当前问题和期望时间发送到此邮箱。"
+  }
+}

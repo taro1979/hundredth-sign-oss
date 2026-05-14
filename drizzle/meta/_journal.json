@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1778535588895,
+      "tag": "0000_oss_baseline",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1778535588896,
+      "tag": "0001_worm_triggers",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1778564788066,
+      "tag": "0003_signature_payload_mediumtext",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1778648088036,
+      "tag": "0004_staff_approval_locale",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1778650000000,
+      "tag": "0005_integrations_api_cli",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "5",
+      "when": 1778710000000,
+      "tag": "0006_integration_idempotency",
+      "breakpoints": true
+    }
+  ]
+}

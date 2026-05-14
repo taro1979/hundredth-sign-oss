@@ -1,0 +1,2654 @@
+{
+  "nav": {
+    "dashboard": "ダッシュボード",
+    "documents": "文書",
+    "contacts": "連絡先",
+    "templates": "テンプレート",
+    "auditLog": "監査ログ",
+    "profile": "プロフィール",
+    "logout": "ログアウト",
+    "login": "ログイン",
+    "manual": "マニュアル",
+    "settings": "設定",
+    "inbox": "受信トレイ"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "キャンセル",
+    "delete": "削除",
+    "edit": "編集",
+    "create": "作成",
+    "search": "検索",
+    "filter": "フィルター",
+    "close": "閉じる",
+    "open": "開く",
+    "next": "次へ",
+    "back": "戻る",
+    "done": "完了",
+    "confirm": "確認",
+    "submit": "送信",
+    "loading": "読み込み中...",
+    "loadingTimeout": "読み込みに時間がかかっています。再度お試しください。",
+    "reload": "再読み込み",
+    "creating": "作成中...",
+    "error": "エラー",
+    "success": "成功",
+    "warning": "警告",
+    "info": "情報",
+    "noData": "データがありません",
+    "actions": "アクション",
+    "status": "ステータス",
+    "name": "名前",
+    "email": "メール",
+    "phone": "電話番号",
+    "company": "会社名",
+    "department": "部署",
+    "title": "タイトル",
+    "description": "説明",
+    "date": "日付",
+    "createdAt": "作成日",
+    "updatedAt": "更新日",
+    "yes": "はい",
+    "no": "いいえ",
+    "all": "すべて",
+    "none": "なし",
+    "download": "ダウンロード",
+    "upload": "アップロード",
+    "copy": "コピー",
+    "share": "共有",
+    "settings": "設定",
+    "language": "言語",
+    "user": "ユーザー",
+    "role": "役割",
+    "owner": "管理者",
+    "admin": "管理者",
+    "member": "メンバー",
+    "free": "無料",
+    "comingSoon": "近日公開"
+  },
+  "dashboard": {
+    "title": "ダッシュボード",
+    "welcome": "おかえりなさい",
+    "recentDocuments": "最近の文書",
+    "pendingSignatures": "署名待ち",
+    "completedDocuments": "完了した文書",
+    "totalDocuments": "文書総数",
+    "totalContacts": "連絡先数",
+    "totalTemplates": "テンプレート数",
+    "monthlyUsage": "今月の送信数",
+    "quickActions": "クイックアクション",
+    "newDocument": "新規文書作成",
+    "viewAll": "すべて表示",
+    "welcomeMessage": "契約書の作成・送信・管理をここから行えます。",
+    "newDocUpload": "PDFをアップロード",
+    "newDocUploadDesc": "PDFファイルから契約書を作成",
+    "newDocTemplate": "テンプレートから作成",
+    "newDocTemplateDesc": "保存済みテンプレートを使用"
+  },
+  "documents": {
+    "title": "文書管理",
+    "new": "新規文書",
+    "sent": "送信済み",
+    "completed": "完了",
+    "drafts": "下書き",
+    "actionRequired": "要対応",
+    "voided": "無効",
+    "all": "すべて",
+    "searchPlaceholder": "文書を検索...",
+    "filterClear": "フィルターをクリア",
+    "noPdf": "PDFがありません",
+    "detailView": "詳細を見る",
+    "resendReminder": "リマインダーを再送",
+    "continueEdit": "編集を続ける",
+    "deleteConfirm": "この文書を削除しますか？",
+    "noDocuments": "文書がありません",
+    "createFirst": "最初の文書を作成しましょう",
+    "status": {
+      "draft": "下書き",
+      "pending_approval": "承認待ち",
+      "pending_internal_approval": "社内承認待ち",
+      "sent": "送信済み",
+      "viewed": "閲覧済み",
+      "partially_signed": "一部署名済み",
+      "completed": "完了",
+      "declined": "拒否",
+      "voided": "無効",
+      "expired": "期限切れ",
+      "pending": "待機中",
+      "signed": "署名済み"
+    },
+    "dateFilter": {
+      "all": "全期間",
+      "7d": "過去7日間",
+      "30d": "過去30日間",
+      "90d": "過去90日間",
+      "6m": "過去6ヶ月",
+      "1y": "過去1年"
+    },
+    "detail": {
+      "documentInfo": "文書情報",
+      "signers": "署名者",
+      "activityLog": "アクティビティログ",
+      "downloadPdf": "PDFダウンロード",
+      "downloadSigned": "署名済みPDFダウンロード",
+      "voidDocument": "文書を無効化",
+      "resend": "再送信",
+      "sendReminder": "リマインダー送信"
+    },
+    "create": {
+      "step1": "書類の準備",
+      "step2": "送付先の設定",
+      "step3": "入力項目の設定",
+      "step4": "送信内容の確認",
+      "step5": "送信完了",
+      "uploadPdf": "契約書PDFをアップロード",
+      "dragDrop": "ファイルをドラッグ&ドロップ、またはクリックして選択",
+      "documentTitle": "文書タイトル",
+      "addRecipient": "受信者を追加",
+      "recipientName": "受信者名",
+      "recipientEmail": "メールアドレス",
+      "recipientRole": "役割",
+      "recipientLocale": "言語",
+      "signer": "署名者",
+      "cc": "CC（写し）",
+      "approver": "承認者",
+      "order": "署名順序",
+      "accessCode": "アクセスコード",
+      "message": "メッセージ",
+      "expirationDays": "有効期限（日数）",
+      "reminderDays": "リマインダー間隔（日数）",
+      "send": "署名依頼を送信",
+      "saveDraft": "下書き保存",
+      "sendSuccess": "署名依頼を送信しました",
+      "confirmSend": "署名依頼を送信してもよろしいですか？",
+      "fromTemplate": "テンプレートから作成",
+      "fromScratch": "新規作成",
+      "honorificHint": "※必要に応じて「様」や「Mr./Ms.」などの敬称も含めて入力してください",
+      "globalComment": "全体メッセージ（任意）",
+      "globalCommentPlaceholder": "受信者全員に表示されるメッセージを入力してください",
+      "previewEmail": "メールプレビュー",
+      "previewEmailDesc": "送信前にメールの内容を確認できます",
+      "emailPreviewTitle": "メールプレビュー",
+      "emailPreviewClose": "閉じる",
+      "emailPreviewFrom": "差出人",
+      "emailPreviewTo": "宛先",
+      "emailPreviewSubject": "件名",
+      "invalidFile": "無効なファイルです",
+      "cancelAndDelete": "作業を中止して削除",
+      "stepNavAria": "作成ステップ",
+      "templateInherit": "「{{title}}」の設定を引き継いで文書を作成します",
+      "templatePdfBadge": "PDF ({{count}}ページ)",
+      "templateFieldsBadge": "署名フィールド ({{count}}個)",
+      "changeFile": "ファイルを変更",
+      "dropHere": "ここにファイルをドロップ",
+      "selectFile": "ファイルを選択",
+      "pdfOnly": "PDFファイルのみ（最大20MB）",
+      "required": "必須",
+      "optional": "任意",
+      "titlePlaceholder": "契約書のタイトルを入力",
+      "titleHint": "アップロードしたファイル名が設定されます。編集も可能です。",
+      "counterpartyLabel": "契約相手の名称",
+      "counterpartyPlaceholder": "送信先の会社名などを入力してください",
+      "recipientEmailRequired": "メールアドレス *",
+      "recipientNameRequiredLabel": "名前 *",
+      "recipientNamePlaceholder": "山田太郎",
+      "companyPlaceholder": "株式会社○○",
+      "roleSigner": "署名が必要",
+      "roleCc": "閲覧のみ (CC)",
+      "accessCodeOptional": "アクセスコード（任意）",
+      "accessCodePlaceholder": "パスコードを設定",
+      "individualMessageOptional": "個別メッセージ（任意）",
+      "individualMessagePlaceholder": "署名者へのメッセージ",
+      "selectFromContacts": "連絡先から選択",
+      "addRecipientCta": "宛先を追加",
+      "sendOptions": "送信オプション",
+      "sequentialRouting": "順次ルーティング",
+      "sequentialRoutingHint": "有効にすると、上から順番に1人ずつ署名依頼が送られます",
+      "expirationPlaceholder": "例: 30",
+      "reminderPlaceholder": "例: 3",
+      "relatedParties": "この書類の関係者",
+      "fieldLabel": "フィールド",
+      "signerLabel": "署名者",
+      "signerIndex": "署名者{{count}}",
+      "internalApproval": {
+        "title": "社内稟議フロー",
+        "description": "社外送信前に社内承認を得るフローを設定できます",
+        "approverNamePlaceholder": "承認者名",
+        "addApprover": "承認者を追加",
+        "orderHint": "上から順番に承認が進みます。全員が承認後、社外に送信されます。",
+        "summaryTitle": "社内稟議フロー（送信前承認）",
+        "summaryHint": "※ 全員の承認後に社外に送信されます"
+      },
+      "preparingPdf": "PDFを準備しています...",
+      "preparingPdfHint": "ファイルのアップロードが完了するまでしばらくお待ちください",
+      "fieldPlacementHint": "フィールドをドラッグ&ドロップして書類上に入力エリアを設置できます。",
+      "placedFields": "配置済みフィールド ({{count}})",
+      "expirationValue": "{{count}}日",
+      "reminderValue": "{{count}}日ごと",
+      "signatureFieldsLabel": "署名フィールド",
+      "signatureFieldsValue": "{{count}}個",
+      "routingLabel": "ルーティング",
+      "senderFallback": "送信者",
+      "emailSubjectPreview": "{{sender}} から「{{title}}」の署名依頼",
+      "emailHeaderRequest": "{{sender}} さんから署名の依頼が届いています",
+      "emailHeaderRequestDesc": "「{{title}}」の確認と署名をお願いいたします",
+      "messageFromSender": "送信者からのメッセージ",
+      "documentNameLabel": "文書名: {{title}}",
+      "senderLabel": "送信者: {{sender}}",
+      "previewPlgHeadline": "セルフホストで運用できるOSS電子契約。",
+      "previewPlgSubtext": "PDF署名、テンプレート、監査ログを自分たちの環境で管理できます。",
+      "previewPerMonth": "/月",
+      "complete": {
+        "internalApprovalTitle": "社内承認フローが開始されました",
+        "internalApprovalDesc": "承認者に承認依頼メールが送信されました。全員の承認後、社外に自動送信されます。",
+        "sentTitle": "送信が完了しました",
+        "sentDesc": "署名依頼メールが送付先に送信されました"
+      },
+      "validation": {
+        "uploadPdf": "契約書PDFをアップロードしてください",
+        "titleRequired": "タイトルを入力してください",
+        "titleTooLong": "タイトルは500文字以内で入力してください",
+        "recipientRequired": "送付先を1名以上追加してください",
+        "signerRequired": "署名者（署名が必要）を1名以上指定してください",
+        "invalidEmail": "「{{email}}」は有効なメールアドレスではありません",
+        "recipientNameRequired": "全ての送付先の名前を入力してください",
+        "fieldRequired": "署名フィールドを1つ以上配置してください",
+        "signerFieldMissing": "{{signer}}に署名フィールドが割り当てられていません"
+      },
+      "createError": "文書の作成に失敗しました",
+      "sendError": "送信に失敗しました",
+      "saveDraftSuccess": "下書きを保存しました",
+      "saveDraftError": "保存に失敗しました"
+    },
+    "voidSuccess": "文書を無効化しました",
+    "voidConfirm": "この文書を無効化しますか？この操作は取り消せません。",
+    "sendReminderSuccess": "リマインダーを送信しました",
+    "backToList": "文書一覧に戻る",
+    "preview": "文書プレビュー",
+    "info": "文書情報",
+    "recipients": "受信者一覧",
+    "activityTab": "アクティビティ",
+    "deleteSuccess": "文書を削除しました",
+    "deleteFailed": "削除に失敗しました",
+    "colDocument": "文書名",
+    "colSender": "送信元組織",
+    "colAction": "アクション",
+    "role": {
+      "signer": "署名者",
+      "cc": "CC",
+      "approver": "承認者"
+    },
+    "downloadSuccess": "ダウンロードを開始しました",
+    "deleteConfirmPermanent": "文書を削除すると元に戻すことは出来ません。本当に削除してよろしいでしょうか？",
+    "bulkDeleteSelected": "選択した文書を削除 ({{count}})"
+  },
+  "inbox": {
+    "pendingCount": "{{count}}件の未対応メールがあります",
+    "noPending": "未対応のメールはありません",
+    "filterActionRequired": "要対応",
+    "filterAll": "すべて",
+    "searchPlaceholder": "件名、文書名、差出人で検索...",
+    "noResults": "検索結果がありません",
+    "noResultsDesc": "別のキーワードで検索してください",
+    "empty": "受信トレイは空です",
+    "emptyDesc": "あなた宛ての署名依頼や承認依頼が届くとここに表示されます",
+    "colMessage": "メール",
+    "colStatus": "ステータス",
+    "colUpdated": "更新日時",
+    "from": "差出人",
+    "to": "宛先",
+    "date": "日時",
+    "document": "文書",
+    "actionRequired": "要対応",
+    "backToInbox": "受信トレイへ戻る",
+    "loadingDetail": "メールを読み込んでいます...",
+    "notFoundTitle": "メールが見つかりません",
+    "notFoundDesc": "このメールは存在しないか、アクセス権がありません。",
+    "kind": {
+      "signature": "署名依頼",
+      "approval": "承認依頼",
+      "cc": "控え通知"
+    },
+    "status": {
+      "signature": {
+        "sent": "署名待ち",
+        "viewed": "閲覧済み",
+        "signed": "署名済み",
+        "declined": "拒否済み",
+        "expired": "期限切れ"
+      },
+      "approval": {
+        "pending": "承認待ち",
+        "approved": "承認済み",
+        "rejected": "却下済み"
+      },
+      "cc": "確認用"
+    },
+    "cta": {
+      "sign": "署名する",
+      "approve": "承認画面を開く",
+      "view": "詳細を開く"
+    },
+    "preview": {
+      "signature": "「{{title}}」への署名が依頼されています。",
+      "approval": "「{{title}}」への社内承認が依頼されています。",
+      "cc": "「{{title}}」の控え通知です。"
+    },
+    "detail": {
+      "defaultBody": {
+        "signature": "{{sender}} から「{{title}}」への署名依頼が届いています。内容を確認し、署名画面から対応してください。",
+        "approval": "{{sender}} から「{{title}}」への社内承認依頼が届いています。内容を確認し、承認または却下してください。",
+        "cc": "{{sender}} から「{{title}}」の控え通知が届いています。必要に応じて文書を確認してください。"
+      }
+    }
+  },
+  "signing": {
+    "title": "文書の署名",
+    "reviewAndSign": "確認して署名",
+    "consentTitle": "電子署名の同意",
+    "consentMessage": "電子署名および電子記録の使用に同意します。",
+    "consentCheck": "上記に同意する",
+    "signHere": "ここに署名",
+    "dateHere": "日付",
+    "initialHere": "イニシャル",
+    "stampHere": "印鑑",
+    "nameHere": "氏名",
+    "fieldsRemaining": "あと{{count}}箇所の入力が必要です",
+    "allFieldsComplete": "全ての入力が完了しました",
+    "finishSigning": "署名を完了する",
+    "decline": "署名を拒否",
+    "delegate": "転送する",
+    "declineReason": "拒否理由",
+    "alreadySigned": "この文書は既に署名済みです",
+    "expired": "この署名リクエストは期限切れです",
+    "emailVerification": {
+      "title": "本人確認",
+      "description": "署名を開始する前に、署名依頼メールに記載されたメールアドレスを確認してください。",
+      "placeholder": "例: yamada@example.com",
+      "enterEmailError": "メールアドレスを入力してください",
+      "invalidEmailError": "有効なメールアドレスを入力してください",
+      "notAuthorizedError": "このメールアドレスは署名権限がありません。署名依頼メールに記載されたメールアドレスを入力してください。",
+      "confirmAndStart": "確認して署名を開始",
+      "securityNote": "セキュリティ保護のため、署名権限のあるメールアドレスの確認が必要です。"
+    },
+    "enterEmail": "メールアドレスを入力してください",
+    "enterAccessCode": "アクセスコードを入力してください",
+    "signatureComplete": "署名が完了しました",
+    "thankYou": "ありがとうございました",
+    "downloadSignedPdf": "署名済みPDFをダウンロード",
+    "createAccount": "無料アカウントを作成",
+    "createAccountBenefit": "アカウントを作成すると、署名した文書をいつでも確認・ダウンロードできます。",
+    "drawSignature": "手書きで署名",
+    "typeSignature": "フォントで署名",
+    "clearSignature": "クリア",
+    "selectFont": "フォントを選択",
+    "stampInput": "印鑑（名字を入力）",
+    "generatingSignedPdf": "署名済みPDFを生成中です。しばらくお待ちください。",
+    "accessVerified": "認証に成功しました",
+    "loadingDocument": "文書を読み込んでいます...",
+    "accessDenied": "アクセスできません",
+    "successMessage": "「{{title}}」への署名が正常に完了しました。送信者に通知されます。",
+    "quickActions": {
+      "downloadTitle": "PDFをダウンロード",
+      "downloadDesc": "署名済みの文書を保存できます",
+      "viewTitle": "文書を確認",
+      "viewDesc": "署名の進捗や詳細を確認できます"
+    },
+    "promo": {
+      "badge": "電子署名サービス",
+      "titleLine1": "妥協しないフルスペックで",
+      "titleLine2": "セルフホスト",
+      "subtitle": "PDF署名、受信者メールリンク、完了証明書、監査ログをOSSとして運用できます。",
+      "monthlyLabel": "OSS",
+      "taxIncluded": "（税込）",
+      "priceNote": "セルフホスト · ローカルスタッフアカウント · 受信者アカウント不要",
+      "featureCertificate": "完了証明書自動生成",
+      "featureAudit": "監査ログ・アクティビティ",
+      "featureRealtime": "リアルタイムステータス通知",
+      "registerHint": "{{email}} で登録すると、この文書が自動的にアカウントに紐付けられます。",
+      "ctaNote": "セルフホスト · ローカルアカウント管理 · 受信者アカウント不要"
+    },
+    "declineSuccess": "署名を拒否しました",
+    "declineMessage": "「{{title}}」への署名を拒否しました。送信者に通知されます。",
+    "delegateSuccess": "署名を転送しました",
+    "delegateMessage": "「{{title}}」への署名を{{name}}さんに転送しました。転送先に通知メールが送信されます。",
+    "accessCodeDescription": "この文書を閲覧するにはアクセスコードが必要です。送信者から受け取ったコードを入力してください。",
+    "consent": {
+      "title": "電子署名の同意確認",
+      "description": "「{{title}}」への署名を開始する前に、以下の内容をご確認ください。",
+      "paragraph1": "本サービスでは、電子署名および電子記録を使用して文書に署名を行います。電子署名は手書きの署名と同等の法的効力を持ちます。",
+      "paragraph2": "署名を行うことで、文書の内容を確認し、同意したものとみなされます。署名後は文書の内容を変更することはできません。",
+      "paragraph3": "署名に同意しない場合は、署名を拒否するか、別の方に署名を転送することができます。",
+      "checkbox": "電子署名および電子記録の使用に同意します。署名は法的拘束力を持つことを理解しています。",
+      "agreeAndContinue": "同意して続行"
+    },
+    "declineDialog": {
+      "title": "署名を拒否しますか？",
+      "description": "拒否すると送信者に通知されます。拒否理由を入力してください。",
+      "placeholder": "拒否理由を入力してください...",
+      "confirm": "拒否を確定"
+    },
+    "delegateDialog": {
+      "title": "署名を別の人に転送",
+      "description": "署名を別の方に転送します。転送先の情報を入力してください。転送先にはメールで通知されます。",
+      "nameLabel": "転送先の名前",
+      "namePlaceholder": "例: 山田太郎",
+      "emailLabel": "転送先のメールアドレス",
+      "emailPlaceholder": "例: yamada@example.com"
+    },
+    "fieldType": {
+      "signature": "署名",
+      "date": "日付",
+      "name": "氏名",
+      "initials": "イニシャル"
+    },
+    "messageFromSender": "送信者からのメッセージ",
+    "nextField": "次のフィールドへ",
+    "fieldFilled": {
+      "date": "日付を入力しました",
+      "name": "氏名を入力しました",
+      "initials": "イニシャルを入力しました"
+    },
+    "verifying": "確認中...",
+    "stamp": {
+      "title": "印鑑を押印",
+      "description": "名字を入力して丸印（印鑑）を生成します。",
+      "placeholder": "例: 田中",
+      "generate": "生成",
+      "previewAlt": "印鑑プレビュー",
+      "confirmQuestion": "この印鑑でよろしいですか？",
+      "apply": "押印する",
+      "applied": "印鑑を押印しました",
+      "enterLastName": "名字を入力してください"
+    },
+    "errors": {
+      "accessDenied": "この署名依頼へのアクセス権がありません",
+      "requestNotFound": "署名依頼が見つかりません",
+      "invalidAccessCode": "アクセスコードが正しくありません",
+      "invalidEmail": "有効なメールアドレスを入力してください",
+      "signatureDataTooLarge": "署名データが大きすぎます",
+      "alreadySigned": "既に署名済みです",
+      "ccCannotSign": "CCの受信者は署名できません",
+      "documentNotSignable": "この文書は現在の状態では署名できません",
+      "pdfAccessDenied": "このPDFにアクセスする権限がありません",
+      "notYetSigned": "署名が完了していません",
+      "documentNotComplete": "文書がまだ完了していません。全員の署名が必要です",
+      "notOrgMember": "指定した組織のメンバーではありません"
+    }
+  },
+  "contacts": {
+    "title": "連絡先管理",
+    "new": "連絡先を追加",
+    "noContacts": "連絡先がありません",
+    "import": "インポート",
+    "export": "エクスポート",
+    "category": "カテゴリー",
+    "group": "グループ",
+    "manageCategories": "カテゴリー管理",
+    "manageGroups": "グループ管理",
+    "addToGroup": "グループに追加",
+    "removeFromGroup": "グループから削除",
+    "selectAll": "すべて選択",
+    "deleteSelected": "選択を削除",
+    "grid": "グリッド表示",
+    "table": "テーブル表示",
+    "addContact": "連絡先を追加",
+    "editContact": "連絡先を編集",
+    "deleteContact": "連絡先を削除",
+    "deleteConfirm": "この連絡先を削除しますか？",
+    "createSuccess": "連絡先を作成しました",
+    "updateSuccess": "連絡先を更新しました",
+    "deleteSuccess": "連絡先を削除しました",
+    "createError": "作成に失敗しました",
+    "updateError": "更新に失敗しました",
+    "deleteError": "削除に失敗しました",
+    "groupCreateSuccess": "グループを作成しました",
+    "groupUpdateSuccess": "グループを更新しました",
+    "groupDeleteSuccess": "グループを削除しました",
+    "categoryCreateSuccess": "カテゴリーを作成しました",
+    "categoryUpdateSuccess": "カテゴリーを更新しました",
+    "categoryDeleteSuccess": "カテゴリーを削除しました",
+    "searchPlaceholder": "名前・メール・会社名で検索...",
+    "noResults": "検索結果がありません",
+    "filterByCategory": "カテゴリーで絞り込み",
+    "filterByGroup": "グループで絞り込み",
+    "allCategories": "すべてのカテゴリー",
+    "allGroups": "すべてのグループ",
+    "noContactsInGroup": "このグループに連絡先がありません",
+    "selectedCount": "{{count}}件選択中",
+    "bulkDeleteConfirm": "{{count}}件の連絡先を削除しますか？",
+    "bulkDeleteSuccess": "連絡先を削除しました",
+    "importSuccess": "インポートしました",
+    "exportSuccess": "エクスポートしました",
+    "addToGroupSuccess": "グループに追加しました",
+    "removeFromGroupSuccess": "グループから削除しました",
+    "totalCount": "{{count}}件の連絡先",
+    "companyPlaceholder": "株式会社○○",
+    "departmentPlaceholder": "営業部",
+    "categoryPlaceholder": "カテゴリー名（例: 顧客、パートナー）",
+    "groupPlaceholder": "グループ名（例: 営業チーム、法務部門）",
+    "groupDescriptionPlaceholder": "説明（任意）",
+    "selectGroups": "グループを選択...",
+    "noGroups": "グループがありません"
+  },
+  "templates": {
+    "title": "テンプレート管理",
+    "new": "テンプレートを作成",
+    "noTemplates": "テンプレートがありません",
+    "useTemplate": "このテンプレートを使用",
+    "shared": "共有テンプレート",
+    "my": "マイテンプレート",
+    "locked": "ロック済み",
+    "saveSuccess": "テンプレートを保存しました",
+    "saveConfirm": "テンプレートを保存しますか？",
+    "backToList": "テンプレート一覧に戻る",
+    "continueEditing": "編集を続ける",
+    "createSuccess": "テンプレートを作成しました",
+    "createError": "作成に失敗しました",
+    "deleteConfirm": "テンプレートを削除しますか？",
+    "deleteSuccess": "テンプレートを削除しました",
+    "deleteError": "削除に失敗しました",
+    "uploadPdf": "PDFをアップロード",
+    "replacePdf": "差し替え",
+    "uploading": "アップロード中...",
+    "uploadSuccess": "PDFをアップロードしました",
+    "uploadError": "アップロードに失敗しました",
+    "noTitle": "タイトルなし",
+    "placeFields": "署名フィールドを配置",
+    "saveError": "保存に失敗しました",
+    "titleRequired": "テンプレート名を入力してください",
+    "editTemplate": "テンプレートを編集",
+    "editDescription": "署名フィールドを配置してテンプレートを保存",
+    "savingFields": "保存中...",
+    "saveFields": "{{count}} フィールドを保存",
+    "placedFields": "配置済みフィールド: {{count}}",
+    "save": "保存",
+    "noTemplatesDesc": "テンプレートを作成して、文書作成を効率化しましょう",
+    "createAndEdit": "作成して編集へ",
+    "createNew": "新規テンプレート",
+    "signerCount": "署名者数",
+    "searchPlaceholder": "テンプレートを検索...",
+    "category": "カテゴリー",
+    "categoryPlaceholder": "例: 契約書",
+    "titleLabel": "テンプレート名",
+    "descriptionLabel": "説明",
+    "saveSuccessDialog": "保存しました",
+    "saveSuccessDialogDesc": "テンプレートの署名フィールドを保存しました。",
+    "signerCountLabel": "署名者数:",
+    "pdfFieldInstruction": "PDF上をクリックしてフィールドを追加し、ドラッグで位置調整できます。",
+    "updated": "更新日: {{date}}"
+  },
+  "organization": {
+    "title": "設定",
+    "info": "組織情報",
+    "orgName": "組織名",
+    "members": "メンバー",
+    "removeMember": "メンバーを削除",
+    "changeRole": "役割を変更",
+    "pending": "保留中",
+    "accepted": "承認済み",
+    "deactivated": "無効化",
+    "nameRequired": "組織名は必須です",
+    "orgNamePlaceholder": "組織名を入力",
+    "loadingSettings": "設定を読み込み中...",
+    "preparingAccount": "アカウント準備中...",
+    "teamMembers": "チームメンバー",
+    "unlimited": "無制限",
+    "adminRequired": "管理者権限が必要です",
+    "managerRequired": "管理者権限が必要です",
+    "optionalName": "名前（任意）",
+    "namePlaceholderFull": "山田 太郎",
+    "emailRequired": "メールアドレス ＊",
+    "managerBadge": "管理者",
+    "removeMemberConfirm": "{{name}} さんをこの組織から削除しますか？\n* このメンバーが作成した文書はチームに残ります。",
+    "settingsHeader": "設定",
+    "removeMemberSuccessMsg": "メンバーを削除しました",
+    "updateRoleSuccessMsg": "役割を更新しました",
+    "memberCount": "{{count}}人",
+    "security": {
+      "title": "セキュリティ & コンプライアンス",
+      "subtitle": "プラットフォームの信頼性を支える基盤情報",
+      "certificate": {
+        "title": "プラットフォーム署名証明書",
+        "description": "PDF署名に使用するX.509証明書",
+        "subject": "サブジェクト",
+        "type": "種別",
+        "selfSigned": "自己署名",
+        "externalCa": "外部CA発行",
+        "validity": "有効期間",
+        "validRange": "{{start}} 〜 {{end}}",
+        "showTechnicalDetails": "技術的な詳細を表示",
+        "serialNumber": "シリアル番号",
+        "fingerprint": "フィンガープリント"
+      }
+    },
+    "audit": {
+      "title": "操作履歴",
+      "subtitle": "すべての操作が自動的に記録されます",
+      "refresh": "更新",
+      "showStats": "統計情報を表示",
+      "totalRecords": "総レコード数",
+      "chainStatus": "チェーン状態",
+      "chainHealthy": "正常",
+      "chainBroken": "異常（改ざん検出）",
+      "chainPartial": "正常（{{count}}件は暗号鍵不足で検証不可）",
+      "chainUnverified": "未検証"
+    },
+    "nameUpdateSuccess": "組織名を更新しました",
+    "organizationNameTitle": "組織名",
+    "organizationNameDesc": "管理者のみ組織名を変更できます。",
+    "organizationNameOwnerOnly": "組織名を変更できるのは管理者のみです。",
+    "profileNameTitle": "ユーザー名",
+    "profileNameLabel": "ユーザー名",
+    "profileNameDesc": "自分の表示名を変更できます。",
+    "profileNameUpdateSuccess": "ユーザー名を更新しました"
+  },
+  "auditLog": {
+    "title": "監査ログ",
+    "actor": "実行者",
+    "action": "アクション",
+    "target": "対象",
+    "timestamp": "日時",
+    "ipAddress": "IPアドレス",
+    "userAgent": "ユーザーエージェント",
+    "hashChain": "ハッシュチェーン",
+    "verifyIntegrity": "整合性を検証",
+    "verificationSuccess": "ハッシュチェーンの整合性が確認されました",
+    "verificationFailed": "ハッシュチェーンの整合性に問題があります",
+    "noLogs": "監査ログがありません",
+    "certificate": "証明書情報",
+    "colDate": "日時",
+    "colEvent": "イベント",
+    "colEntity": "対象",
+    "colActor": "実行者",
+    "colIp": "IP",
+    "page": "{{current}} / {{total}} ページ",
+    "prevPage": "前へ",
+    "nextPage": "次へ",
+    "verifySuccess": "{{count}} 件のレコードが正常です",
+    "verifySuccessWithUnverifiable": "{{count}} 件が正常、{{unverifiable}} 件は暗号鍵不足で検証不可",
+    "verifyFail": "改ざん検出: レコードID {{id}} でチェーンが破損しています",
+    "verifyError": "検証エラー: {{message}}",
+    "events": {
+      "document": {
+        "created": "文書作成",
+        "uploaded": "PDFアップロード",
+        "sent": "署名依頼送信",
+        "viewed": "文書閲覧",
+        "completed": "署名完了",
+        "voided": "文書無効化",
+        "deleted": "文書削除",
+        "imported": "文書インポート",
+        "auto_imported": "文書自動インポート"
+      },
+      "signature": {
+        "viewed": "署名ページ閲覧",
+        "signed": "署名完了",
+        "declined": "署名拒否",
+        "reminded": "リマインダー送信",
+        "delegated": "署名委譲"
+      },
+      "auth": {
+        "email_verified": "メール認証",
+        "access_code_verified": "アクセスコード認証",
+        "invitation_claimed": "招待承認"
+      },
+      "pdf": {
+        "signed": "PDF署名",
+        "stored_worm": "WORM保存",
+        "certificate_appended": "証明書付与",
+        "permission_lock_failed": "PDF権限ロック失敗",
+        "worm_stored": "WORM保存完了"
+      },
+      "org": {
+        "created": "組織作成",
+        "updated": "組織更新",
+        "member_invited": "メンバー招待",
+        "member_joined": "メンバー参加",
+        "member_removed": "メンバー削除",
+        "role_changed": "役割変更"
+      },
+      "template": {
+        "created": "テンプレート作成",
+        "updated": "テンプレート更新",
+        "deleted": "テンプレート削除"
+      },
+      "approval": {
+        "requested": "承認依頼",
+        "approved": "承認済み",
+        "rejected": "承認拒否"
+      }
+    },
+    "entities": {
+      "document": "文書",
+      "signature_request": "署名依頼",
+      "user": "ユーザー",
+      "organization": "組織",
+      "membership": "メンバーシップ",
+      "invitation": "招待",
+      "template": "テンプレート",
+      "internal_approval": "社内稟議",
+      "pdf": "PDF"
+    },
+    "dashboard": {
+      "noAccessTitle": "アクセス権限がありません",
+      "noAccessDesc": "監査ログの閲覧には管理者権限が必要です。",
+      "complianceSubtitle": "ハッシュチェーンによる改ざん耐性のある監査ログ",
+      "refresh": "更新",
+      "totalRecords": "総レコード数",
+      "chainStatus": "チェーン状態",
+      "chainHealthy": "正常",
+      "chainBroken": "異常（改ざん検出）",
+      "chainPartial": "正常（{{count}}件は暗号鍵不足で検証不可）",
+      "chainUnverified": "未検証",
+      "certificateLabel": "署名証明書",
+      "hashAlgorithm": "ハッシュアルゴリズム",
+      "eventTypePlaceholder": "イベント種別",
+      "allEvents": "全イベント",
+      "entityTypePlaceholder": "対象種別",
+      "allEntities": "全対象",
+      "eventList": "イベント一覧",
+      "showingRange": "{{start}}-{{end}}件 / 全{{total}}件",
+      "idCol": "ID",
+      "targetCol": "対象",
+      "hashCol": "ハッシュ",
+      "actorFallback": "ユーザー #{{id}}",
+      "certificateDesc": "完了証明のためにシステムが発行する証明書",
+      "certificateSubject": "サブジェクト",
+      "autoGenerated": "自動生成",
+      "autoGeneratedYes": "はい",
+      "autoGeneratedNo": "いいえ",
+      "validFrom": "有効開始",
+      "validTo": "有効終了",
+      "serialNumber": "シリアル番号",
+      "fingerprint": "フィンガープリント",
+      "hashAlgorithmValue": "SHA-256 チェーン"
+    }
+  },
+  "landing": {
+    "heroTitle": "電子署名の常識を、",
+    "heroSubtitle": "セルフホストで運用できるOSS電子署名。PDF送付、署名、テンプレート、社内承認、WORM監査ログをひとつにまとめます。",
+    "startFree": "無料で始める",
+    "learnMore": "機能を見る",
+    "trustedBy": "多くの企業に信頼されています",
+    "solutions": "ソリューション",
+    "caseStudies": "導入事例",
+    "faq": "よくある質問",
+    "cta": "今すぐ無料で始めましょう",
+    "ctaSubtitle": "セルフホスト環境で、契約書の送付と署名を始められます。",
+    "heroTitleAccent": "自分たちで運用する。",
+    "goToDashboard": "ダッシュボードへ",
+    "getStarted": "無料で始める",
+    "noCreditCard": "セルフホスト。外部アカウント不要",
+    "mockupTitle": "署名完了",
+    "mockupTime": "たった今 · 2名全員が署名",
+    "mockupSigner1": "田中太郎 — 署名済み",
+    "mockupSigner2": "鈴木花子 — 署名済み",
+    "mockupCTA": "契約書の作成から署名完了まで",
+    "mockupCTASub": "セルフホスト環境で完結",
+    "navFeatures": "機能",
+    "navFaq": "よくある質問",
+    "footerTerms": "利用規約",
+    "footerPrivacy": "プライバシーポリシー",
+    "noPerSeat": "受信者はアカウントなしで署名可能",
+    "allFeatures": "電子契約の基本機能を同梱",
+    "mockupCostLabel": "導入形態",
+    "heroStat1": "OSS",
+    "heroStat1Label": "セルフホスト対応",
+    "heroStat2": "4",
+    "heroStat2Label": "主要対応言語",
+    "heroStat3": "無制限",
+    "heroStat3Label": "チームメンバー数",
+    "heroDeclaration": "電子契約を、自社で管理できる形へ。",
+    "heroLine1": "電子契約に、",
+    "heroLine2": "自社で管理できる形へ。",
+    "heroTeamLabel": "チームで",
+    "heroUnlimited": "スタッフ管理 · 受信者アカウント不要",
+    "heroUnlimitedMain": "メンバー何人でも。",
+    "heroUnlimitedSub": "契約相手はメールリンクだけで署名できます。",
+    "heroRevealTitle": "電子署名の実務に必要な機能をOSSで。",
+    "heroRevealSub": "PDF署名、証跡管理、スタッフ権限、テンプレート、4言語対応を、セルフホスト前提の単一ワークスペースで運用できます。",
+    "diffTeam": "スタッフ管理",
+    "diffTeamDesc": "管理者がスタッフを発行し、契約相手はアカウントなしで署名できます。",
+    "diffSecurity": "エンタープライズ水準のセキュリティ",
+    "diffSecurityDesc": "TLS 1.3 / AES-256暗号化。電子署名法・電帳法対応。Zero AI Training。",
+    "diffGlobal": "4言語対応",
+    "diffGlobalDesc": "メール通知と署名画面を4言語で。海外取引先との契約もスムーズに。",
+    "heroBadge": "エンタープライズ水準のフルスペック",
+    "mockupVsEnterprise": "運用形態",
+    "mockupVsBudget": "受信者",
+    "mockupNoAccount": "アカウント不要",
+    "month": "月",
+    "pageTitle": "Hundredth Sign – セルフホストOSS電子署名",
+    "pageKeywords": "電子契約,電子署名,契約管理,電子帳簿保存法,電子印鑑,Hundredth Sign",
+    "mockupNavDocs": "文書",
+    "mockupNavContacts": "連絡先",
+    "mockupNavTemplates": "テンプレート",
+    "mockupNavAudit": "監査ログ",
+    "mockupNavSettings": "設定",
+    "mockupDocTitle": "業務委託契約書_2024.pdf",
+    "mockupDocList": "文書一覧",
+    "mockupStatusCollecting": "署名収集中",
+    "mockupRemind": "リマインド",
+    "mockupSignProgress": "署名進捗",
+    "mockupProgressFmt": "2 / 3 完了",
+    "mockupSignerSigned": "署名済み",
+    "mockupSignerPending": "未署名",
+    "mockupSigner1Name": "山田",
+    "mockupSigner1Role": "代表取締役",
+    "mockupSigner2Name": "鈴木",
+    "mockupSigner2Role": "経理部長",
+    "mockupSigner3Name": "田中",
+    "mockupSigner3Role": "担当者",
+    "mockupSignAreaLabel": "田中さんの署名欄",
+    "mockupSignAreaSub": "署名リンクを送信済み · 確認待ち",
+    "mockupWaiting": "待ち",
+    "mockupPhoneNotif": "通知",
+    "mockupPhoneSignRequest": "署名依頼が届きました",
+    "mockupPhoneSignBtn": "署名する",
+    "mockupPhone3min": "3分前",
+    "mockupTabletNewDoc": "+ 新規文書",
+    "mockupPhoneSignedFmt": "{{name}}が署名完了",
+    "mockupDocTitleNda": "NDA_株式会社サンプル.pdf",
+    "mockupDocTitleDev": "ソフトウェア開発契約.pdf",
+    "mockupDocTitleMaster": "売買基本契約書.pdf",
+    "mockupNotificationDoc": "業務委託契約書.pdf"
+  },
+  "trust": {
+    "encryptionTitle": "TLS 1.3 / AES-256暗号化",
+    "encryptionDesc": "通信・保存データを業界最高水準の暗号化で保護",
+    "complianceTitle": "電子帳簿保存法対応",
+    "complianceDesc": "改ざん防止・タイムスタンプ・監査ログを標準装備",
+    "legalTitle": "電子署名法の要件に対応",
+    "legalDesc": "日本の電子署名法（立会人型）の要件を踏まえた設計",
+    "auditTitle": "完了証明書自動発行",
+    "auditDesc": "署名者・日時・IPアドレスを記録した証明書を自動生成",
+    "title": "安全性と法的有効性を",
+    "titleAccent": "妥協しない。",
+    "subtitle": "Hundredth Signは、セルフホストでも監査性とセキュリティを中核に置いています。",
+    "mockupSign": "署名",
+    "mockupStamp": "押印",
+    "mockupDate": "日付",
+    "mockupName": "氏名"
+  },
+  "features": {
+    "sectionTitle": "全機能、",
+    "sectionTitleAccent": "OSSで使えます。",
+    "sectionSubtitle": "Hundredth Signは、フリーランスや中小企業が本当に必要とする機能だけを厳選して搭載しています。",
+    "highlightTitle": "直感的なデザインで 契約業務を効率化",
+    "highlightDesc": "PDFをアップロードし、署名フィールドをドラッグ＆ドロップで配置。受信者のメールアドレスを入力して送信するだけ。複雑な設定は一切不要です。",
+    "highlightCTA": "機能を見る",
+    "createTitle": "文書作成・アップロード",
+    "createDesc": "PDFをアップロードして、署名欄やテキスト欄を自由に配置。テンプレートとして保存すれば、繰り返し利用できます。",
+    "sendTitle": "署名依頼の送信",
+    "sendDesc": "メールアドレスを入力するだけで署名依頼を送信。受信者はアカウント不要で署名できます。",
+    "signTitle": "電子署名・電子印鑑",
+    "signDesc": "タイプ入力・手書き・画像アップロードの3つの方法で署名。日本式の丸印・角印も自動生成できます。",
+    "stampTitle": "ハンコ自動生成",
+    "stampDesc": "名前を入力するだけで、丸印・角印を自動生成。日本のビジネス慣行に対応しています。",
+    "contactsTitle": "チーム＆連絡先管理",
+    "contactsDesc": "連絡先を一元管理し、送付先をすばやく選択できます。",
+    "complianceTitle": "電帳法対応・改ざん防止",
+    "complianceDesc": "PDF改ざん防止（フラット化）、タイムスタンプ、監査ログで電子帳簿保存法に対応。完了証明書も自動発行されます。",
+    "i18nTitle": "4言語対応",
+    "i18nDesc": "UIとメール通知が4言語に対応。海外の取引先にも母国語で署名依頼を送信できます。",
+    "auditTitle": "監査ログ・完了証明書",
+    "auditDesc": "誰が・いつ・どこから署名したかを記録。法的に有効な完了証明書を自動生成します。",
+    "badge": "機能"
+  },
+  "security": {
+    "badge": "セキュリティ & コンプライアンス",
+    "title": "セルフホストでも、セキュリティは妥協しません",
+    "subtitle": "暗号化、監査ログ、署名済みPDFの証跡をOSS版の中核機能として維持しています。",
+    "tls": "TLS 1.3 / AES-256暗号化",
+    "tlsDesc": "通信・保存データに広く採用されている暗号化方式を適用し、傍受・改ざんリスクの低減に努めています。",
+    "tamper": "PDF改ざん防止",
+    "tamperDesc": "署名済みPDFにはフラット化処理を施し、署名後の内容変更を技術的に困難にしています。",
+    "law": "電子署名法・電帳法の要件に対応",
+    "lawDesc": "日本の電子署名法（立会人型）や電子帳簿保存法の要件を踏まえた設計です。法的有効性の最終判断は個別の契約内容や状況により異なります。",
+    "global": "国際取引にも対応",
+    "globalDesc": "4言語対応のメール通知と署名画面で、海外の取引先との契約業務もスムーズに行えます。",
+    "audit": "監査ログ・完了証明書",
+    "auditDesc": "操作ごとのタイムスタンプ・IPアドレスを記録し、完了証明書を自動発行。紛争時の証跡としてご活用いただけます。",
+    "access": "アクセスコード認証",
+    "accessDesc": "署名者にアクセスコードを設定することで、本人確認の精度を高めることができます。",
+    "badgeTLS": "TLS 1.3",
+    "badgeAES": "AES-256",
+    "badgeLaw": "電子署名法対応",
+    "badgeZeroAI": "Zero AI Training",
+    "zeroAI": "Zero AI Training",
+    "zeroAIDesc": "あなたの契約データがAIの学習に使われることは一切ありません。データの所有権は常にお客様にあります。",
+    "zeroAITag": "データ主権",
+    "auditTag": "完了証明書",
+    "tamperTag": "フラット化",
+    "lawTag": "法的準拠",
+    "globalTag": "4言語",
+    "bottomNote": "セキュリティ、監査ログ、署名済みPDFの証跡はOSS版でも中核機能です。"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "q1": "Hundredth Signの電子署名は法的に有効ですか？",
+    "a1": "Hundredth Signは、日本の電子署名法（立会人型電子署名）や電子帳簿保存法の要件を踏まえて設計されています。すべての署名には、署名者・日時・IPアドレスを記録した完了証明書が自動発行されます。なお、法的有効性の最終判断は個別の契約内容や状況により異なりますので、必要に応じて法務の専門家にもご相談ください。",
+    "q2": "OSS版では何が変わりましたか？",
+    "a2": "OSS版は単一ワークスペースのセルフホストアプリです。商用ホスティング層、プラン、クォータ、外部OAuthログインを削除し、PDF署名、テンプレート、スタッフ管理、監査ログなどの中核機能を残しています。",
+    "q3": "署名する相手もアカウントが必要ですか？",
+    "a3": "いいえ。署名者はアカウント登録不要で、メールに届いたリンクをクリックするだけで署名できます。PCでもスマートフォンでも、ブラウザさえあれば署名可能です。",
+    "q4": "契約相手はアカウントが必要ですか？",
+    "a4": "不要です。スタッフアカウントは管理者が発行し、外部の受信者はアカウントなしで利用できます。",
+    "q5": "日本語以外の取引先にも使えますか？",
+    "a5": "はい。UIは日本語・英語を含む複数言語に対応しており、メール通知は4言語に対応しています。受信者ごとに通知言語を個別設定できるため、海外の取引先にも母国語で署名依頼を送信できます。",
+    "q6": "セキュリティ対策はどうなっていますか？",
+    "a6": "通信にはTLS 1.3、保存データにはAES-256といった広く採用されている暗号化方式を適用しています。署名済みPDFには改ざん防止処理（フラット化）を施し、すべての操作を監査ログに記録することで、透明性の高い運用を目指しています。アクセスコードによる本人確認機能も標準でご利用いただけます。",
+    "badge": "FAQ"
+  },
+  "cta": {
+    "title": "契約ワークフローを自社環境で動かす。",
+    "subtitle": "Hundredth SignをセルフホストOSSの電子署名システムとして利用できます。",
+    "viewPricing": "機能を見る"
+  },
+  "why": {
+    "badge": "なぜセルフホストOSSなのか",
+    "title": "契約ワークフローを自分たちの環境で管理できます。",
+    "titleSub": "ベンダーロックインのないセルフホスト電子契約。",
+    "description": "OSS版は、ベンダーロックインや商用ホスティング層に依存せず電子署名を運用したいチーム向けです。",
+    "aiTitle": "セルフホスト運用",
+    "aiDesc": "自分たちのDB、ストレージ、メール設定、管理者アカウントで運用できます。",
+    "noSalesTitle": "商用ホスティング層なし",
+    "noSalesDesc": "プラン、クォータ、決済プロバイダー連携、為替ロジックはOSS版から削除されています。",
+    "noPerSeatTitle": "受信者アカウント不要",
+    "noPerSeatDesc": "カスタマーはメールリンクから閲覧、署名、辞退、PDF取得ができ、アカウント作成は不要です。",
+    "passOnTitle": "中核機能は維持",
+    "passOnDesc": "PDF署名、テンプレート、連絡先、社内承認、WORM監査ログは引き続き利用できます。"
+  },
+  "comparison": {
+    "badge": "運用形態の比較",
+    "title": "ホスト型サービスか、自社管理のOSSか。",
+    "subtitle": "電子署名ワークフローを自社で管理したい場合に、Hundredth Signを選べます。",
+    "price1000": "セルフホスト",
+    "colEnterprise": "大手サービス",
+    "colBudget": "格安他社",
+    "recommended": "おすすめ",
+    "perSeat": "外部アカウント要否",
+    "perSeatEnterprise": "必要な場合が多い",
+    "perSeatBudget": "サービスにより異なる",
+    "perSeatHundredth": "受信者は不要",
+    "features": "全機能利用",
+    "featuresEnterprise": "契約内容による",
+    "featuresBudget": "主要機能に制限",
+    "featuresHundredth": "基本ワークフローを同梱",
+    "auditLog": "監査ログ・完了証明書",
+    "auditLogEnterprise": "外部認定TS使用",
+    "auditLogBudget": "簡易ログのみ",
+    "auditLogHundredth": "IP・ハッシュ証明書",
+    "zeroAI": "Zero AI Training",
+    "zeroAIEnterprise": "学習利用あり",
+    "zeroAIBudget": "非公開",
+    "zeroAIHundredth": "完全保証",
+    "i18n": "多言語対応",
+    "i18nEnterprise": "14言語",
+    "i18nBudget": "日本語のみ",
+    "i18nHundredth": "4言語",
+    "note": "※ 比較は運用モデルと機能範囲に基づきます。",
+    "priceEnterprise": "商用ホスティング",
+    "priceBudget": "商用ホスティング",
+    "priceHundredth": "自社管理のOSS導入",
+    "featureLabel": "機能",
+    "colEnterpriseNote": "DocuSign, Adobe Sign 等",
+    "colBudgetNote": "クラウドサイン等"
+  },
+  "footer": {
+    "tagline": "セルフホストで運用できるOSS電子署名インフラ。",
+    "product": "プロダクト",
+    "security": "セキュリティ",
+    "resources": "リソース",
+    "guide": "ご利用ガイド",
+    "legal": "法的情報",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "language": "言語",
+    "madeIn": "東京・日本で丁寧に開発",
+    "manual": "マニュアル",
+    "customizationContact": "カスタマイズ相談"
+  },
+  "approvalPage": {
+    "title": "社内承認",
+    "loading": "承認情報を読み込み中...",
+    "notFoundTitle": "承認情報が見つかりません",
+    "notFoundDescription": "リンクが無効か、すでに処理済みの可能性があります。",
+    "flowTitle": "承認フロー",
+    "you": "あなた",
+    "approved": "承認済み",
+    "rejected": "却下",
+    "pending": "待機中",
+    "actionRequiredTitle": "あなたの承認が必要です",
+    "actionRequiredDescription": "この文書を社外に送信するには承認が必要です。内容を確認のうえ、承認または却下してください。",
+    "openPdf": "文書を確認する（PDF）",
+    "commentOptional": "コメント（任意）",
+    "commentPlaceholder": "承認・却下の理由やコメントを入力してください...",
+    "approveAction": "承認する",
+    "rejectAction": "却下する",
+    "allApprovedMessage": "全員の承認が完了しました。文書は社外署名者へ送信されました。",
+    "nextApproverNotified": "次の承認者に承認依頼が送信されました。",
+    "rejectedMessage": "文書は下書きに戻されました。送信者に通知されます。",
+    "processFailed": "処理に失敗しました。",
+    "footerTagline": "Hundredth Sign - 電子契約プラットフォーム"
+  },
+  "documentView": {
+    "loading": "文書を読み込んでいます...",
+    "accessDenied": "アクセスできません",
+    "loginHint": "アカウントをお持ちの場合は、ログインしてダッシュボードから文書を確認できます。",
+    "loginAndOpen": "ログインして確認する",
+    "accessVerified": "認証に成功しました",
+    "accessCodeRequired": "この文書を閲覧するにはアクセスコードが必要です。",
+    "verifying": "確認中...",
+    "noDownloadableFile": "ダウンロードできるファイルがありません",
+    "allSigned": "全ての署名が完了しました",
+    "signProgress": "署名進捗: {{signed}}/{{total}}",
+    "progressTitle": "署名の進捗",
+    "signedCount": "{{signed}}/{{total}} 名が署名済み",
+    "savedTo": "保存先",
+    "inProgress": "進行中",
+    "yourSignature": "あなたの署名",
+    "downloadOriginalPdf": "元のPDFをダウンロード",
+    "signedPdfNotReady": "署名済みPDFはまだ生成されていません",
+    "signedPdfHint": "全ての署名者が署名を完了すると、署名済みPDFが自動で生成されます。",
+    "plgLine1": "契約ワークフローを、",
+    "plgLine2": "セルフホストOSSで。",
+    "monthlyExTax": "/ 月（税抜）",
+    "fullFeatures": "全機能フルアクセス",
+    "manageInDashboard": "ダッシュボードで管理する",
+    "safeStorageTitle": "この文書を安全に保管しませんか？",
+    "featureSecureStorage": "署名済み文書の安全な保管・管理",
+    "featureRealtimeTracking": "署名進捗のリアルタイムトラッキング",
+    "featureCertificate": "法的証拠力のある完了証明書",
+    "featureTemplates": "テンプレートで繰り返し作業を効率化",
+    "dialogTitle": "世界一最安の電子契約サービス",
+    "dialogDescription": "無料で始められる電子署名プラットフォーム",
+    "dialogBenefitsIntro": "アカウントを作成すると、以下の機能が無料で利用できます：",
+    "registerWithEmailHint": "{{email}} で登録すると、この文書が自動的にアカウントに紐付けられます。",
+    "createFreeAccount": "無料アカウントを作成する",
+    "maybeLater": "後で登録する"
+  },
+  "hankoGenerator": {
+    "title": "ハンコを作成",
+    "nameLabel": "名字（印影に表示）",
+    "namePlaceholder": "例: 田中",
+    "styleLabel": "印鑑の種類",
+    "topLabel": "上段ラベル",
+    "colorLabel": "印鑑の色",
+    "enterNameHint": "名字を入力してください",
+    "useStamp": "この印鑑を使用",
+    "colors": {
+      "red": "朱色",
+      "vermillion": "朱赤",
+      "dark": "濃朱",
+      "blue": "藍色"
+    },
+    "styles": {
+      "round": {
+        "label": "丸印",
+        "description": "名字のみの丸印"
+      },
+      "data": {
+        "label": "データ印",
+        "description": "承認・日付・名字"
+      },
+      "square": {
+        "label": "角印",
+        "description": "名字の角印"
+      }
+    },
+    "topLabels": {
+      "approved": "承認",
+      "confirmed": "確認",
+      "checked": "検印",
+      "done": "済",
+      "received": "受領"
+    }
+  },
+  "pdfViewer": {
+    "pageCount": "{{count}}ページ",
+    "zoomFit": "フィットに戻す",
+    "loading": "PDFを読み込んでいます...",
+    "pleaseWait": "しばらくお待ちください",
+    "loadError": "PDFの読み込みに失敗しました。",
+    "reloadHint": "ページを再読み込みしてお試しください。"
+  },
+  "signaturePad": {
+    "title": "署名を作成",
+    "stampTab": "印鑑",
+    "namePlaceholder": "署名する名前を入力",
+    "drawHint": "ここに署名を描いてください",
+    "confirm": "署名を確定"
+  },
+  "errors": {
+    "notFound": "ページが見つかりません",
+    "notFoundDesc": "お探しのページは存在しません。移動または削除された可能性があります。",
+    "unauthorized": "認証が必要です",
+    "forbidden": "アクセス権限がありません",
+    "serverError": "サーバーエラーが発生しました",
+    "networkError": "ネットワークエラーが発生しました",
+    "tryAgain": "もう一度お試しください",
+    "serverErrorDesc": "予期せぬエラーが発生しました。しばらくしてから再度お試しください。",
+    "contactSupport": "問題が続く場合はサポートにお問い合わせください。",
+    "goHome": "ホームに戻る",
+    "goDashboard": "ダッシュボードに戻る",
+    "error": "エラー",
+    "rateLimitExceeded": "リクエスト制限に達しました。しばらくお待ちください。",
+    "auth": {
+      "adminRequired": "管理者専用の操作です",
+      "orgHeaderRequired": "x-organization-idヘッダーが必要です",
+      "invalidOrgId": "x-organization-idが不正です",
+      "notOrgMember": "この組織のメンバーではありません",
+      "ipRestricted": "このIPアドレスからのアクセスは許可されていません",
+      "managerRequired": "管理者権限が必要です",
+      "ownerRequired": "管理者権限が必要です"
+    },
+    "documents": {
+      "ownDocumentsOnly": "メンバーは自分の文書のみ操作できます",
+      "notFound": "文書が見つかりません",
+      "accessDenied": "この文書へのアクセス権がありません",
+      "importedNotFound": "インポート済み文書が見つかりません",
+      "noReminderPermission": "他のユーザーの文書のリマインダーを送信する権限がありません",
+      "voided": "この文書は無効化されています",
+      "draftOnlyPdf": "下書き状態の文書のみPDFをアップロードできます",
+      "pdfOnly": "PDFファイルのみアップロード可能です",
+      "fileTooLarge": "ファイルサイズは20MB以下にしてください",
+      "invalidPdf": "有効なPDFファイルではありません",
+      "sentNotEditable": "送信済みの文書は編集できません",
+      "noEditPermission": "他のユーザーの文書を編集する権限がありません",
+      "draftOnlySend": "下書き状態の文書のみ送信できます",
+      "pdfRequired": "PDFファイルをアップロードしてください",
+      "signerRequired": "署名者を1名以上指定してください",
+      "signerFieldRequired": "1名以上の署名者に署名フィールドが配置されていません",
+      "noVoidPermission": "他のユーザーの文書を無効化する権限がありません",
+      "voidStatusInvalid": "送信済みまたは拒否された文書のみ無効化できます",
+      "noDeletePermission": "他のユーザーの文書を削除する権限がありません",
+      "deleteStatusInvalid": "下書き状態の文書のみ削除できます。送信済みの文書は「無効化」を使用してください。",
+      "reminderStatusInvalid": "送信済みの文書のみリマインダーを送信できます",
+      "noUnsignedRecipients": "未署名の受信者がいません",
+      "signedPdfNotReady": "署名済みPDFがまだ生成されていません"
+    },
+    "templates": {
+      "notFound": "テンプレートが見つかりません",
+      "accessDenied": "このテンプレートへのアクセス権がありません",
+      "limitReached": "テンプレートの最大作成数に達しました",
+      "pdfOnly": "PDFファイルのみアップロード可能です",
+      "fileTooLarge": "ファイルサイズは20MB以下にしてください",
+      "invalidPdf": "有効なPDFファイルではありません"
+    },
+    "signature": {
+      "dataRequired": "署名データ、署名フォント、または印鑑が必要です",
+      "signedPdfNotFound": "署名済みPDFが見つかりません",
+      "onlySignerCanConfigure": "署名者のみ設定可能です",
+      "alreadyDeclined": "この署名依頼は拒否済みです",
+      "delegated": "この署名は別のユーザーに委譲されています",
+      "expired": "この文書は有効期限切れです",
+      "invalidEmail": "このメールアドレスは署名権限がありません。署名依頼メールに記載されたメールアドレスを入力してください。",
+      "pdfGenerationFailed": "署名済みPDFの生成または保存に失敗しました。しばらくしてから再度お試しください。",
+      "requestAlreadyDeclined": "この署名依頼は既に拒否済みです",
+      "documentNotDeclinable": "この文書は現在の状態では拒否できません",
+      "alreadyDelegated": "この署名は既に別のユーザーに委譲されています",
+      "documentNotDelegatable": "この文書は現在の状態では委譲できません",
+      "signedPdfNotAvailable": "署名済みPDFはまだ利用できません",
+      "signedPdfNotGenerated": "署名済みPDFがまだ生成されていません",
+      "stampGenerationFailed": "印鑑の生成に失敗しました"
+    },
+    "contacts": {
+      "notFound": "連絡先が見つかりません"
+    },
+    "categories": {
+      "notFound": "カテゴリーが見つかりません"
+    },
+    "groups": {
+      "notFound": "グループが見つかりません"
+    },
+    "organization": {
+      "cannotChangeOwnRole": "自分自身のロールは変更できません",
+      "memberNotFound": "メンバーが見つかりません",
+      "cannotChangeOwnerRole": "最初の管理者のロールは変更できません",
+      "adminDemoteOwnerOnly": "他の管理者の降格は管理者のみ実行できます",
+      "cannotDeleteSelf": "自分自身を削除することはできません",
+      "cannotDeleteOwner": "最初の管理者を削除することはできません",
+      "adminCannotDeleteAdmin": "適切な権限なしに他の管理者を削除することはできません。",
+      "freeOrgLimit": "無料組織の最大数に達しました",
+      "disabled": "この組織は現在無効化されています",
+      "notFound": "組織が見つかりません",
+      "accessDenied": "この組織へのアクセス権がありません",
+      "creationFailed": "組織の作成に失敗しました",
+      "slugTaken": "このスラッグは既に使用されています",
+      "idMismatch": "組織IDが一致しません"
+    },
+    "approvals": {
+      "notFound": "承認情報が見つかりません",
+      "reasonRequired": "却下の場合、理由のコメントが必須です",
+      "alreadyProcessed": "この承認は既に処理済みです"
+    }
+  },
+  "activity": {
+    "documentCreated": "文書「{{title}}」が作成されました",
+    "documentCreatedFromTemplate": "テンプレート「{{title}}」から文書が作成されました",
+    "documentSent": "文書が{{count}}名の受信者に送信されました",
+    "documentSentAfterApproval": "社内承認が完了し、文書が社外に送信されました",
+    "documentVoided": "文書が無効化されました",
+    "documentVoidedWithReason": "文書が無効化されました。理由: {{reason}}",
+    "documentCompleted": "全ての署名が完了し、署名済みPDFが生成されました（WORM保存済み）",
+    "documentExpired": "有効期限切れにより自動的に期限切れになりました",
+    "reminderSent": "リマインダーメールが{{count}}名の未署名者に手動送信されました",
+    "autoReminderSent": "自動リマインダーメールが{{count}}名の未署名者に送信されました",
+    "signatureSigned": "{{signer}}が署名しました",
+    "signatureDeclined": "{{signer}}が署名を拒否しました。理由: {{reason}}",
+    "signatureDelegated": "{{signer}}が{{delegateName}}({{delegateEmail}})に署名を転送しました",
+    "nextSignerNotified": "次の署名者（{{signer}}）に通知しました",
+    "internalApprovalStarted": "社内稟議フローが開始されました（承認者{{count}}名）",
+    "internalApprovalApproved": "{{approver}}が承認しました",
+    "internalApprovalRejected": "{{approver}}が却下しました",
+    "internalApprovalRejectedWithComment": "{{approver}}が却下しました。コメント: {{comment}}",
+    "internalApprovalRejectedRevert": "社内稟議が却下されたため、文書が下書きに戻されました",
+    "event": "アクティビティが記録されました",
+    "eventWithAction": "アクティビティが記録されました: {{action}}",
+    "fallbackCreated": "文書が作成されました",
+    "fallbackSent": "文書が送信されました",
+    "fallbackSigned": "文書に署名されました",
+    "fallbackDeclined": "署名が辞退されました",
+    "fallbackReminder": "リマインダーが送信されました",
+    "fallbackCompleted": "文書が完了しました",
+    "fallbackVoided": "文書が無効化または期限切れになりました",
+    "memberRemoved": "{{name}}を組織から削除しました"
+  },
+  "cookieConsent": {
+    "ariaLabel": "Cookie同意バナー",
+    "message": "当サービスではCookieを使用しています。必須CookieはWebサイトの機能に必要です。",
+    "learnMore": "プライバシーポリシーで詳細を確認",
+    "acceptAll": "すべて許可",
+    "essentialOnly": "必須のみ"
+  },
+  "legal": {
+    "terms": {
+      "title": "利用規約",
+      "lastUpdated": "最終更新日：2026年3月",
+      "sections": {
+        "acceptance": {
+          "title": "第1条（利用規約への同意）",
+          "body": "本利用規約（以下「本規約」）は、Hundredth Sign（以下「当サービス」）の利用条件を定めるものです。ユーザーは本規約に同意した上で当サービスをご利用ください。"
+        },
+        "serviceDescription": {
+          "title": "第2条（サービスの内容）",
+          "body": "当サービスは、法人・個人事業主向けのクラウド型電子署名サービスです。電子署名法および電帳法に準拠した法的効力を持つ電子文書の送付・署名・管理機能を提供します。"
+        },
+        "electronicSignatures": {
+          "title": "第3条（電子署名の法的効力）",
+          "body": "当サービスで作成された電子署名は、電子署名及び認証業務に関する法律（電子署名法）並びに電子帳簿保存法（電帳法）に基づき法的効力を有します。各署名済み文書にはタイムスタンプおよびハッシュ値を含む改ざん防止の監査証跡が記録されます。"
+        },
+        "userObligations": {
+          "title": "第4条（ユーザーの義務）",
+          "body": "ユーザーはアカウント情報の機密保持、文書内容の正確性の確保、署名依頼先から適切な同意の取得、および適用法令の遵守について責任を負います。"
+        },
+        "prohibited": {
+          "title": "第5条（禁止事項）",
+          "body": "ユーザーは詐欺目的での使用、署名・文書の偽造、他者への嫌がらせ・損害行為、その他適用法令に違反する行為を行ってはなりません。"
+        },
+        "intellectualProperty": {
+          "title": "第6条（知的財産権）",
+          "body": "当サービスのソフトウェア、デザイン、コンテンツ等に関する知的財産権はサービス提供者に帰属します。ユーザーは自身が作成した文書・データの権利を保持します。"
+        },
+        "privacy": {
+          "title": "第7条（プライバシー）",
+          "body": "当サービスの利用は、別途定めるプライバシーポリシーにも適用されます。プライバシーポリシーは本規約に組み込まれるものとします。"
+        },
+        "limitation": {
+          "title": "第8条（免責事項）",
+          "body": "法令上許容される範囲において、当サービスは当サービスの利用に起因する間接的・付随的・結果的損害について責任を負いません。"
+        },
+        "termination": {
+          "title": "第9条（利用停止・解約）",
+          "body": "本規約に違反した場合、当社はアカウントを停止または解約する権利を有します。ユーザーはいつでも組織設定からアカウントを解約できます。"
+        },
+        "governingLaw": {
+          "title": "第10条（準拠法・管轄裁判所）",
+          "body": "本規約は日本法に準拠し、これに従って解釈されます。紛争が生じた場合は東京地方裁判所を第一審の専属管轄裁判所とします。"
+        },
+        "changes": {
+          "title": "第11条（規約の変更）",
+          "body": "当社は本規約を随時変更する場合があります。重要な変更はメールまたはアプリ内通知にてお知らせします。変更後もサービスを継続してご利用の場合、変更に同意したものとみなします。"
+        }
+      }
+    },
+    "privacy": {
+      "title": "プライバシーポリシー",
+      "lastUpdated": "最終更新日：2026年3月",
+      "sections": {
+        "overview": {
+          "title": "1. 基本方針",
+          "body": "Hundredth Signは、個人情報の保護に関する法律（個人情報保護法）および関連法令を遵守し、ユーザーの個人情報を適切に取り扱います。GDPRが適用される場合についても、これに準拠して対応します。"
+        },
+        "dataCollected": {
+          "title": "2. 取得する情報",
+          "body": "氏名・メールアドレス・組織情報等のユーザーが直接提供する情報、文書メタデータ・監査ログ等のサービス利用に伴って生成される情報、IPアドレス・ブラウザ種別等の技術情報を取得します。"
+        },
+        "purpose": {
+          "title": "3. 利用目的",
+          "body": "サービスの提供・改善、署名依頼等のトランザクションメール送信、法的義務の遵守、不正・不審行為の防止を目的として個人情報を利用します。"
+        },
+        "thirdParty": {
+          "title": "4. 第三者提供",
+          "body": "運用者は文書保管、メール配信、インフラのために信頼できる外部サービスを設定できます。OSS配布版は外部IDプロバイダーを標準では必要としません。"
+        },
+        "cookies": {
+          "title": "5. Cookieの使用",
+          "body": "認証・セッション管理のための必須Cookieを使用します。改正個人情報保護法に基づき、オプションのアナリティクスCookieについてはCookieバナーにて同意を取得します。"
+        },
+        "retention": {
+          "title": "6. 保存期間",
+          "body": "アカウントが有効な間は個人情報を保存します。署名済み文書および監査ログは電子帳簿保存法の要件に従い最低10年間保存されます。法的義務の範囲内でアカウントデータの削除を申請できます。"
+        },
+        "rights": {
+          "title": "7. ユーザーの権利",
+          "body": "個人情報の開示・訂正・削除・利用停止を請求する権利があります。EU居住者はGDPRに基づくデータポータビリティ等の追加権利を有します。権利を行使する場合は下記の連絡先までお問い合わせください。"
+        },
+        "security": {
+          "title": "8. セキュリティ",
+          "body": "保存時のAES-256暗号化、通信時のTLS、改ざん不可能なWORM形式の監査ログ等、業界標準のセキュリティ対策を実施しています。"
+        },
+        "contact": {
+          "title": "9. お問い合わせ",
+          "body": "個人情報に関するお問い合わせは support@hundredthsign.com までご連絡ください。"
+        }
+      }
+    }
+  },
+  "manual": {
+    "navAriaLabel": "マニュアルナビゲーション",
+    "nav": {
+      "intro": "はじめに",
+      "setup": "初期設定・起動条件",
+      "basics": "基本操作",
+      "signing": "送信・署名",
+      "management": "管理機能",
+      "compliance": "監査・WORM",
+      "inbox": "スタッフ Inbox",
+      "developer": "開発者ルール",
+      "terms": "利用条件",
+      "disclaimer": "免責事項",
+      "contact": "問い合わせ",
+      "apiCli": "API / CLI",
+      "operations": "運用・FAQ",
+      "title": "マニュアル",
+      "usersRoutes": "利用者・権限・画面",
+      "authStaff": "ログイン・スタッフ",
+      "dashboard": "日常操作",
+      "documents": "文書・PDF・署名フィールド",
+      "internalApproval": "社内承認",
+      "templates": "テンプレート",
+      "contacts": "連絡先",
+      "emailLocales": "メール・言語",
+      "api": "外部連携 REST API",
+      "cli": "signctl CLI 操作",
+      "dataModel": "DB テーブル"
+    },
+    "usage": {
+      "eyebrow": "OSS 統合マニュアル",
+      "title": "Hundredth Sign 完全マニュアル",
+      "description": "管理者、スタッフ、外部署名者、社内承認者、運用者、開発者、外部連携担当、AI/CI 操作者が同じ前提で作業できるよう、製品境界、日常操作、監査、API、CLI、DB、FAQ をまとめた公開マニュアルです。",
+      "tocLabel": "章一覧",
+      "ossNotice": {
+        "title": "OSS 版の前提",
+        "body": "このマニュアルは OSS 版の単一ワークスペース構成を対象にしています。商用 SaaS の請求、テナント切替、外部顧客アカウント管理は対象外です。"
+      },
+      "search": {
+        "label": "マニュアル内検索",
+        "placeholder": "例: PDF、API キー、migration、言語設定",
+        "results": "{{count}} 件の章が一致しました",
+        "empty": "一致する章がありません。別の語句で検索してください。"
+      },
+      "categoryIndex": {
+        "title": "目的別に読む"
+      },
+      "table": {
+        "item": "項目",
+        "description": "説明"
+      },
+      "contactCta": {
+        "title": "マニュアルで解決しない場合",
+        "body": "問い合わせ時は、画面名、操作手順、発生時刻、対象文書 ID、表示されたエラーを添えてください。秘密情報は送らないでください。",
+        "action": "問い合わせ先を確認"
+      },
+      "notFound": {
+        "title": "章が見つかりません",
+        "description": "指定されたマニュアル章は存在しません。",
+        "body": "左の章一覧または検索から目的の項目を選び直してください。"
+      },
+      "chapters": {
+        "intro": {
+          "title": "はじめに / OSS 版の製品境界",
+          "summary": "Hundredth Sign OSS 版でできること、対象外の商用 SaaS 機能、公開ページとログイン後ページの境界を確認します。",
+          "sections": {
+            "boundary": {
+              "title": "製品スコープ",
+              "body": [
+                "Hundredth Sign は日本市場向けの OSS 電子署名システムです。文書アップロード、署名依頼、社内承認、監査ログ、WORM 形式の証跡、多言語メール、REST API、CLI 連携面を実装しています。",
+                "OSS 版は単一ワークスペースです。1つの運用組織がスタッフ、文書、連絡先、テンプレート、設定、API キー、監査記録を所有します。",
+                "請求、プラン管理、テナント切替、複数顧客管理、外部顧客アカウントは商用 SaaS 側の概念であり、この OSS マニュアルの対象外です。"
+              ],
+              "bullets": [
+                "署名、文書閲覧、承認、法務ページ、マニュアルは公開ルートを使います。",
+                "日常のスタッフ作業はログイン後のダッシュボードルートを使います。",
+                "API キーと signctl はサーバー側または信頼された自動化環境だけで使います。",
+                "DB URL、API キー、セッション秘密鍵、SMTP パスワード、ストレージ資格情報をチケットやスクリーンショットに載せません。",
+                "監査ログとシステム監査ログは追記型の運用証跡です。",
+                "挙動と文書が違う場合は、ソースコードと製品仕様を根拠にマニュアルを更新します。"
+              ],
+              "callouts": [
+                "このページは公開ページです。環境変数名や手順は載せますが、実値、接続文字列、顧客データは載せません。"
+              ]
+            },
+            "publicPrivate": {
+              "title": "ルートの分類",
+              "body": [
+                "ルートは、誰がアクセスできるか、どのセキュリティ境界を表すかで分けます。"
+              ],
+              "rows": {
+                "public": {
+                  "label": "公開ルート",
+                  "detail": "/, /manual, /manual/*, /terms, /privacy, /contact, /sign/:token, /document-view/:token, /approve/:token はスタッフログインなしで到達できます。"
+                },
+                "authenticated": {
+                  "label": "ログイン後ルート",
+                  "detail": "/dashboard 配下はスタッフ認証が必要で、文書、Inbox、連絡先、テンプレート、設定の日常作業に使います。"
+                },
+                "operator": {
+                  "label": "運用セットアップ",
+                  "detail": "/setup はインスタンスの初期化や運用セットアップが必要な場合に使います。"
+                },
+                "integration": {
+                  "label": "連携ルート",
+                  "detail": "REST API と Webhook は人間向け UI ではなく、認証された自動化用の境界です。"
+                }
+              }
+            }
+          }
+        },
+        "usersRoutes": {
+          "title": "利用者・権限・画面一覧",
+          "summary": "管理者、メンバー、署名者、CC、社内承認者、外部連携クライアントの違いと、利用するルートを整理します。",
+          "sections": {
+            "roles": {
+              "title": "ロール定義",
+              "body": [
+                "利用者ごとにセキュリティ境界が違います。狭い権限で足りる人やシステムに、スタッフアカウントや広い API キーを流用しないでください。"
+              ],
+              "rows": {
+                "admin": {
+                  "label": "管理者",
+                  "detail": "スタッフ、インスタンス設定、テンプレート、連絡先、API キー、監査確認を管理します。影響の大きい設定変更ができます。"
+                },
+                "member": {
+                  "label": "メンバー",
+                  "detail": "文書作成、署名依頼送信、ダッシュボード確認、担当ワークフロー処理、連絡先/テンプレート利用を行います。"
+                },
+                "signer": {
+                  "label": "外部署名者",
+                  "detail": "トークン付き署名リンクから操作します。スタッフアカウントは不要で、許可された範囲で署名、辞退、委任を行います。"
+                },
+                "cc": {
+                  "label": "CC 受信者",
+                  "detail": "進捗や完了通知を受けます。署名者としても設定されていない限り、必須署名者ではありません。"
+                },
+                "approver": {
+                  "label": "社内承認者",
+                  "detail": "社内承認依頼を確認し、後続ワークフローに進めるか却下するかを判断します。"
+                },
+                "apiClient": {
+                  "label": "外部連携クライアント",
+                  "detail": "明示されたスコープの API キーで操作します。人間ユーザーではなく、すべての呼び出しは監査可能である必要があります。"
+                }
+              }
+            },
+            "routes": {
+              "title": "画面マップ",
+              "body": [
+                "操作がどこに属するかを確認してから、コード変更やサポート調査を始めます。"
+              ],
+              "rows": {
+                "public": {
+                  "label": "公開マニュアル/法務/署名",
+                  "detail": "マニュアル、利用条件、プライバシー、問い合わせ、署名、文書閲覧、承認トークンのページは公開面です。"
+                },
+                "app": {
+                  "label": "ダッシュボード",
+                  "detail": "ダッシュボード、文書、文書詳細、Inbox、連絡先、テンプレートはログイン後のスタッフ画面です。"
+                },
+                "settings": {
+                  "label": "設定",
+                  "detail": "組織設定、スタッフ、メール、言語、API キー、監査関連の設定は管理者向け画面に属します。"
+                },
+                "api": {
+                  "label": "API",
+                  "detail": "REST エンドポイントは外部連携と CI/AI 操作者向けです。API キー認証とスコープ確認が必要です。"
+                },
+                "sign": {
+                  "label": "トークンページ",
+                  "detail": "署名 URL と承認 URL はスタッフセッションではなくトークンで対象依頼を識別します。"
+                }
+              }
+            }
+          }
+        },
+        "setup": {
+          "title": "初期設定・環境変数・起動条件",
+          "summary": "必須/任意の環境変数、起動時 migration check、標準コマンド、秘密情報の扱いを説明します。",
+          "sections": {
+            "environment": {
+              "title": "環境変数",
+              "body": [
+                "必須値は .env またはホスティング側の secret store に置きます。リポジトリにコミットするのは、変数名と安全なサンプルだけです。",
+                "本番相当のインスタンスでは、DB URL、セッション秘密鍵、アプリ URL、メール配送設定、ストレージ/PDF プロキシ設定が必要です。"
+              ],
+              "rows": {
+                "databaseUrl": {
+                  "label": "DATABASE_URL",
+                  "detail": "必須。Drizzle migration とアプリケーションサーバーが使う MySQL 接続文字列です。"
+                },
+                "sessionSecret": {
+                  "label": "SESSION_SECRET",
+                  "detail": "実運用では必須。スタッフ認証セッションを保護します。"
+                },
+                "appUrl": {
+                  "label": "APP_URL / PUBLIC_APP_URL",
+                  "detail": "メール内リンク、署名 URL、承認 URL、API/CLI の出力に使います。"
+                },
+                "smtp": {
+                  "label": "SMTP_*",
+                  "detail": "実メール配送には必須です。ローカル開発では Mailpit などのメールキャッチャーや配送無効化を使えます。"
+                },
+                "storage": {
+                  "label": "ストレージ/PDF プロキシ変数",
+                  "detail": "アップロード PDF や署名済み PDF をローカル以外に保存する場合に必要です。"
+                },
+                "openai": {
+                  "label": "OPENAI_API_KEY",
+                  "detail": "任意。OpenAI API を呼ぶ機能だけで必要です。他プロジェクトのキーを流用しないでください。"
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "環境変数名の例",
+                  "code": "DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                }
+              },
+              "callouts": [
+                "DATABASE_URL、SMTP_PASS、SESSION_SECRET、API キーの実値をマニュアル、スクリーンショット、Issue、チャットに貼らないでください。"
+              ]
+            },
+            "startup": {
+              "title": "起動と migration check",
+              "body": [
+                "起動時にサーバーは Drizzle migration が適用済みか確認します。未適用またはハッシュ差分がある場合、UI が使える前に起動が止まることがあります。"
+              ],
+              "steps": [
+                "Corepack 経由の pnpm で依存関係を準備します。",
+                ".env に必須変数を設定します。",
+                "プロジェクトで承認されたコマンドで migration を適用します。",
+                "開発サーバーを起動し、対象ポートを確認します。",
+                "完了報告前に test と type-check を実行します。"
+              ],
+              "code": {
+                "commands": {
+                  "title": "標準コマンド",
+                  "code": "corepack pnpm dev\ncorepack pnpm db:push\ncorepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            }
+          }
+        },
+        "authStaff": {
+          "title": "ログイン・スタッフ管理・インスタンス設定",
+          "summary": "ログイン、初期セットアップ、スタッフ招待、権限、言語、インスタンス設定の運用ルールです。",
+          "sections": {
+            "login": {
+              "title": "ログインとアカウント基本",
+              "body": [
+                "スタッフユーザーはダッシュボード機能を使う前にログインします。公開署名者はスタッフアカウントを必要としません。",
+                "ログインループが起きる場合は、アプリ URL、セッション秘密鍵、Cookie 設定、ブラウザが使っているホスト名/プロトコルを最初に確認します。"
+              ],
+              "bullets": [
+                "初期セットアップで最初の管理者を作成または有効化します。",
+                "パスワード忘れとリセットページでアカウント復旧を行います。",
+                "未認証スタッフはダッシュボードからログインへリダイレクトされます。",
+                "スタッフアカウントを複数人で共有しません。",
+                "言語は画面に応じてユーザー設定、リクエストパラメータ、ブラウザ設定から解決されます。"
+              ]
+            },
+            "staff": {
+              "title": "スタッフとインスタンス設定",
+              "body": [
+                "管理者は、スタッフ一覧、権限、組織設定、メール設定、外部連携設定を最新に保ちます。"
+              ],
+              "rows": {
+                "invite": {
+                  "label": "招待",
+                  "detail": "ワークスペースを操作すべき人だけを追加します。1人につき一意のメールアドレスを使います。"
+                },
+                "role": {
+                  "label": "権限",
+                  "detail": "必要最小限の権限を割り当てます。管理者権限は少数にし、定期的に確認します。"
+                },
+                "deactivate": {
+                  "label": "無効化",
+                  "detail": "退職者や不要になったユーザーは無効化します。完了ワークフローに属する証跡は削除しません。"
+                },
+                "locale": {
+                  "label": "言語",
+                  "detail": "スタッフの言語設定は、対応している範囲でスタッフ UI とメールのブラウザフォールバックより優先されます。"
+                }
+              }
+            }
+          }
+        },
+        "dashboard": {
+          "title": "日常操作・ダッシュボード",
+          "summary": "日々の確認ポイント、文書ステータス、未対応タスク、操作開始地点を説明します。",
+          "sections": {
+            "daily": {
+              "title": "日常運用チェックリスト",
+              "body": [
+                "ダッシュボードは、進行中文書と運用アラートを確認するスタッフの開始地点です。",
+                "下書き、送信済み依頼、承認待ち、完了文書、対応が必要な例外を探すために使います。"
+              ],
+              "bullets": [
+                "スタッフ対応待ちの文書を確認します。",
+                "送信済み、閲覧済み、期限が近い署名依頼を確認します。",
+                "現在のスタッフに割り当てられたタスクは Inbox から開きます。",
+                "元 PDF が確定してから新規文書を作成します。",
+                "同じ構成の文書はテンプレートを使います。",
+                "ワークフローが実行されたか不明な場合は監査ログを確認します。",
+                "問い合わせには文書 ID と時刻を添えます。"
+              ]
+            },
+            "status": {
+              "title": "文書・署名依頼ステータス",
+              "body": [
+                "ステータスは次に何ができるかを決めます。API、Inbox、メール、監査が依存するため、安易に変更しません。"
+              ],
+              "rows": {
+                "draft": {
+                  "label": "draft",
+                  "detail": "文書は存在しますが未送信です。フィールドと宛先を準備できます。"
+                },
+                "sent": {
+                  "label": "sent",
+                  "detail": "次の署名者または受信者へ署名依頼を送信済みです。"
+                },
+                "viewed": {
+                  "label": "viewed",
+                  "detail": "署名者がリンクを開きました。配送が成立した証跡であり、署名ではありません。"
+                },
+                "signed": {
+                  "label": "signed",
+                  "detail": "署名者が割り当てられた署名操作を完了しました。"
+                },
+                "declined": {
+                  "label": "declined",
+                  "detail": "署名者が辞退しました。ワークフローは停止または例外経路に進みます。"
+                },
+                "completed": {
+                  "label": "completed",
+                  "detail": "すべての必須ステップが完了し、完了 PDF/証明書が利用可能であるべき状態です。"
+                },
+                "expired": {
+                  "label": "expired",
+                  "detail": "署名リンクが無効になりました。再送または作り直しが必要です。"
+                }
+              }
+            }
+          }
+        },
+        "documents": {
+          "title": "文書作成・PDF・署名フィールド",
+          "summary": "PDF アップロード条件、20MB 制限、検証、フィールド種別、送信前チェックを説明します。",
+          "sections": {
+            "pdf": {
+              "title": "PDF アップロードと検証",
+              "body": [
+                "元ファイルは PDF であり、フィールドや宛先を確定する前にサーバー側検証を通る必要があります。",
+                "現在のマニュアル上の上限は 20MB です。上限超過や PDF 検証失敗は、黙って修復せず拒否します。"
+              ],
+              "bullets": [
+                "アップロード前に PDF が最終版であることを確認します。",
+                "実装が明示的に対応していない限り、パスワード付き PDF は使いません。",
+                "ブラウザ署名に支障がないページ数とサイズにします。",
+                "元 PDF と署名済み PDF は別の証跡として保存します。",
+                "生のストレージパスを公開せず、PDF プロキシで安全に表示します。",
+                "検証に失敗した場合は元アプリから PDF を再出力します。",
+                "UI、API、CLI のどこからでも検証を迂回しません。"
+              ],
+              "callouts": [
+                "アップロード成功は契約完了ではありません。ワークフロー用の元文書が作られただけです。"
+              ]
+            },
+            "fields": {
+              "title": "署名フィールド種別",
+              "body": [
+                "フィールドは、署名者が何を入力し、その結果を PDF のどこに配置するかを定義します。"
+              ],
+              "rows": {
+                "signature": {
+                  "label": "署名",
+                  "detail": "署名者が手書きまたは入力で署名する必須フィールドです。"
+                },
+                "initial": {
+                  "label": "イニシャル",
+                  "detail": "イニシャル確認が必要な文書で使う短い確認マークです。"
+                },
+                "stamp": {
+                  "label": "押印",
+                  "detail": "業務ルールで印影やスタンプ相当が必要な場合のフィールドです。"
+                },
+                "text": {
+                  "label": "テキスト",
+                  "detail": "会社名、役職、住所などの自由入力です。"
+                },
+                "date": {
+                  "label": "日付",
+                  "detail": "署名者またはシステムがワークフロー規則に従って入れる日付です。"
+                },
+                "checkbox": {
+                  "label": "チェックボックス",
+                  "detail": "同意や確認のような明示的な二択入力です。"
+                }
+              }
+            }
+          }
+        },
+        "signing": {
+          "title": "送信・署名・辞退・委任・完了 PDF",
+          "summary": "順次署名、アクセスコード、署名リンク、辞退、委任、完了証明書、WORM 署名済み PDF の流れです。",
+          "sections": {
+            "request": {
+              "title": "送信と署名フロー",
+              "body": [
+                "署名依頼は、1つの文書、宛先、フィールド割当、配送メール、アクセス制御、監査記録を結びます。",
+                "順次署名では、前の必須署名者が完了してから次のアクションを送ります。"
+              ],
+              "bullets": [
+                "順次署名が必要な場合は送信前に署名順を設定します。",
+                "本人性に追加の共有秘密が必要な場合はアクセスコードを使います。",
+                "署名トークンは完了または期限切れまで機密として扱います。",
+                "署名者操作は監査ログを作成する必要があります。",
+                "辞退は理由を記録し、ワークフローを停止または分岐させます。",
+                "委任は完了できる人を変えるため、元署名者と委任先を記録します。",
+                "完了時には署名済み PDF と、実装されている場合は完了証明書を生成します。",
+                "署名済み PDF は WORM 形式の証跡であり、安易に上書きしません。"
+              ],
+              "diagramTitle": "順次署名ライフサイクル",
+              "diagram": [
+                "下書き文書",
+                "依頼送信",
+                "署名者がリンクを開く",
+                "署名または辞退",
+                "次の署名者または完了",
+                "完了 PDF と証明書"
+              ]
+            },
+            "outcomes": {
+              "title": "署名者の結果",
+              "body": [
+                "結果ごとに運用上の意味と監査上の意味が異なります。"
+              ],
+              "rows": {
+                "signed": {
+                  "label": "署名済み",
+                  "detail": "必須フィールドを入力し確認しました。次の署名者または完了へ進みます。"
+                },
+                "declined": {
+                  "label": "辞退",
+                  "detail": "署名者が拒否しました。理由を記録し、文書を完了扱いにしません。"
+                },
+                "delegated": {
+                  "label": "委任",
+                  "detail": "許可された範囲で別の人へアクションを移しました。元受信者と委任先を記録します。"
+                },
+                "completedPdf": {
+                  "label": "完了 PDF",
+                  "detail": "すべての必須ステップ後に生成される署名証跡付き PDF です。"
+                },
+                "certificate": {
+                  "label": "完了証明書",
+                  "detail": "署名者、時刻、依頼 ID、監査参照などの証跡サマリーです。"
+                }
+              }
+            }
+          }
+        },
+        "internalApproval": {
+          "title": "社内承認",
+          "summary": "社内承認の状態、承認時/却下時の挙動、署名依頼との関係を説明します。",
+          "sections": {
+            "flow": {
+              "title": "承認ステータス",
+              "body": [
+                "社内承認は、社内判断を止める、進める、記録するためのスタッフワークフローです。",
+                "承認と署名は関連しますが別のワークフローです。承認却下は外部署名者の辞退とは別イベントです。"
+              ],
+              "rows": {
+                "draft": {
+                  "label": "draft",
+                  "detail": "承認依頼を準備中です。"
+                },
+                "pending": {
+                  "label": "pending",
+                  "detail": "承認者の判断が必要です。"
+                },
+                "approved": {
+                  "label": "approved",
+                  "detail": "承認者が受け入れました。ワークフロー規則に従って後続作業へ進みます。"
+                },
+                "rejected": {
+                  "label": "rejected",
+                  "detail": "承認者が却下しました。理由を残し、準備へ戻すか停止します。"
+                },
+                "cancelled": {
+                  "label": "cancelled",
+                  "detail": "権限のあるスタッフが意図的に承認を停止しました。"
+                }
+              },
+              "callouts": [
+                "承認判断は、なぜ署名依頼が送信・停止・変更されたかを説明するため、監査可能でなければなりません。"
+              ]
+            },
+            "actions": {
+              "title": "承認者アクション",
+              "bullets": [
+                "承認リンクまたは Inbox アイテムを開きます。",
+                "文書、依頼メタデータ、業務文脈を確認します。",
+                "次のワークフローへ進めてよい場合だけ承認します。",
+                "修正が必要な場合は明確な理由で却下します。",
+                "承認コメントに秘密情報を書きません。",
+                "タスク未着をエスカレーションする前に結果ステータスを確認します。"
+              ]
+            }
+          }
+        },
+        "inbox": {
+          "title": "スタッフ Inbox",
+          "summary": "Inbox がメールボックスではなく、既存ワークフロー行から作る疑似 Inbox であることを明確にします。",
+          "sections": {
+            "concept": {
+              "title": "疑似 Inbox の考え方",
+              "body": [
+                "Inbox はメールボックスではなく、独立したメールメッセージを保存しません。",
+                "署名依頼、承認、委任、CC 可視性など、既存ワークフロー行から組み立てる仮想ビューです。",
+                "この設計のため、Inbox 問題の修正では別の inbox テーブルではなく、元のワークフロー行とステータスを確認します。"
+              ],
+              "callouts": [
+                "データモデルと監査ルールを意図的に再設計しない限り、Inbox の第2の正本を作らないでください。"
+              ]
+            },
+            "items": {
+              "title": "Inbox アイテム種別",
+              "rows": {
+                "signature": {
+                  "label": "署名タスク",
+                  "detail": "スタッフに文書関連のアクションまたはフォローアップが必要です。"
+                },
+                "approval": {
+                  "label": "承認タスク",
+                  "detail": "社内承認で判断が必要です。"
+                },
+                "delegation": {
+                  "label": "委任",
+                  "detail": "委任された署名または確認アクションが現在のユーザーを指しています。"
+                },
+                "cc": {
+                  "label": "CC 可視性",
+                  "detail": "必須アクターではないが、進捗を通知されます。"
+                }
+              }
+            }
+          }
+        },
+        "templates": {
+          "title": "テンプレート",
+          "summary": "頻出文書の再利用、フィールド配置、差し込み値、テンプレート変更時の注意点を説明します。",
+          "sections": {
+            "usage": {
+              "title": "テンプレート利用",
+              "body": [
+                "テンプレートは、よく使う文書のレイアウト、フィールド、宛先パターン、メッセージ初期値を再利用するためのものです。",
+                "テンプレート変更によって完了済み文書の証跡を書き換えてはいけません。"
+              ],
+              "bullets": [
+                "レビュー済みの文書パターンからだけテンプレートを作成します。",
+                "一時ファイル名ではなく業務目的で命名します。",
+                "複製後はフィールドを必ず確認します。",
+                "署名者ロールはスタッフと API クライアントに分かる名前にします。",
+                "古いテンプレートは履歴を黙って変えず、廃止扱いにします。",
+                "テンプレート挙動が変わったらマニュアルも更新します。"
+              ]
+            },
+            "variables": {
+              "title": "テンプレート変数",
+              "rows": {
+                "document": {
+                  "label": "文書変数",
+                  "detail": "タイトル、文書 ID、作成時刻、依頼メタデータです。"
+                },
+                "recipient": {
+                  "label": "宛先変数",
+                  "detail": "署名者名、メール、ロール、順序、言語、アクセスコード要否です。"
+                },
+                "sender": {
+                  "label": "送信者変数",
+                  "detail": "送信スタッフ、組織、返信先、設定済みブランド情報です。"
+                },
+                "workflow": {
+                  "label": "ワークフロー変数",
+                  "detail": "期限、リマインダー、承認状態、完了リンク、監査参照です。"
+                }
+              }
+            }
+          }
+        },
+        "contacts": {
+          "title": "連絡先・カテゴリ・グループ",
+          "summary": "外部宛先の管理、カテゴリ、グループ、送信時の宛先選択を整理します。",
+          "sections": {
+            "directory": {
+              "title": "連絡先管理",
+              "body": [
+                "連絡先は、繰り返し使う外部宛先をスタッフが一貫して選ぶためのものです。",
+                "連絡先はスタッフユーザーではなく、ログイン権限を意味しません。"
+              ],
+              "bullets": [
+                "正式名称とメールアドレスを正確に保ちます。",
+                "カテゴリで業務分類します。",
+                "グループで繰り返し使う宛先セットを管理します。",
+                "多言語依頼を送る前に言語設定を確認します。",
+                "不要になった連絡先はポリシーに従って削除またはアーカイブします。",
+                "連絡先メモに秘密情報を保存しません。"
+              ]
+            },
+            "classification": {
+              "title": "分類",
+              "rows": {
+                "contact": {
+                  "label": "連絡先",
+                  "detail": "再利用可能な外部受信者レコードです。"
+                },
+                "category": {
+                  "label": "カテゴリ",
+                  "detail": "顧客、仕入先、パートナーなどの業務分類です。"
+                },
+                "group": {
+                  "label": "グループ",
+                  "detail": "繰り返し送信するための連絡先セットです。"
+                },
+                "recipient": {
+                  "label": "受信者",
+                  "detail": "特定の文書ワークフローに割り当てられた人です。"
+                }
+              }
+            }
+          }
+        },
+        "compliance": {
+          "title": "監査ログ・WORM・電帳法対応",
+          "summary": "activityLogs、systemAuditLogs、ハッシュチェーン、PDF プロキシ、削除禁止ポリシーを説明します。",
+          "sections": {
+            "audit": {
+              "title": "監査証跡",
+              "body": [
+                "監査データは、誰が、いつ、どのワークフローで、どんな結果になったかを説明します。",
+                "WORM 設計では、証跡は編集や削除ではなく追記と保存を前提にします。"
+              ],
+              "bullets": [
+                "ログイン、文書、署名、承認、API、システム上重要なイベントを記録します。",
+                "ユーザー/ワークフロー活動には activityLogs を使います。",
+                "システム、セキュリティ、連携、運用上重要なイベントには systemAuditLogs を使います。",
+                "ハッシュチェーンは改ざん検知を助けます。",
+                "PDF プロキシは生のストレージパスの誤公開を防ぎます。",
+                "署名済み PDF と完了証跡は不変として扱います。",
+                "削除ポリシーは必要な証跡を保持しなければなりません。",
+                "監査行が誤って見える場合は、証跡を編集せず元のロジックを調査します。"
+              ]
+            },
+            "worm": {
+              "title": "WORM と削除禁止ポリシー",
+              "body": [
+                "コンプライアンス挙動は製品境界です。便利さのために証跡保持を弱める変更は避けます。"
+              ],
+              "rows": {
+                "activityLogs": {
+                  "label": "activityLogs",
+                  "detail": "ワークフロー/ユーザー活動の追記型記録です。"
+                },
+                "systemAuditLogs": {
+                  "label": "systemAuditLogs",
+                  "detail": "システム、セキュリティ、連携、運用イベントの追記型記録です。"
+                },
+                "pdfProxy": {
+                  "label": "PDF プロキシ",
+                  "detail": "ストレージ内部を公開せず PDF を表示/取得する制御ルートです。"
+                },
+                "hashChain": {
+                  "label": "ハッシュチェーン",
+                  "detail": "後からの改ざんを検知できるよう記録を連結します。"
+                },
+                "deletePolicy": {
+                  "label": "削除ポリシー",
+                  "detail": "完了証跡は保持します。業務レコード削除でも必要な監査証跡を消してはいけません。"
+                }
+              }
+            }
+          }
+        },
+        "emailLocales": {
+          "title": "メール・言語設定",
+          "summary": "メール種別、UI 対応ロケール、メール専用ロケール、ロケール優先順位、?lng の意味を説明します。",
+          "sections": {
+            "mail": {
+              "title": "メール種別",
+              "body": [
+                "メールは単なる通知ではなくワークフローの一部です。未着は署名や承認を止めることがあります。"
+              ],
+              "rows": {
+                "invitation": {
+                  "label": "スタッフ招待",
+                  "detail": "スタッフアカウントの招待または有効化時に送ります。"
+                },
+                "signatureRequest": {
+                  "label": "署名依頼",
+                  "detail": "署名リンクと、必要ならアクセスコード案内を外部署名者へ送ります。"
+                },
+                "reminder": {
+                  "label": "リマインダー",
+                  "detail": "依頼が保留中でリマインダー方針に該当する場合に送ります。"
+                },
+                "completion": {
+                  "label": "完了通知",
+                  "detail": "ワークフロー完了と証跡準備完了を知らせます。"
+                },
+                "approval": {
+                  "label": "承認依頼",
+                  "detail": "社内承認者の判断が必要な場合に送ります。"
+                }
+              }
+            },
+            "locale": {
+              "title": "ロケール優先順位と ?lng",
+              "body": [
+                "UI 対応ロケールは ja, en, th, zh-CN です。追加ロケールはメール専用の場合があり、UI 翻訳がない限り UI セレクタに追加しません。",
+                "?lng は、対応している公開リンクで要求言語を指定します。署名リンク、承認リンク、マニュアル確認に有効です。"
+              ],
+              "bullets": [
+                "公開リンクを特定言語で開かせたい場合は明示的な ?lng を優先します。",
+                "ログイン後スタッフ画面ではスタッフ設定を使います。",
+                "外部メールでは利用できる場合、宛先/連絡先の言語を使います。",
+                "保存された設定がなければブラウザまたは既定ロケールへフォールバックします。",
+                "UI マニュアル更新時にメール専用ロケールは変更しません。"
+              ],
+              "callouts": [
+                "raw な翻訳キーが表示される場合は、ja/en/th/zh-CN の manual.* キー集合を比較してください。"
+              ]
+            }
+          }
+        },
+        "api": {
+          "title": "外部連携 REST API",
+          "summary": "API キー認証、スコープ、エンドポイント、冪等性、Webhook、監査記録の前提を説明します。",
+          "sections": {
+            "auth": {
+              "title": "認証、スコープ、冪等性",
+              "body": [
+                "REST API は信頼された外部連携向けです。API キーで認証し、スコープを検証し、重要操作では監査記録を残します。",
+                "作成系操作では Idempotency-Key ヘッダーを使い、リトライで文書や依頼が重複しないようにします。"
+              ],
+              "rows": {
+                "token": {
+                  "label": "API キー",
+                  "detail": "Bearer token またはプロジェクトで対応しているヘッダーで送ります。サーバー側 secret store だけに保存します。"
+                },
+                "scope": {
+                  "label": "スコープ",
+                  "detail": "文書作成、依頼送信、Webhook 管理など、連携ができる操作を制限します。"
+                },
+                "idempotency": {
+                  "label": "冪等性",
+                  "detail": "作成/送信操作の安全なリトライに必要です。"
+                },
+                "audit": {
+                  "label": "監査",
+                  "detail": "実装されている範囲で、API 操作はアクター、キー、スコープ、対象、結果を記録します。"
+                }
+              },
+              "code": {
+                "curl": {
+                  "title": "リクエスト例",
+                  "code": "curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                }
+              }
+            },
+            "endpoints": {
+              "title": "代表エンドポイント",
+              "rows": {
+                "createDocument": {
+                  "label": "文書作成",
+                  "detail": "元文書をアップロードまたは登録し、文書 ID を返します。"
+                },
+                "createRequest": {
+                  "label": "署名依頼作成/送信",
+                  "detail": "宛先、フィールド、アクセス規則を作り、必要に応じてワークフローを送信します。"
+                },
+                "getStatus": {
+                  "label": "ステータス取得",
+                  "detail": "ポーリングや照合のために文書/依頼状態を返します。"
+                },
+                "downloadPdf": {
+                  "label": "完了 PDF 取得",
+                  "detail": "ワークフロー完了後、制御された完了 PDF アクセスを返します。"
+                },
+                "webhooks": {
+                  "label": "Webhook",
+                  "detail": "外部システムへ状態変化を通知します。署名検証と安全なリトライが必要です。"
+                }
+              }
+            }
+          }
+        },
+        "cli": {
+          "title": "signctl CLI 操作",
+          "summary": "AI/CI 操作者が安全に使うための環境変数、主要コマンド、出力、冪等性を説明します。",
+          "sections": {
+            "environment": {
+              "title": "CLI 環境",
+              "body": [
+                "signctl は運用者、CI、AI エージェント向けのコマンドライン面です。DB へ直接書かず、監査済み REST API 境界を呼び出します。"
+              ],
+              "rows": {
+                "baseUrl": {
+                  "label": "SIGN_API_BASE_URL",
+                  "detail": "対象 Hundredth Sign インスタンスのベース URL です。"
+                },
+                "apiKey": {
+                  "label": "SIGN_API_KEY",
+                  "detail": "必要最小限のスコープを持つ API キーです。"
+                },
+                "idempotency": {
+                  "label": "SIGN_IDEMPOTENCY_PREFIX",
+                  "detail": "自動リトライを追跡しやすくする任意のプレフィックスです。"
+                },
+                "output": {
+                  "label": "--json",
+                  "detail": "CI/AI 自動化では機械可読な JSON 出力を使います。"
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "CLI 環境変数",
+                  "code": "SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                }
+              }
+            },
+            "commands": {
+              "title": "主要コマンド",
+              "body": [
+                "正確なコマンド名は scripts/signctl.mjs に従います。コマンドが変わった場合は、このマニュアルも同期します。"
+              ],
+              "code": {
+                "examples": {
+                  "title": "代表コマンド",
+                  "code": "node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                }
+              },
+              "callouts": [
+                "signctl に DB URL を渡さないでください。CLI 自動化は監査された REST API 境界の内側に留めます。"
+              ]
+            }
+          }
+        },
+        "dataModel": {
+          "title": "DB テーブル概要",
+          "summary": "主要テーブル、状態遷移、代表的な一意制約、削除禁止データを俯瞰します。",
+          "sections": {
+            "tables": {
+              "title": "主要テーブル群",
+              "body": [
+                "実際のスキーマは drizzle/schema.ts が正本です。この章は migration の代替ではなく、運用者向けの地図です。"
+              ],
+              "rows": {
+                "users": {
+                  "label": "users / staff 関連",
+                  "detail": "スタッフ ID、権限、状態、言語、ログイン関連データです。"
+                },
+                "documents": {
+                  "label": "documents",
+                  "detail": "元文書メタデータ、所有者、状態、ファイル参照です。"
+                },
+                "signatureRequests": {
+                  "label": "signatureRequests",
+                  "detail": "送信ワークフロー、状態、順序、期限、トークン、完了状態です。"
+                },
+                "signers": {
+                  "label": "signers / recipients",
+                  "detail": "受信者 ID、順序、アクセスコード要否、言語、署名結果です。"
+                },
+                "signatureFields": {
+                  "label": "signatureFields",
+                  "detail": "フィールド種別、ページ、座標、必須フラグ、割当署名者です。"
+                },
+                "templates": {
+                  "label": "templates",
+                  "detail": "再利用可能な文書定義とフィールド定義です。"
+                },
+                "contacts": {
+                  "label": "contacts / categories / groups",
+                  "detail": "外部宛先ディレクトリと分類です。"
+                },
+                "approvals": {
+                  "label": "internal approvals",
+                  "detail": "社内判断ワークフローと承認者結果です。"
+                },
+                "audit": {
+                  "label": "activityLogs / systemAuditLogs",
+                  "detail": "追記型の証跡とセキュリティ/運用監査トレイルです。"
+                },
+                "integrations": {
+                  "label": "API keys / webhooks",
+                  "detail": "連携資格情報、スコープ、Webhook 購読、配送状態です。"
+                }
+              }
+            },
+            "constraints": {
+              "title": "制約と不変条件",
+              "bullets": [
+                "メール型識別子はスキーマが要求する範囲で一意です。",
+                "トークンと API キーは一意で、秘密として扱います。",
+                "署名フィールドは1つの文書に属し、通常は1人の署名者に割り当てます。",
+                "完了ワークフローは PDF と監査証跡を保持します。",
+                "ステータス遷移は明示的で監査可能にします。",
+                "証跡記録後にハッシュチェーン入力を書き換えません。",
+                "スキーマ変更では同じ変更セットで文書とテストを更新します。"
+              ]
+            }
+          }
+        },
+        "operations": {
+          "title": "運用・トラブル対応・FAQ",
+          "summary": "ログイン、メール未着、PDF、署名リンク、API キー、監査ログ、migration、言語設定の問い合わせを減らします。",
+          "sections": {
+            "faq": {
+              "title": "症状別 FAQ",
+              "body": [
+                "症状から始め、責任境界を確認してからデータ変更を検討します。"
+              ],
+              "rows": {
+                "login": {
+                  "label": "ログインできない",
+                  "detail": "アプリ URL、Cookie ドメイン、セッション秘密鍵、アカウント状態、パスワードリセット、ブラウザのホスト名を確認します。"
+                },
+                "mail": {
+                  "label": "メール未着",
+                  "detail": "SMTP 設定、宛先アドレス、迷惑メール、メールログ、言語テンプレート、開発環境の配送無効化を確認します。"
+                },
+                "pdf": {
+                  "label": "PDF アップロード失敗",
+                  "detail": "ファイル形式、20MB 制限、パスワード保護、PDF 検証エラー、サーバーログを確認します。"
+                },
+                "signingLink": {
+                  "label": "署名リンクが開かない",
+                  "detail": "トークン、期限、依頼ステータス、アクセスコード、ルート URL、?lng を確認します。"
+                },
+                "apiKey": {
+                  "label": "API キーが使えない",
+                  "detail": "キー値、スコープ、接続先 URL、Authorization ヘッダー、冪等性キー、監査ログを確認します。"
+                },
+                "auditLog": {
+                  "label": "監査ログがない",
+                  "detail": "その操作が実際に発生したか、該当コードパスが activityLogs または systemAuditLogs を INSERT するか確認します。"
+                },
+                "migration": {
+                  "label": "migration エラー",
+                  "detail": "DATABASE_URL、適用済み migration テーブル、ハッシュ差分、statement breakpoint、現在スキーマを確認します。"
+                },
+                "locale": {
+                  "label": "言語が違う",
+                  "detail": "?lng、スタッフ設定、宛先言語、ブラウザ言語、UI 対応/メール専用ロケールを確認します。"
+                }
+              }
+            },
+            "runbook": {
+              "title": "運用ランブック",
+              "steps": [
+                "画面、ルート、文書/依頼 ID、ユーザーまたは宛先、時刻、正確なエラーを記録します。",
+                "問題が UI、API、メール、PDF、DB migration、監査証跡のどれかを切り分けます。",
+                "環境変数の実値を露出せずに設定有無を確認します。",
+                "コード変更後は標準の test と type-check を実行します。",
+                "DB 依存の修正は、migration 適用または運用引き渡しまで終えてから完了扱いにします。",
+                "挙動が変わった場合はマニュアルと製品仕様を更新します。"
+              ],
+              "code": {
+                "verify": {
+                  "title": "検証コマンド",
+                  "code": "corepack pnpm test\ncorepack pnpm check\nnode scripts/verify-manual-locales.mjs"
+                }
+              }
+            }
+          }
+        },
+        "developer": {
+          "title": "開発者向け変更ルール・検証手順",
+          "summary": "仕様、DB、監査、翻訳、テスト、マニュアル更新を同時に保つための変更ルールです。",
+          "sections": {
+            "rules": {
+              "title": "変更ルール",
+              "body": [
+                "文書、migration、翻訳、テストは後片付けではなく製品面の一部として扱います。"
+              ],
+              "bullets": [
+                "実装前に docs/architecture.md と関連する docs/spec を読みます。",
+                "drizzle/schema.ts を変更したら docs/domain/data-model.md を更新します。",
+                "WORM 証跡を保護する activityLogs / systemAuditLogs の INSERT を削除しません。",
+                "秘密情報をハードコードせず、環境変数から読みます。",
+                "UI マニュアルキーは ja/en/th/zh-CN で揃えます。",
+                "UI 専用マニュアル変更ではメール専用ロケールを変更しません。",
+                "完了前に pnpm test と pnpm check を実行します。",
+                "公開挙動が変わる機能では同じブランチでこのマニュアルを更新します。"
+              ],
+              "code": {
+                "commands": {
+                  "title": "開発者向け検証",
+                  "code": "corepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            },
+            "checklist": {
+              "title": "リリース前チェック",
+              "rows": {
+                "schema": {
+                  "label": "スキーマ",
+                  "detail": "migration 作成/適用、データモデル文書更新、危険なデータ損失なし。"
+                },
+                "audit": {
+                  "label": "監査",
+                  "detail": "重要操作が activityLogs または systemAuditLogs を書き、証跡を保持する。"
+                },
+                "locale": {
+                  "label": "ロケール",
+                  "detail": "ja/en/th/zh-CN に raw manual.* キーがなく、メール専用ロケールを触っていない。"
+                },
+                "manual": {
+                  "label": "マニュアル",
+                  "detail": "product-spec.ja.md と変更された挙動を反映している。"
+                },
+                "test": {
+                  "label": "テスト",
+                  "detail": "関連する unit/integration/E2E が通る、またはブロッカーを明記している。"
+                }
+              }
+            }
+          }
+        }
+      },
+      "screenshots": {
+        "openFullSize": "画像を拡大表示",
+        "login": {
+          "alt": "ログイン画面",
+          "caption": "ログイン画面",
+          "title": "ログイン画面"
+        },
+        "setup": {
+          "alt": "初期設定画面",
+          "caption": "初期設定画面",
+          "title": "初期設定画面"
+        },
+        "dashboard": {
+          "alt": "ダッシュボード画面",
+          "caption": "ダッシュボード画面",
+          "title": "ダッシュボード画面"
+        },
+        "documents": {
+          "alt": "文書一覧",
+          "caption": "文書一覧",
+          "title": "文書一覧"
+        },
+        "documentNew": {
+          "alt": "新規文書画面",
+          "caption": "新規文書画面",
+          "title": "新規文書画面"
+        },
+        "signing": {
+          "alt": "署名画面",
+          "caption": "署名画面",
+          "title": "署名画面"
+        },
+        "inbox": {
+          "alt": "Inbox 画面",
+          "caption": "Inbox 画面",
+          "title": "Inbox 画面"
+        },
+        "templates": {
+          "alt": "テンプレート画面",
+          "caption": "テンプレート画面",
+          "title": "テンプレート画面"
+        },
+        "contacts": {
+          "alt": "連絡先画面",
+          "caption": "連絡先画面",
+          "title": "連絡先画面"
+        },
+        "audit": {
+          "alt": "監査ログ画面",
+          "caption": "監査ログ画面",
+          "title": "監査ログ画面"
+        },
+        "settings": {
+          "alt": "設定画面",
+          "caption": "設定画面",
+          "title": "設定画面"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "OSS 利用条件",
+      "title": "OSS 版の利用条件",
+      "description": "Hundredth Sign OSS をセルフホスト運用するための利用条件です。リポジトリのライセンス、貴社の法務・セキュリティ・コンプライアンス要件と合わせて確認してください。",
+      "sections": {
+        "scope": {
+          "title": "適用範囲とライセンスとの関係",
+          "body": {
+            "0": "本ページはセルフホスト OSS 版を適切に運用するための説明です。リポジトリのライセンス、第三者ライセンス、個別に締結したカスタマイズ契約やサポート契約を置き換えるものではありません。",
+            "1": "この説明と実際のオープンソースライセンスファイルに矛盾がある場合、ソフトウェア利用権限についてはライセンスファイルが優先します。",
+            "2": "運用、改変、再配布、第三者提供を行う組織は、著作権表示、ライセンス表示、商標利用、第三者コンポーネントの義務を確認してください。"
+          }
+        },
+        "license": {
+          "title": "OSS 利用と再配布",
+          "body": {
+            "0": "本パッケージはリポジトリで宣言されたライセンスに基づく OSS として配布されます。現在の package metadata は MIT を宣言しており、一般に著作権表示と許諾表示を保持することを条件として、利用、複製、改変、配布、サブライセンス、販売が認められます。",
+            "1": "OSS 版にはホスティング、マネージド運用、個別トラブルシュート、法的確認、セキュリティ認証、SLA は含まれません。",
+            "2": "再配布者と運用者は、自身の利用者に対して、表示、プライバシーポリシー、サポート条件、商用条件を明確にする責任があります。"
+          }
+        },
+        "operator": {
+          "title": "運用者の責任",
+          "body": {
+            "0": "運用組織は、アカウント、スタッフ権限、API キー、Webhook secret、データベース、ストレージ、メール配信、バックアップ、監視、脆弱性対応、インシデント対応に責任を負います。",
+            "1": "実契約を扱う前に、ドメイン設定、APP_URL、メール到達、復旧手順、ストレージ保持、PDF ダウンロード、アクセス制限、監査ログ整合性確認、スタッフ退職時の無効化手順を検証してください。",
+            "2": "本番運用では、管理者作成、API キー発行、キー失効、監査ログ閲覧、バックアップ復旧、緊急変更承認を誰が行えるかを定義してください。",
+            "3": "OSS 版はテナント切り替え型 SaaS ではありません。単一セルフホストワークスペースとして運用する前提です。"
+          }
+        },
+        "accounts": {
+          "title": "アカウント、権限、アクセス",
+          "body": {
+            "0": "OSS 版で表示されるスタッフ権限は「管理者」と「メンバー」です。管理者はユーザー、インスタンス設定、監査ログ、API 連携キーを管理します。メンバーは権限内で日常の文書、テンプレート、連絡先、受信トレイ、署名関連作業を行います。",
+            "1": "外部受信者はアカウントを作成しません。署名、承認、文書閲覧ページにはトークンリンクと、設定されたアクセスコードまたはメール確認フローでアクセスします。",
+            "2": "管理者は不要になったスタッフアカウントを無効化し、各ユーザーに必要最小限の権限だけを付与してください。"
+          }
+        },
+        "integrations": {
+          "title": "API、CLI、Webhook の利用",
+          "body": {
+            "0": "外部システムは直接 DB を更新せず、連携 API または signctl を使ってください。直接更新は監査、WORM、PDF 完了処理、ステータス遷移、メール副作用を迂回する可能性があります。",
+            "1": "API キーは secret として保管し、失効前にローテーションし、スコープを最小化し、システム・運用者・AI エージェントが不要になった時点で直ちに失効してください。",
+            "2": "Webhook 受信側は HMAC 署名を検証し、重複配信に耐え、Webhook 配信だけを唯一の真実として扱わないでください。Sign が記録のソースオブトゥルースです。"
+          }
+        },
+        "data": {
+          "title": "データ保護と保持",
+          "body": {
+            "0": "運用者は、セルフホスト環境に保存される個人情報、署名済み PDF、アクセストークン、署名、印影、監査記録、メールログ、Webhook payload、API キーメタデータ、バックアップを管理します。",
+            "1": "業務利用前に、保持、削除、暗号化、アクセス制御、バックアップ、復旧、エクスポート、廃棄の方針を定義してください。",
+            "2": "適用される個人情報保護、越境移転、委託先管理、漏えい等報告の義務を、組織と法域ごとに確認してください。",
+            "3": "開発、サポート、カスタマイズで本番データを使う場合は、記録された業務上の必要性がない限り、マスキングまたは最小化してください。"
+          }
+        },
+        "compliance": {
+          "title": "電子署名と記録保存の確認",
+          "body": {
+            "0": "本ソフトウェアは文書操作、署名者操作、完了証明書、WORM 監査記録を残します。これらは証跡保全を支援しますが、法的有効性を自動的に保証するものではありません。",
+            "1": "電子署名の有効性は、文書種類、署名者本人確認、同意、法域、認証、保存、紛争時の運用手順に依存します。",
+            "2": "日本の税務関係記録や電子取引では、電子記録の保存要件、検索性、真実性確保、画面/出力の可視性を別途確認してください。",
+            "3": "規制対象または高額な文書で利用する前に、法務、税務、会計、セキュリティ、コンプライアンスの専門家へ確認してください。"
+          }
+        },
+        "prohibited": {
+          "title": "禁止または危険な利用",
+          "body": {
+            "0": "なりすまし、同意の偽造、必要な承認の迂回、違法な個人情報収集、マルウェア配布、第三者システムへの妨害に利用してはいけません。",
+            "1": "証跡を誤認させる形で、監査 INSERT、WORM 保持、トークン検証、アクセスコード確認、署名済み PDF 生成を無効化してはいけません。",
+            "2": "API キー、Webhook secret、DATABASE_URL、ストレージ認証情報、JWT secret、署名証明書の秘密鍵を公開してはいけません。"
+          }
+        },
+        "noSupport": {
+          "title": "一般サポートは含まれません",
+          "body": {
+            "0": "OSS 版には通常の製品サポート、運用サポート、個別デバッグ、データ復旧、法務レビュー、SLA は含まれません。",
+            "1": "質問や調査は運用者が内部で対応するか、有償のカスタマイズ、導入支援、レビュー、サポートとして別途範囲を定めます。",
+            "2": "公開 OSS 配布物は、貴社インフラ、メールシステム、法務プロセス、セキュリティ状態、DB 状態、本番インシデントを診断する責任を負いません。"
+          }
+        },
+        "customization": {
+          "title": "有償カスタマイズ",
+          "body": {
+            "0": "業務固有のカスタマイズは別途相談できます。",
+            "1": "代表例は、文書様式、承認経路、外部連携、言語挙動、レポート、デプロイ、運用ダッシュボードです。",
+            "2": "カスタマイズしても、成果物をレビュー、テスト、承認、運用する責任は運用組織に残ります。"
+          }
+        },
+        "changes": {
+          "title": "変更と優先関係",
+          "body": {
+            "0": "本マニュアルは OSS コードベースの変更に応じて更新されます。運用者はデプロイ済みバージョン、マニュアル、マイグレーション状態、社内運用手順を一致させてください。",
+            "1": "有償カスタマイズまたはマネージドサポートについて個別の書面契約がある場合、その契約範囲では個別契約が優先します。",
+            "2": "運用者は、本番リリース採用時点の利用条件、ライセンス表示、設定内容を保存してください。"
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "eyebrow": "免責事項",
+      "title": "OSS 版の免責事項",
+      "description": "Hundredth Sign OSS を本番運用、外部連携、業務固有カスタマイズに使う前に確認してください。",
+      "sections": {
+        "warranty": {
+          "title": "現状有姿での提供",
+          "body": {
+            "0": "OSS 版と本マニュアルは現状有姿で提供されます。可用性、正確性、特定目的適合性、非侵害、法的効力、セキュリティ、データ保全、無停止運用は保証されません。",
+            "1": "運用者は、評価、設定、テスト、デプロイ、監視、保守に関するリスクを引き受けます。",
+            "2": "公開 OSS コードには、不具合、不適切な設定選択、マイグレーション要求、古いドキュメント、特定業務に適さない挙動が含まれる可能性があります。",
+            "3": "リポジトリのライセンスには独自の保証否認と責任制限が含まれる場合があります。再配布または本番利用前に実際のライセンスファイルを確認してください。"
+          }
+        },
+        "legal": {
+          "title": "法務・税務・会計・セキュリティ助言ではありません",
+          "body": {
+            "0": "ソフトウェア、マニュアル、サンプル、API ドキュメント、CLI 例は技術資料です。",
+            "1": "法務、税務、会計、プライバシー、セキュリティ、記録管理、コンプライアンスに関する助言ではありません。",
+            "2": "有効性、保存、証拠価値、プライバシー適合、規制対象利用についての最終判断は運用組織が行います。",
+            "3": "利用する法域で資格ある専門家に要件を確認したうえで利用してください。"
+          }
+        },
+        "compliance": {
+          "title": "電子署名と記録保存の限界",
+          "body": {
+            "0": "電子署名法制と記録保存ルールは、文書種類、法域、本人確認水準、同意取得、保存期間、証跡取扱いによって変わります。",
+            "1": "監査ログ、完了証明書、WORM 記録、PDF 署名は証跡を支援しますが、すべての法務、税務、内部統制要件を自動的に満たすものではありません。",
+            "2": "文書によっては、手書き署名、認定/適格署名、公証、特別な保管、追加本人確認、別の保持ワークフローが必要になる場合があります。",
+            "3": "生成 PDF、ログ、タイムスタンプ、検索項目、エクスポートが必要期間にわたり読み取り・検索・提出できることを運用者が検証してください。"
+          }
+        },
+        "security": {
+          "title": "セキュリティと運用リスク",
+          "body": {
+            "0": "セルフホストでは、サーバー堅牢化、パッチ、ネットワーク公開、secret 管理、TLS、認証、IP 制限、ログ、アラート、脆弱性対応が運用者の責任になります。",
+            "1": "API キー、Webhook secret、JWT secret、DB 認証情報、ストレージ認証情報、メール認証情報、署名証明書は保護し、リスクが変わった時点でローテーションしてください。",
+            "2": "バックアップは復旧テストをして初めて意味があります。監視は対応責任者がいて初めて意味があります。",
+            "3": "AI または CI 自動化では、狭いスコープのキー、再試行用 Idempotency-Key、破壊的操作に対する明示的な承認境界を使ってください。"
+          }
+        },
+        "data": {
+          "title": "データとプライバシーのリスク",
+          "body": {
+            "0": "署名済み文書、署名、印影、氏名、メール、アクセストークン、ログ、Webhook payload には個人情報や機密情報が含まれる可能性があります。",
+            "1": "OSS 配布物は、貴社向けのプライバシーポリシー、データ処理契約、漏えい通知手順、削除ワークフロー、本人請求対応手順を自動的には提供しません。",
+            "2": "データ消失、漏えい、破損、誤配信、誤アクセス、未検証カスタマイズは業務上・法的な損害につながる可能性があります。",
+            "3": "開発・サポート環境で本番データを最小化し、エクスポートやログが必要以上の情報を露出しないようにしてください。"
+          }
+        },
+        "integrations": {
+          "title": "API、CLI、Webhook のリスク",
+          "body": {
+            "0": "連携 API と signctl は強力な運用インターフェースです。send、download、webhook、API キー管理スコープを持つキーは本番ワークフローに大きく影響します。",
+            "1": "Webhook 配信は再試行付きのベストエフォートです。受信側は重複、失敗、遅延、署名検証、文書ステータス API との照合に対応してください。",
+            "2": "外部システムによる直接 DB 更新はサポートされる連携モデル外であり、監査、WORM、ステータス、PDF 完了処理を壊す可能性があります。"
+          }
+        },
+        "ai": {
+          "title": "AI 支援コードベースと自動化",
+          "body": {
+            "0": "本 OSS 版には AI 支援で作成または変更されたコードが含まれる場合があります。",
+            "1": "AI 支援開発や AI による CLI 操作は工数を減らせますが、コードレビュー、テスト、セキュリティ評価、マイグレーション確認、運用受け入れは不要になりません。",
+            "2": "認証、署名、承認、監査ログ、ストレージ、Webhook 配信、コンプライアンス挙動の変更は特に慎重に確認してください。"
+          }
+        },
+        "customization": {
+          "title": "カスタマイズは別途対応",
+          "body": {
+            "0": "有償カスタマイズでは、文書、承認、言語、外部連携、社内運用に OSS 版を合わせられます。",
+            "1": "カスタマイズ作業は個別に範囲を定め、要件、セキュリティレビュー、マイグレーション対応、受け入れテスト、ロールバック/復旧計画を含めるべきです。",
+            "2": "カスタマイズ結果を本番利用できるかどうかの判断責任は運用者に残ります。"
+          }
+        },
+        "references": {
+          "title": "本免責事項の作成で参照した情報",
+          "body": {
+            "0": "本免責事項は、電子署名、電子記録保存、個人情報管理、セキュリティ運用、OSS の無保証条項に関する公開情報の論点を踏まえています。",
+            "1": "参考情報は変更される可能性があります。本番利用前に、貴社業務に適用される最新の公式情報を確認してください。",
+            "2": "本ページは実務上のリスク通知であり、公式法令本文や専門家助言の代替ではありません。"
+          }
+        }
+      }
+    }
+  },
+  "ossContact": {
+    "eyebrow": "カスタマイズ相談",
+    "title": "Hundredth Sign OSS を貴社業務向けにカスタマイズ",
+    "description": "OSS版は無料で利用できます。自社業務に合わせたい組織向けに、有料カスタマイズを承ります。",
+    "body": {
+      "0": "Hundredth Sign OSS は、通常のOSS利用に関する一般サポートを含みません。",
+      "1": "契約書式、承認経路、内部統制、多言語運用、外部連携、バックオフィス業務に合わせたい場合は、有料の実装支援として相談できます。",
+      "2": "AIによるコーディングが主流になる時代では、汎用SaaSよりも各社業務に強く合わせたシステムを現実的な費用で構築しやすくなります。",
+      "3": "改善したい業務、現在の課題、利用者、文書種類、希望時期を簡潔にお送りください。"
+    },
+    "requestTitle": "相談時にあるとよい情報",
+    "requestItems": {
+      "0": "現在の文書・承認フロー",
+      "1": "必要な独自画面、項目、外部連携",
+      "2": "ホスティングやセキュリティ上の制約",
+      "3": "希望する開始時期と優先順位"
+    },
+    "emailTitle": "お問い合わせ",
+    "emailDescription": "カスタマイズしたい内容、現在の課題、希望時期を以下のメールアドレスへお送りください。"
+  }
+}

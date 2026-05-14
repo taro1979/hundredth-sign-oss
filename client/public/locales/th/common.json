@@ -1,0 +1,2654 @@
+{
+  "nav": {
+    "dashboard": "แดชบอร์ด",
+    "documents": "เอกสาร",
+    "contacts": "รายชื่อติดต่อ",
+    "templates": "เทมเพลต",
+    "auditLog": "บันทึกการตรวจสอบ",
+    "profile": "โปรไฟล์",
+    "logout": "ออกจากระบบ",
+    "login": "เข้าสู่ระบบ",
+    "manual": "คู่มือ",
+    "settings": "การตั้งค่า",
+    "inbox": "กล่องขาเข้า"
+  },
+  "common": {
+    "save": "บันทึก",
+    "cancel": "ยกเลิก",
+    "delete": "ลบ",
+    "edit": "แก้ไข",
+    "create": "สร้าง",
+    "search": "ค้นหา",
+    "filter": "ตัวกรอง",
+    "close": "ปิด",
+    "open": "เปิด",
+    "next": "ถัดไป",
+    "back": "ย้อนกลับ",
+    "done": "เสร็จสิ้น",
+    "confirm": "ยืนยัน",
+    "submit": "ส่ง",
+    "loading": "กำลังโหลด...",
+    "loadingTimeout": "การโหลดใช้เวลานานกว่าที่คาดไว้ กรุณาลองอีกครั้ง",
+    "reload": "โหลดใหม่",
+    "creating": "กำลังสร้าง...",
+    "error": "ข้อผิดพลาด",
+    "success": "สำเร็จ",
+    "warning": "คำเตือน",
+    "info": "ข้อมูล",
+    "noData": "ไม่มีข้อมูล",
+    "actions": "การดำเนินการ",
+    "status": "สถานะ",
+    "name": "ชื่อ",
+    "email": "อีเมล",
+    "phone": "หมายเลขโทรศัพท์",
+    "company": "ชื่อบริษัท",
+    "department": "แผนก",
+    "title": "ตำแหน่ง",
+    "description": "คำอธิบาย",
+    "date": "วันที่",
+    "createdAt": "วันที่สร้าง",
+    "updatedAt": "วันที่อัปเดต",
+    "yes": "ใช่",
+    "no": "ไม่",
+    "all": "ทั้งหมด",
+    "none": "ไม่มี",
+    "download": "ดาวน์โหลด",
+    "upload": "อัปโหลด",
+    "copy": "คัดลอก",
+    "share": "แบ่งปัน",
+    "settings": "การตั้งค่า",
+    "language": "ภาษา",
+    "user": "ผู้ใช้",
+    "role": "บทบาท",
+    "owner": "ผู้ดูแลระบบ",
+    "admin": "ผู้ดูแลระบบ",
+    "member": "สมาชิก",
+    "free": "ฟรี",
+    "comingSoon": "เร็วๆ นี้"
+  },
+  "dashboard": {
+    "title": "แดชบอร์ด",
+    "welcome": "ยินดีต้อนรับกลับ",
+    "recentDocuments": "เอกสารล่าสุด",
+    "pendingSignatures": "รอการลงนาม",
+    "completedDocuments": "เอกสารที่เสร็จสมบูรณ์",
+    "totalDocuments": "เอกสารทั้งหมด",
+    "totalContacts": "รายชื่อติดต่อทั้งหมด",
+    "totalTemplates": "เทมเพลตทั้งหมด",
+    "monthlyUsage": "การใช้งานรายเดือน",
+    "quickActions": "การดำเนินการด่วน",
+    "newDocument": "สร้างเอกสารใหม่",
+    "viewAll": "ดูทั้งหมด",
+    "welcomeMessage": "สร้าง ส่ง และจัดการสัญญาได้จากที่นี่",
+    "newDocUpload": "อัปโหลด PDF",
+    "newDocUploadDesc": "สร้างสัญญาจากไฟล์ PDF",
+    "newDocTemplate": "จากเทมเพลต",
+    "newDocTemplateDesc": "ใช้เทมเพลตที่บันทึกไว้"
+  },
+  "documents": {
+    "title": "การจัดการเอกสาร",
+    "new": "เอกสารใหม่",
+    "sent": "ส่งแล้ว",
+    "completed": "เสร็จสมบูรณ์",
+    "drafts": "ฉบับร่าง",
+    "actionRequired": "ต้องการการดำเนินการ",
+    "voided": "เป็นโมฆะ",
+    "all": "ทั้งหมด",
+    "searchPlaceholder": "ค้นหาเอกสาร...",
+    "filterClear": "ล้างตัวกรอง",
+    "noPdf": "ไม่มี PDF",
+    "detailView": "ดูรายละเอียด",
+    "resendReminder": "ส่งการแจ้งเตือนอีกครั้ง",
+    "continueEdit": "แก้ไขต่อ",
+    "deleteConfirm": "ลบเอกสารนี้ใช่ไหม",
+    "noDocuments": "ไม่มีเอกสาร",
+    "createFirst": "สร้างเอกสารฉบับแรกของคุณ",
+    "status": {
+      "draft": "ฉบับร่าง",
+      "pending_approval": "รอการอนุมัติ",
+      "pending_internal_approval": "รอการอนุมัติภายใน",
+      "sent": "ส่งแล้ว",
+      "viewed": "ดูแล้ว",
+      "partially_signed": "ลงนามบางส่วน",
+      "completed": "เสร็จสมบูรณ์",
+      "declined": "ปฏิเสธ",
+      "voided": "เป็นโมฆะ",
+      "expired": "หมดอายุ",
+      "pending": "รอดำเนินการ",
+      "signed": "ลงนาม"
+    },
+    "dateFilter": {
+      "all": "ทุกช่วงเวลา",
+      "7d": "7 วันที่ผ่านมา",
+      "30d": "30 วันที่ผ่านมา",
+      "90d": "90 วันที่ผ่านมา",
+      "6m": "6 เดือนที่ผ่านมา",
+      "1y": "1 ปีที่ผ่านมา"
+    },
+    "detail": {
+      "documentInfo": "ข้อมูลเอกสาร",
+      "signers": "ผู้ลงนาม",
+      "activityLog": "บันทึกกิจกรรม",
+      "downloadPdf": "ดาวน์โหลด PDF",
+      "downloadSigned": "ดาวน์โหลด PDF ที่ลงนามแล้ว",
+      "voidDocument": "ทำให้เอกสารเป็นโมฆะ",
+      "resend": "ส่งอีกครั้ง",
+      "sendReminder": "ส่งการแจ้งเตือน"
+    },
+    "create": {
+      "step1": "เตรียมเอกสาร",
+      "step2": "ตั้งค่าผู้รับ",
+      "step3": "ตั้งค่าฟิลด์อินพุต",
+      "step4": "ตรวจสอบเนื้อหาการส่ง",
+      "step5": "ส่งเรียบร้อยแล้ว",
+      "uploadPdf": "อัปโหลด PDF สัญญา",
+      "dragDrop": "ลากและวางไฟล์ หรือคลิกเพื่อเลือก",
+      "documentTitle": "ชื่อเอกสาร",
+      "addRecipient": "เพิ่มผู้รับ",
+      "recipientName": "ชื่อผู้รับ",
+      "recipientEmail": "ที่อยู่อีเมล",
+      "recipientRole": "บทบาท",
+      "recipientLocale": "ภาษา",
+      "signer": "ผู้ลงนาม",
+      "cc": "สำเนา (CC)",
+      "approver": "ผู้อนุมัติ",
+      "order": "ลำดับการลงนาม",
+      "accessCode": "รหัสการเข้าถึง",
+      "message": "ข้อความ",
+      "expirationDays": "วันหมดอายุ (วัน)",
+      "reminderDays": "ช่วงเวลาการแจ้งเตือน (วัน)",
+      "send": "ส่งคำขอลงนาม",
+      "saveDraft": "บันทึกฉบับร่าง",
+      "sendSuccess": "ส่งคำขอลงนามเรียบร้อยแล้ว",
+      "confirmSend": "คุณแน่ใจหรือไม่ว่าต้องการส่งคำขอลงนาม",
+      "fromTemplate": "สร้างจากเทมเพลต",
+      "fromScratch": "สร้างใหม่",
+      "honorificHint": "กรุณาระบุคำนำหน้าชื่อ เช่น คุณ/นาย/นาง หากจำเป็น",
+      "globalComment": "ข้อความถึงผู้รับทั้งหมด (ไม่บังคับ)",
+      "globalCommentPlaceholder": "กรอกข้อความที่จะแสดงให้ผู้รับทุกคนเห็น",
+      "previewEmail": "ดูตัวอย่างอีเมล",
+      "previewEmailDesc": "ดูตัวอย่างเนื้อหาอีเมลก่อนส่ง",
+      "emailPreviewTitle": "ดูตัวอย่างอีเมล",
+      "emailPreviewClose": "ปิด",
+      "emailPreviewFrom": "จาก",
+      "emailPreviewTo": "ถึง",
+      "emailPreviewSubject": "เรื่อง",
+      "invalidFile": "ไฟล์ไม่ถูกต้อง",
+      "cancelAndDelete": "ยกเลิกและลบ",
+      "stepNavAria": "ขั้นตอนการสร้างเอกสาร",
+      "templateInherit": "สร้างจากการตั้งค่าเทมเพลต: \"{{title}}\"",
+      "templatePdfBadge": "PDF ({{count}} หน้า)",
+      "templateFieldsBadge": "ช่องลายเซ็น ({{count}})",
+      "changeFile": "เปลี่ยนไฟล์",
+      "dropHere": "วางไฟล์ของคุณที่นี่",
+      "selectFile": "เลือกไฟล์",
+      "pdfOnly": "ไฟล์ PDF เท่านั้น (สูงสุด 20MB)",
+      "required": "ที่จำเป็น",
+      "optional": "ไม่จำเป็น",
+      "titlePlaceholder": "ป้อนชื่อเอกสาร",
+      "titleHint": "ชื่อไฟล์ที่อัพโหลดจะถูกตั้งค่าโดยอัตโนมัติและสามารถแก้ไขได้",
+      "counterpartyLabel": "ชื่อคู่สัญญา",
+      "counterpartyPlaceholder": "กรอกชื่อบริษัทผู้รับ ฯลฯ",
+      "recipientEmailRequired": "อีเมล *",
+      "recipientNameRequiredLabel": "ชื่อ *",
+      "recipientNamePlaceholder": "จอห์น โด",
+      "companyPlaceholder": "แอคมี อิงค์",
+      "roleSigner": "จำเป็นต้องมีลายเซ็น",
+      "roleCc": "ดูอย่างเดียว (CC)",
+      "accessCodeOptional": "รหัสการเข้าถึง (ไม่บังคับ)",
+      "accessCodePlaceholder": "ตั้งรหัสผ่าน",
+      "individualMessageOptional": "ข้อความส่วนตัว (ไม่บังคับ)",
+      "individualMessagePlaceholder": "ข้อความถึงผู้ลงนาม",
+      "selectFromContacts": "เลือกจากผู้ติดต่อ",
+      "addRecipientCta": "เพิ่มผู้รับ",
+      "sendOptions": "ส่งตัวเลือก",
+      "sequentialRouting": "การกำหนดเส้นทางตามลำดับ",
+      "sequentialRoutingHint": "เมื่อเปิดใช้งาน คำขอลายเซ็นจะถูกส่งทีละรายการตามลำดับ",
+      "expirationPlaceholder": "เช่น 30",
+      "reminderPlaceholder": "เช่น 3",
+      "relatedParties": "ฝ่ายต่างๆ ที่เกี่ยวข้อง",
+      "fieldLabel": "สนาม",
+      "signerLabel": "ผู้ลงนาม",
+      "signerIndex": "ผู้ลงนาม {{count}}",
+      "internalApproval": {
+        "title": "ขั้นตอนการอนุมัติภายใน",
+        "description": "กำหนดค่าขั้นตอนการอนุมัติก่อนส่งภายนอก",
+        "approverNamePlaceholder": "ชื่อผู้อนุมัติ",
+        "addApprover": "เพิ่มผู้อนุมัติ",
+        "orderHint": "การอนุมัติจะดำเนินการตามลำดับจากด้านบน ส่งไปภายนอกหลังจากการอนุมัติทั้งหมดแล้ว",
+        "summaryTitle": "ขั้นตอนการอนุมัติภายใน (ส่งล่วงหน้า)",
+        "summaryHint": "* ส่งภายนอกหลังจากที่ผู้อนุมัติทั้งหมดอนุมัติเสร็จสิ้นแล้ว"
+      },
+      "preparingPdf": "กำลังเตรียม PDF...",
+      "preparingPdfHint": "กรุณารอสักครู่ในขณะที่การอัพโหลดไฟล์เสร็จสิ้น",
+      "fieldPlacementHint": "ลากและวางช่องเพื่อวางพื้นที่ป้อนข้อมูลในเอกสาร",
+      "placedFields": "ฟิลด์ที่วางไว้ ({{count}})",
+      "expirationValue": "{{count}} วัน",
+      "reminderValue": "ทุก {{count}} วัน",
+      "signatureFieldsLabel": "ฟิลด์ลายเซ็น",
+      "signatureFieldsValue": "{{count}} ฟิลด์",
+      "routingLabel": "การกำหนดเส้นทาง",
+      "senderFallback": "ผู้ส่ง",
+      "emailSubjectPreview": "ขอลายเซ็น \"{{title}}\" จาก {{sender}}",
+      "emailHeaderRequest": "{{sender}} ส่งคำขอลายเซ็นถึงคุณ",
+      "emailHeaderRequestDesc": "โปรดตรวจสอบและลงนาม \"{{title}}\"",
+      "messageFromSender": "ข้อความจากผู้ส่ง",
+      "documentNameLabel": "เอกสาร: {{title}}",
+      "senderLabel": "ผู้ส่ง: {{sender}}",
+      "previewPlgHeadline": "ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted",
+      "previewPlgSubtext": "จัดการการลงนาม เทมเพลต และบันทึกตรวจสอบในสภาพแวดล้อมของคุณ",
+      "previewPerMonth": "ติดตั้งเอง",
+      "complete": {
+        "internalApprovalTitle": "เริ่มขั้นตอนการอนุมัติภายในแล้ว",
+        "internalApprovalDesc": "ส่งอีเมลคำขออนุมัติแล้ว หลังจากการอนุมัติทั้งหมดแล้ว มันจะถูกส่งไปภายนอกโดยอัตโนมัติ",
+        "sentTitle": "ส่งเรียบร้อยแล้ว",
+        "sentDesc": "อีเมลขอลายเซ็นถูกส่งไปยังผู้รับแล้ว"
+      },
+      "validation": {
+        "uploadPdf": "กรุณาอัพโหลดสัญญา PDF",
+        "titleRequired": "กรุณากรอกชื่อ",
+        "titleTooLong": "ชื่อต้องมีอักขระไม่เกิน 500 ตัว",
+        "recipientRequired": "โปรดเพิ่มผู้รับอย่างน้อยหนึ่งราย",
+        "signerRequired": "โปรดตั้งค่าผู้ลงนามอย่างน้อยหนึ่งคน",
+        "invalidEmail": "\"{{email}}\" ไม่ใช่ที่อยู่อีเมลที่ถูกต้อง",
+        "recipientNameRequired": "กรุณากรอกชื่อผู้รับทุกท่าน",
+        "fieldRequired": "กรุณาใส่อย่างน้อยหนึ่งช่องลายเซ็น",
+        "signerFieldMissing": "ไม่มีการกำหนดฟิลด์ลายเซ็นให้กับ {{signer}}"
+      },
+      "createError": "ไม่สามารถสร้างเอกสารได้",
+      "sendError": "ไม่สามารถส่งได้",
+      "saveDraftSuccess": "บันทึกฉบับร่างแล้ว",
+      "saveDraftError": "บันทึกไม่สำเร็จ"
+    },
+    "deleteSuccess": "ลบเอกสารแล้ว",
+    "deleteFailed": "ลบเอกสารไม่สำเร็จ",
+    "voidSuccess": "ยกเลิกเอกสารเรียบร้อยแล้ว",
+    "voidConfirm": "คุณแน่ใจหรือไม่ที่จะยกเลิกเอกสารนี้? การดำเนินการนี้ไม่สามารถย้อนกลับได้",
+    "sendReminderSuccess": "ส่งการแจ้งเตือนเรียบร้อยแล้ว",
+    "backToList": "กลับไปที่รายการเอกสาร",
+    "preview": "ดูตัวอย่างเอกสาร",
+    "info": "ข้อมูลเอกสาร",
+    "recipients": "รายชื่อผู้รับ",
+    "activityTab": "กิจกรรม",
+    "role": {
+      "signer": "ผู้ลงนาม",
+      "cc": "สำเนา",
+      "approver": "ผู้อนุมัติ"
+    },
+    "colDocument": "เอกสาร",
+    "colSender": "องค์กรผู้ส่ง",
+    "colAction": "การดำเนินการ",
+    "downloadSuccess": "เริ่มดาวน์โหลดแล้ว",
+    "deleteConfirmPermanent": "เมื่อลบเอกสารแล้วจะไม่สามารถกู้คืนได้ คุณแน่ใจหรือไม่ว่าต้องการลบ?",
+    "bulkDeleteSelected": "ลบเอกสารที่เลือก ({{count}})"
+  },
+  "inbox": {
+    "pendingCount": "มีข้อความที่ต้องดำเนินการ {{count}} รายการ",
+    "noPending": "ไม่มีข้อความที่ต้องดำเนินการ",
+    "filterActionRequired": "ต้องดำเนินการ",
+    "filterAll": "ทั้งหมด",
+    "searchPlaceholder": "ค้นหาตามหัวเรื่อง เอกสาร หรือผู้ส่ง...",
+    "noResults": "ไม่พบผลลัพธ์",
+    "noResultsDesc": "ลองใช้คำค้นหาอื่น",
+    "empty": "กล่องขาเข้าว่าง",
+    "emptyDesc": "คำขอลายเซ็นและคำขออนุมัติที่ส่งถึงคุณจะแสดงที่นี่",
+    "colMessage": "ข้อความ",
+    "colStatus": "สถานะ",
+    "colUpdated": "อัปเดต",
+    "from": "ผู้ส่ง",
+    "to": "ผู้รับ",
+    "date": "วันที่",
+    "document": "เอกสาร",
+    "actionRequired": "ต้องดำเนินการ",
+    "backToInbox": "กลับไปที่กล่องขาเข้า",
+    "loadingDetail": "กำลังโหลดข้อความ...",
+    "notFoundTitle": "ไม่พบข้อความ",
+    "notFoundDesc": "ข้อความนี้ไม่มีอยู่หรือคุณไม่มีสิทธิ์เข้าถึง",
+    "kind": {
+      "signature": "คำขอลายเซ็น",
+      "approval": "คำขออนุมัติ",
+      "cc": "การแจ้งเตือนสำเนา"
+    },
+    "status": {
+      "signature": {
+        "sent": "รอลายเซ็น",
+        "viewed": "ดูแล้ว",
+        "signed": "ลงนามแล้ว",
+        "declined": "ปฏิเสธแล้ว",
+        "expired": "หมดอายุ"
+      },
+      "approval": {
+        "pending": "รออนุมัติ",
+        "approved": "อนุมัติแล้ว",
+        "rejected": "ปฏิเสธแล้ว"
+      },
+      "cc": "สำหรับตรวจสอบ"
+    },
+    "cta": {
+      "sign": "ลงนาม",
+      "approve": "เปิดหน้าการอนุมัติ",
+      "view": "เปิดรายละเอียด"
+    },
+    "preview": {
+      "signature": "คุณได้รับคำขอให้ลงนาม \"{{title}}\"",
+      "approval": "คุณได้รับคำขอให้อนุมัติ \"{{title}}\"",
+      "cc": "คุณได้รับการแจ้งเตือนสำเนาสำหรับ \"{{title}}\""
+    },
+    "detail": {
+      "defaultBody": {
+        "signature": "{{sender}} ส่งคำขอลายเซ็นสำหรับ \"{{title}}\" ถึงคุณ โปรดตรวจสอบเอกสารและดำเนินการจากหน้าลงนาม",
+        "approval": "{{sender}} ส่งคำขออนุมัติภายในสำหรับ \"{{title}}\" ถึงคุณ โปรดตรวจสอบเอกสารแล้วอนุมัติหรือปฏิเสธ",
+        "cc": "{{sender}} ส่งการแจ้งเตือนสำเนาสำหรับ \"{{title}}\" ถึงคุณ เปิดเอกสารหากต้องการตรวจสอบ"
+      }
+    }
+  },
+  "signing": {
+    "title": "การลงนามเอกสาร",
+    "reviewAndSign": "ตรวจสอบและลงนาม",
+    "consentTitle": "ความยินยอมในการลงนามทางอิเล็กทรอนิกส์",
+    "consentMessage": "ฉันยินยอมให้ใช้ลายเซ็นอิเล็กทรอนิกส์และบันทึกอิเล็กทรอนิกส์",
+    "consentCheck": "ฉันยอมรับข้อความข้างต้น",
+    "signHere": "ลงนามที่นี่",
+    "dateHere": "วันที่",
+    "initialHere": "ชื่อย่อ",
+    "stampHere": "ประทับตรา",
+    "nameHere": "ชื่อ-นามสกุล",
+    "fieldsRemaining": "ต้องกรอกอีก {{count}} ฟิลด์",
+    "allFieldsComplete": "กรอกข้อมูลครบทุกช่องแล้ว",
+    "finishSigning": "เสร็จสิ้นการลงนาม",
+    "decline": "ปฏิเสธการลงนาม",
+    "delegate": "มอบหมาย",
+    "declineReason": "เหตุผลที่ปฏิเสธ",
+    "alreadySigned": "เอกสารนี้ได้รับการลงนามแล้ว",
+    "expired": "คำขอลายเซ็นนี้หมดอายุแล้ว",
+    "emailVerification": {
+      "title": "การยืนยันตัวตน",
+      "description": "ก่อนลงนาม ให้ยืนยันที่อยู่อีเมลของคุณจากอีเมลขอลายเซ็น",
+      "placeholder": "เช่น: yamada@example.com",
+      "enterEmailError": "กรุณากรอกที่อยู่อีเมลของคุณ",
+      "invalidEmailError": "กรุณากรอกที่อยู่อีเมลที่ถูกต้อง",
+      "notAuthorizedError": "ที่อยู่อีเมลนี้ไม่ได้รับอนุญาตให้ลงนาม ป้อนที่อยู่อีเมลที่แสดงในอีเมลขอลายเซ็น",
+      "confirmAndStart": "ตรวจสอบและเริ่มลงนาม",
+      "securityNote": "เพื่อความปลอดภัย จำเป็นต้องมีการตรวจสอบที่อยู่อีเมลที่ได้รับอนุญาต"
+    },
+    "enterEmail": "กรุณาป้อนที่อยู่อีเมลของคุณ",
+    "enterAccessCode": "กรุณาป้อนรหัสการเข้าถึง",
+    "signatureComplete": "การลงนามเสร็จสมบูรณ์",
+    "thankYou": "ขอบคุณ",
+    "downloadSignedPdf": "ดาวน์โหลด PDF ที่ลงนามแล้ว",
+    "createAccount": "สร้างบัญชีฟรี",
+    "createAccountBenefit": "การสร้างบัญชีช่วยให้คุณสามารถตรวจสอบและดาวน์โหลดเอกสารที่ลงนามได้ตลอดเวลา",
+    "drawSignature": "วาดลายเซ็น",
+    "typeSignature": "พิมพ์ลายเซ็น",
+    "clearSignature": "ล้าง",
+    "selectFont": "เลือกแบบอักษร",
+    "stampInput": "ประทับตรา (ป้อนนามสกุล)",
+    "generatingSignedPdf": "กำลังสร้าง PDF ที่ลงนามแล้ว โปรดรอสักครู่",
+    "accessVerified": "การยืนยันสำเร็จ",
+    "loadingDocument": "กำลังโหลดเอกสาร...",
+    "accessDenied": "การเข้าถึงถูกปฏิเสธ",
+    "successMessage": "ลายเซ็นของคุณสำหรับ \"{{title}}\" เสร็จสมบูรณ์แล้ว ผู้ส่งจะได้รับแจ้ง",
+    "quickActions": {
+      "downloadTitle": "ดาวน์โหลดไฟล์ PDF",
+      "downloadDesc": "บันทึกเอกสารที่ลงนามของคุณ",
+      "viewTitle": "ดูเอกสาร",
+      "viewDesc": "ตรวจสอบความคืบหน้าและรายละเอียดลายเซ็น"
+    },
+    "promo": {
+      "badge": "บริการลายเซ็นอิเล็กทรอนิกส์",
+      "titleLine1": "คุณสมบัติครบถ้วน ไม่มีการประนีประนอม",
+      "titleLine2": "สำหรับ self-hosting",
+      "subtitle": "การลงนาม PDF ลิงก์อีเมลผู้รับ ใบรับรองการเสร็จสิ้น และบันทึกตรวจสอบใน OSS deployment",
+      "monthlyLabel": "OSS",
+      "taxIncluded": "(รวมภาษีแล้ว)",
+      "priceNote": "self-hosted · บัญชีพนักงานภายใน · ผู้รับไม่ต้องมีบัญชี",
+      "featureCertificate": "ใบรับรองการเสร็จสิ้นอัตโนมัติ",
+      "featureAudit": "บันทึกการตรวจสอบและกิจกรรม",
+      "featureRealtime": "การแจ้งเตือนสถานะแบบเรียลไทม์",
+      "registerHint": "หากคุณลงทะเบียนด้วย {{email}} เอกสารนี้จะเชื่อมโยงกับบัญชีของคุณโดยอัตโนมัติ",
+      "ctaNote": "self-hosted · จัดการบัญชีภายใน · ผู้รับไม่ต้องมีบัญชี"
+    },
+    "declineSuccess": "ลายเซ็นถูกปฏิเสธ",
+    "declineMessage": "คุณปฏิเสธการลงนาม \"{{title}}\" ผู้ส่งได้รับแจ้งแล้ว",
+    "delegateSuccess": "มอบอำนาจลงนามแล้ว",
+    "delegateMessage": "คุณได้มอบหมายการลงนาม \"{{title}}\" ให้กับ {{name}} ผู้รับมอบสิทธิ์ได้รับแจ้งทางอีเมลแล้ว",
+    "accessCodeDescription": "ต้องใช้รหัสการเข้าถึงเพื่อดูเอกสารนี้ ป้อนรหัสจากผู้ส่ง",
+    "consent": {
+      "title": "ความยินยอมด้วยลายมือชื่ออิเล็กทรอนิกส์",
+      "description": "โปรดตรวจสอบสิ่งต่อไปนี้ก่อนลงนาม \"{{title}}\"",
+      "paragraph1": "บริการนี้ใช้ลายเซ็นอิเล็กทรอนิกส์และบันทึก ลายเซ็นอิเล็กทรอนิกส์มีผลทางกฎหมายเทียบเท่ากับลายเซ็นที่เขียนด้วยลายมือ",
+      "paragraph2": "การลงนามแสดงว่าคุณรับทราบและยอมรับเนื้อหาในเอกสาร คุณไม่สามารถเปลี่ยนแปลงเนื้อหาได้หลังจากการลงนาม",
+      "paragraph3": "หากคุณไม่ตกลง คุณสามารถปฏิเสธการลงนามหรือมอบหมายให้บุคคลอื่นได้",
+      "checkbox": "ฉันตกลงที่จะใช้ลายเซ็นอิเล็กทรอนิกส์และบันทึกอิเล็กทรอนิกส์ และเข้าใจผลผูกพันทางกฎหมาย",
+      "agreeAndContinue": "เห็นด้วยและดำเนินการต่อ"
+    },
+    "declineDialog": {
+      "title": "ปฏิเสธลายเซ็น?",
+      "description": "ผู้ส่งจะได้รับแจ้ง กรุณาระบุเหตุผลในการปฏิเสธ",
+      "placeholder": "ป้อนเหตุผลในการปฏิเสธ...",
+      "confirm": "ยืนยันการปฏิเสธ"
+    },
+    "delegateDialog": {
+      "title": "มอบลายเซ็นให้บุคคลอื่น",
+      "description": "กรุณากรอกข้อมูลผู้รับมอบสิทธิ์ ผู้รับมอบสิทธิ์จะได้รับแจ้งทางอีเมล",
+      "nameLabel": "ชื่อผู้รับมอบสิทธิ์",
+      "namePlaceholder": "เช่น จอห์น โด",
+      "emailLabel": "อีเมลผู้รับมอบสิทธิ์",
+      "emailPlaceholder": "เช่น: yamada@example.com"
+    },
+    "fieldType": {
+      "signature": "ลายเซ็น",
+      "date": "วันที่",
+      "name": "ชื่อ",
+      "initials": "ชื่อย่อ"
+    },
+    "messageFromSender": "ข้อความจากผู้ส่ง",
+    "nextField": "สนามถัดไป",
+    "fieldFilled": {
+      "date": "วันที่เข้า",
+      "name": "ป้อนชื่อแล้ว",
+      "initials": "อักษรย่อเข้ามาแล้ว"
+    },
+    "verifying": "กำลังยืนยัน...",
+    "stamp": {
+      "title": "ใช้แสตมป์",
+      "description": "ป้อนนามสกุลของคุณเพื่อสร้างแสตมป์กลม",
+      "placeholder": "เช่น ทานาคา",
+      "generate": "สร้าง",
+      "previewAlt": "ตัวอย่างแสตมป์",
+      "confirmQuestion": "ใช้แสตมป์นี้เหรอ?",
+      "apply": "ใช้แสตมป์",
+      "applied": "ใช้แสตมป์แล้ว",
+      "enterLastName": "กรุณากรอกนามสกุลของคุณ"
+    },
+    "errors": {
+      "accessDenied": "You do not have access to this signature request",
+      "requestNotFound": "Signature request not found",
+      "invalidAccessCode": "Incorrect access code",
+      "invalidEmail": "Please enter a valid email address",
+      "signatureDataTooLarge": "Signature data is too large",
+      "alreadySigned": "You have already signed this document",
+      "ccCannotSign": "CC recipients cannot sign documents",
+      "documentNotSignable": "This document cannot be signed in its current status",
+      "pdfAccessDenied": "You do not have permission to access this PDF",
+      "notYetSigned": "Your signature is not yet complete",
+      "documentNotComplete": "The document is not yet complete. All signatures are required.",
+      "notOrgMember": "You are not a member of the specified organization"
+    }
+  },
+  "contacts": {
+    "title": "การจัดการรายชื่อติดต่อ",
+    "new": "เพิ่มรายชื่อติดต่อ",
+    "noContacts": "ไม่มีรายชื่อติดต่อ",
+    "import": "นำเข้า",
+    "export": "ส่งออก",
+    "category": "หมวดหมู่",
+    "group": "กลุ่ม",
+    "manageCategories": "จัดการหมวดหมู่",
+    "manageGroups": "จัดการกลุ่ม",
+    "addToGroup": "เพิ่มในกลุ่ม",
+    "removeFromGroup": "ลบออกจากกลุ่ม",
+    "selectAll": "เลือกทั้งหมด",
+    "deleteSelected": "ลบรายการที่เลือก",
+    "grid": "มุมมองกริด",
+    "table": "มุมมองตาราง",
+    "addContact": "เพิ่มผู้ติดต่อ",
+    "editContact": "แก้ไขผู้ติดต่อ",
+    "deleteContact": "ลบผู้ติดต่อ",
+    "deleteConfirm": "ลบผู้ติดต่อนี้?",
+    "createSuccess": "สร้างผู้ติดต่อแล้ว",
+    "updateSuccess": "อัปเดตผู้ติดต่อแล้ว",
+    "deleteSuccess": "ลบผู้ติดต่อแล้ว",
+    "createError": "สร้างล้มเหลว",
+    "updateError": "อัปเดตล้มเหลว",
+    "deleteError": "ลบล้มเหลว",
+    "groupCreateSuccess": "สร้างกลุ่มแล้ว",
+    "groupUpdateSuccess": "อัปเดตกลุ่มแล้ว",
+    "groupDeleteSuccess": "ลบกลุ่มแล้ว",
+    "categoryCreateSuccess": "สร้างหมวดหมู่แล้ว",
+    "categoryUpdateSuccess": "อัปเดตหมวดหมู่แล้ว",
+    "categoryDeleteSuccess": "ลบหมวดหมู่แล้ว",
+    "searchPlaceholder": "ค้นหาด้วยชื่อ, อีเมล, บริษัท...",
+    "noResults": "ไม่พบผลลัพธ์",
+    "filterByCategory": "กรองตามหมวดหมู่",
+    "filterByGroup": "กรองตามกลุ่ม",
+    "allCategories": "ทุกหมวดหมู่",
+    "allGroups": "ทุกกลุ่ม",
+    "noContactsInGroup": "ไม่มีผู้ติดต่อในกลุ่มนี้",
+    "selectedCount": "เลือก {{count}} รายการ",
+    "bulkDeleteConfirm": "ลบผู้ติดต่อ {{count}} รายการ?",
+    "bulkDeleteSuccess": "ลบผู้ติดต่อแล้ว",
+    "importSuccess": "นำเข้าสำเร็จ",
+    "exportSuccess": "ส่งออกสำเร็จ",
+    "addToGroupSuccess": "เพิ่มในกลุ่มแล้ว",
+    "removeFromGroupSuccess": "ลบออกจากกลุ่มแล้ว",
+    "totalCount": "{{count}} ผู้ติดต่อ",
+    "companyPlaceholder": "แอคมี อิงค์",
+    "departmentPlaceholder": "ฝ่ายขาย",
+    "categoryPlaceholder": "ชื่อหมวดหมู่ (เช่น ลูกค้า คู่ค้า)",
+    "groupPlaceholder": "ชื่อกลุ่ม (เช่น ทีมขาย กฎหมาย)",
+    "groupDescriptionPlaceholder": "คำอธิบาย (ไม่บังคับ)",
+    "selectGroups": "เลือกกลุ่ม...",
+    "noGroups": "ไม่มีกลุ่ม"
+  },
+  "templates": {
+    "title": "การจัดการเทมเพลต",
+    "new": "สร้างเทมเพลต",
+    "noTemplates": "ไม่มีเทมเพลต",
+    "useTemplate": "ใช้เทมเพลตนี้",
+    "shared": "เทมเพลตที่ใช้ร่วมกัน",
+    "my": "เทมเพลตของฉัน",
+    "locked": "ล็อกแล้ว",
+    "saveSuccess": "บันทึกเทมเพลตเรียบร้อยแล้ว",
+    "saveConfirm": "คุณต้องการบันทึกเทมเพลตหรือไม่",
+    "backToList": "กลับไปที่รายการเทมเพลต",
+    "continueEditing": "แก้ไขต่อ",
+    "createSuccess": "สร้างเทมเพลตเรียบร้อยแล้ว",
+    "createError": "ไม่สามารถสร้างเทมเพลตได้",
+    "deleteConfirm": "คุณต้องการลบเทมเพลตนี้หรือไม่?",
+    "deleteSuccess": "ลบเทมเพลตเรียบร้อยแล้ว",
+    "deleteError": "ลบเทมเพลตไม่สำเร็จ",
+    "uploadPdf": "อัปโหลด PDF",
+    "replacePdf": "เปลี่ยน",
+    "uploading": "กำลังอัปโหลด...",
+    "uploadSuccess": "อัปโหลด PDF เรียบร้อยแล้ว ({{pageCount}} หน้า)",
+    "uploadError": "อัปโหลด PDF ไม่สำเร็จ",
+    "noTitle": "ไม่มีชื่อ",
+    "titleRequired": "กรุณากรอกชื่อ",
+    "editTemplate": "แก้ไขเทมเพลต",
+    "editDescription": "อัปโหลด PDF และวางช่องลายเซ็น",
+    "savingFields": "กำลังบันทึก...",
+    "saveFields": "บันทึกฟิลด์ ({{count}})",
+    "placedFields": "ฟิลด์ที่วางแล้ว ({{count}})",
+    "save": "บันทึก",
+    "noTemplatesDesc": "อัปโหลด PDF และกำหนดตำแหน่งลายเซ็นเพื่อสร้างเทมเพลตที่ใช้ซ้ำได้",
+    "createAndEdit": "สร้างและแก้ไข",
+    "createNew": "เทมเพลตใหม่",
+    "signerCount": "จำนวนผู้ลงนาม",
+    "searchPlaceholder": "ค้นหาเทมเพลต...",
+    "category": "หมวดหมู่",
+    "categoryPlaceholder": "สัญญา / NDA / ใบสั่งซื้อ",
+    "titleLabel": "ชื่อ *",
+    "descriptionLabel": "คำอธิบาย",
+    "saveSuccessDialog": "บันทึกเรียบร้อยแล้ว",
+    "saveSuccessDialogDesc": "บันทึกฟิลด์ลายเซ็นของเทมเพลตเรียบร้อยแล้ว",
+    "signerCountLabel": "จำนวนผู้ลงนาม:",
+    "pdfFieldInstruction": "คลิกบน PDF เพื่อวางช่องลายเซ็น คุณสามารถลากเพื่อย้ายได้",
+    "updated": "อัปเดต: {{date}}",
+    "placeFields": "วางช่องลายเซ็น",
+    "saveError": "บันทึกไม่สำเร็จ"
+  },
+  "organization": {
+    "title": "การตั้งค่า",
+    "info": "ข้อมูลองค์กร",
+    "orgName": "ชื่อองค์กร",
+    "members": "สมาชิก",
+    "removeMember": "ลบสมาชิก",
+    "changeRole": "เปลี่ยนบทบาท",
+    "pending": "รอดำเนินการ",
+    "accepted": "ยอมรับแล้ว",
+    "deactivated": "ปิดใช้งานแล้ว",
+    "nameRequired": "กรุณากรอกชื่อองค์กร",
+    "orgNamePlaceholder": "กรอกชื่อองค์กร",
+    "loadingSettings": "กำลังโหลดการตั้งค่า...",
+    "preparingAccount": "กำลังเตรียมบัญชี...",
+    "teamMembers": "สมาชิกทีม",
+    "unlimited": "ไม่จำกัด",
+    "adminRequired": "ต้องการสิทธิ์ผู้จัดการ",
+    "managerRequired": "ต้องการสิทธิ์ผู้จัดการ",
+    "optionalName": "ชื่อ (ไม่บังคับ)",
+    "namePlaceholderFull": "สมชาย ใจดี",
+    "emailRequired": "อีเมล *",
+    "managerBadge": "ผู้จัดการ",
+    "removeMemberConfirm": "ลบ {{name}} ออกจากองค์กร?\n* เอกสารที่สร้างโดยสมาชิกนี้จะยังคงอยู่ในทีม",
+    "settingsHeader": "การตั้งค่า",
+    "removeMemberSuccessMsg": "ลบสมาชิกแล้ว",
+    "updateRoleSuccessMsg": "อัปเดตบทบาทแล้ว",
+    "memberCount": "สมาชิก {{count}}",
+    "security": {
+      "title": "ความปลอดภัยและการปฏิบัติตามข้อกำหนด",
+      "subtitle": "ข้อมูลความน่าเชื่อถือพื้นฐานสำหรับแพลตฟอร์ม",
+      "certificate": {
+        "title": "ใบรับรองลายเซ็นแพลตฟอร์ม",
+        "description": "ใบรับรอง X.509 ที่ใช้สำหรับลายเซ็น PDF",
+        "subject": "เรื่อง",
+        "type": "พิมพ์",
+        "selfSigned": "ลงนามด้วยตนเอง",
+        "externalCa": "ออกโดย CA ภายนอก",
+        "validity": "ระยะเวลามีผล",
+        "validRange": "{{start}} ~ {{end}} (ช่วงเวลา)",
+        "showTechnicalDetails": "แสดงรายละเอียดทางเทคนิค",
+        "serialNumber": "หมายเลขซีเรียล",
+        "fingerprint": "ลายนิ้วมือ"
+      }
+    },
+    "audit": {
+      "title": "บันทึกการตรวจสอบ",
+      "subtitle": "การดำเนินการทั้งหมดจะถูกบันทึกโดยอัตโนมัติ",
+      "refresh": "รีเฟรช",
+      "showStats": "แสดงสถิติ",
+      "totalRecords": "บันทึกทั้งหมด",
+      "chainStatus": "สถานะลูกโซ่",
+      "chainHealthy": "สุขภาพดี",
+      "chainBroken": "ถูกดัดแปลง (ลูกโซ่เสีย)",
+      "chainPartial": "ปกติ ({{count}} รายการไม่สามารถตรวจสอบได้ — ไม่มีคีย์เข้ารหัส)",
+      "chainUnverified": "ยังไม่ตรวจสอบ"
+    },
+    "nameUpdateSuccess": "อัปเดตชื่อองค์กรแล้ว",
+    "organizationNameTitle": "ชื่อองค์กร",
+    "organizationNameDesc": "เฉพาะเจ้าของเท่านั้นที่เปลี่ยนชื่อองค์กรได้",
+    "organizationNameOwnerOnly": "เฉพาะเจ้าของเท่านั้นที่เปลี่ยนชื่อองค์กรได้",
+    "profileNameTitle": "ชื่อผู้ใช้",
+    "profileNameLabel": "ชื่อผู้ใช้",
+    "profileNameDesc": "คุณสามารถเปลี่ยนชื่อที่แสดงของตนเองได้",
+    "profileNameUpdateSuccess": "อัปเดตชื่อผู้ใช้แล้ว"
+  },
+  "auditLog": {
+    "title": "บันทึกการตรวจสอบ",
+    "actor": "ผู้ดำเนินการ",
+    "action": "การดำเนินการ",
+    "target": "เป้าหมาย",
+    "timestamp": "เวลา",
+    "ipAddress": "ที่อยู่ IP",
+    "userAgent": "ตัวแทนผู้ใช้",
+    "hashChain": "แฮชเชน",
+    "verifyIntegrity": "ตรวจสอบความสมบูรณ์",
+    "verificationSuccess": "ยืนยันความสมบูรณ์ของ Hash Chain แล้ว",
+    "verificationFailed": "มีความสมบูรณ์ของ Hash Chain ผิดปกติ",
+    "noLogs": "ไม่มีบันทึกการตรวจสอบ",
+    "certificate": "ข้อมูลใบรับรอง",
+    "colDate": "วันที่/เวลา",
+    "colEvent": "เหตุการณ์",
+    "colEntity": "เอนทิตี",
+    "colActor": "ผู้ดำเนินการ",
+    "colIp": "IP",
+    "page": "หน้า {{current}} / {{total}}",
+    "prevPage": "ก่อนหน้า",
+    "nextPage": "ถัดไป",
+    "verifySuccess": "ยืนยัน: {{count}} รายการสมบูรณ์",
+    "verifySuccessWithUnverifiable": "ยืนยัน: {{count}} รายการปกติ, {{unverifiable}} รายการไม่สามารถตรวจสอบได้ (ไม่มีคีย์เข้ารหัส)",
+    "verifyFail": "ตรวจพบการแก้ไข: ห่วงโซ่เสียหายที่ ID {{id}}",
+    "verifyError": "ข้อผิดพลาดการยืนยัน: {{message}}",
+    "events": {
+      "document": {
+        "created": "สร้างเอกสาร",
+        "uploaded": "อัพโหลด PDF",
+        "sent": "ส่งคำขอลงนาม",
+        "viewed": "ดูเอกสาร",
+        "completed": "ลงนามเสร็จสมบูรณ์",
+        "voided": "เพิกถอนเอกสาร",
+        "deleted": "ลบเอกสาร",
+        "imported": "นำเข้าเอกสาร",
+        "auto_imported": "นำเข้าเอกสารอัตโนมัติ"
+      },
+      "signature": {
+        "viewed": "ดูหน้าลงนาม",
+        "signed": "ลงนามเสร็จสิ้น",
+        "declined": "ปฏิเสธการลงนาม",
+        "reminded": "ส่งการแจ้งเตือน",
+        "delegated": "มอบหมายการลงนาม"
+      },
+      "auth": {
+        "email_verified": "ยืนยันอีเมล",
+        "access_code_verified": "ยืนยันรหัสเข้าถึง",
+        "invitation_claimed": "ยอมรับคำเชิญ"
+      },
+      "pdf": {
+        "signed": "PDF ลงนาม",
+        "stored_worm": "จัดเก็บ WORM",
+        "certificate_appended": "แนบใบรับรอง",
+        "permission_lock_failed": "ล็อกสิทธิ์ PDF ล้มเหลว",
+        "worm_stored": "จัดเก็บ WORM เสร็จสมบูรณ์"
+      },
+      "org": {
+        "created": "สร้างองค์กร",
+        "updated": "อัปเดตองค์กร",
+        "member_invited": "เชิญสมาชิก",
+        "member_joined": "สมาชิกเข้าร่วม",
+        "member_removed": "ลบสมาชิก",
+        "role_changed": "เปลี่ยนบทบาท"
+      },
+      "template": {
+        "created": "สร้างเทมเพลต",
+        "updated": "อัปเดตเทมเพลต",
+        "deleted": "ลบเทมเพลต"
+      },
+      "approval": {
+        "requested": "ขอการอนุมัติ",
+        "approved": "ได้รับการอนุมัติ",
+        "rejected": "ถูกปฏิเสธ"
+      }
+    },
+    "entities": {
+      "document": "เอกสาร",
+      "signature_request": "คำขอลงนาม",
+      "user": "ผู้ใช้",
+      "organization": "องค์กร",
+      "membership": "สมาชิกภาพ",
+      "invitation": "คำเชิญ",
+      "template": "เทมเพลต",
+      "internal_approval": "การอนุมัติภายใน",
+      "pdf": "PDF"
+    },
+    "dashboard": {
+      "noAccessTitle": "การเข้าถึงถูกปฏิเสธ",
+      "noAccessDesc": "คุณต้องมีสิทธิ์ของเจ้าของจึงจะสามารถดูบันทึกการตรวจสอบได้",
+      "complianceSubtitle": "บันทึกการตรวจสอบป้องกันการงัดแงะพร้อมสายโซ่แฮช",
+      "refresh": "รีเฟรช",
+      "totalRecords": "บันทึกทั้งหมด",
+      "chainStatus": "สถานะลูกโซ่",
+      "chainHealthy": "สุขภาพดี",
+      "chainBroken": "ถูกดัดแปลง (ลูกโซ่เสีย)",
+      "chainPartial": "ปกติ ({{count}} รายการไม่สามารถตรวจสอบได้ — ไม่มีคีย์เข้ารหัส)",
+      "chainUnverified": "ยังไม่ตรวจสอบ",
+      "certificateLabel": "ใบรับรองลายเซ็น",
+      "hashAlgorithm": "อัลกอริธึมแฮช",
+      "eventTypePlaceholder": "ประเภทเหตุการณ์",
+      "allEvents": "กิจกรรมทั้งหมด",
+      "entityTypePlaceholder": "ประเภทเอนทิตี",
+      "allEntities": "เอนทิตีทั้งหมด",
+      "eventList": "รายการกิจกรรม",
+      "showingRange": "กำลังแสดง {{start}}-{{end}} / {{total}}",
+      "idCol": "ID",
+      "targetCol": "เป้า",
+      "hashCol": "กัญชา",
+      "actorFallback": "ผู้ใช้ #{{id}}",
+      "certificateDesc": "ใบรับรองที่ออกโดยระบบเพื่อเป็นหลักฐานความสมบูรณ์",
+      "certificateSubject": "เรื่อง",
+      "autoGenerated": "สร้างอัตโนมัติ",
+      "autoGeneratedYes": "ใช่",
+      "autoGeneratedNo": "เลขที่",
+      "validFrom": "มีผลตั้งแต่",
+      "validTo": "ใช้ได้กับ",
+      "serialNumber": "หมายเลขซีเรียล",
+      "fingerprint": "ลายนิ้วมือ",
+      "hashAlgorithmValue": "เชน SHA-256"
+    }
+  },
+  "landing": {
+    "heroTitle": "นิยามใหม่ของลายเซ็นอิเล็กทรอนิกส์",
+    "heroTitleAccent": "สำหรับ self-hosting",
+    "heroSubtitle": "ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted สำหรับส่ง PDF ลงนาม เทมเพลต การอนุมัติภายใน และบันทึกตรวจสอบ WORM",
+    "startFree": "เริ่มต้นฟรี",
+    "learnMore": "ดูฟีเจอร์",
+    "goToDashboard": "ไปที่แดชบอร์ด",
+    "getStarted": "เริ่มต้นฟรี",
+    "noCreditCard": "ติดตั้งเอง ไม่ต้องมีบัญชีโฮสต์",
+    "noPerSeat": "ผู้รับภายนอกไม่ต้องมีบัญชี",
+    "allFeatures": "มีขั้นตอน e-signature หลักครบ",
+    "mockupTitle": "การลงนามเสร็จสมบูรณ์",
+    "mockupTime": "เมื่อกี้ · ผู้ลงนามทั้ง 2 คนเสร็จแล้ว",
+    "mockupCostLabel": "รูปแบบติดตั้ง",
+    "mockupSigner1": "สมชาย ใจดี — ลงนามแล้ว",
+    "mockupSigner2": "สมหญิง รักดี — ลงนามแล้ว",
+    "mockupCTA": "จัดการสัญญาตั้งแต่ร่างจนลงนามเสร็จ",
+    "mockupCTASub": "ในสภาพแวดล้อม self-hosted ของคุณ",
+    "navFeatures": "ฟีเจอร์",
+    "navFaq": "คำถามที่พบบ่อย",
+    "footerTerms": "ข้อกำหนดการใช้บริการ",
+    "footerPrivacy": "นโยบายความเป็นส่วนตัว",
+    "trustedBy": "ได้รับความไว้วางใจจากบริษัทหลายแห่ง",
+    "solutions": "โซลูชัน",
+    "caseStudies": "กรณีศึกษา",
+    "faq": "คำถามที่พบบ่อย",
+    "cta": "เริ่มต้นฟรีได้แล้ววันนี้",
+    "ctaSubtitle": "เริ่มส่งและลงนามเอกสารในสภาพแวดล้อม self-hosted ของคุณ",
+    "heroDeclaration": "ควบคุมเวิร์กโฟลว์สัญญาอิเล็กทรอนิกส์ของคุณเอง",
+    "heroLine1": "ควบคุมเวิร์กโฟลว์สัญญา",
+    "heroLine2": "ของคุณเอง",
+    "heroTeamLabel": "สำหรับทีมของคุณ",
+    "heroUnlimited": "จัดการพนักงาน · ผู้รับไม่ต้องมีบัญชี",
+    "heroUnlimitedMain": "สมาชิกไม่จำกัด",
+    "heroUnlimitedSub": "ผู้ลงนามภายนอกใช้ลิงก์อีเมลที่ปลอดภัยเท่านั้น",
+    "heroRevealTitle": "เวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์ในรูปแบบ OSS",
+    "heroRevealSub": "การลงนาม PDF การจัดการหลักฐาน สิทธิ์พนักงาน เทมเพลต และหน้าลงนาม 4 ภาษา ใน workspace แบบ self-hosted เดียว",
+    "diffTeam": "การจัดการพนักงาน",
+    "diffTeamDesc": "ผู้ดูแลออกบัญชีพนักงานได้ ส่วนผู้ลงนามภายนอกไม่ต้องมีบัญชี",
+    "diffSecurity": "ความปลอดภัยระดับองค์กร",
+    "diffSecurityDesc": "การเข้ารหัส TLS 1.3 / AES-256 สอดคล้องกับกฎหมาย Zero AI Training",
+    "diffGlobal": "รองรับ 4 ภาษา",
+    "diffGlobalDesc": "การแจ้งเตือนทางอีเมลและหน้าจอลงนามใน 4 ภาษาสำหรับสัญญาระดับสากล",
+    "heroBadge": "ฟีเจอร์ระดับองค์กรครบครัน",
+    "mockupVsEnterprise": "รูปแบบติดตั้ง",
+    "mockupVsBudget": "ผู้รับ",
+    "mockupNoAccount": "ไม่ต้องมีบัญชี",
+    "heroStat1": "OSS",
+    "heroStat1Label": "รองรับ self-hosted",
+    "heroStat2": "4",
+    "heroStat2Label": "ภาษาหลัก",
+    "heroStat3": "ไม่จำกัด",
+    "heroStat3Label": "สมาชิกทีม",
+    "month": "เดือน",
+    "pageTitle": "Hundredth Sign – ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted",
+    "pageKeywords": "ลายเซ็นอิเล็กทรอนิกส์,สัญญาอิเล็กทรอนิกส์,จัดการสัญญา,Hundredth Sign",
+    "mockupNavDocs": "เอกสาร",
+    "mockupNavContacts": "ผู้ติดต่อ",
+    "mockupNavTemplates": "เทมเพลต",
+    "mockupNavAudit": "บันทึก",
+    "mockupNavSettings": "ตั้งค่า",
+    "mockupDocTitle": "สัญญาบริการ_2024.pdf",
+    "mockupDocList": "เอกสาร",
+    "mockupStatusCollecting": "รวบรวมลายเซ็น",
+    "mockupRemind": "แจ้งเตือน",
+    "mockupSignProgress": "ความคืบหน้า",
+    "mockupProgressFmt": "2 / 3 เสร็จ",
+    "mockupSignerSigned": "ลงนามแล้ว",
+    "mockupSignerPending": "ยังไม่ลงนาม",
+    "mockupSigner1Name": "นา",
+    "mockupSigner1Role": "ซีอีโอ",
+    "mockupSigner2Name": "ปุ้ย",
+    "mockupSigner2Role": "ซีเอฟโอ",
+    "mockupSigner3Name": "บอส",
+    "mockupSigner3Role": "ผู้จัดการ",
+    "mockupSignAreaLabel": "พื้นที่ลายเซ็นของบอส",
+    "mockupSignAreaSub": "ส่งลิงก์แล้ว · รอยืนยัน",
+    "mockupWaiting": "รอ",
+    "mockupPhoneNotif": "การแจ้งเตือน",
+    "mockupPhoneSignRequest": "ได้รับคำขอลงนาม",
+    "mockupPhoneSignBtn": "ลงนาม",
+    "mockupPhone3min": "3 นาทีที่แล้ว",
+    "mockupTabletNewDoc": "+ เอกสารใหม่",
+    "mockupPhoneSignedFmt": "{{name}} ลงนามแล้ว",
+    "mockupDocTitleNda": "NDA_Acme.pdf",
+    "mockupDocTitleDev": "Software_Development_Agreement.pdf",
+    "mockupDocTitleMaster": "Master_Purchase_Agreement.pdf",
+    "mockupNotificationDoc": "การบริการ_ข้อตกลง.pdf"
+  },
+  "trust": {
+    "encryptionTitle": "การเข้ารหัส TLS 1.3 / AES-256",
+    "encryptionDesc": "การเข้ารหัสชั้นนำในอุตสาหกรรมสำหรับข้อมูลที่ส่งและจัดเก็บ",
+    "complianceTitle": "สอดคล้องกับกฎหมายการบัญชีอิเล็กทรอนิกส์ของญี่ปุ่น",
+    "complianceDesc": "การป้องกันการปลอมแปลง การประทับเวลา และบันทึกการตรวจสอบในตัว",
+    "legalTitle": "สอดคล้องกับกฎหมายลายเซ็นอิเล็กทรอนิกส์ของญี่ปุ่น",
+    "legalDesc": "ออกแบบให้ตรงตามข้อกำหนดของกฎหมายลายเซ็นอิเล็กทรอนิกส์",
+    "auditTitle": "ใบรับรองการเสร็จสมบูรณ์อัตโนมัติ",
+    "auditDesc": "สร้างใบรับรองที่บันทึกผู้ลงนาม เวลา และ IP โดยอัตโนมัติ",
+    "title": "ความปลอดภัยและความถูกต้องตามกฎหมาย",
+    "titleAccent": "ไม่มีการประนีประนอม",
+    "subtitle": "Hundredth Sign ใช้เทคโนโลยีความปลอดภัยมาตรฐานอุตสาหกรรมในราคาที่เข้าถึงได้",
+    "mockupSign": "ลายเซ็น",
+    "mockupStamp": "ตราประทับ",
+    "mockupDate": "วันที่",
+    "mockupName": "ชื่อ"
+  },
+  "features": {
+    "sectionTitle": "ทุกฟีเจอร์,",
+    "sectionTitleAccent": "ใช้ฟรีได้ทุกฟีเจอร์ทันที",
+    "sectionSubtitle": "Hundredth Sign มีเพียงฟีเจอร์ที่ฟรีแลนซ์และ SMB ต้องการจริงๆ",
+    "highlightTitle": "ปรับปรุงสัญญาด้วยการออกแบบที่ใช้งานง่าย",
+    "highlightDesc": "อัปโหลด PDF ลากและวางช่องลายเซ็น ป้อนอีเมลผู้รับ แล้วส่ง ไม่ต้องตั้งค่าที่ซับซ้อน",
+    "highlightCTA": "ดูฟีเจอร์",
+    "createTitle": "การสร้างและอัปโหลดเอกสาร",
+    "createDesc": "อัปโหลด PDF และวางช่องลายเซ็นและข้อความได้อย่างอิสระ บันทึกเป็นเทมเพลตเพื่อใช้ซ้ำ",
+    "sendTitle": "ส่งคำขอลงนาม",
+    "sendDesc": "เพียงป้อนอีเมลเพื่อส่งคำขอลงนาม ผู้รับไม่ต้องมีบัญชี",
+    "signTitle": "ลายเซ็นอิเล็กทรอนิกส์และตราประทับ",
+    "signDesc": "ลงนามด้วยการพิมพ์ วาด หรืออัปโหลดรูปภาพ สร้างตราประทับสไตล์ญี่ปุ่นอัตโนมัติ",
+    "stampTitle": "การสร้างตราประทับอัตโนมัติ",
+    "stampDesc": "ป้อนชื่อเพื่อสร้างตราประทับกลมและสี่เหลี่ยมสำหรับธุรกิจสไตล์ญี่ปุ่น",
+    "contactsTitle": "การจัดการทีมและรายชื่อติดต่อ",
+    "contactsDesc": "จัดการรายชื่อส่วนกลางและเลือกผู้รับได้อย่างรวดเร็ว",
+    "complianceTitle": "การจัดเก็บบัญชีอิเล็กทรอนิกส์และป้องกันการปลอมแปลง",
+    "complianceDesc": "การป้องกันการปลอมแปลง PDF การประทับเวลา และบันทึกการตรวจสอบเพื่อการปฏิบัติตาม ใบรับรองที่สร้างอัตโนมัติ",
+    "i18nTitle": "4 ภาษา",
+    "i18nDesc": "UI และการแจ้งเตือนทางอีเมลใน 4 ภาษา ส่งคำขอลงนามไปยังพันธมิตรต่างประเทศในภาษาของพวกเขา",
+    "auditTitle": "บันทึกการตรวจสอบและใบรับรอง",
+    "auditDesc": "บันทึกว่าใคร เมื่อไหร่ และจากที่ไหนที่ลงนาม สร้างใบรับรองการเสร็จสมบูรณ์ที่ถูกต้องตามกฎหมาย",
+    "badge": "ฟีเจอร์"
+  },
+  "security": {
+    "badge": "ความปลอดภัยและการปฏิบัติตามกฎระเบียบ",
+    "title": "Self-hosted ไม่ได้หมายถึงลดทอนความปลอดภัย",
+    "subtitle": "Hundredth Sign ยังคงให้ความสำคัญกับความปลอดภัย การตรวจสอบ และหลักฐานทางกฎหมายในแอปหลัก",
+    "tls": "การเข้ารหัส TLS 1.3 / AES-256",
+    "tlsDesc": "การเข้ารหัสระดับสูงสุดสำหรับข้อมูลที่ส่งและจัดเก็บ ป้องกันการดักฟังและการปลอมแปลง",
+    "tamper": "การป้องกันการปลอมแปลง PDF",
+    "tamperDesc": "PDF ที่ลงนามแล้วถูก flatten เพื่อป้องกันการปลอมแปลง รับประกันทางเทคนิคถึงความถูกต้องของเอกสาร",
+    "law": "กฎหมายลายเซ็นอิเล็กทรอนิกส์และการบัญชีอิเล็กทรอนิกส์",
+    "lawDesc": "สอดคล้องกับกฎหมายลายเซ็นอิเล็กทรอนิกส์และกฎหมายการบัญชีอิเล็กทรอนิกส์สำหรับลายเซ็นที่ถูกต้องตามกฎหมาย",
+    "global": "การทำธุรกรรมระหว่างประเทศ",
+    "globalDesc": "ด้วยการแจ้งเตือนทางอีเมลและหน้าจอลงนามใน 4 ภาษา สัญญาข้ามพรมแดนเป็นเรื่องง่าย",
+    "audit": "บันทึกการตรวจสอบและใบรับรอง",
+    "auditDesc": "บันทึกการประทับเวลาและที่อยู่ IP สำหรับการดำเนินการทั้งหมด สร้างใบรับรองการเสร็จสมบูรณ์อัตโนมัติ",
+    "access": "การยืนยันตัวตนด้วยรหัสการเข้าถึง",
+    "accessDesc": "ตั้งรหัสการเข้าถึงสำหรับผู้รับเพื่อเสริมการยืนยันตัวตนสำหรับสัญญาสำคัญ",
+    "badgeTLS": "TLS 1.3",
+    "badgeAES": "AES-256",
+    "badgeLaw": "กฎหมายลายมือชื่ออิเล็กทรอนิกส์",
+    "badgeZeroAI": "Zero AI Training",
+    "zeroAI": "Zero AI Training",
+    "zeroAIDesc": "ข้อมูลสัญญาของคุณไม่ถูกนำไปใช้เทรน AI ความเป็นเจ้าของข้อมูลเป็นของคุณเสมอ",
+    "zeroAITag": "อธิปไตย์ข้อมูล",
+    "auditTag": "ใบรับรอง",
+    "tamperTag": "การแบนราบ",
+    "lawTag": "ความสอดคล้องทางกฎหมาย",
+    "globalTag": "4 ภาษา",
+    "bottomNote": "เราลดต้นทุนที่ไม่จำเป็น ไม่ใช่คุณภาพ ความปลอดภัยคือสิ่งที่เราไม่ยอมประนีประนอม"
+  },
+  "faq": {
+    "title": "คำถามที่พบบ่อย",
+    "q1": "ลายเซ็นอิเล็กทรอนิกส์ของ Hundredth Sign ถูกต้องตามกฎหมายหรือไม่?",
+    "a1": "Hundredth Sign ออกแบบให้สอดคล้องกับข้อกำหนดของกฎหมายลายเซ็นอิเล็กทรอนิกส์และกฎหมายการบัญชีอิเล็กทรอนิกส์ ลายเซ็นทั้งหมดมีใบรับรองที่สร้างอัตโนมัติซึ่งบันทึกผู้ลงนาม เวลา และที่อยู่ IP โปรดทราบว่าการพิจารณาความถูกต้องตามกฎหมายขั้นสุดท้ายขึ้นอยู่กับรายละเอียดและสถานการณ์ของสัญญาแต่ละฉบับ ดังนั้นควรปรึกษาผู้เชี่ยวชาญด้านกฎหมายหากจำเป็น",
+    "q2": "เวอร์ชัน OSS เปลี่ยนอะไรบ้าง?",
+    "a2": "เวอร์ชัน OSS เป็นแอป self-hosted แบบ single workspace โดยตัด commercial hosted-service features, plans, quotas และ OAuth ภายนอกออก แต่ยังคงการลงนาม PDF เทมเพลต บัญชีพนักงาน และบันทึกตรวจสอบไว้",
+    "q3": "ผู้ลงนามต้องมีบัญชีหรือไม่?",
+    "a3": "ไม่ ผู้ลงนามไม่ต้องลงทะเบียน เพียงคลิกลิงก์ในอีเมลเพื่อลงนาม ใช้งานได้บน PC หรือสมาร์ทโฟนด้วยเบราว์เซอร์เท่านั้น",
+    "q4": "ผู้รับภายนอกต้องมีบัญชีหรือไม่?",
+    "a4": "ไม่จำเป็น ผู้ดูแลระบบเป็นผู้ออกบัญชีพนักงาน และผู้รับภายนอกใช้งานได้โดยไม่ต้องมีบัญชี",
+    "q5": "ใช้กับพันธมิตรที่ไม่ได้พูดภาษาไทยได้หรือไม่?",
+    "a5": "ได้ UI รองรับหลายภาษารวมถึงไทยและอังกฤษ และการแจ้งเตือนทางอีเมลรองรับ 4 ภาษา คุณสามารถตั้งค่าภาษาการแจ้งเตือนสำหรับแต่ละผู้รับ ส่งคำขอลงนามในภาษาของพวกเขา",
+    "q6": "มีมาตรการความปลอดภัยอะไรบ้าง?",
+    "a6": "การสื่อสารถูกเข้ารหัสด้วย TLS 1.3 ข้อมูลที่จัดเก็บด้วย AES-256 PDF ที่ลงนามแล้วถูกป้องกันการปลอมแปลง (flatten) และการดำเนินการทั้งหมดถูกบันทึกในบันทึกการตรวจสอบ การยืนยันตัวตนด้วยรหัสการเข้าถึงสำหรับการยืนยันผู้ลงนามรวมอยู่เป็นมาตรฐาน",
+    "badge": "คำถามที่พบบ่อย"
+  },
+  "why": {
+    "badge": "ทำไมต้อง self-hosted OSS",
+    "title": "ควบคุมเวิร์กโฟลว์สัญญาในสภาพแวดล้อมของคุณเอง",
+    "titleSub": "สัญญาอิเล็กทรอนิกส์แบบติดตั้งเองโดยไม่ผูกกับผู้ให้บริการ",
+    "description": "เวอร์ชัน OSS เหมาะกับทีมที่ต้องการลายเซ็นอิเล็กทรอนิกส์โดยไม่ผูกกับผู้ให้บริการหรือ commercial hosted-service features",
+    "aiTitle": "การติดตั้งแบบ self-hosted",
+    "aiDesc": "รันแอปด้วยฐานข้อมูล พื้นที่จัดเก็บ อีเมล และบัญชีผู้ดูแลของคุณเอง",
+    "noSalesTitle": "ไม่มี commercial hosted layer",
+    "noSalesDesc": "Plans, quotas, payment-provider logic และ logic สกุลเงินถูกตัดออกจาก OSS build",
+    "noPerSeatTitle": "ผู้รับไม่ต้องมีบัญชี",
+    "noPerSeatDesc": "ลูกค้าเปิดลิงก์จากอีเมลเพื่อดู ลงนาม ปฏิเสธ และดาวน์โหลดเอกสารได้โดยไม่ต้องสมัครบัญชี",
+    "passOnTitle": "คง workflow หลักไว้",
+    "passOnDesc": "การลงนาม PDF เทมเพลต รายชื่อผู้ติดต่อ การอนุมัติภายใน และ WORM audit logs ยังคงใช้งานได้"
+  },
+  "comparison": {
+    "badge": "เปรียบเทียบรูปแบบติดตั้ง",
+    "title": "บริการ hosted หรือการควบคุมแบบ self-hosted",
+    "subtitle": "เลือก Hundredth Sign เมื่อต้องการเป็นเจ้าของเวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์แบบ OSS",
+    "price1000": "ติดตั้งเอง",
+    "colEnterprise": "ผู้ให้บริการระดับองค์กร",
+    "colBudget": "คู่แข่งราคาประหยัด",
+    "recommended": "แนะนำ",
+    "perSeat": "ต้องมีบัญชีภายนอกหรือไม่",
+    "perSeatEnterprise": "มักจำเป็น",
+    "perSeatBudget": "ขึ้นอยู่กับบริการ",
+    "perSeatHundredth": "ผู้รับไม่จำเป็นต้องมี",
+    "features": "การเข้าถึงฟีเจอร์ทั้งหมด",
+    "featuresEnterprise": "ขึ้นอยู่กับสัญญา",
+    "featuresBudget": "ฟีเจอร์สำคัญถูกจำกัด",
+    "featuresHundredth": "มีขั้นตอนหลักครบ",
+    "auditLog": "บันทึกการตรวจสอบและใบรับรอง",
+    "auditLogEnterprise": "TS ที่ได้รับการรับรองภายนอก",
+    "auditLogBudget": "บันทึกพื้นฐานเท่านั้น",
+    "auditLogHundredth": "ใบรับรอง IP และ hash",
+    "zeroAI": "Zero AI Training",
+    "zeroAIEnterprise": "อาจใช้สำหรับการฝึก",
+    "zeroAIBudget": "ไม่เปิดเผย",
+    "zeroAIHundredth": "รับประกันอย่างเต็มที่",
+    "i18n": "รองรับหลายภาษา",
+    "i18nEnterprise": "14 ภาษา",
+    "i18nBudget": "รองรับภาษาจำกัด",
+    "i18nHundredth": "4 ภาษา",
+    "note": "* การเปรียบเทียบอ้างอิงจากรูปแบบการใช้งานและขอบเขตฟีเจอร์",
+    "priceEnterprise": "บริการโฮสต์เชิงพาณิชย์",
+    "priceBudget": "บริการโฮสต์เชิงพาณิชย์",
+    "priceHundredth": "ติดตั้ง OSS ภายใต้การควบคุมของคุณ",
+    "featureLabel": "ฟีเจอร์",
+    "colEnterpriseNote": "DocuSign, Adobe Sign เป็นต้น",
+    "colBudgetNote": "บริการอื่นๆ"
+  },
+  "cta": {
+    "title": "ดิจิทัลไลซ์ กระบวนการสัญญาของคุณ",
+    "subtitle": "เริ่มต้นฟรีกับ Hundredth Sign ไม่ต้องใช้บัตรเครดิต",
+    "viewPricing": "ดูฟีเจอร์"
+  },
+  "footer": {
+    "tagline": "โครงสร้างพื้นฐาน OSS แบบ self-hosted สำหรับลายเซ็นอิเล็กทรอนิกส์",
+    "product": "ผลิตภัณฑ์",
+    "security": "ความปลอดภัย",
+    "resources": "ทรัพยากร",
+    "guide": "คู่มือผู้ใช้",
+    "legal": "กฎหมาย",
+    "terms": "ข้อกำหนดการใช้งาน",
+    "privacy": "นโยบายความเป็นส่วนตัว",
+    "language": "ภาษา",
+    "madeIn": "ผลิตด้วยความเอาใจใส่ในกรุงโตเกียว ประเทศญี่ปุ่น",
+    "manual": "คู่มือ",
+    "customizationContact": "ปรึกษาการปรับแต่ง"
+  },
+  "approvalPage": {
+    "title": "การอนุมัติภายใน",
+    "loading": "กำลังโหลดรายละเอียดการอนุมัติ...",
+    "notFoundTitle": "ไม่พบรายละเอียดการอนุมัติ",
+    "notFoundDescription": "ลิงก์ไม่ถูกต้องหรือคำขอนี้อาจถูกดำเนินการแล้ว",
+    "flowTitle": "ขั้นตอนการอนุมัติ",
+    "you": "คุณ",
+    "approved": "ที่ได้รับการอนุมัติ",
+    "rejected": "ถูกปฏิเสธ",
+    "pending": "รอดำเนินการ",
+    "actionRequiredTitle": "จำเป็นต้องได้รับการอนุมัติจากคุณ",
+    "actionRequiredDescription": "ต้องได้รับการอนุมัติจากคุณก่อนจึงจะสามารถส่งเอกสารนี้ไปยังภายนอกได้ โปรดตรวจสอบและอนุมัติหรือปฏิเสธ",
+    "openPdf": "เปิดเอกสาร (PDF)",
+    "commentOptional": "ความคิดเห็น (ไม่บังคับ)",
+    "commentPlaceholder": "ใส่เหตุผลหรือความคิดเห็นเพื่ออนุมัติ/ปฏิเสธ...",
+    "approveAction": "อนุมัติ",
+    "rejectAction": "ปฏิเสธ",
+    "allApprovedMessage": "ผู้อนุมัติทั้งหมดได้รับการอนุมัติเรียบร้อยแล้ว เอกสารได้ถูกส่งไปยังผู้ลงนามภายนอกแล้ว",
+    "nextApproverNotified": "ผู้อนุมัติรายต่อไปได้รับแจ้งแล้ว",
+    "rejectedMessage": "เอกสารถูกย้ายกลับไปเป็นแบบร่างแล้ว ผู้ส่งได้รับแจ้งแล้ว",
+    "processFailed": "ล้มเหลวในการประมวลผลการอนุมัติ",
+    "footerTagline": "Hundredth Sign - แพลตฟอร์มสัญญาอิเล็กทรอนิกส์"
+  },
+  "documentView": {
+    "loading": "กำลังโหลดเอกสาร...",
+    "accessDenied": "การเข้าถึงถูกปฏิเสธ",
+    "loginHint": "หากคุณมีบัญชีอยู่แล้ว ให้เข้าสู่ระบบและตรวจสอบเอกสารนี้จากแดชบอร์ดของคุณ",
+    "loginAndOpen": "เข้าสู่ระบบเพื่อดู",
+    "accessVerified": "การยืนยันสำเร็จ",
+    "accessCodeRequired": "ต้องใช้รหัสการเข้าถึงเพื่อดูเอกสารนี้",
+    "verifying": "กำลังยืนยัน...",
+    "noDownloadableFile": "ไม่มีไฟล์ให้ดาวน์โหลด",
+    "allSigned": "ลายเซ็นทั้งหมดเสร็จสมบูรณ์",
+    "signProgress": "ความคืบหน้าของลายเซ็น: {{signed}}/{{total}}",
+    "progressTitle": "ความก้าวหน้าของลายเซ็น",
+    "signedCount": "{{signed}} / {{total}} ลงนามแล้ว",
+    "savedTo": "บันทึกไปที่",
+    "inProgress": "อยู่ระหว่างดำเนินการ",
+    "yourSignature": "ลายเซ็นของคุณ",
+    "downloadOriginalPdf": "ดาวน์โหลด PDF ต้นฉบับ",
+    "signedPdfNotReady": "PDF ที่ลงนามแล้วยังไม่พร้อม",
+    "signedPdfHint": "เมื่อผู้ลงนามทั้งหมดลงนามเสร็จแล้ว ไฟล์ PDF ที่ลงนามจะถูกสร้างขึ้นโดยอัตโนมัติ",
+    "plgLine1": "คุณสมบัติครบถ้วน ไม่มีการประนีประนอม",
+    "plgLine2": "ในราคาที่ต่ำมาก",
+    "monthlyExTax": "/ เดือน (ไม่รวมภาษี)",
+    "fullFeatures": "เข้าถึงคุณสมบัติทั้งหมดได้อย่างเต็มที่",
+    "manageInDashboard": "จัดการในแดชบอร์ด",
+    "safeStorageTitle": "เก็บเอกสารนี้ไว้อย่างปลอดภัย",
+    "featureSecureStorage": "จัดเก็บและจัดการเอกสารที่ลงนามอย่างปลอดภัย",
+    "featureRealtimeTracking": "การติดตามความคืบหน้าของลายเซ็นแบบเรียลไทม์",
+    "featureCertificate": "ใบรับรองการจบหลักสูตรที่แข็งแกร่งตามกฎหมาย",
+    "featureTemplates": "ใช้เทมเพลตเพื่อปรับปรุงการทำงานซ้ำ",
+    "dialogTitle": "บริการลงนามอิเล็กทรอนิกส์ที่เหมาะสมที่สุด",
+    "dialogDescription": "แพลตฟอร์มลายเซ็นอิเล็กทรอนิกส์ที่เริ่มต้นได้ฟรี",
+    "dialogBenefitsIntro": "ด้วยบัญชี คุณสามารถใช้คุณสมบัติเหล่านี้ได้ฟรี:",
+    "registerWithEmailHint": "หากคุณลงทะเบียนด้วย {{email}} เอกสารนี้จะเชื่อมโยงกับบัญชีของคุณโดยอัตโนมัติ",
+    "createFreeAccount": "สร้างบัญชีฟรี",
+    "maybeLater": "อาจจะในภายหลัง"
+  },
+  "hankoGenerator": {
+    "title": "สร้างแสตมป์",
+    "nameLabel": "นามสกุล (แสดงบนแสตมป์)",
+    "namePlaceholder": "เช่น ทานาคา",
+    "styleLabel": "สไตล์แสตมป์",
+    "topLabel": "ป้ายบน",
+    "colorLabel": "สีแสตมป์",
+    "enterNameHint": "กรุณากรอกชื่อ",
+    "useStamp": "ใช้แสตมป์นี้",
+    "colors": {
+      "red": "สีแดง",
+      "vermillion": "สีแดงชาด",
+      "dark": "สีแดงเข้ม",
+      "blue": "สีฟ้า"
+    },
+    "styles": {
+      "round": {
+        "label": "กลม",
+        "description": "แสตมป์กลมพร้อมนามสกุล"
+      },
+      "data": {
+        "label": "ข้อมูล",
+        "description": "อนุมัติ/วันที่/ชื่อ"
+      },
+      "square": {
+        "label": "สี่เหลี่ยม",
+        "description": "แสตมป์สี่เหลี่ยมพร้อมนามสกุล"
+      }
+    },
+    "topLabels": {
+      "approved": "ที่ได้รับการอนุมัติ",
+      "confirmed": "ยืนยันแล้ว",
+      "checked": "ตรวจสอบแล้ว",
+      "done": "เสร็จแล้ว",
+      "received": "ได้รับ"
+    }
+  },
+  "pdfViewer": {
+    "pageCount": "{{count}} เพจ",
+    "zoomFit": "รีเซ็ตให้พอดี",
+    "loading": "กำลังโหลด PDF...",
+    "pleaseWait": "โปรดรอ",
+    "loadError": "โหลด PDF ไม่สำเร็จ",
+    "reloadHint": "โปรดโหลดหน้านี้ซ้ำแล้วลองอีกครั้ง"
+  },
+  "signaturePad": {
+    "title": "สร้างลายเซ็น",
+    "stampTab": "แสตมป์",
+    "namePlaceholder": "กรอกชื่อเพื่อลงนาม",
+    "drawHint": "วาดลายเซ็นของคุณที่นี่",
+    "confirm": "ยืนยันลายเซ็น"
+  },
+  "errors": {
+    "notFound": "ไม่พบหน้า",
+    "notFoundDesc": "ขออภัย ไม่พบหน้าที่คุณกำลังมองหา อาจถูกย้ายหรือลบออกไปแล้ว",
+    "unauthorized": "ต้องการการรับรองความถูกต้อง",
+    "forbidden": "ไม่มีสิทธิ์การเข้าถึง",
+    "serverError": "เกิดข้อผิดพลาดของเซิร์ฟเวอร์",
+    "networkError": "เกิดข้อผิดพลาดของเครือข่าย",
+    "tryAgain": "โปรดลองอีกครั้ง",
+    "serverErrorDesc": "เกิดข้อผิดพลาดที่ไม่คาดคิด กรุณาลองใหม่อีกครั้ง",
+    "contactSupport": "หากปัญหายังคงอยู่ กรุณาติดต่อฝ่ายสนับสนุน",
+    "goHome": "กลับไปที่หน้าแรก",
+    "goDashboard": "กลับไปที่แดชบอร์ด",
+    "error": "ข้อผิดพลาด",
+    "rateLimitExceeded": "ถึงขีดจำกัดอัตราแล้ว โปรดลองอีกครั้งในอีกสักครู่",
+    "auth": {
+      "adminRequired": "การดำเนินการนี้สงวนไว้สำหรับเจ้าของระบบเท่านั้น",
+      "orgHeaderRequired": "Organization ID header is required",
+      "invalidOrgId": "Invalid organization ID",
+      "notOrgMember": "You are not a member of this organization",
+      "ipRestricted": "Access from this IP address is not allowed",
+      "managerRequired": "ต้องการสิทธิ์เจ้าของหรือผู้จัดการ",
+      "ownerRequired": "Owner privileges required"
+    },
+    "documents": {
+      "ownDocumentsOnly": "Members can only operate on their own documents",
+      "notFound": "Document not found",
+      "accessDenied": "You do not have access to this document",
+      "importedNotFound": "Imported document not found",
+      "noReminderPermission": "You do not have permission to send reminders for another user's document",
+      "voided": "This document has been voided",
+      "draftOnlyPdf": "PDF can only be uploaded to draft documents",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file",
+      "sentNotEditable": "Sent documents cannot be edited",
+      "noEditPermission": "You do not have permission to edit another user's document",
+      "draftOnlySend": "Only draft documents can be sent",
+      "pdfRequired": "Please upload a PDF file",
+      "signerRequired": "Please specify at least one signer",
+      "signerFieldRequired": "One or more signers are missing their signature fields",
+      "noVoidPermission": "You do not have permission to void another user's document",
+      "voidStatusInvalid": "Only sent or declined documents can be voided",
+      "noDeletePermission": "You do not have permission to delete another user's document",
+      "deleteStatusInvalid": "Only draft documents can be deleted. For sent documents, please use 'Void'.",
+      "reminderStatusInvalid": "Reminders can only be sent for sent documents",
+      "noUnsignedRecipients": "There are no unsigned recipients",
+      "signedPdfNotReady": "Signed PDF has not been generated yet"
+    },
+    "templates": {
+      "notFound": "Template not found",
+      "accessDenied": "You do not have access to this template",
+      "limitReached": "You have reached the maximum number of templates",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file"
+    },
+    "signature": {
+      "dataRequired": "Signature data, signature font, or stamp is required",
+      "signedPdfNotFound": "Signed PDF not found",
+      "onlySignerCanConfigure": "Only signers can configure this setting",
+      "alreadyDeclined": "This signature request has already been declined",
+      "delegated": "This signature has been delegated to another user",
+      "expired": "This document has expired",
+      "invalidEmail": "This email address does not have signing authority. Please enter the email address from the signing request email.",
+      "pdfGenerationFailed": "Failed to generate or save the signed PDF. Please try again later.",
+      "requestAlreadyDeclined": "This signature request has already been declined",
+      "documentNotDeclinable": "This document cannot be declined in its current status",
+      "alreadyDelegated": "This signature has already been delegated to another user",
+      "documentNotDelegatable": "This document cannot be delegated in its current status",
+      "signedPdfNotAvailable": "The signed PDF is not yet available",
+      "signedPdfNotGenerated": "The signed PDF has not been generated yet",
+      "stampGenerationFailed": "Failed to generate stamp"
+    },
+    "contacts": {
+      "notFound": "Contact not found"
+    },
+    "categories": {
+      "notFound": "Category not found"
+    },
+    "groups": {
+      "notFound": "Group not found"
+    },
+    "organization": {
+      "cannotChangeOwnRole": "You cannot change your own role",
+      "memberNotFound": "Member not found",
+      "cannotChangeOwnerRole": "Cannot change the owner's role",
+      "adminDemoteOwnerOnly": "เฉพาะเจ้าของเท่านั้นที่สามารถลดตำแหน่งผู้จัดการได้",
+      "cannotDeleteSelf": "You cannot delete yourself",
+      "cannotDeleteOwner": "Cannot delete the owner",
+      "adminCannotDeleteAdmin": "ผู้จัดการไม่สามารถลบผู้จัดการคนอื่นได้ กรุณาขอให้เจ้าของดำเนินการ",
+      "freeOrgLimit": "You have reached the maximum number of free organizations",
+      "disabled": "This organization is currently disabled",
+      "notFound": "Organization not found",
+      "accessDenied": "You do not have access to this organization",
+      "creationFailed": "Failed to create organization",
+      "slugTaken": "This slug is already in use",
+      "idMismatch": "Organization ID does not match"
+    },
+    "approvals": {
+      "notFound": "Approval information not found",
+      "reasonRequired": "A reason comment is required for rejection",
+      "alreadyProcessed": "This approval has already been processed"
+    }
+  },
+  "activity": {
+    "documentCreated": "สร้างเอกสาร \"{{title}}\" แล้ว",
+    "documentCreatedFromTemplate": "สร้างเอกสารจากเทมเพลต \"{{title}}\" แล้ว",
+    "documentSent": "ส่งเอกสารถึงผู้รับ {{count}} คนแล้ว",
+    "documentSentAfterApproval": "การอนุมัติภายในเสร็จสิ้น ส่งเอกสารไปภายนอกแล้ว",
+    "documentVoided": "เอกสารถูกยกเลิกแล้ว",
+    "documentVoidedWithReason": "เอกสารถูกยกเลิกแล้ว เหตุผล: {{reason}}",
+    "documentCompleted": "ลายเซ็นครบทุกคนแล้ว PDF ที่ลงนามถูกสร้าง (เก็บ WORM แล้ว)",
+    "documentExpired": "เอกสารหมดอายุโดยอัตโนมัติ",
+    "reminderSent": "ส่งอีเมลเตือนถึงผู้ที่ยังไม่ลงนาม {{count}} คนแล้ว",
+    "autoReminderSent": "ส่งอีเมลเตือนอัตโนมัติถึงผู้ที่ยังไม่ลงนาม {{count}} คนแล้ว",
+    "signatureSigned": "{{signer}} ลงนามแล้ว",
+    "signatureDeclined": "{{signer}} ปฏิเสธการลงนาม เหตุผล: {{reason}}",
+    "signatureDelegated": "{{signer}} มอบหมายการลงนามให้ {{delegateName}} ({{delegateEmail}})",
+    "nextSignerNotified": "แจ้งผู้ลงนามถัดไป ({{signer}}) แล้ว",
+    "internalApprovalStarted": "เริ่มกระบวนการอนุมัติภายใน (ผู้อนุมัติ {{count}} คน)",
+    "internalApprovalApproved": "{{approver}} อนุมัติแล้ว",
+    "internalApprovalRejected": "{{approver}} ปฏิเสธแล้ว",
+    "internalApprovalRejectedWithComment": "{{approver}} ปฏิเสธแล้ว ความคิดเห็น: {{comment}}",
+    "internalApprovalRejectedRevert": "การอนุมัติภายในถูกปฏิเสธ เอกสารกลับเป็นแบบร่างแล้ว",
+    "event": "บันทึกกิจกรรมแล้ว",
+    "eventWithAction": "บันทึกกิจกรรมแล้ว: {{action}}",
+    "fallbackCreated": "สร้างเอกสารแล้ว",
+    "fallbackSent": "ส่งเอกสารแล้ว",
+    "fallbackSigned": "ลงนามเอกสารแล้ว",
+    "fallbackDeclined": "ปฏิเสธการลงนามแล้ว",
+    "fallbackReminder": "ส่งการแจ้งเตือนแล้ว",
+    "fallbackCompleted": "เอกสารเสร็จสมบูรณ์แล้ว",
+    "fallbackVoided": "เอกสารถูกยกเลิกหรือหมดอายุแล้ว",
+    "memberRemoved": "นำ {{name}} ออกจากองค์กรแล้ว"
+  },
+  "cookieConsent": {
+    "ariaLabel": "ความยินยอมเกี่ยวกับคุกกี้",
+    "message": "เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ของคุณ คุกกี้ที่จำเป็นต้องใช้สำหรับการทำงานของเว็บไซต์",
+    "learnMore": "เรียนรู้เพิ่มเติมในนโยบายความเป็นส่วนตัวของเรา",
+    "acceptAll": "ยอมรับทั้งหมด",
+    "essentialOnly": "เฉพาะที่จำเป็น"
+  },
+  "legal": {
+    "terms": {
+      "title": "ข้อกำหนดการใช้งาน",
+      "lastUpdated": "อัปเดตล่าสุด: มีนาคม 2026",
+      "sections": {
+        "acceptance": {
+          "title": "1. การยอมรับข้อกำหนด",
+          "body": "การใช้บริการ Hundredth Sign ถือว่าคุณยอมรับข้อกำหนดการใช้งานเหล่านี้"
+        },
+        "serviceDescription": {
+          "title": "2. คำอธิบายบริการ",
+          "body": "Hundredth Sign ให้บริการลายเซ็นอิเล็กทรอนิกส์บนคลาวด์สำหรับธุรกิจ"
+        },
+        "electronicSignatures": {
+          "title": "3. ความถูกต้องตามกฎหมายของลายเซ็นอิเล็กทรอนิกส์",
+          "body": "ลายเซ็นอิเล็กทรอนิกส์ที่สร้างผ่าน Hundredth Sign มีผลผูกพันทางกฎหมาย"
+        },
+        "userObligations": {
+          "title": "4. หน้าที่ของผู้ใช้",
+          "body": "คุณมีหน้าที่รักษาความลับของข้อมูลบัญชีและปฏิบัติตามกฎหมายที่เกี่ยวข้อง"
+        },
+        "prohibited": {
+          "title": "5. กิจกรรมต้องห้าม",
+          "body": "ห้ามใช้บริการเพื่อการฉ้อโกงหรือปลอมแปลงเอกสาร"
+        },
+        "intellectualProperty": {
+          "title": "6. ทรัพย์สินทางปัญญา",
+          "body": "สิทธิ์ในทรัพย์สินทางปัญญาของ Hundredth Sign เป็นของผู้ให้บริการ"
+        },
+        "privacy": {
+          "title": "7. ความเป็นส่วนตัว",
+          "body": "การใช้บริการของคุณอยู่ภายใต้นโยบายความเป็นส่วนตัวของเราด้วย"
+        },
+        "limitation": {
+          "title": "8. การจำกัดความรับผิด",
+          "body": "เราจะไม่รับผิดชอบต่อความเสียหายทางอ้อมที่เกิดจากการใช้บริการ"
+        },
+        "termination": {
+          "title": "9. การยกเลิก",
+          "body": "เราสงวนสิทธิ์ระงับบัญชีหากคุณละเมิดข้อกำหนดเหล่านี้"
+        },
+        "governingLaw": {
+          "title": "10. กฎหมายที่ใช้บังคับ",
+          "body": "ข้อกำหนดเหล่านี้อยู่ภายใต้กฎหมายของประเทศญี่ปุ่น"
+        },
+        "changes": {
+          "title": "11. การเปลี่ยนแปลงข้อกำหนด",
+          "body": "เราอาจอัปเดตข้อกำหนดเหล่านี้เป็นครั้งคราว"
+        }
+      }
+    },
+    "privacy": {
+      "title": "นโยบายความเป็นส่วนตัว",
+      "lastUpdated": "อัปเดตล่าสุด: มีนาคม 2026",
+      "sections": {
+        "overview": {
+          "title": "1. ภาพรวม",
+          "body": "Hundredth Sign มุ่งมั่นในการปกป้องความเป็นส่วนตัวของคุณ"
+        },
+        "dataCollected": {
+          "title": "2. ข้อมูลที่เราเก็บ",
+          "body": "เราเก็บข้อมูลที่คุณให้โดยตรง รวมถึงข้อมูลการใช้งานและข้อมูลทางเทคนิค"
+        },
+        "purpose": {
+          "title": "3. วัตถุประสงค์การใช้ข้อมูล",
+          "body": "เราใช้ข้อมูลของคุณเพื่อให้บริการและปรับปรุงประสบการณ์การใช้งาน"
+        },
+        "thirdParty": {
+          "title": "4. บริการของบุคคลที่สาม",
+          "body": "ผู้ดูแลระบบอาจกำหนดบริการภายนอกที่เชื่อถือได้สำหรับการจัดเก็บเอกสาร การส่งอีเมล และโครงสร้างพื้นฐาน รุ่น OSS ไม่จำเป็นต้องใช้ผู้ให้บริการตัวตนภายนอกเป็นค่าเริ่มต้น"
+        },
+        "cookies": {
+          "title": "5. คุกกี้",
+          "body": "เราใช้คุกกี้ที่จำเป็นสำหรับการตรวจสอบสิทธิ์และการจัดการเซสชัน"
+        },
+        "retention": {
+          "title": "6. การเก็บรักษาข้อมูล",
+          "body": "เราเก็บข้อมูลตราบเท่าที่บัญชีของคุณยังใช้งานอยู่"
+        },
+        "rights": {
+          "title": "7. สิทธิ์ของคุณ",
+          "body": "คุณมีสิทธิ์เข้าถึง แก้ไข หรือลบข้อมูลส่วนตัวของคุณ"
+        },
+        "security": {
+          "title": "8. ความปลอดภัย",
+          "body": "เราใช้มาตรการความปลอดภัยมาตรฐานอุตสาหกรรม"
+        },
+        "contact": {
+          "title": "9. ติดต่อเรา",
+          "body": "สำหรับข้อสงสัยด้านความเป็นส่วนตัว ติดต่อ support@hundredthsign.com"
+        }
+      }
+    }
+  },
+  "manual": {
+    "navAriaLabel": "การนำทางคู่มือ",
+    "nav": {
+      "intro": "เริ่มต้น",
+      "setup": "การตั้งค่าและการเริ่มระบบ",
+      "basics": "พื้นฐาน",
+      "signing": "การส่งและการลงนาม",
+      "management": "จัดการ",
+      "compliance": "Audit และ WORM",
+      "inbox": "Inbox งาน",
+      "developer": "กฎสำหรับผู้พัฒนา",
+      "terms": "เงื่อนไข",
+      "disclaimer": "ข้อจำกัดความรับผิด",
+      "contact": "ติดต่อ",
+      "apiCli": "API / CLI",
+      "operations": "การปฏิบัติการและ FAQ",
+      "title": "คู่มือ",
+      "usersRoutes": "ผู้ใช้ สิทธิ์ และหน้าจอ",
+      "authStaff": "เข้าสู่ระบบและพนักงาน",
+      "dashboard": "งานประจำวัน",
+      "documents": "เอกสาร PDF และช่องลงนาม",
+      "internalApproval": "การอนุมัติภายใน",
+      "templates": "เทมเพลต",
+      "contacts": "รายชื่อ",
+      "emailLocales": "อีเมลและภาษา",
+      "api": "REST API งาน",
+      "cli": "signctl CLI งาน",
+      "dataModel": "ตาราง DB"
+    },
+    "usage": {
+      "eyebrow": "คู่มือ OSS",
+      "title": "คู่มือ Hundredth Sign ฉบับสมบูรณ์",
+      "description": "คู่มือสาธารณะสำหรับผู้ดูแลระบบ พนักงาน ผู้ลงนามภายนอก ผู้อนุมัติภายใน ทีมปฏิบัติการ นักพัฒนา ทีมเชื่อมต่อระบบ และผู้ใช้ AI/CI ครอบคลุมขอบเขตผลิตภัณฑ์ งานประจำวัน audit, API, CLI, DB และ FAQ",
+      "tocLabel": "บท",
+      "ossNotice": {
+        "title": "สมมติฐานของ OSS edition",
+        "body": "คู่มือนี้ครอบคลุม OSS แบบ single workspace เท่านั้น ไม่รวม billing ของ SaaS, tenant switching และบัญชีลูกค้าภายนอก"
+      },
+      "search": {
+        "label": "ค้นหาในคู่มือ",
+        "placeholder": "เช่น PDF, API key, migration, language",
+        "results": "พบ {{count}} บท",
+        "empty": "ไม่พบบทที่ตรงกัน ลองคำค้นอื่น"
+      },
+      "categoryIndex": {
+        "title": "อ่านตามวัตถุประสงค์"
+      },
+      "table": {
+        "item": "รายการ",
+        "description": "คำอธิบาย"
+      },
+      "contactCta": {
+        "title": "เมื่อคู่มือยังแก้ปัญหาไม่ได้",
+        "body": "แจ้งชื่อหน้าจอ ขั้นตอน เวลา document ID และ error ที่เห็น ห้ามส่ง secret",
+        "action": "ดูช่องทางติดต่อ"
+      },
+      "notFound": {
+        "title": "ไม่พบบท",
+        "description": "ไม่มีบทคู่มือที่ระบุ",
+        "body": "เลือกจากรายการบทหรือค้นหาใหม่"
+      },
+      "chapters": {
+        "intro": {
+          "title": "เริ่มต้นและขอบเขต OSS",
+          "summary": "อธิบายสิ่งที่ OSS edition รองรับ สิ่งที่ไม่รวมใน commercial SaaS และขอบเขตระหว่างหน้าสาธารณะกับหน้าหลังเข้าสู่ระบบ",
+          "sections": {
+            "boundary": {
+              "title": "คำอธิบาย: Product scope",
+              "body": [
+                "คำอธิบาย: Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "คำอธิบาย: The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "คำอธิบาย: Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
+              ],
+              "bullets": [
+                "คำอธิบาย: Use the public routes for signing, document viewing, approvals, legal pages, and this manual.",
+                "คำอธิบาย: Use authenticated dashboard routes for daily staff operations.",
+                "คำอธิบาย: Use API keys and signctl only for server-side or trusted automation contexts.",
+                "คำอธิบาย: Never publish database URLs, API keys, session secrets, SMTP passwords, or storage credentials in tickets or screenshots.",
+                "คำอธิบาย: Audit and system audit records are append-only operational evidence.",
+                "คำอธิบาย: When behavior and documentation differ, treat the source code and product specification as the correction source and update this manual."
+              ],
+              "callouts": [
+                "คำอธิบาย: This page is public. It lists variable names and procedures, but it must never include real keys, connection strings, or customer data."
+              ]
+            },
+            "publicPrivate": {
+              "title": "คำอธิบาย: Route groups",
+              "body": [
+                "คำอธิบาย: Routes are split by who can access them and what security boundary they represent."
+              ],
+              "rows": {
+                "public": {
+                  "label": "คำอธิบาย: Public routes",
+                  "detail": "คำอธิบาย: /, /manual, /manual/*, /terms, /privacy, /contact, /sign/:token, /document-view/:token, /approve/:token are reachable without staff login."
+                },
+                "authenticated": {
+                  "label": "คำอธิบาย: Authenticated routes",
+                  "detail": "คำอธิบาย: /dashboard and its child routes require staff authentication and are the normal working area for documents, inbox, contacts, templates, and settings."
+                },
+                "operator": {
+                  "label": "คำอธิบาย: Operator setup",
+                  "detail": "คำอธิบาย: /setup is used only when the instance still needs bootstrap or operational setup."
+                },
+                "integration": {
+                  "label": "คำอธิบาย: Integration routes",
+                  "detail": "คำอธิบาย: REST API endpoints and webhooks are not human UI pages; they are authenticated automation surfaces."
+                }
+              }
+            }
+          }
+        },
+        "usersRoutes": {
+          "title": "ผู้ใช้ สิทธิ์ และหน้าจอ",
+          "summary": "อธิบายความแตกต่างของผู้ดูแลระบบ สมาชิก ผู้ลงนาม CC ผู้อนุมัติภายใน และ integration client",
+          "sections": {
+            "roles": {
+              "title": "คำอธิบาย: Role definitions",
+              "body": [
+                "คำอธิบาย: Each actor has a different security boundary. Do not reuse a staff account or API key for a person or system that should have narrower access."
+              ],
+              "rows": {
+                "admin": {
+                  "label": "คำอธิบาย: Administrator",
+                  "detail": "คำอธิบาย: Manages staff, instance settings, templates, contacts, API keys, and audit review. Admins can perform high-impact configuration changes."
+                },
+                "member": {
+                  "label": "คำอธิบาย: Member",
+                  "detail": "คำอธิบาย: Creates documents, sends requests, checks dashboard tasks, manages assigned workflows, and uses contacts/templates according to permissions."
+                },
+                "signer": {
+                  "label": "คำอธิบาย: External signer",
+                  "detail": "คำอธิบาย: Uses a tokenized signing link. Does not need a staff account. May sign, decline, or delegate if the request permits it."
+                },
+                "cc": {
+                  "label": "คำอธิบาย: CC recipient",
+                  "detail": "คำอธิบาย: Receives visibility or completion notifications but is not a required signer unless also configured as a signer."
+                },
+                "approver": {
+                  "label": "คำอธิบาย: Internal approver",
+                  "detail": "คำอธิบาย: Reviews internal approval requests and approves or rejects before the downstream workflow continues."
+                },
+                "apiClient": {
+                  "label": "คำอธิบาย: External integration client",
+                  "detail": "คำอธิบาย: Uses API keys with explicit scopes. It is not a human user and all calls must be auditable."
+                }
+              }
+            },
+            "routes": {
+              "title": "คำอธิบาย: Screen map",
+              "body": [
+                "คำอธิบาย: Use this map to answer where an operation belongs before changing code or escalating a support request."
+              ],
+              "rows": {
+                "public": {
+                  "label": "คำอธิบาย: Public manual/legal/signing",
+                  "detail": "คำอธิบาย: Manual, terms, privacy, contact, signing, document view, and approval token routes are public surfaces."
+                },
+                "app": {
+                  "label": "คำอธิบาย: Dashboard",
+                  "detail": "คำอธิบาย: Dashboard, documents, document detail, inbox, contacts, and templates are authenticated staff surfaces."
+                },
+                "settings": {
+                  "label": "คำอธิบาย: Settings",
+                  "detail": "คำอธิบาย: Organization settings, staff, mail, language, API key, and audit-related settings belong to authenticated administrator surfaces."
+                },
+                "api": {
+                  "label": "คำอธิบาย: API",
+                  "detail": "คำอธิบาย: REST endpoints are for integrations and CI/AI operators. They require API key authentication and scope checks."
+                },
+                "sign": {
+                  "label": "คำอธิบาย: Token pages",
+                  "detail": "คำอธิบาย: Signing and approval URLs identify the request by token, not by staff session."
+                }
+              }
+            }
+          }
+        },
+        "setup": {
+          "title": "ตั้งค่าเริ่มต้น Environment Variables และเงื่อนไขการเริ่มระบบ",
+          "summary": "ครอบคลุม environment variables ที่จำเป็น/ไม่จำเป็น migration check ตอนเริ่มระบบ command มาตรฐาน และการจัดการ secret",
+          "sections": {
+            "environment": {
+              "title": "คำอธิบาย: Environment variables",
+              "body": [
+                "คำอธิบาย: Keep required values in .env or the hosting secret store. Commit only example names and safe defaults.",
+                "คำอธิบาย: A production-like instance must have a database URL, session secret, application URL, mail delivery configuration, and storage/proxy settings appropriate to the deployment."
+              ],
+              "rows": {
+                "databaseUrl": {
+                  "label": "คำอธิบาย: DATABASE_URL",
+                  "detail": "คำอธิบาย: Required. MySQL connection string used by Drizzle migrations and the application server."
+                },
+                "sessionSecret": {
+                  "label": "คำอธิบาย: SESSION_SECRET",
+                  "detail": "คำอธิบาย: Required in real deployments. Used to protect staff authentication sessions."
+                },
+                "appUrl": {
+                  "label": "คำอธิบาย: APP_URL / PUBLIC_APP_URL",
+                  "detail": "คำอธิบาย: Required for links in email, signing URLs, approval URLs, and API/CLI output."
+                },
+                "smtp": {
+                  "label": "คำอธิบาย: SMTP_*",
+                  "detail": "คำอธิบาย: Required for real email delivery. Local development may use a mail catcher or disabled delivery."
+                },
+                "storage": {
+                  "label": "คำอธิบาย: Storage and PDF proxy variables",
+                  "detail": "คำอธิบาย: Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
+                },
+                "openai": {
+                  "label": "คำอธิบาย: OPENAI_API_KEY",
+                  "detail": "คำอธิบาย: Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "คำอธิบาย: Example .env names",
+                  "code": "คำอธิบาย: DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                }
+              },
+              "callouts": [
+                "คำอธิบาย: Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+              ]
+            },
+            "startup": {
+              "title": "คำอธิบาย: Startup and migration check",
+              "body": [
+                "คำอธิบาย: At startup, the server validates whether Drizzle migrations are applied. If migrations are missing or hashes differ, startup can stop before the UI is usable."
+              ],
+              "steps": [
+                "คำอธิบาย: Install dependencies with pnpm through Corepack.",
+                "คำอธิบาย: Prepare .env with required variables.",
+                "คำอธิบาย: Run migrations with the project-approved command.",
+                "คำอธิบาย: Start the dev server and confirm the target port.",
+                "คำอธิบาย: Run test and type-check before reporting completion."
+              ],
+              "code": {
+                "commands": {
+                  "title": "คำอธิบาย: Standard commands",
+                  "code": "คำอธิบาย: corepack pnpm dev\ncorepack pnpm db:push\ncorepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            }
+          }
+        },
+        "authStaff": {
+          "title": "เข้าสู่ระบบ จัดการพนักงาน และตั้งค่า Instance",
+          "summary": "กฎปฏิบัติสำหรับ login, setup, staff invitation, role, language และ instance settings",
+          "sections": {
+            "login": {
+              "title": "คำอธิบาย: Login and account basics",
+              "body": [
+                "คำอธิบาย: Staff users sign in before using dashboard functions. Public signers do not need staff accounts.",
+                "คำอธิบาย: If login loops, first confirm the app URL, session secret, cookie settings, and whether the browser is using the intended hostname and protocol."
+              ],
+              "bullets": [
+                "คำอธิบาย: Initial setup creates or enables the first administrator.",
+                "คำอธิบาย: Forgot-password and reset-password pages handle account recovery.",
+                "คำอธิบาย: The authenticated dashboard redirects unauthenticated staff to login.",
+                "คำอธิบาย: Do not share staff accounts between people.",
+                "คำอธิบาย: Language can be resolved from user preference, request parameter, or browser settings depending on the surface."
+              ]
+            },
+            "staff": {
+              "title": "คำอธิบาย: Staff and instance settings",
+              "body": [
+                "คำอธิบาย: Administrators keep the staff list, roles, organization settings, mail settings, and integration settings current."
+              ],
+              "rows": {
+                "invite": {
+                  "label": "คำอธิบาย: Invite",
+                  "detail": "คำอธิบาย: Add only people who should operate the workspace. Use a unique email for each person."
+                },
+                "role": {
+                  "label": "คำอธิบาย: Role",
+                  "detail": "คำอธิบาย: Assign the minimum role needed. Administrator privileges should be rare and reviewed."
+                },
+                "deactivate": {
+                  "label": "คำอธิบาย: Deactivate",
+                  "detail": "คำอธิบาย: Deactivate users who leave the organization. Do not delete evidence that belongs to completed workflows."
+                },
+                "locale": {
+                  "label": "คำอธิบาย: Locale",
+                  "detail": "คำอธิบาย: Store staff language preference where supported; it is used before browser fallback for staff UI and email."
+                }
+              }
+            }
+          }
+        },
+        "dashboard": {
+          "title": "งานประจำวันและ Dashboard",
+          "summary": "อธิบายจุดตรวจประจำวัน สถานะเอกสาร งานค้าง และจุดเริ่มต้นของ operation สำคัญ",
+          "sections": {
+            "daily": {
+              "title": "คำอธิบาย: Daily operating checklist",
+              "body": [
+                "คำอธิบาย: The dashboard is the staff starting point for work-in-progress documents and operational alerts.",
+                "คำอธิบาย: Use it to find drafts, sent requests, pending approvals, completed documents, and exceptions that need action."
+              ],
+              "bullets": [
+                "คำอธิบาย: Check documents waiting for staff action.",
+                "คำอธิบาย: Review signature requests that are sent, viewed, or close to expiry.",
+                "คำอธิบาย: Open Inbox for tasks assigned to the current staff user.",
+                "คำอธิบาย: Create a new document only after the source PDF is final.",
+                "คำอธิบาย: Use templates when the same document structure repeats.",
+                "คำอธิบาย: Check audit logs before assuming a workflow step did not happen.",
+                "คำอธิบาย: Escalate with document ID and timestamp when support is needed."
+              ]
+            },
+            "status": {
+              "title": "คำอธิบาย: Document and signature request statuses",
+              "body": [
+                "คำอธิบาย: Statuses answer what can happen next. They should not be changed casually because API, Inbox, email, and audit behavior depend on them."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "คำอธิบาย: draft",
+                  "detail": "คำอธิบาย: Document exists but has not been sent. Fields and recipients can still be prepared."
+                },
+                "sent": {
+                  "label": "คำอธิบาย: sent",
+                  "detail": "คำอธิบาย: Signature request was sent to the next signer or recipient."
+                },
+                "viewed": {
+                  "label": "คำอธิบาย: viewed",
+                  "detail": "คำอธิบาย: Signer opened the link. This is evidence that delivery worked, not a signature."
+                },
+                "signed": {
+                  "label": "คำอธิบาย: signed",
+                  "detail": "คำอธิบาย: A signer completed their assigned signing action."
+                },
+                "declined": {
+                  "label": "คำอธิบาย: declined",
+                  "detail": "คำอธิบาย: A signer refused. The workflow should stop or follow the configured exception path."
+                },
+                "completed": {
+                  "label": "คำอธิบาย: completed",
+                  "detail": "คำอธิบาย: All required steps are done and completed PDF/certificate evidence should be available."
+                },
+                "expired": {
+                  "label": "คำอธิบาย: expired",
+                  "detail": "คำอธิบาย: The signing link is no longer valid and the request needs resend or replacement."
+                }
+              }
+            }
+          }
+        },
+        "documents": {
+          "title": "เอกสาร PDF และช่องลงนาม",
+          "summary": "อธิบายเงื่อนไข upload PDF ขนาด 20 MB validation field types และ checks ก่อนส่ง",
+          "sections": {
+            "pdf": {
+              "title": "คำอธิบาย: PDF upload and validation",
+              "body": [
+                "คำอธิบาย: The source file must be a PDF and must pass server-side validation before fields and recipients are finalized.",
+                "คำอธิบาย: The current manual policy uses a 20 MB upload limit. Reject files that exceed the limit or fail PDF validation instead of trying to repair them silently."
+              ],
+              "bullets": [
+                "คำอธิบาย: Confirm the PDF is final before uploading.",
+                "คำอธิบาย: Do not upload password-protected PDFs unless the implementation explicitly supports them.",
+                "คำอธิบาย: Keep page count and file size reasonable for browser signing.",
+                "คำอธิบาย: Store the original PDF and generated signed PDF as separate evidence artifacts.",
+                "คำอธิบาย: Use PDF proxying for secure viewing instead of exposing raw storage paths.",
+                "คำอธิบาย: If validation fails, recreate/export the PDF from the source application.",
+                "คำอธิบาย: Do not bypass validation from the UI, API, or CLI."
+              ],
+              "callouts": [
+                "คำอธิบาย: A successful upload is not a completed contract. It only creates the source document for the workflow."
+              ]
+            },
+            "fields": {
+              "title": "คำอธิบาย: Signature field types",
+              "body": [
+                "คำอธิบาย: Fields define what a signer must provide and where the result is placed on the PDF."
+              ],
+              "rows": {
+                "signature": {
+                  "label": "คำอธิบาย: Signature",
+                  "detail": "คำอธิบาย: Drawn or typed signature required from a signer."
+                },
+                "initial": {
+                  "label": "คำอธิบาย: Initial",
+                  "detail": "คำอธิบาย: Short confirmation mark used when the document requires initials."
+                },
+                "stamp": {
+                  "label": "คำอธิบาย: Stamp",
+                  "detail": "คำอธิบาย: Seal/stamp image or equivalent field when business rules require it."
+                },
+                "text": {
+                  "label": "คำอธิบาย: Text",
+                  "detail": "คำอธิบาย: Free text input such as company name, title, or address."
+                },
+                "date": {
+                  "label": "คำอธิบาย: Date",
+                  "detail": "คำอธิบาย: Date field populated by the signer or system according to workflow rules."
+                },
+                "checkbox": {
+                  "label": "คำอธิบาย: Checkbox",
+                  "detail": "คำอธิบาย: Explicit binary confirmation such as consent or acknowledgement."
+                }
+              }
+            }
+          }
+        },
+        "signing": {
+          "title": "ส่ง ลงนาม ปฏิเสธ มอบหมาย และ Final PDF",
+          "summary": "ครอบคลุม sequential signing, access code, signing link, decline, delegation, completion certificate และ WORM signed PDF",
+          "sections": {
+            "request": {
+              "title": "คำอธิบาย: Sending and signing flow",
+              "body": [
+                "คำอธิบาย: A signature request connects one document, recipients, field assignments, delivery email, access control, and audit records.",
+                "คำอธิบาย: Sequential signing sends the next action only after the previous required signer completes their step."
+              ],
+              "bullets": [
+                "คำอธิบาย: Set signer order before sending when sequential signing is required.",
+                "คำอธิบาย: Use access codes when the recipient identity needs an additional shared secret.",
+                "คำอธิบาย: A signing token should be treated as sensitive until the workflow completes or expires.",
+                "คำอธิบาย: Signer actions must create audit log entries.",
+                "คำอธิบาย: Decline captures the reason and stops or branches the workflow.",
+                "คำอธิบาย: Delegation changes who can complete the step and must be recorded.",
+                "คำอธิบาย: Completion generates signed PDF evidence and a completion certificate where implemented.",
+                "คำอธิบาย: Signed PDFs are WORM-style evidence and must not be overwritten casually."
+              ],
+              "diagramTitle": "คำอธิบาย: Sequential signing lifecycle",
+              "diagram": [
+                "คำอธิบาย: Draft document",
+                "คำอธิบาย: Send request",
+                "คำอธิบาย: Signer opens link",
+                "คำอธิบาย: Signer signs or declines",
+                "คำอธิบาย: Next signer or completion",
+                "คำอธิบาย: Completed PDF and certificate"
+              ]
+            },
+            "outcomes": {
+              "title": "คำอธิบาย: Signer outcomes",
+              "body": [
+                "คำอธิบาย: Each outcome has a different operational meaning and audit consequence."
+              ],
+              "rows": {
+                "signed": {
+                  "label": "คำอธิบาย: Signed",
+                  "detail": "คำอธิบาย: The signer filled required fields and confirmed. Continue to the next signer or completion."
+                },
+                "declined": {
+                  "label": "คำอธิบาย: Declined",
+                  "detail": "คำอธิบาย: The signer refused. Record the reason and do not treat the document as complete."
+                },
+                "delegated": {
+                  "label": "คำอธิบาย: Delegated",
+                  "detail": "คำอธิบาย: The signer transferred action to another person where allowed. Record original and delegated recipient."
+                },
+                "completedPdf": {
+                  "label": "คำอธิบาย: Completed PDF",
+                  "detail": "คำอธิบาย: Generated final PDF with signature evidence after all required steps finish."
+                },
+                "certificate": {
+                  "label": "คำอธิบาย: Completion certificate",
+                  "detail": "คำอธิบาย: Evidence summary such as signer, timestamp, request ID, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "internalApproval": {
+          "title": "การอนุมัติภายใน",
+          "summary": "อธิบายสถานะ approval พฤติกรรม approve/reject และความสัมพันธ์กับ signature request",
+          "sections": {
+            "flow": {
+              "title": "คำอธิบาย: Approval statuses",
+              "body": [
+                "คำอธิบาย: Internal approvals are staff workflows that gate or document an internal decision.",
+                "คำอธิบาย: Approval and signature workflows are related but separate; rejecting an approval is not the same event as an external signer declining."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "คำอธิบาย: draft",
+                  "detail": "คำอธิบาย: Approval request is being prepared."
+                },
+                "pending": {
+                  "label": "คำอธิบาย: pending",
+                  "detail": "คำอธิบาย: Approver action is required."
+                },
+                "approved": {
+                  "label": "คำอธิบาย: approved",
+                  "detail": "คำอธิบาย: The approver accepted. Downstream work may continue according to workflow rules."
+                },
+                "rejected": {
+                  "label": "คำอธิบาย: rejected",
+                  "detail": "คำอธิบาย: The approver rejected. Capture reason and stop or return the document to preparation."
+                },
+                "cancelled": {
+                  "label": "คำอธิบาย: cancelled",
+                  "detail": "คำอธิบาย: The approval was intentionally stopped by an authorized staff user."
+                }
+              },
+              "callouts": [
+                "คำอธิบาย: Approval decisions must be auditable because they explain why a signature request was sent, stopped, or changed."
+              ]
+            },
+            "actions": {
+              "title": "คำอธิบาย: Approver actions",
+              "bullets": [
+                "คำอธิบาย: Open the approval link or Inbox item.",
+                "คำอธิบาย: Review the document, request metadata, and business context.",
+                "คำอธิบาย: Approve only when the document is ready for the next workflow step.",
+                "คำอธิบาย: Reject with a clear reason when correction is required.",
+                "คำอธิบาย: Do not use approval comments for secrets.",
+                "คำอธิบาย: Confirm the resulting status before escalating a missing task."
+              ]
+            }
+          }
+        },
+        "inbox": {
+          "title": "Inbox งาน",
+          "summary": "ชี้แจงว่า Inbox ไม่ใช่ mailbox แต่เป็น virtual inbox ที่สร้างจาก workflow rows ที่มีอยู่",
+          "sections": {
+            "concept": {
+              "title": "คำอธิบาย: Virtual Inbox concept",
+              "body": [
+                "คำอธิบาย: Inbox is not an email inbox and it does not store independent mail messages.",
+                "คำอธิบาย: It is a virtual view assembled from existing workflow rows such as signature requests, approvals, delegations, and CC visibility.",
+                "คำอธิบาย: Because of this design, fixing Inbox issues usually means checking the underlying workflow row and status, not a separate inbox table."
+              ],
+              "callouts": [
+                "คำอธิบาย: Do not add a second source of truth for Inbox unless the data model and audit rules are deliberately redesigned."
+              ]
+            },
+            "items": {
+              "title": "คำอธิบาย: Inbox item types",
+              "rows": {
+                "signature": {
+                  "label": "คำอธิบาย: Signature task",
+                  "detail": "คำอธิบาย: A staff user has a document-related action or follow-up."
+                },
+                "approval": {
+                  "label": "คำอธิบาย: Approval task",
+                  "detail": "คำอธิบาย: An internal approval requires a decision."
+                },
+                "delegation": {
+                  "label": "คำอธิบาย: Delegation",
+                  "detail": "คำอธิบาย: A delegated signing or review action points to the current user."
+                },
+                "cc": {
+                  "label": "คำอธิบาย: CC visibility",
+                  "detail": "คำอธิบาย: The user is informed about progress without being the required actor."
+                }
+              }
+            }
+          }
+        },
+        "templates": {
+          "title": "เทมเพลต",
+          "summary": "อธิบาย reuse เอกสาร field placement variables และข้อควรระวังเมื่อเปลี่ยน template",
+          "sections": {
+            "usage": {
+              "title": "คำอธิบาย: Template use",
+              "body": [
+                "คำอธิบาย: Templates reduce repeated setup for common documents by preserving layout, fields, recipient patterns, and message defaults where supported.",
+                "คำอธิบาย: Changing a template should not rewrite completed document evidence."
+              ],
+              "bullets": [
+                "คำอธิบาย: Create templates only from reviewed document patterns.",
+                "คำอธิบาย: Name templates by business purpose, not by a temporary file name.",
+                "คำอธิบาย: Review fields after duplicating a template.",
+                "คำอธิบาย: Keep signer roles understandable for staff and API clients.",
+                "คำอธิบาย: Retire obsolete templates instead of silently changing history.",
+                "คำอธิบาย: Update the manual when template behavior changes."
+              ]
+            },
+            "variables": {
+              "title": "คำอธิบาย: Template variables",
+              "rows": {
+                "document": {
+                  "label": "คำอธิบาย: Document variables",
+                  "detail": "คำอธิบาย: Title, document ID, creation time, and request metadata."
+                },
+                "recipient": {
+                  "label": "คำอธิบาย: Recipient variables",
+                  "detail": "คำอธิบาย: Signer name, email, role, order, locale, and access-code requirement."
+                },
+                "sender": {
+                  "label": "คำอธิบาย: Sender variables",
+                  "detail": "คำอธิบาย: Staff sender, organization, reply-to, and configured branding."
+                },
+                "workflow": {
+                  "label": "คำอธิบาย: Workflow variables",
+                  "detail": "คำอธิบาย: Due date, reminder policy, approval state, completion links, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "contacts": {
+          "title": "รายชื่อ หมวดหมู่ และกลุ่ม",
+          "summary": "อธิบายการจัดการ recipient ภายนอก categories groups และการเลือกผู้รับตอนส่ง",
+          "sections": {
+            "directory": {
+              "title": "คำอธิบาย: Contact management",
+              "body": [
+                "คำอธิบาย: Contacts help staff select recurring external recipients consistently.",
+                "คำอธิบาย: A contact is not a staff user and does not imply login access."
+              ],
+              "bullets": [
+                "คำอธิบาย: Keep legal names and email addresses accurate.",
+                "คำอธิบาย: Use categories for business classification.",
+                "คำอธิบาย: Use groups for repeated recipient sets.",
+                "คำอธิบาย: Check locale before sending multilingual requests.",
+                "คำอธิบาย: Remove or archive obsolete contacts according to policy.",
+                "คำอธิบาย: Do not store secrets in contact notes."
+              ]
+            },
+            "classification": {
+              "title": "คำอธิบาย: Classification",
+              "rows": {
+                "contact": {
+                  "label": "คำอธิบาย: Contact",
+                  "detail": "คำอธิบาย: A reusable external recipient record."
+                },
+                "category": {
+                  "label": "คำอธิบาย: Category",
+                  "detail": "คำอธิบาย: Business classification such as customer, vendor, or partner."
+                },
+                "group": {
+                  "label": "คำอธิบาย: Group",
+                  "detail": "คำอธิบาย: Reusable set of contacts for repeated sending patterns."
+                },
+                "recipient": {
+                  "label": "คำอธิบาย: Recipient",
+                  "detail": "คำอธิบาย: A specific person assigned to a specific document workflow."
+                }
+              }
+            }
+          }
+        },
+        "compliance": {
+          "title": "Audit Logs, WORM และ Compliance",
+          "summary": "อธิบาย activityLogs, systemAuditLogs, hash chains, PDF proxy และ no-delete policy",
+          "sections": {
+            "audit": {
+              "title": "คำอธิบาย: Audit evidence",
+              "body": [
+                "คำอธิบาย: Audit data explains who did what, when, from which workflow, and with which result.",
+                "คำอธิบาย: WORM design means evidence should be appended and preserved rather than edited or deleted."
+              ],
+              "bullets": [
+                "คำอธิบาย: Record login, document, signature, approval, API, and system-sensitive events.",
+                "คำอธิบาย: Use activityLogs for user/workflow activity.",
+                "คำอธิบาย: Use systemAuditLogs for system-level and integration-sensitive events.",
+                "คำอธิบาย: Hash chains help detect tampering.",
+                "คำอธิบาย: PDF proxying prevents accidental exposure of raw storage paths.",
+                "คำอธิบาย: Signed PDFs and completion evidence should be treated as immutable.",
+                "คำอธิบาย: Deletion policies must preserve required evidence.",
+                "คำอธิบาย: If an audit row looks wrong, investigate source logic instead of editing evidence."
+              ]
+            },
+            "worm": {
+              "title": "คำอธิบาย: WORM and no-delete policy",
+              "body": [
+                "คำอธิบาย: Compliance behavior is a product boundary. Avoid convenience changes that weaken evidence retention."
+              ],
+              "rows": {
+                "activityLogs": {
+                  "label": "คำอธิบาย: activityLogs",
+                  "detail": "คำอธิบาย: Append-only workflow/user activity records."
+                },
+                "systemAuditLogs": {
+                  "label": "คำอธิบาย: systemAuditLogs",
+                  "detail": "คำอธิบาย: Append-only system, security, integration, and operational records."
+                },
+                "pdfProxy": {
+                  "label": "คำอธิบาย: PDF proxy",
+                  "detail": "คำอธิบาย: Controlled route for PDF viewing/downloading without exposing storage internals."
+                },
+                "hashChain": {
+                  "label": "คำอธิบาย: Hash chain",
+                  "detail": "คำอธิบาย: Links records so later tampering can be detected."
+                },
+                "deletePolicy": {
+                  "label": "คำอธิบาย: Delete policy",
+                  "detail": "คำอธิบาย: Completed evidence is retained. Deleting business records must not erase required audit evidence."
+                }
+              }
+            }
+          }
+        },
+        "emailLocales": {
+          "title": "อีเมลและภาษา",
+          "summary": "อธิบาย email types, UI locales, email-only locales, locale priority และความหมายของ ?lng",
+          "sections": {
+            "mail": {
+              "title": "คำอธิบาย: Email types",
+              "body": [
+                "คำอธิบาย: Emails are part of the workflow, not just notifications. Missing email can block signing or approval."
+              ],
+              "rows": {
+                "invitation": {
+                  "label": "คำอธิบาย: Staff invitation",
+                  "detail": "คำอธิบาย: Sent when a staff account is invited or activated."
+                },
+                "signatureRequest": {
+                  "label": "คำอธิบาย: Signature request",
+                  "detail": "คำอธิบาย: Sent to external signers with the signing link and optional access-code instructions."
+                },
+                "reminder": {
+                  "label": "คำอธิบาย: Reminder",
+                  "detail": "คำอธิบาย: Sent when a request is pending and reminder policy requires follow-up."
+                },
+                "completion": {
+                  "label": "คำอธิบาย: Completion",
+                  "detail": "คำอธิบาย: Sent when a workflow completes and evidence is ready."
+                },
+                "approval": {
+                  "label": "คำอธิบาย: Approval",
+                  "detail": "คำอธิบาย: Sent to internal approvers when their decision is required."
+                }
+              }
+            },
+            "locale": {
+              "title": "คำอธิบาย: Locale priority and ?lng",
+              "body": [
+                "คำอธิบาย: UI locales are ja, en, th, and zh-CN. Some additional locales may be email-only and should not be added to UI selectors unless the UI is translated.",
+                "คำอธิบาย: ?lng changes the requested language for public links when supported. It is useful for signing links, approval links, and manual verification."
+              ],
+              "bullets": [
+                "คำอธิบาย: Prefer explicit ?lng when a public link must open in a specific language.",
+                "คำอธิบาย: Use staff preference for authenticated staff surfaces.",
+                "คำอธิบาย: Use recipient/contact locale for external emails where available.",
+                "คำอธิบาย: Fall back to browser or default locale when no stored preference exists.",
+                "คำอธิบาย: Do not change email-only locales when updating UI manual content."
+              ],
+              "callouts": [
+                "คำอธิบาย: If raw translation keys appear, compare the manual.* key set across ja, en, th, and zh-CN."
+              ]
+            }
+          }
+        },
+        "api": {
+          "title": "REST API สำหรับ Integration",
+          "summary": "อธิบาย API key authentication, scopes, endpoints, idempotency, webhooks และ audit recording",
+          "sections": {
+            "auth": {
+              "title": "คำอธิบาย: Authentication, scopes, and idempotency",
+              "body": [
+                "คำอธิบาย: The REST API is for trusted integrations. Authenticate with an API key, validate scope, and write audit records for sensitive actions.",
+                "คำอธิบาย: Use an Idempotency-Key header for create operations so retries do not duplicate documents or requests."
+              ],
+              "rows": {
+                "token": {
+                  "label": "คำอธิบาย: API key",
+                  "detail": "คำอธิบาย: Send as a bearer token or the project-supported header. Store only in a server-side secret store."
+                },
+                "scope": {
+                  "label": "คำอธิบาย: Scope",
+                  "detail": "คำอธิบาย: Limits what the integration can do, such as document write, request send, or webhook management."
+                },
+                "idempotency": {
+                  "label": "คำอธิบาย: Idempotency",
+                  "detail": "คำอธิบาย: Required for safe retries of create/send operations."
+                },
+                "audit": {
+                  "label": "คำอธิบาย: Audit",
+                  "detail": "คำอธิบาย: API actions must record actor, key, scope, target, and result where implemented."
+                }
+              },
+              "code": {
+                "curl": {
+                  "title": "คำอธิบาย: Example request",
+                  "code": "คำอธิบาย: curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                }
+              }
+            },
+            "endpoints": {
+              "title": "คำอธิบาย: Representative endpoints",
+              "rows": {
+                "createDocument": {
+                  "label": "คำอธิบาย: Create document",
+                  "detail": "คำอธิบาย: Uploads or registers a source document and returns the document identifier."
+                },
+                "createRequest": {
+                  "label": "คำอธิบาย: Create/send signature request",
+                  "detail": "คำอธิบาย: Creates recipients, fields, access rules, and sends the workflow when requested."
+                },
+                "getStatus": {
+                  "label": "คำอธิบาย: Get status",
+                  "detail": "คำอธิบาย: Returns document/request state for polling or reconciliation."
+                },
+                "downloadPdf": {
+                  "label": "คำอธิบาย: Download completed PDF",
+                  "detail": "คำอธิบาย: Returns or redirects to controlled completed-PDF access when the workflow is complete."
+                },
+                "webhooks": {
+                  "label": "คำอธิบาย: Webhooks",
+                  "detail": "คำอธิบาย: Notify external systems about status changes. Verify signatures and retry safely."
+                }
+              }
+            }
+          }
+        },
+        "cli": {
+          "title": "signctl CLI งาน",
+          "summary": "อธิบาย environment variables, commands สำคัญ, output และ idempotency สำหรับ AI/CI operators",
+          "sections": {
+            "environment": {
+              "title": "คำอธิบาย: CLI environment",
+              "body": [
+                "คำอธิบาย: signctl is the command-line surface for operators, CI, and AI agents. It should call the public integration boundary instead of writing directly to the database."
+              ],
+              "rows": {
+                "baseUrl": {
+                  "label": "คำอธิบาย: SIGN_API_BASE_URL",
+                  "detail": "คำอธิบาย: Base URL of the target Hundredth Sign instance."
+                },
+                "apiKey": {
+                  "label": "คำอธิบาย: SIGN_API_KEY",
+                  "detail": "คำอธิบาย: API key with the minimum required scopes."
+                },
+                "idempotency": {
+                  "label": "คำอธิบาย: SIGN_IDEMPOTENCY_PREFIX",
+                  "detail": "คำอธิบาย: Optional prefix to make automated retries traceable."
+                },
+                "output": {
+                  "label": "คำอธิบาย: --json",
+                  "detail": "คำอธิบาย: Use machine-readable JSON output for CI/AI automation."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "คำอธิบาย: CLI environment",
+                  "code": "คำอธิบาย: SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                }
+              }
+            },
+            "commands": {
+              "title": "คำอธิบาย: Main commands",
+              "body": [
+                "คำอธิบาย: Exact command names should follow scripts/signctl.mjs. Keep this manual synchronized when commands change."
+              ],
+              "code": {
+                "examples": {
+                  "title": "คำอธิบาย: Representative commands",
+                  "code": "คำอธิบาย: node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                }
+              },
+              "callouts": [
+                "คำอธิบาย: Do not give signctl a database URL. CLI automation should stay behind the audited REST API boundary."
+              ]
+            }
+          }
+        },
+        "dataModel": {
+          "title": "ภาพรวม DB Tables",
+          "summary": "สรุป key tables, state transitions, unique constraints สำคัญ และข้อมูลที่ห้ามลบ",
+          "sections": {
+            "tables": {
+              "title": "คำอธิบาย: Primary table groups",
+              "body": [
+                "คำอธิบาย: The actual schema is defined in drizzle/schema.ts. This section is an operator-readable map, not a replacement for migrations."
+              ],
+              "rows": {
+                "users": {
+                  "label": "คำอธิบาย: users / staff-related tables",
+                  "detail": "คำอธิบาย: Staff identity, role, status, locale, and login-related data."
+                },
+                "documents": {
+                  "label": "คำอธิบาย: documents",
+                  "detail": "คำอธิบาย: Source document metadata, ownership, status, and file references."
+                },
+                "signatureRequests": {
+                  "label": "คำอธิบาย: signatureRequests",
+                  "detail": "คำอธิบาย: Sending workflow, status, order, due date, token, and completion state."
+                },
+                "signers": {
+                  "label": "คำอธิบาย: signers / recipients",
+                  "detail": "คำอธิบาย: Recipient identity, order, access-code flags, locale, and signer outcome."
+                },
+                "signatureFields": {
+                  "label": "คำอธิบาย: signatureFields",
+                  "detail": "คำอธิบาย: Field type, page, coordinates, required flag, and assigned signer."
+                },
+                "templates": {
+                  "label": "คำอธิบาย: templates",
+                  "detail": "คำอธิบาย: Reusable document and field definitions."
+                },
+                "contacts": {
+                  "label": "คำอธิบาย: contacts / categories / groups",
+                  "detail": "คำอธิบาย: External recipient directory and classification."
+                },
+                "approvals": {
+                  "label": "คำอธิบาย: internal approvals",
+                  "detail": "คำอธิบาย: Internal decision workflow and approver outcome."
+                },
+                "audit": {
+                  "label": "คำอธิบาย: activityLogs / systemAuditLogs",
+                  "detail": "คำอธิบาย: Append-only evidence and security/operational audit trail."
+                },
+                "integrations": {
+                  "label": "คำอธิบาย: API keys / webhooks",
+                  "detail": "คำอธิบาย: Integration credentials, scopes, webhook subscriptions, and delivery state."
+                }
+              }
+            },
+            "constraints": {
+              "title": "คำอธิบาย: Constraints and invariants",
+              "bullets": [
+                "คำอธิบาย: Email-like identifiers must be unique where the schema requires it.",
+                "คำอธิบาย: Tokens and API keys must be unique and treated as secrets.",
+                "คำอธิบาย: A signature field belongs to one document and usually one assigned signer.",
+                "คำอธิบาย: A completed workflow must retain PDF and audit evidence.",
+                "คำอธิบาย: Status transitions should be explicit and auditable.",
+                "คำอธิบาย: Hash chain inputs must not be rewritten after evidence is recorded.",
+                "คำอธิบาย: Schema changes require documentation and tests in the same change set."
+              ]
+            }
+          }
+        },
+        "operations": {
+          "title": "Operations, Troubleshooting และ FAQ",
+          "summary": "ลดคำถามเรื่อง login, email ไม่ถึง, PDF, signing links, API keys, audit logs, migration และ language settings",
+          "sections": {
+            "faq": {
+              "title": "คำอธิบาย: FAQ by symptom",
+              "body": [
+                "คำอธิบาย: Start with the symptom, then verify the responsible boundary before changing data."
+              ],
+              "rows": {
+                "login": {
+                  "label": "คำอธิบาย: Cannot log in",
+                  "detail": "คำอธิบาย: Check app URL, cookie domain, session secret, account status, password reset flow, and browser hostname."
+                },
+                "mail": {
+                  "label": "คำอธิบาย: Email not received",
+                  "detail": "คำอธิบาย: Check SMTP settings, recipient address, spam folder, mail logs, locale template, and whether delivery is disabled in development."
+                },
+                "pdf": {
+                  "label": "คำอธิบาย: PDF upload fails",
+                  "detail": "คำอธิบาย: Confirm file type, 20 MB limit, password protection, PDF validation error, and server logs."
+                },
+                "signingLink": {
+                  "label": "คำอธิบาย: Signing link does not open",
+                  "detail": "คำอธิบาย: Check token, expiry, request status, access code, route URL, and ?lng parameter."
+                },
+                "apiKey": {
+                  "label": "คำอธิบาย: API key fails",
+                  "detail": "คำอธิบาย: Check key value, scope, target base URL, Authorization header, idempotency key, and audit logs."
+                },
+                "auditLog": {
+                  "label": "คำอธิบาย: Audit log missing",
+                  "detail": "คำอธิบาย: Check whether the action actually occurred and whether the code path inserts activityLogs or systemAuditLogs."
+                },
+                "migration": {
+                  "label": "คำอธิบาย: Migration error",
+                  "detail": "คำอธิบาย: Check DATABASE_URL, applied migration table, hash mismatch, statement breakpoints, and current schema."
+                },
+                "locale": {
+                  "label": "คำอธิบาย: Wrong language",
+                  "detail": "คำอธิบาย: Check ?lng, staff preference, recipient locale, browser language, and UI vs email-only locale support."
+                }
+              }
+            },
+            "runbook": {
+              "title": "คำอธิบาย: Operational runbook",
+              "steps": [
+                "คำอธิบาย: Capture screen, route, document/request ID, user or recipient, timestamp, and exact error.",
+                "คำอธิบาย: Check whether the issue is UI, API, email, PDF, DB migration, or audit evidence.",
+                "คำอธิบาย: Verify environment variables without exposing their real values.",
+                "คำอธิบาย: Run the standard test and type-check commands after code changes.",
+                "คำอธิบาย: For DB-backed fixes, apply or hand off the migration before claiming operational completion.",
+                "คำอธิบาย: Update the manual and product specification when behavior changes."
+              ],
+              "code": {
+                "verify": {
+                  "title": "คำอธิบาย: Verification commands",
+                  "code": "คำอธิบาย: corepack pnpm test\ncorepack pnpm check\nnode scripts/verify-manual-locales.mjs # if present in your branch"
+                }
+              }
+            }
+          }
+        },
+        "developer": {
+          "title": "Developer Change Rules และ Verification",
+          "summary": "กฎสำหรับรักษา specs, DB, audit, translations, tests และ manual ให้ตรงกันเมื่อแก้ไขระบบ",
+          "sections": {
+            "rules": {
+              "title": "คำอธิบาย: Change rules",
+              "body": [
+                "คำอธิบาย: Treat documentation, migrations, translations, and tests as part of the product surface, not cleanup work."
+              ],
+              "bullets": [
+                "คำอธิบาย: Read docs/architecture.md and the relevant docs/spec file before implementation.",
+                "คำอธิบาย: If drizzle/schema.ts changes, update docs/domain/data-model.md.",
+                "คำอธิบาย: Never remove INSERT behavior for activityLogs or systemAuditLogs when it protects WORM evidence.",
+                "คำอธิบาย: Do not hardcode secrets; read from environment variables.",
+                "คำอธิบาย: Keep UI manual keys aligned across ja, en, th, and zh-CN.",
+                "คำอธิบาย: Do not edit email-only locales for UI-only manual changes.",
+                "คำอธิบาย: Run pnpm test and pnpm check before completion.",
+                "คำอธิบาย: When a feature changes public behavior, update this manual in the same branch."
+              ],
+              "code": {
+                "commands": {
+                  "title": "คำอธิบาย: Developer verification",
+                  "code": "คำอธิบาย: corepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            },
+            "checklist": {
+              "title": "คำอธิบาย: Release checklist",
+              "rows": {
+                "schema": {
+                  "label": "คำอธิบาย: Schema",
+                  "detail": "คำอธิบาย: Migration created/applied, data model docs updated, no unsafe data loss."
+                },
+                "audit": {
+                  "label": "คำอธิบาย: Audit",
+                  "detail": "คำอธิบาย: Sensitive actions write activityLogs or systemAuditLogs and preserve evidence."
+                },
+                "locale": {
+                  "label": "คำอธิบาย: Locale",
+                  "detail": "คำอธิบาย: No raw manual.* keys in ja/en/th/zh-CN and email-only locales untouched."
+                },
+                "manual": {
+                  "label": "คำอธิบาย: Manual",
+                  "detail": "คำอธิบาย: Manual reflects product-spec.ja.md and any changed behavior."
+                },
+                "test": {
+                  "label": "คำอธิบาย: Tests",
+                  "detail": "คำอธิบาย: Relevant unit/integration/E2E checks pass or the blocker is documented."
+                }
+              }
+            }
+          }
+        }
+      },
+      "screenshots": {
+        "openFullSize": "เปิดภาพขนาดใหญ่",
+        "login": {
+          "alt": "หน้าจอเข้าสู่ระบบ",
+          "caption": "หน้าจอเข้าสู่ระบบ",
+          "title": "หน้าจอเข้าสู่ระบบ"
+        },
+        "setup": {
+          "alt": "หน้าจอตั้งค่าเริ่มต้น",
+          "caption": "หน้าจอตั้งค่าเริ่มต้น",
+          "title": "หน้าจอตั้งค่าเริ่มต้น"
+        },
+        "dashboard": {
+          "alt": "หน้าจอ Dashboard",
+          "caption": "หน้าจอ Dashboard",
+          "title": "หน้าจอ Dashboard"
+        },
+        "documents": {
+          "alt": "รายการเอกสาร",
+          "caption": "รายการเอกสาร",
+          "title": "รายการเอกสาร"
+        },
+        "documentNew": {
+          "alt": "หน้าจอสร้างเอกสารใหม่",
+          "caption": "หน้าจอสร้างเอกสารใหม่",
+          "title": "หน้าจอสร้างเอกสารใหม่"
+        },
+        "signing": {
+          "alt": "หน้าจอลงนาม",
+          "caption": "หน้าจอลงนาม",
+          "title": "หน้าจอลงนาม"
+        },
+        "inbox": {
+          "alt": "หน้าจอ Inbox",
+          "caption": "หน้าจอ Inbox",
+          "title": "หน้าจอ Inbox"
+        },
+        "templates": {
+          "alt": "หน้าจอเทมเพลต",
+          "caption": "หน้าจอเทมเพลต",
+          "title": "หน้าจอเทมเพลต"
+        },
+        "contacts": {
+          "alt": "หน้าจอรายชื่อ",
+          "caption": "หน้าจอรายชื่อ",
+          "title": "หน้าจอรายชื่อ"
+        },
+        "audit": {
+          "alt": "หน้าจอ Audit log",
+          "caption": "หน้าจอ Audit log",
+          "title": "หน้าจอ Audit log"
+        },
+        "settings": {
+          "alt": "หน้าจอตั้งค่า",
+          "caption": "หน้าจอตั้งค่า",
+          "title": "หน้าจอตั้งค่า"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "เงื่อนไข OSS",
+      "title": "เงื่อนไขการใช้รุ่น OSS",
+      "description": "แนวทางสำหรับใช้งานรุ่น OSS แบบโฮสต์เอง โปรดตรวจเทียบกับข้อกำหนดกฎหมาย ความปลอดภัย และการดำเนินงานขององค์กร",
+      "sections": {
+        "scope": {
+          "title": "คู่มือ: Scope and relationship to the license",
+          "body": {
+            "0": "คู่มือ: These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
+            "1": "คู่มือ: If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "2": "คู่มือ: Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
+          }
+        },
+        "license": {
+          "title": "คู่มือ: OSS usage and redistribution",
+          "body": {
+            "0": "คู่มือ: The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
+            "1": "คู่มือ: The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "2": "คู่มือ: Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
+          }
+        },
+        "operator": {
+          "title": "ความรับผิดชอบของผู้ดำเนินระบบ",
+          "body": {
+            "0": "องค์กรผู้ใช้งานรับผิดชอบบัญชี การควบคุมสิทธิ์ ฐานข้อมูล สตอเรจ อีเมล สำรองข้อมูล มอนิเตอร์ และเหตุการณ์ผิดปกติ",
+            "1": "ก่อนใช้สัญญาจริง ให้ตรวจขั้นตอนกู้คืน การส่งอีเมล โดเมน การเก็บข้อมูล และสิทธิ์ผู้ใช้",
+            "2": "ควรจำกัดบัญชีผู้ดูแลให้เฉพาะผู้ที่ต้องเข้าถึงเอกสาร",
+            "3": "คู่มือ: The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+          }
+        },
+        "accounts": {
+          "title": "คู่มือ: Accounts, roles, and access",
+          "body": {
+            "0": "คู่มือ: The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "1": "คู่มือ: External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
+            "2": "คู่มือ: Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
+          }
+        },
+        "integrations": {
+          "title": "คู่มือ: API, CLI, and webhook use",
+          "body": {
+            "0": "คู่มือ: External systems must use the integration API or signctl rather than direct database writes. Direct writes can bypass audit, WORM, PDF completion, status transitions, and email side effects.",
+            "1": "คู่มือ: API keys must be stored as secrets, rotated before expiry, scoped narrowly, and revoked immediately when a system, operator, or AI agent no longer needs access.",
+            "2": "คู่มือ: Webhook receivers must verify the HMAC signature, handle duplicate deliveries, and avoid treating a delivery as the sole source of truth; Sign remains the source of record."
+          }
+        },
+        "data": {
+          "title": "การปกป้องและเก็บรักษาข้อมูล",
+          "body": {
+            "0": "ผู้ดำเนินระบบควบคุมข้อมูลส่วนบุคคล PDF ที่ลงนาม โทเคน บันทึกตรวจสอบ และสำรองข้อมูลในสภาพแวดล้อมของตน",
+            "1": "กำหนดนโยบายระยะเก็บ การลบ การเข้ารหัส และสิทธิ์เข้าถึงก่อนใช้งานจริง",
+            "2": "ตรวจข้อผูกพันด้านความเป็นส่วนตัวและการเก็บบันทึกของแต่ละธุรกิจและเขตอำนาจ",
+            "3": "คู่มือ: If real production data is used for development, support, or customization, mask or minimize it unless there is a documented operational need."
+          }
+        },
+        "compliance": {
+          "title": "การตรวจทางกฎหมายและกำกับดูแล",
+          "body": {
+            "0": "ความมีผลของลายเซ็นอิเล็กทรอนิกส์ขึ้นกับเอกสาร วิธีระบุตัวตน เขตอำนาจ นโยบายหลักฐาน และการควบคุมการทำงาน",
+            "1": "ฟังก์ชันตรวจสอบและ WORM ช่วยรักษาหลักฐาน แต่ไม่ได้รับประกันความเหมาะสมทางกฎหมายโดยอัตโนมัติ",
+            "2": "ควรปรึกษาผู้เชี่ยวชาญด้านกฎหมาย ภาษี ความปลอดภัย และกำกับดูแลก่อนใช้งานจริง",
+            "3": "คู่มือ: Consult qualified legal, tax, accounting, security, and compliance professionals before relying on the system for regulated or high-value documents."
+          }
+        },
+        "prohibited": {
+          "title": "คู่มือ: Prohibited or unsafe use",
+          "body": {
+            "0": "คู่มือ: Do not use the system to impersonate another person, forge consent, bypass required approvals, unlawfully collect personal data, distribute malware, or interfere with third-party systems.",
+            "1": "คู่มือ: Do not disable audit inserts, WORM retention, token validation, access-code checks, or signed-PDF generation in a way that misrepresents evidence.",
+            "2": "คู่มือ: Do not publish API keys, webhook secrets, database URLs, storage credentials, JWT secrets, or private signing certificates."
+          }
+        },
+        "noSupport": {
+          "title": "ไม่รวมการสนับสนุนทั่วไป",
+          "body": {
+            "0": "รุ่น OSS ไม่รวมการสนับสนุนผลิตภัณฑ์ การดูแลระบบ การดีบักเฉพาะราย หรือข้อตกลงระดับบริการ",
+            "1": "คำถามอาจตรวจภายในโดยผู้ดำเนินระบบ หรือขอเป็นงานปรับแต่งหรือช่วยติดตั้งแบบมีค่าใช้จ่าย",
+            "2": "ไม่ควรคาดหวังให้ชุด OSS สาธารณะวิเคราะห์โครงสร้างพื้นฐาน อีเมล กระบวนการกฎหมาย หรือสถานะฐานข้อมูลของคุณ"
+          }
+        },
+        "customization": {
+          "title": "การปรับแต่งแบบมีค่าใช้จ่าย",
+          "body": {
+            "0": "สามารถขอปรับแต่งเฉพาะธุรกิจแยกต่างหากได้",
+            "1": "งานทั่วไปได้แก่ รูปแบบเอกสาร เส้นทางอนุมัติ การเชื่อมต่อ ภาษา รายงาน และแดชบอร์ดปฏิบัติงาน",
+            "2": "การปรับแต่งไม่ลดความรับผิดชอบของผู้ดำเนินระบบในการตรวจและยอมรับระบบผลลัพธ์"
+          }
+        },
+        "changes": {
+          "title": "คู่มือ: Changes and precedence",
+          "body": {
+            "0": "คู่มือ: This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "1": "คู่มือ: A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
+            "2": "คู่มือ: The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "eyebrow": "ข้อจำกัดความรับผิด",
+      "title": "ข้อจำกัดความรับผิดของรุ่น OSS",
+      "description": "โปรดอ่านก่อนนำ Hundredth Sign OSS ไปใช้งานจริงหรือปรับแต่งเฉพาะธุรกิจ",
+      "sections": {
+        "warranty": {
+          "title": "ให้บริการโดยไม่มีการรับประกัน",
+          "body": {
+            "0": "รุ่น OSS ให้ตามสภาพจริง ไม่รับประกันความพร้อมใช้ ความเหมาะสม วัตถุประสงค์เฉพาะ ผลทางกฎหมาย ความปลอดภัย หรือการทำงานไม่สะดุด",
+            "1": "ผู้ดำเนินระบบต้องประเมินว่าระบบตรงกับข้อกำหนดทางเทคนิค การดำเนินงาน และกฎหมายหรือไม่",
+            "2": "ชุด OSS สาธารณะอาจเปลี่ยนแปลง มีข้อบกพร่อง หรือจำเป็นต้องตรวจเพิ่มก่อนใช้งานจริง",
+            "3": "คู่มือ: The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
+          }
+        },
+        "legal": {
+          "title": "ไม่ใช่คำแนะนำทางกฎหมาย",
+          "body": {
+            "0": "คู่มือและซอฟต์แวร์เป็นข้อมูลทางเทคนิค ไม่ใช่คำแนะนำด้านกฎหมาย ภาษี บัญชี หรือความปลอดภัย",
+            "1": "การตัดสินขั้นสุดท้ายเรื่องความมีผลของลายเซ็นและการเก็บบันทึกเป็นขององค์กรผู้ใช้งาน",
+            "2": "โปรดตรวจข้อกำหนดกับผู้เชี่ยวชาญที่เหมาะสมในเขตอำนาจที่เกี่ยวข้อง",
+            "3": "คู่มือ: Confirm requirements with qualified specialists in the relevant jurisdiction before relying on the system."
+          }
+        },
+        "compliance": {
+          "title": "คู่มือ: Electronic signature and recordkeeping limitations",
+          "body": {
+            "0": "คู่มือ: Electronic signature laws and recordkeeping rules vary by document type, jurisdiction, identity assurance, consent process, retention period, and evidence handling.",
+            "1": "คู่มือ: Audit logs, completion certificates, WORM records, and PDF signatures support evidence, but they do not automatically satisfy every legal, tax, or internal-control requirement.",
+            "2": "คู่มือ: Some documents may require handwritten signatures, qualified signatures, notarization, special storage, additional identity verification, or a different retention workflow.",
+            "3": "คู่มือ: Operators must test whether generated PDFs, logs, timestamps, search fields, and exports remain readable and retrievable for the required period."
+          }
+        },
+        "security": {
+          "title": "คู่มือ: Security and operational risk",
+          "body": {
+            "0": "คู่มือ: Self-hosting moves security responsibility to the operator. This includes server hardening, patching, network exposure, secrets management, TLS, authentication, IP restrictions, logging, alerting, and vulnerability response.",
+            "1": "คู่มือ: API keys, webhook secrets, JWT secrets, database credentials, storage credentials, email credentials, and signing certificates must be protected and rotated when risk changes.",
+            "2": "คู่มือ: Backups are useful only if restoration is tested. Monitoring is useful only if someone is responsible for responding.",
+            "3": "คู่มือ: AI or CI automation must use narrowly scoped keys, idempotency keys for retries, and explicit approval boundaries for destructive operations."
+          }
+        },
+        "data": {
+          "title": "ความเสี่ยงข้อมูลและการดำเนินงาน",
+          "body": {
+            "0": "การปกป้องข้อมูลส่วนบุคคล เอกสารที่ลงนามแล้ว ข้อมูลรับรอง สำรองฐานข้อมูล สตอเรจ และอีเมล เป็นความรับผิดชอบของผู้ดำเนินระบบ",
+            "1": "ก่อนใช้งานจริง ให้ทดสอบการกู้คืนสำรอง การเก็บบันทึกตรวจสอบ การจำกัดสิทธิ์ และการตอบสนองเหตุการณ์",
+            "2": "การสูญหาย รั่วไหล เสียหาย หรือส่งผิดจากการดำเนินงานหรือปรับแต่ง ไม่อยู่ในขอบเขตสนับสนุน OSS ทั่วไป",
+            "3": "คู่มือ: Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
+          }
+        },
+        "integrations": {
+          "title": "คู่มือ: API, CLI, and webhook risk",
+          "body": {
+            "0": "คู่มือ: The integration API and signctl are powerful operational interfaces. A key with send, download, webhook, or API-key management scope can materially affect production workflows.",
+            "1": "คู่มือ: Webhook delivery is best-effort with retries. Receivers must handle duplicates, failures, delayed delivery, signature verification, and reconciliation against the document status API.",
+            "2": "คู่มือ: Direct database writes by external systems are outside the supported integration model and can break audit, WORM, status, and PDF completion behavior."
+          }
+        },
+        "ai": {
+          "title": "โค้ดที่พัฒนาด้วยความช่วยเหลือของ AI",
+          "body": {
+            "0": "รุ่น OSS นี้มีโค้ดที่เขียนด้วยความช่วยเหลือของ AI",
+            "1": "การพัฒนาด้วย AI ช่วยลดต้นทุนปรับแต่ง แต่ไม่ทำให้ไม่ต้องรีวิว ทดสอบ ประเมินความปลอดภัย หรือทวนสอบการใช้งาน",
+            "2": "การเปลี่ยนแปลงด้านยืนยันตัวตน การลงนาม บันทึกตรวจสอบ สตอเรจ และกำกับดูแลต้องระวังเป็นพิเศษ"
+          }
+        },
+        "customization": {
+          "title": "การปรับแต่งทำแยกต่างหาก",
+          "body": {
+            "0": "การพัฒนาด้วย AI ทำให้ระบบหลังบ้านที่เหมาะกับแต่ละธุรกิจมีต้นทุนเป็นจริงมากขึ้น",
+            "1": "การปรับแต่งแบบมีค่าใช้จ่ายสามารถปรับรุ่น OSS ให้เข้ากับเอกสาร การอนุมัติ ภาษา การเชื่อมต่อ และงานภายใน",
+            "2": "งานปรับแต่งต้องกำหนดขอบเขตแยกต่างหากและควรรวมการทดสอบยอมรับโดยองค์กรผู้ใช้งาน"
+          }
+        },
+        "references": {
+          "title": "คู่มือ: Reference information used when drafting this notice",
+          "body": {
+            "0": "คู่มือ: This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "1": "คู่มือ: Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
+            "2": "คู่มือ: This page is a practical risk notice, not a substitute for the official legal text or professional advice."
+          }
+        }
+      }
+    }
+  },
+  "ossContact": {
+    "eyebrow": "ปรึกษาการปรับแต่ง",
+    "title": "ปรับแต่ง Hundredth Sign OSS ให้เข้ากับธุรกิจของคุณ",
+    "description": "รุ่น OSS ใช้งานได้ฟรี และมีบริการปรับแต่งแบบมีค่าใช้จ่ายสำหรับองค์กรที่ต้องการให้ตรงกับงานจริง",
+    "body": {
+      "0": "Hundredth Sign OSS ไม่มีบริการสนับสนุนทั่วไปสำหรับการใช้ OSS ตามปกติ",
+      "1": "หากต้องการให้ระบบตรงกับสัญญา เส้นทางอนุมัติ การควบคุมภายใน การทำงานหลายภาษา การเชื่อมต่อ หรือเวิร์กโฟลว์หลังบ้าน สามารถขอการพัฒนาแบบมีค่าใช้จ่ายได้",
+      "2": "เมื่อการเขียนโค้ดด้วย AI เป็นเรื่องปกติ ระบบที่เข้ากับธุรกิจแต่ละแห่งมากกว่ากระบวนการ SaaS ทั่วไปจะทำได้จริงขึ้น",
+      "3": "โปรดส่งคำอธิบายสั้น ๆ เกี่ยวกับงานที่ต้องการปรับ ปัญหาปัจจุบัน ผู้ใช้ ประเภทเอกสาร และช่วงเวลาที่ต้องการ"
+    },
+    "requestTitle": "ข้อมูลที่ควรส่งมาด้วย",
+    "requestItems": {
+      "0": "ขั้นตอนเอกสารและอนุมัติในปัจจุบัน",
+      "1": "หน้าจอ ฟิลด์ หรือการเชื่อมต่อที่ต้องการ",
+      "2": "ข้อจำกัดด้านโฮสต์และความปลอดภัย",
+      "3": "ช่วงเวลาที่ต้องการเริ่มและลำดับความสำคัญ"
+    },
+    "emailTitle": "ติดต่อ",
+    "emailDescription": "ส่งเวิร์กโฟลว์ที่ต้องการปรับ ปัญหาปัจจุบัน และช่วงเวลาที่ต้องการมายังอีเมลนี้"
+  }
+}

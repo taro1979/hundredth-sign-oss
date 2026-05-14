@@ -1,0 +1,2654 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "documents": "Documents",
+    "contacts": "Contacts",
+    "templates": "Templates",
+    "auditLog": "Audit Log",
+    "profile": "Profile",
+    "logout": "Logout",
+    "login": "Login",
+    "manual": "Manual",
+    "settings": "Settings",
+    "inbox": "Inbox"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "filter": "Filter",
+    "close": "Close",
+    "open": "Open",
+    "next": "Next",
+    "back": "Back",
+    "done": "Done",
+    "confirm": "Confirm",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "loadingTimeout": "Loading is taking longer than expected. Please try again.",
+    "reload": "Reload",
+    "creating": "Creating...",
+    "error": "Error",
+    "success": "Success",
+    "warning": "Warning",
+    "info": "Info",
+    "noData": "No data available",
+    "actions": "Actions",
+    "status": "Status",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company",
+    "department": "Department",
+    "title": "Title",
+    "description": "Description",
+    "date": "Date",
+    "createdAt": "Created At",
+    "updatedAt": "Updated At",
+    "yes": "Yes",
+    "no": "No",
+    "all": "All",
+    "none": "None",
+    "download": "Download",
+    "upload": "Upload",
+    "copy": "Copy",
+    "share": "Share",
+    "settings": "Settings",
+    "language": "Language",
+    "user": "User",
+    "role": "Role",
+    "owner": "Administrator",
+    "admin": "Administrator",
+    "member": "Member",
+    "free": "Free",
+    "comingSoon": "Coming Soon"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Welcome back",
+    "recentDocuments": "Recent Documents",
+    "pendingSignatures": "Pending Signatures",
+    "completedDocuments": "Completed Documents",
+    "totalDocuments": "Total Documents",
+    "totalContacts": "Total Contacts",
+    "totalTemplates": "Total Templates",
+    "monthlyUsage": "Monthly Usage",
+    "quickActions": "Quick Actions",
+    "newDocument": "New Document",
+    "viewAll": "View All",
+    "welcomeMessage": "Create, send, and manage contracts from here.",
+    "newDocUpload": "Upload PDF",
+    "newDocUploadDesc": "Create a contract from a PDF file",
+    "newDocTemplate": "From Template",
+    "newDocTemplateDesc": "Use a saved template"
+  },
+  "documents": {
+    "title": "Documents",
+    "new": "New Document",
+    "sent": "Sent",
+    "completed": "Completed",
+    "drafts": "Drafts",
+    "actionRequired": "Action Required",
+    "voided": "Voided",
+    "all": "All",
+    "searchPlaceholder": "Search documents...",
+    "filterClear": "Clear filters",
+    "noPdf": "No PDF available",
+    "detailView": "View details",
+    "resendReminder": "Resend reminder",
+    "continueEdit": "Continue editing",
+    "deleteConfirm": "Delete this document?",
+    "noDocuments": "No documents",
+    "createFirst": "Create your first document",
+    "status": {
+      "draft": "Draft",
+      "pending_approval": "Pending Approval",
+      "pending_internal_approval": "Pending Internal Approval",
+      "sent": "Sent",
+      "viewed": "Viewed",
+      "partially_signed": "Partially Signed",
+      "completed": "Completed",
+      "declined": "Declined",
+      "voided": "Voided",
+      "expired": "Expired",
+      "pending": "Pending",
+      "signed": "Signed"
+    },
+    "dateFilter": {
+      "all": "All Time",
+      "7d": "Last 7 Days",
+      "30d": "Last 30 Days",
+      "90d": "Last 90 Days",
+      "6m": "Last 6 Months",
+      "1y": "Last Year"
+    },
+    "detail": {
+      "documentInfo": "Document Info",
+      "signers": "Signers",
+      "activityLog": "Activity Log",
+      "downloadPdf": "Download PDF",
+      "downloadSigned": "Download Signed PDF",
+      "voidDocument": "Void Document",
+      "resend": "Resend",
+      "sendReminder": "Send Reminder"
+    },
+    "create": {
+      "step1": "Prepare Document",
+      "step2": "Set Recipients",
+      "step3": "Set Fields",
+      "step4": "Review and Send",
+      "step5": "Sent",
+      "uploadPdf": "Upload PDF",
+      "dragDrop": "Drag & drop files here, or click to select",
+      "documentTitle": "Document Title",
+      "addRecipient": "Add Recipient",
+      "recipientName": "Recipient Name",
+      "recipientEmail": "Email Address",
+      "recipientRole": "Role",
+      "recipientLocale": "Language",
+      "signer": "Signer",
+      "cc": "CC",
+      "approver": "Approver",
+      "order": "Signing Order",
+      "accessCode": "Access Code",
+      "message": "Message",
+      "expirationDays": "Expiration (days)",
+      "reminderDays": "Reminder Interval (days)",
+      "send": "Send for Signature",
+      "saveDraft": "Save Draft",
+      "sendSuccess": "Signature request sent successfully",
+      "confirmSend": "Are you sure you want to send the signature request?",
+      "fromTemplate": "From Template",
+      "fromScratch": "From Scratch",
+      "honorificHint": "Please include honorifics such as Mr./Ms. if necessary.",
+      "globalComment": "Message to all recipients (optional)",
+      "globalCommentPlaceholder": "Enter a message that will be displayed to all recipients",
+      "previewEmail": "Preview Email",
+      "previewEmailDesc": "Preview the email content before sending",
+      "emailPreviewTitle": "Email Preview",
+      "emailPreviewClose": "Close",
+      "emailPreviewFrom": "From",
+      "emailPreviewTo": "To",
+      "emailPreviewSubject": "Subject",
+      "invalidFile": "Invalid file.",
+      "cancelAndDelete": "Cancel and delete",
+      "stepNavAria": "Document creation steps",
+      "templateInherit": "Create from template settings: \"{{title}}\"",
+      "templatePdfBadge": "PDF ({{count}} pages)",
+      "templateFieldsBadge": "Signature fields ({{count}})",
+      "changeFile": "Change file",
+      "dropHere": "Drop your file here",
+      "selectFile": "Select file",
+      "pdfOnly": "PDF files only (max 20MB)",
+      "required": "Required",
+      "optional": "Optional",
+      "titlePlaceholder": "Enter document title",
+      "titleHint": "The uploaded filename is set automatically and can be edited.",
+      "counterpartyLabel": "Counterparty name",
+      "counterpartyPlaceholder": "Enter recipient company name, etc.",
+      "recipientEmailRequired": "Email *",
+      "recipientNameRequiredLabel": "Name *",
+      "recipientNamePlaceholder": "John Doe",
+      "companyPlaceholder": "Acme Inc.",
+      "roleSigner": "Needs signature",
+      "roleCc": "View only (CC)",
+      "accessCodeOptional": "Access code (Optional)",
+      "accessCodePlaceholder": "Set passcode",
+      "individualMessageOptional": "Individual message (Optional)",
+      "individualMessagePlaceholder": "Message to signer",
+      "selectFromContacts": "Select from contacts",
+      "addRecipientCta": "Add recipient",
+      "sendOptions": "Send options",
+      "sequentialRouting": "Sequential routing",
+      "sequentialRoutingHint": "When enabled, signature requests are sent one by one in order.",
+      "expirationPlaceholder": "e.g. 30",
+      "reminderPlaceholder": "e.g. 3",
+      "relatedParties": "Parties involved",
+      "fieldLabel": "Field",
+      "signerLabel": "Signer",
+      "signerIndex": "Signer {{count}}",
+      "internalApproval": {
+        "title": "Internal approval flow",
+        "description": "Configure an approval flow before sending externally.",
+        "approverNamePlaceholder": "Approver name",
+        "addApprover": "Add approver",
+        "orderHint": "Approvals proceed in order from top. Sent externally after all approvals.",
+        "summaryTitle": "Internal approval flow (pre-send)",
+        "summaryHint": "* Sent externally after all approvers complete approval."
+      },
+      "preparingPdf": "Preparing PDF...",
+      "preparingPdfHint": "Please wait while file upload completes.",
+      "fieldPlacementHint": "Drag and drop fields to place input areas on the document.",
+      "placedFields": "Placed fields ({{count}})",
+      "expirationValue": "{{count}} days",
+      "reminderValue": "Every {{count}} days",
+      "signatureFieldsLabel": "Signature fields",
+      "signatureFieldsValue": "{{count}} fields",
+      "routingLabel": "Routing",
+      "senderFallback": "Sender",
+      "emailSubjectPreview": "Signature request for \"{{title}}\" from {{sender}}",
+      "emailHeaderRequest": "{{sender}} sent you a signature request",
+      "emailHeaderRequestDesc": "Please review and sign \"{{title}}\"",
+      "messageFromSender": "Message from sender",
+      "documentNameLabel": "Document: {{title}}",
+      "senderLabel": "Sender: {{sender}}",
+      "previewPlgHeadline": "Self-hosted OSS electronic signatures.",
+      "previewPlgSubtext": "Manage signing, templates, and audit logs in your own environment.",
+      "previewPerMonth": "self-hosted",
+      "complete": {
+        "internalApprovalTitle": "Internal approval flow started",
+        "internalApprovalDesc": "Approval request emails have been sent. After all approvals, it will be sent externally automatically.",
+        "sentTitle": "Sent successfully",
+        "sentDesc": "Signature request emails have been sent to recipients."
+      },
+      "validation": {
+        "uploadPdf": "Please upload a contract PDF.",
+        "titleRequired": "Please enter a title.",
+        "titleTooLong": "Title must be 500 characters or fewer.",
+        "recipientRequired": "Please add at least one recipient.",
+        "signerRequired": "Please set at least one signer.",
+        "invalidEmail": "\"{{email}}\" is not a valid email address.",
+        "recipientNameRequired": "Please fill in names for all recipients.",
+        "fieldRequired": "Please place at least one signature field.",
+        "signerFieldMissing": "No signature field is assigned to {{signer}}."
+      },
+      "createError": "Failed to create document.",
+      "sendError": "Failed to send.",
+      "saveDraftSuccess": "Draft saved.",
+      "saveDraftError": "Failed to save."
+    },
+    "deleteSuccess": "Document deleted",
+    "deleteFailed": "Failed to delete document",
+    "voidSuccess": "Document voided successfully",
+    "voidConfirm": "Are you sure you want to void this document? This action cannot be undone.",
+    "sendReminderSuccess": "Reminder sent successfully",
+    "backToList": "Back to Documents",
+    "preview": "Document Preview",
+    "info": "Document Info",
+    "recipients": "Recipients",
+    "activityTab": "Activity",
+    "role": {
+      "signer": "Signer",
+      "cc": "CC",
+      "approver": "Approver"
+    },
+    "colDocument": "Document",
+    "colSender": "Sender Organization",
+    "colAction": "Action",
+    "downloadSuccess": "Download started",
+    "deleteConfirmPermanent": "Deleting a document cannot be undone. Are you sure you want to delete it?",
+    "bulkDeleteSelected": "Delete selected documents ({{count}})"
+  },
+  "inbox": {
+    "pendingCount": "{{count}} action required message(s)",
+    "noPending": "No action required messages",
+    "filterActionRequired": "Action required",
+    "filterAll": "All",
+    "searchPlaceholder": "Search by subject, document, or sender...",
+    "noResults": "No results found",
+    "noResultsDesc": "Try a different search term",
+    "empty": "Your inbox is empty",
+    "emptyDesc": "Signature and approval requests addressed to you will appear here",
+    "colMessage": "Message",
+    "colStatus": "Status",
+    "colUpdated": "Updated",
+    "from": "From",
+    "to": "To",
+    "date": "Date",
+    "document": "Document",
+    "actionRequired": "Action required",
+    "backToInbox": "Back to inbox",
+    "loadingDetail": "Loading message...",
+    "notFoundTitle": "Message not found",
+    "notFoundDesc": "This message does not exist or you do not have access.",
+    "kind": {
+      "signature": "Signature request",
+      "approval": "Approval request",
+      "cc": "Copy notification"
+    },
+    "status": {
+      "signature": {
+        "sent": "Waiting for signature",
+        "viewed": "Viewed",
+        "signed": "Signed",
+        "declined": "Declined",
+        "expired": "Expired"
+      },
+      "approval": {
+        "pending": "Waiting for approval",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "cc": "For review"
+    },
+    "cta": {
+      "sign": "Sign",
+      "approve": "Open approval",
+      "view": "Open details"
+    },
+    "preview": {
+      "signature": "You have been asked to sign \"{{title}}\".",
+      "approval": "You have been asked to approve \"{{title}}\".",
+      "cc": "You received a copy notification for \"{{title}}\"."
+    },
+    "detail": {
+      "defaultBody": {
+        "signature": "{{sender}} sent you a signature request for \"{{title}}\". Review the document and complete it from the signing page.",
+        "approval": "{{sender}} sent you an internal approval request for \"{{title}}\". Review the document and approve or reject it.",
+        "cc": "{{sender}} sent you a copy notification for \"{{title}}\". Open the document if you need to review it."
+      }
+    }
+  },
+  "signing": {
+    "title": "Sign Document",
+    "reviewAndSign": "Review and Sign",
+    "consentTitle": "Consent to Electronic Signature",
+    "consentMessage": "I agree to use electronic signatures and electronic records.",
+    "consentCheck": "I agree to the above",
+    "signHere": "Sign Here",
+    "dateHere": "Date Here",
+    "initialHere": "Initial Here",
+    "stampHere": "Stamp Here",
+    "nameHere": "Name Here",
+    "fieldsRemaining": "{{count}} fields remaining",
+    "allFieldsComplete": "All fields are complete",
+    "finishSigning": "Finish Signing",
+    "decline": "Decline to Sign",
+    "delegate": "Delegate",
+    "declineReason": "Reason for Declining",
+    "alreadySigned": "This document has already been signed",
+    "expired": "This signature request has expired",
+    "emailVerification": {
+      "title": "Identity verification",
+      "description": "Before signing, verify your email address from the signature request email.",
+      "placeholder": "e.g. user@example.com",
+      "enterEmailError": "Please enter your email address.",
+      "invalidEmailError": "Please enter a valid email address.",
+      "notAuthorizedError": "This email address is not authorized for signing. Enter the email address shown in the signature request email.",
+      "confirmAndStart": "Verify and start signing",
+      "securityNote": "For security, verification of an authorized email address is required."
+    },
+    "enterEmail": "Please enter your email address",
+    "enterAccessCode": "Please enter the access code",
+    "signatureComplete": "Signature Complete",
+    "thankYou": "Thank you",
+    "downloadSignedPdf": "Download Signed PDF",
+    "createAccount": "Create a Free Account",
+    "createAccountBenefit": "Create an account to view and download your signed documents at any time.",
+    "drawSignature": "Draw Signature",
+    "typeSignature": "Type Signature",
+    "clearSignature": "Clear",
+    "selectFont": "Select Font",
+    "stampInput": "Stamp (Enter Last Name)",
+    "generatingSignedPdf": "Generating signed PDF. This may take a moment.",
+    "accessVerified": "Verification successful",
+    "loadingDocument": "Loading document...",
+    "accessDenied": "Access denied",
+    "successMessage": "Your signature for \"{{title}}\" has been completed successfully. The sender will be notified.",
+    "quickActions": {
+      "downloadTitle": "Download PDF",
+      "downloadDesc": "Save your signed document",
+      "viewTitle": "View Document",
+      "viewDesc": "Check signature progress and details"
+    },
+    "promo": {
+      "badge": "Electronic Signature Service",
+      "titleLine1": "Full-featured, no compromise",
+      "titleLine2": "for self-hosting",
+      "subtitle": "PDF signing, recipient email links, completion certificates, and audit logs in an OSS deployment.",
+      "monthlyLabel": "OSS",
+      "taxIncluded": "(tax included)",
+      "priceNote": "Self-hosted · local staff accounts · accountless recipients",
+      "featureCertificate": "Automatic completion certificate",
+      "featureAudit": "Audit log & activity",
+      "featureRealtime": "Real-time status notifications",
+      "registerHint": "If you register with {{email}}, this document will be linked to your account automatically.",
+      "ctaNote": "Self-hosted · local account management · no recipient accounts"
+    },
+    "declineSuccess": "Signature declined",
+    "declineMessage": "You declined signing \"{{title}}\". The sender has been notified.",
+    "delegateSuccess": "Signature delegated",
+    "delegateMessage": "You delegated signing \"{{title}}\" to {{name}}. The delegate has been notified by email.",
+    "accessCodeDescription": "An access code is required to view this document. Enter the code from the sender.",
+    "consent": {
+      "title": "Electronic Signature Consent",
+      "description": "Please review the following before signing \"{{title}}\".",
+      "paragraph1": "This service uses electronic signatures and records. Electronic signatures have legal effect equivalent to handwritten signatures.",
+      "paragraph2": "By signing, you acknowledge and agree to the document contents. You cannot change the content after signing.",
+      "paragraph3": "If you do not agree, you can decline signing or delegate to another person.",
+      "checkbox": "I agree to use electronic signatures and electronic records and understand the legal binding effect.",
+      "agreeAndContinue": "Agree and continue"
+    },
+    "declineDialog": {
+      "title": "Decline signature?",
+      "description": "The sender will be notified. Please enter the reason for declining.",
+      "placeholder": "Enter reason for decline...",
+      "confirm": "Confirm decline"
+    },
+    "delegateDialog": {
+      "title": "Delegate signature to another person",
+      "description": "Please enter delegate information. The delegate will be notified by email.",
+      "nameLabel": "Delegate name",
+      "namePlaceholder": "e.g. John Doe",
+      "emailLabel": "Delegate email",
+      "emailPlaceholder": "e.g. john@example.com"
+    },
+    "fieldType": {
+      "signature": "Signature",
+      "date": "Date",
+      "name": "Name",
+      "initials": "Initials"
+    },
+    "messageFromSender": "Message from sender",
+    "nextField": "Next field",
+    "fieldFilled": {
+      "date": "Date entered",
+      "name": "Name entered",
+      "initials": "Initials entered"
+    },
+    "verifying": "Verifying...",
+    "stamp": {
+      "title": "Apply stamp",
+      "description": "Enter your last name to generate a round stamp.",
+      "placeholder": "e.g. Tanaka",
+      "generate": "Generate",
+      "previewAlt": "Stamp preview",
+      "confirmQuestion": "Use this stamp?",
+      "apply": "Apply stamp",
+      "applied": "Stamp applied",
+      "enterLastName": "Please enter your last name."
+    },
+    "errors": {
+      "accessDenied": "You do not have access to this signature request",
+      "requestNotFound": "Signature request not found",
+      "invalidAccessCode": "Incorrect access code",
+      "invalidEmail": "Please enter a valid email address",
+      "signatureDataTooLarge": "Signature data is too large",
+      "alreadySigned": "You have already signed this document",
+      "ccCannotSign": "CC recipients cannot sign documents",
+      "documentNotSignable": "This document cannot be signed in its current status",
+      "pdfAccessDenied": "You do not have permission to access this PDF",
+      "notYetSigned": "Your signature is not yet complete",
+      "documentNotComplete": "The document is not yet complete. All signatures are required.",
+      "notOrgMember": "You are not a member of the specified organization"
+    }
+  },
+  "contacts": {
+    "title": "Contacts",
+    "new": "Add Contact",
+    "noContacts": "No contacts",
+    "import": "Import",
+    "export": "Export",
+    "category": "Category",
+    "group": "Group",
+    "manageCategories": "Manage Categories",
+    "manageGroups": "Manage Groups",
+    "addToGroup": "Add to Group",
+    "removeFromGroup": "Remove from Group",
+    "selectAll": "Select All",
+    "deleteSelected": "Delete Selected",
+    "grid": "Grid View",
+    "table": "Table View",
+    "addContact": "Add Contact",
+    "editContact": "Edit Contact",
+    "deleteContact": "Delete Contact",
+    "deleteConfirm": "Delete this contact?",
+    "createSuccess": "Contact created",
+    "updateSuccess": "Contact updated",
+    "deleteSuccess": "Contact deleted",
+    "createError": "Failed to create",
+    "updateError": "Failed to update",
+    "deleteError": "Failed to delete",
+    "groupCreateSuccess": "Group created",
+    "groupUpdateSuccess": "Group updated",
+    "groupDeleteSuccess": "Group deleted",
+    "categoryCreateSuccess": "Category created",
+    "categoryUpdateSuccess": "Category updated",
+    "categoryDeleteSuccess": "Category deleted",
+    "searchPlaceholder": "Search by name, email, company...",
+    "noResults": "No results found",
+    "filterByCategory": "Filter by category",
+    "filterByGroup": "Filter by group",
+    "allCategories": "All Categories",
+    "allGroups": "All Groups",
+    "noContactsInGroup": "No contacts in this group",
+    "selectedCount": "{{count}} selected",
+    "bulkDeleteConfirm": "Delete {{count}} contact(s)?",
+    "bulkDeleteSuccess": "Contacts deleted",
+    "importSuccess": "Import successful",
+    "exportSuccess": "Export successful",
+    "addToGroupSuccess": "Added to group",
+    "removeFromGroupSuccess": "Removed from group",
+    "totalCount": "{{count}} contacts",
+    "companyPlaceholder": "Acme Inc.",
+    "departmentPlaceholder": "Sales",
+    "categoryPlaceholder": "Category name (e.g., Customer, Partner)",
+    "groupPlaceholder": "Group name (e.g., Sales Team, Legal)",
+    "groupDescriptionPlaceholder": "Description (Optional)",
+    "selectGroups": "Select groups...",
+    "noGroups": "No groups defined"
+  },
+  "templates": {
+    "title": "Templates",
+    "new": "Create Template",
+    "noTemplates": "No templates",
+    "useTemplate": "Use this Template",
+    "shared": "Shared Templates",
+    "my": "My Templates",
+    "locked": "Locked",
+    "saveSuccess": "Template saved successfully",
+    "saveConfirm": "Are you sure you want to save the template?",
+    "backToList": "Back to Template List",
+    "continueEditing": "Continue Editing",
+    "createSuccess": "Template created successfully",
+    "createError": "Failed to create template",
+    "deleteConfirm": "Are you sure you want to delete this template?",
+    "deleteSuccess": "Template deleted successfully",
+    "deleteError": "Failed to delete template",
+    "uploadPdf": "Upload PDF",
+    "replacePdf": "Replace",
+    "uploading": "Uploading...",
+    "uploadSuccess": "PDF uploaded successfully ({{pageCount}} pages)",
+    "uploadError": "Failed to upload PDF",
+    "noTitle": "Untitled",
+    "titleRequired": "Please enter a title",
+    "editTemplate": "Edit Template",
+    "editDescription": "Upload a PDF and place signature fields",
+    "savingFields": "Saving...",
+    "saveFields": "Save Fields ({{count}})",
+    "placedFields": "Placed Fields ({{count}})",
+    "save": "Save",
+    "noTemplatesDesc": "Upload a PDF and set signature positions to create reusable templates",
+    "createAndEdit": "Create & Edit",
+    "createNew": "New Template",
+    "signerCount": "Signer Count",
+    "searchPlaceholder": "Search templates...",
+    "category": "Category",
+    "categoryPlaceholder": "Contract / NDA / Order Form",
+    "titleLabel": "Title *",
+    "descriptionLabel": "Description",
+    "saveSuccessDialog": "Saved successfully",
+    "saveSuccessDialogDesc": "Template signature fields saved successfully.",
+    "signerCountLabel": "Number of signers:",
+    "pdfFieldInstruction": "Click on the PDF to place a signature field. You can drag to move.",
+    "updated": "Updated: {{date}}",
+    "placeFields": "Place signature fields",
+    "saveError": "Failed to save."
+  },
+  "organization": {
+    "title": "Settings",
+    "info": "Organization Info",
+    "orgName": "Organization Name",
+    "members": "Members",
+    "removeMember": "Remove Member",
+    "changeRole": "Change Role",
+    "pending": "Pending",
+    "accepted": "Accepted",
+    "deactivated": "Deactivated",
+    "nameRequired": "Organization name is required",
+    "orgNamePlaceholder": "Enter organization name",
+    "loadingSettings": "Loading settings...",
+    "preparingAccount": "Preparing account...",
+    "teamMembers": "Team Members",
+    "unlimited": "Unlimited",
+    "adminRequired": "Administrator permission required",
+    "managerRequired": "Administrator permission required",
+    "optionalName": "Name (Optional)",
+    "namePlaceholderFull": "John Doe",
+    "emailRequired": "Email Address *",
+    "managerBadge": "Administrator",
+    "removeMemberConfirm": "Remove {{name}} from organization?\n* Documents created by this member will remain in the team.",
+    "settingsHeader": "Settings",
+    "removeMemberSuccessMsg": "Member removed",
+    "updateRoleSuccessMsg": "Role updated",
+    "memberCount": "{{count}} members",
+    "security": {
+      "title": "Security & Compliance",
+      "subtitle": "Foundational trust information for the platform",
+      "certificate": {
+        "title": "Platform signature certificate",
+        "description": "X.509 certificate used for PDF signature",
+        "subject": "Subject",
+        "type": "Type",
+        "selfSigned": "Self-signed",
+        "externalCa": "Issued by external CA",
+        "validity": "Validity period",
+        "validRange": "{{start}} ~ {{end}}",
+        "showTechnicalDetails": "Show technical details",
+        "serialNumber": "Serial number",
+        "fingerprint": "Fingerprint"
+      }
+    },
+    "audit": {
+      "title": "Audit log",
+      "subtitle": "All operations are recorded automatically",
+      "refresh": "Refresh",
+      "showStats": "Show statistics",
+      "totalRecords": "Total records",
+      "chainStatus": "Chain status",
+      "chainHealthy": "Healthy",
+      "chainBroken": "Tampered (chain broken)",
+      "chainPartial": "Healthy ({{count}} records unverifiable — missing encryption key)",
+      "chainUnverified": "Not verified"
+    },
+    "nameUpdateSuccess": "Organization name updated",
+    "organizationNameTitle": "Organization name",
+    "organizationNameDesc": "Administrators can change the organization name.",
+    "organizationNameOwnerOnly": "Only administrators can change the organization name.",
+    "profileNameTitle": "User name",
+    "profileNameLabel": "User name",
+    "profileNameDesc": "You can change your own display name.",
+    "profileNameUpdateSuccess": "User name updated"
+  },
+  "auditLog": {
+    "title": "Audit Log",
+    "actor": "Actor",
+    "action": "Action",
+    "target": "Target",
+    "timestamp": "Timestamp",
+    "ipAddress": "IP Address",
+    "userAgent": "User Agent",
+    "hashChain": "Hash Chain",
+    "verifyIntegrity": "Verify Integrity",
+    "verificationSuccess": "Hash chain integrity verified",
+    "verificationFailed": "Hash chain integrity check failed",
+    "noLogs": "No audit logs",
+    "certificate": "Certificate Info",
+    "colDate": "Date/Time",
+    "colEvent": "Event",
+    "colEntity": "Entity",
+    "colActor": "Actor",
+    "colIp": "IP",
+    "page": "Page {{current}} / {{total}}",
+    "prevPage": "Previous",
+    "nextPage": "Next",
+    "verifySuccess": "Verified: {{count}} records are intact",
+    "verifySuccessWithUnverifiable": "Verified: {{count}} intact, {{unverifiable}} unverifiable (missing encryption key)",
+    "verifyFail": "Tampering detected: Chain broken at record ID {{id}}",
+    "verifyError": "Verification error: {{message}}",
+    "events": {
+      "document": {
+        "created": "Document Created",
+        "uploaded": "PDF Uploaded",
+        "sent": "Signature Request Sent",
+        "viewed": "Document Viewed",
+        "completed": "Signature Completed",
+        "voided": "Document Voided",
+        "deleted": "Document Deleted",
+        "imported": "Document Imported",
+        "auto_imported": "Document Auto-Imported"
+      },
+      "signature": {
+        "viewed": "Signing Page Viewed",
+        "signed": "Document Signed",
+        "declined": "Signature Declined",
+        "reminded": "Reminder Sent",
+        "delegated": "Signature Delegated"
+      },
+      "auth": {
+        "email_verified": "Email Verified",
+        "access_code_verified": "Access Code Verified",
+        "invitation_claimed": "Invitation Accepted"
+      },
+      "pdf": {
+        "signed": "PDF Signed",
+        "stored_worm": "WORM Stored",
+        "certificate_appended": "Certificate Appended",
+        "permission_lock_failed": "PDF Permission Lock Failed",
+        "worm_stored": "WORM Stored"
+      },
+      "org": {
+        "created": "Organization Created",
+        "updated": "Organization Updated",
+        "member_invited": "Member Invited",
+        "member_joined": "Member Joined",
+        "member_removed": "Member Removed",
+        "role_changed": "Role Changed"
+      },
+      "template": {
+        "created": "Template Created",
+        "updated": "Template Updated",
+        "deleted": "Template Deleted"
+      },
+      "approval": {
+        "requested": "Approval Requested",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      }
+    },
+    "entities": {
+      "document": "Document",
+      "signature_request": "Signature Request",
+      "user": "User",
+      "organization": "Organization",
+      "membership": "Membership",
+      "invitation": "Invitation",
+      "template": "Template",
+      "internal_approval": "Internal Approval",
+      "pdf": "PDF"
+    },
+    "dashboard": {
+      "noAccessTitle": "Access denied",
+      "noAccessDesc": "You need administrator permissions to view audit logs.",
+      "complianceSubtitle": "Tamper-resistant audit logs with hash chain",
+      "refresh": "Refresh",
+      "totalRecords": "Total records",
+      "chainStatus": "Chain status",
+      "chainHealthy": "Healthy",
+      "chainBroken": "Tampered (chain broken)",
+      "chainPartial": "Healthy ({{count}} records unverifiable — missing encryption key)",
+      "chainUnverified": "Not verified",
+      "certificateLabel": "Signature certificate",
+      "hashAlgorithm": "Hash algorithm",
+      "eventTypePlaceholder": "Event type",
+      "allEvents": "All events",
+      "entityTypePlaceholder": "Entity type",
+      "allEntities": "All entities",
+      "eventList": "Event list",
+      "showingRange": "Showing {{start}}-{{end}} / {{total}}",
+      "idCol": "ID",
+      "targetCol": "Target",
+      "hashCol": "Hash",
+      "actorFallback": "User #{{id}}",
+      "certificateDesc": "System-issued certificate for completion evidence",
+      "certificateSubject": "Subject",
+      "autoGenerated": "Auto generated",
+      "autoGeneratedYes": "Yes",
+      "autoGeneratedNo": "No",
+      "validFrom": "Valid from",
+      "validTo": "Valid to",
+      "serialNumber": "Serial number",
+      "fingerprint": "Fingerprint",
+      "hashAlgorithmValue": "SHA-256 Chain"
+    }
+  },
+  "landing": {
+    "heroTitle": "Redefine e-signatures,",
+    "heroTitleAccent": "for self-hosting.",
+    "heroSubtitle": "Self-hosted OSS electronic signatures with PDF sending, signing, templates, internal approvals, and WORM audit logs.",
+    "startFree": "Start for Free",
+    "learnMore": "View Features",
+    "goToDashboard": "Go to Dashboard",
+    "getStarted": "Start for Free",
+    "noCreditCard": "Self-hosted. No hosted account required",
+    "noPerSeat": "External signers never need accounts",
+    "allFeatures": "Core e-signature workflows included",
+    "mockupTitle": "Signing Complete",
+    "mockupTime": "Just now · All 2 signers completed",
+    "mockupCostLabel": "Deployment",
+    "mockupSigner1": "Alex Johnson — Signed",
+    "mockupSigner2": "Sarah Chen — Signed",
+    "mockupCTA": "Run contract signing from draft to completion",
+    "mockupCTASub": "Inside your own self-hosted environment",
+    "navFeatures": "Features",
+    "navFaq": "FAQ",
+    "footerTerms": "Terms of Service",
+    "footerPrivacy": "Privacy Policy",
+    "trustedBy": "Trusted by many companies",
+    "solutions": "Solutions",
+    "caseStudies": "Case Studies",
+    "faq": "FAQ",
+    "cta": "Start for free now",
+    "ctaSubtitle": "Start sending and signing documents in your self-hosted environment.",
+    "heroDeclaration": "Own your electronic contract workflow.",
+    "heroLine1": "Own your",
+    "heroLine2": "electronic contract workflow.",
+    "heroTeamLabel": "For your team",
+    "heroUnlimited": "Staff management · No recipient accounts",
+    "heroUnlimitedMain": "Unlimited members.",
+    "heroUnlimitedSub": "External signers use secure email links only.",
+    "heroRevealTitle": "The practical e-signature workflow as OSS.",
+    "heroRevealSub": "PDF signing, evidence management, staff permissions, templates, and 4-language signing screens in a single self-hosted workspace.",
+    "diffTeam": "Staff management",
+    "diffTeamDesc": "Admins issue staff accounts, while external signers never need an account.",
+    "diffSecurity": "Enterprise-grade security",
+    "diffSecurityDesc": "TLS 1.3 / AES-256 encryption. Legally compliant. Zero AI Training.",
+    "diffGlobal": "4 languages supported",
+    "diffGlobalDesc": "Email notifications and signing screens in 4 languages for seamless global contracts.",
+    "heroBadge": "Full enterprise-grade features",
+    "mockupVsEnterprise": "Deployment",
+    "mockupVsBudget": "Recipients",
+    "mockupNoAccount": "No account",
+    "heroStat1": "OSS",
+    "heroStat1Label": "Self-hosted deployment",
+    "heroStat2": "4",
+    "heroStat2Label": "Core languages",
+    "heroStat3": "Unlimited",
+    "heroStat3Label": "Team members",
+    "month": "mo",
+    "pageTitle": "Hundredth Sign – Self-hosted OSS electronic signatures",
+    "pageKeywords": "e-signature,electronic contract,contract management,e-signature law,electronic seal,Hundredth Sign",
+    "mockupNavDocs": "Docs",
+    "mockupNavContacts": "Contacts",
+    "mockupNavTemplates": "Templates",
+    "mockupNavAudit": "Audit Log",
+    "mockupNavSettings": "Settings",
+    "mockupDocTitle": "Service_Agreement_2024.pdf",
+    "mockupDocList": "Documents",
+    "mockupStatusCollecting": "Collecting",
+    "mockupRemind": "Remind",
+    "mockupSignProgress": "Signing Progress",
+    "mockupProgressFmt": "2 / 3 Complete",
+    "mockupSignerSigned": "Signed",
+    "mockupSignerPending": "Pending",
+    "mockupSigner1Name": "Alex",
+    "mockupSigner1Role": "CEO",
+    "mockupSigner2Name": "Sarah",
+    "mockupSigner2Role": "CFO",
+    "mockupSigner3Name": "John",
+    "mockupSigner3Role": "Manager",
+    "mockupSignAreaLabel": "John's Signature",
+    "mockupSignAreaSub": "Link sent · Awaiting confirmation",
+    "mockupWaiting": "Waiting",
+    "mockupPhoneNotif": "Notifications",
+    "mockupPhoneSignRequest": "Signature request received",
+    "mockupPhoneSignBtn": "Sign now",
+    "mockupPhone3min": "3 min ago",
+    "mockupTabletNewDoc": "+ New doc",
+    "mockupPhoneSignedFmt": "{{name}} signed",
+    "mockupDocTitleNda": "NDA_Acme.pdf",
+    "mockupDocTitleDev": "Software_Development_Agreement.pdf",
+    "mockupDocTitleMaster": "Master_Purchase_Agreement.pdf",
+    "mockupNotificationDoc": "Service_Agreement.pdf"
+  },
+  "trust": {
+    "encryptionTitle": "TLS 1.3 / AES-256 Encryption",
+    "encryptionDesc": "Industry-leading encryption for data in transit and at rest",
+    "complianceTitle": "Japan E-Bookkeeping Act Compliant",
+    "complianceDesc": "Tamper prevention, timestamps, and audit logs built in",
+    "legalTitle": "Japan E-Signature Act Compliant",
+    "legalDesc": "Designed to meet the requirements of Japan's Electronic Signature Act",
+    "auditTitle": "Auto Certificate of Completion",
+    "auditDesc": "Automatically generates certificates recording signer, time, and IP",
+    "title": "Security and legal validity",
+    "titleAccent": "without compromise.",
+    "subtitle": "Hundredth Sign adopts industry-standard security technologies at an affordable price.",
+    "mockupSign": "Signature",
+    "mockupStamp": "Stamp",
+    "mockupDate": "Date",
+    "mockupName": "Name"
+  },
+  "features": {
+    "sectionTitle": "Every feature,",
+    "sectionTitleAccent": "as self-hosted OSS.",
+    "sectionSubtitle": "Hundredth Sign includes the document workflows needed to send, sign, approve, and audit contracts.",
+    "highlightTitle": "Streamline contracts with intuitive design",
+    "highlightDesc": "Upload a PDF, drag & drop signature fields, enter recipient emails, and send. No complex setup required.",
+    "highlightCTA": "Explore Features",
+    "createTitle": "Document Creation & Upload",
+    "createDesc": "Upload PDFs and freely place signature and text fields. Save as templates for repeated use.",
+    "sendTitle": "Send Signing Requests",
+    "sendDesc": "Just enter an email to send a signing request. Recipients don't need an account.",
+    "signTitle": "E-Signatures & E-Stamps",
+    "signDesc": "Sign via typing, drawing, or image upload. Auto-generate Japanese-style round and square stamps.",
+    "stampTitle": "Auto Stamp Generation",
+    "stampDesc": "Enter a name to auto-generate round and square stamps for Japanese business customs.",
+    "contactsTitle": "Team & Contact Management",
+    "contactsDesc": "Manage contacts centrally and select recipients with one click.",
+    "complianceTitle": "E-Bookkeeping & Tamper Prevention",
+    "complianceDesc": "PDF tamper prevention (flattening), timestamps, and audit logs for compliance. Auto-generated certificates.",
+    "i18nTitle": "4 Languages",
+    "i18nDesc": "UI and email notifications in 4 languages. Send signing requests to overseas partners in their native language.",
+    "auditTitle": "Audit Log & Certificates",
+    "auditDesc": "Record who signed, when, and from where. Auto-generate legally valid certificates of completion.",
+    "badge": "Features"
+  },
+  "security": {
+    "badge": "Security & Compliance",
+    "title": "Self-hosted does not mean compromising security",
+    "subtitle": "Hundredth Sign keeps security, auditability, and legal evidence in the core application.",
+    "tls": "TLS 1.3 / AES-256 Encryption",
+    "tlsDesc": "Highest-grade encryption for both data in transit and at rest. Prevents interception and tampering.",
+    "tamper": "PDF Tamper Prevention",
+    "tamperDesc": "Signed PDFs are flattened to prevent tampering. Technical guarantee of document authenticity.",
+    "law": "E-Signature & E-Bookkeeping Act",
+    "lawDesc": "Compliant with Japan's Electronic Signature Act and Electronic Bookkeeping Act for legally valid signatures.",
+    "global": "International Transactions",
+    "globalDesc": "With email notifications and signing screens in 4 languages, cross-border contracts are smooth and easy.",
+    "audit": "Audit Logs & Certificates",
+    "auditDesc": "Records timestamps and IP addresses for all operations. Auto-generates completion certificates.",
+    "access": "Access Code Authentication",
+    "accessDesc": "Set access codes for recipients to strengthen identity verification for sensitive contracts.",
+    "badgeTLS": "TLS 1.3",
+    "badgeAES": "AES-256",
+    "badgeLaw": "E-Signature Act",
+    "badgeZeroAI": "Zero AI Training",
+    "zeroAI": "Zero AI Training",
+    "zeroAIDesc": "Your contract data is never used for AI training. Data ownership always belongs to you.",
+    "zeroAITag": "Data Sovereignty",
+    "auditTag": "Certificate",
+    "tamperTag": "Flattening",
+    "lawTag": "Legal Compliance",
+    "globalTag": "4 Languages",
+    "bottomNote": "Security, audit logs, and signed PDF evidence remain core parts of the OSS build."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are Hundredth Sign's electronic signatures legally valid?",
+    "a1": "Hundredth Sign is designed to meet the requirements of Japan's Electronic Signature Act (witness-type) and Electronic Bookkeeping Act. All signatures include auto-generated certificates recording signer, time, and IP address. Please note that the final determination of legal validity depends on individual contract details and circumstances, so consult a legal professional if needed.",
+    "q2": "What changed in the OSS version?",
+    "a2": "The OSS version is a single-workspace, self-hosted application. Commercial hosted-service features, plans, quotas, and external OAuth login have been removed while core PDF signing, templates, staff accounts, and audit logs remain.",
+    "q3": "Do signers need an account?",
+    "a3": "No. Signers don't need to register. They simply click the link in their email to sign. Works on PC or smartphone with just a browser.",
+    "q4": "Do external recipients need accounts?",
+    "a4": "No. Staff accounts are managed by the administrator. External recipients do not need accounts.",
+    "q5": "Can I use it with non-Japanese partners?",
+    "a5": "Yes. The UI supports multiple languages including Japanese and English, and email notifications support 4 languages. You can set notification language per recipient, sending signing requests in their native language.",
+    "q6": "What security measures are in place?",
+    "a6": "Communications are encrypted with TLS 1.3, stored data with AES-256. Signed PDFs are tamper-proofed (flattened), and all operations are recorded in audit logs. Access code authentication for signer verification is included as standard.",
+    "badge": "FAQ"
+  },
+  "why": {
+    "badge": "Why self-hosted OSS",
+    "title": "Control the contract workflow in your own environment.",
+    "titleSub": "Self-hosted electronic contracts without vendor lock-in.",
+    "description": "The OSS edition is designed for teams that want electronic signatures without vendor lock-in or hosted commercial features.",
+    "aiTitle": "Self-hosted deployment",
+    "aiDesc": "Run the application with your own database, storage, mail settings, and administrator accounts.",
+    "noSalesTitle": "No hosted commercial layer",
+    "noSalesDesc": "Plans, quotas, payment-provider logic, and currency logic are removed from the OSS build.",
+    "noPerSeatTitle": "Accountless recipients",
+    "noPerSeatDesc": "Customers receive email links and can view, sign, decline, and download documents without creating an account.",
+    "passOnTitle": "Core signing remains",
+    "passOnDesc": "PDF signing, templates, contacts, internal approvals, and WORM audit logs remain available."
+  },
+  "comparison": {
+    "badge": "Deployment comparison",
+    "title": "Hosted service or self-hosted control.",
+    "subtitle": "Choose Hundredth Sign when you want OSS ownership of the electronic signature workflow.",
+    "price1000": "Self-hosting",
+    "colEnterprise": "Enterprise providers",
+    "colBudget": "Budget competitors",
+    "recommended": "Recommended",
+    "perSeat": "External account requirement",
+    "perSeatEnterprise": "Usually required",
+    "perSeatBudget": "Varies by service",
+    "perSeatHundredth": "Not required for recipients",
+    "features": "Full feature access",
+    "featuresEnterprise": "Depends on contract",
+    "featuresBudget": "Key features limited",
+    "featuresHundredth": "Core workflows included",
+    "auditLog": "Audit logs & certificates",
+    "auditLogEnterprise": "External certified TS",
+    "auditLogBudget": "Basic logs only",
+    "auditLogHundredth": "IP & hash certificates",
+    "zeroAI": "Zero AI Training",
+    "zeroAIEnterprise": "May use for training",
+    "zeroAIBudget": "Undisclosed",
+    "zeroAIHundredth": "Fully guaranteed",
+    "i18n": "Multilingual support",
+    "i18nEnterprise": "14 languages",
+    "i18nBudget": "Limited languages",
+    "i18nHundredth": "4 languages",
+    "note": "* Comparison is based on operating model and feature coverage.",
+    "priceEnterprise": "Commercial hosted service",
+    "priceBudget": "Commercial hosted service",
+    "priceHundredth": "OSS deployment under your control",
+    "featureLabel": "Feature",
+    "colEnterpriseNote": "DocuSign, Adobe Sign etc.",
+    "colBudgetNote": "HelloSign, PandaDoc etc."
+  },
+  "cta": {
+    "title": "Run your own contract workflow",
+    "subtitle": "Use Hundredth Sign as a self-hosted OSS electronic signature system.",
+    "viewPricing": "View Features"
+  },
+  "footer": {
+    "tagline": "Self-hosted OSS infrastructure for electronic signatures.",
+    "product": "PRODUCT",
+    "security": "Security",
+    "resources": "RESOURCES",
+    "guide": "User Guide",
+    "legal": "LEGAL",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "language": "LANGUAGE",
+    "madeIn": "Made with care in Tokyo, Japan",
+    "manual": "Manual",
+    "customizationContact": "Customization inquiry"
+  },
+  "approvalPage": {
+    "title": "Internal Approval",
+    "loading": "Loading approval details...",
+    "notFoundTitle": "Approval details not found",
+    "notFoundDescription": "The link is invalid or this request may already be processed.",
+    "flowTitle": "Approval Flow",
+    "you": "You",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "pending": "Pending",
+    "actionRequiredTitle": "Your approval is required",
+    "actionRequiredDescription": "Your approval is required before this document can be sent externally. Please review and approve or reject.",
+    "openPdf": "Open document (PDF)",
+    "commentOptional": "Comment (Optional)",
+    "commentPlaceholder": "Enter reason or comments for approval/rejection...",
+    "approveAction": "Approve",
+    "rejectAction": "Reject",
+    "allApprovedMessage": "All approvers have completed approval. The document has been sent to external signers.",
+    "nextApproverNotified": "The next approver has been notified.",
+    "rejectedMessage": "The document has been moved back to draft. The sender has been notified.",
+    "processFailed": "Failed to process approval.",
+    "footerTagline": "Hundredth Sign - eSignature Platform"
+  },
+  "documentView": {
+    "loading": "Loading document...",
+    "accessDenied": "Access denied",
+    "loginHint": "If you already have an account, log in and check this document from your dashboard.",
+    "loginAndOpen": "Log in to view",
+    "accessVerified": "Verification successful",
+    "accessCodeRequired": "An access code is required to view this document.",
+    "verifying": "Verifying...",
+    "noDownloadableFile": "No downloadable file is available.",
+    "allSigned": "All signatures are complete",
+    "signProgress": "Signature progress: {{signed}}/{{total}}",
+    "progressTitle": "Signature Progress",
+    "signedCount": "{{signed}} / {{total}} signed",
+    "savedTo": "Saved to",
+    "inProgress": "In Progress",
+    "yourSignature": "Your Signature",
+    "downloadOriginalPdf": "Download Original PDF",
+    "signedPdfNotReady": "Signed PDF is not ready yet",
+    "signedPdfHint": "Once all signers complete signing, the signed PDF will be generated automatically.",
+    "plgLine1": "Full-featured, no compromise,",
+    "plgLine2": "as self-hosted OSS.",
+    "monthlyExTax": "/ month (excl. tax)",
+    "fullFeatures": "Full access to all features",
+    "manageInDashboard": "Manage in Dashboard",
+    "safeStorageTitle": "Keep this document safely stored",
+    "featureSecureStorage": "Securely store and manage signed documents",
+    "featureRealtimeTracking": "Real-time signature progress tracking",
+    "featureCertificate": "Legally robust completion certificate",
+    "featureTemplates": "Use templates to streamline repeat work",
+    "dialogTitle": "The most affordable e-sign service",
+    "dialogDescription": "A free-to-start e-signature platform",
+    "dialogBenefitsIntro": "With an account, you can use these features for free:",
+    "registerWithEmailHint": "If you register with {{email}}, this document will be linked to your account automatically.",
+    "createFreeAccount": "Create free account",
+    "maybeLater": "Maybe later"
+  },
+  "hankoGenerator": {
+    "title": "Create Stamp",
+    "nameLabel": "Last name (shown on stamp)",
+    "namePlaceholder": "e.g. Tanaka",
+    "styleLabel": "Stamp style",
+    "topLabel": "Top label",
+    "colorLabel": "Stamp color",
+    "enterNameHint": "Please enter a name",
+    "useStamp": "Use this stamp",
+    "colors": {
+      "red": "Red",
+      "vermillion": "Vermillion",
+      "dark": "Dark red",
+      "blue": "Blue"
+    },
+    "styles": {
+      "round": {
+        "label": "Round",
+        "description": "Round stamp with last name"
+      },
+      "data": {
+        "label": "Data",
+        "description": "Approval / date / name"
+      },
+      "square": {
+        "label": "Square",
+        "description": "Square stamp with last name"
+      }
+    },
+    "topLabels": {
+      "approved": "Approved",
+      "confirmed": "Confirmed",
+      "checked": "Checked",
+      "done": "Done",
+      "received": "Received"
+    }
+  },
+  "pdfViewer": {
+    "pageCount": "{{count}} pages",
+    "zoomFit": "Reset to fit",
+    "loading": "Loading PDF...",
+    "pleaseWait": "Please wait",
+    "loadError": "Failed to load PDF.",
+    "reloadHint": "Please reload the page and try again."
+  },
+  "signaturePad": {
+    "title": "Create Signature",
+    "stampTab": "Stamp",
+    "namePlaceholder": "Enter name for signature",
+    "drawHint": "Draw your signature here",
+    "confirm": "Confirm signature"
+  },
+  "errors": {
+    "notFound": "Page not found",
+    "notFoundDesc": "Sorry, the page you are looking for doesn't exist. It may have been moved or deleted.",
+    "unauthorized": "Authentication required",
+    "forbidden": "You do not have permission to access this page",
+    "serverError": "A server error occurred",
+    "networkError": "A network error occurred",
+    "tryAgain": "Please try again",
+    "serverErrorDesc": "An unexpected error occurred. Please try again later.",
+    "contactSupport": "If the problem persists, please contact support.",
+    "goHome": "Go to Home",
+    "goDashboard": "Go to Dashboard",
+    "error": "Error",
+    "rateLimitExceeded": "Rate limit reached. Please try again shortly.",
+    "auth": {
+      "adminRequired": "This action is restricted to administrators",
+      "orgHeaderRequired": "Organization ID header is required",
+      "invalidOrgId": "Invalid organization ID",
+      "notOrgMember": "You are not a member of this organization",
+      "ipRestricted": "Access from this IP address is not allowed",
+      "managerRequired": "Administrator privileges required",
+      "ownerRequired": "Administrator privileges required"
+    },
+    "documents": {
+      "ownDocumentsOnly": "Members can only operate on their own documents",
+      "notFound": "Document not found",
+      "accessDenied": "You do not have access to this document",
+      "importedNotFound": "Imported document not found",
+      "noReminderPermission": "You do not have permission to send reminders for another user's document",
+      "voided": "This document has been voided",
+      "draftOnlyPdf": "PDF can only be uploaded to draft documents",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file",
+      "sentNotEditable": "Sent documents cannot be edited",
+      "noEditPermission": "You do not have permission to edit another user's document",
+      "draftOnlySend": "Only draft documents can be sent",
+      "pdfRequired": "Please upload a PDF file",
+      "signerRequired": "Please specify at least one signer",
+      "signerFieldRequired": "One or more signers are missing their signature fields",
+      "noVoidPermission": "You do not have permission to void another user's document",
+      "voidStatusInvalid": "Only sent or declined documents can be voided",
+      "noDeletePermission": "You do not have permission to delete another user's document",
+      "deleteStatusInvalid": "Only draft documents can be deleted. For sent documents, please use 'Void'.",
+      "reminderStatusInvalid": "Reminders can only be sent for sent documents",
+      "noUnsignedRecipients": "There are no unsigned recipients",
+      "signedPdfNotReady": "Signed PDF has not been generated yet"
+    },
+    "templates": {
+      "notFound": "Template not found",
+      "accessDenied": "You do not have access to this template",
+      "limitReached": "You have reached the maximum number of templates",
+      "pdfOnly": "Only PDF files can be uploaded",
+      "fileTooLarge": "File size must be 20MB or less",
+      "invalidPdf": "Not a valid PDF file"
+    },
+    "signature": {
+      "dataRequired": "Signature data, signature font, or stamp is required",
+      "signedPdfNotFound": "Signed PDF not found",
+      "onlySignerCanConfigure": "Only signers can configure this setting",
+      "alreadyDeclined": "This signature request has already been declined",
+      "delegated": "This signature has been delegated to another user",
+      "expired": "This document has expired",
+      "invalidEmail": "This email address does not have signing authority. Please enter the email address from the signing request email.",
+      "pdfGenerationFailed": "Failed to generate or save the signed PDF. Please try again later.",
+      "requestAlreadyDeclined": "This signature request has already been declined",
+      "documentNotDeclinable": "This document cannot be declined in its current status",
+      "alreadyDelegated": "This signature has already been delegated to another user",
+      "documentNotDelegatable": "This document cannot be delegated in its current status",
+      "signedPdfNotAvailable": "The signed PDF is not yet available",
+      "signedPdfNotGenerated": "The signed PDF has not been generated yet",
+      "stampGenerationFailed": "Failed to generate stamp"
+    },
+    "contacts": {
+      "notFound": "Contact not found"
+    },
+    "categories": {
+      "notFound": "Category not found"
+    },
+    "groups": {
+      "notFound": "Group not found"
+    },
+    "organization": {
+      "cannotChangeOwnRole": "You cannot change your own role",
+      "memberNotFound": "Member not found",
+      "cannotChangeOwnerRole": "Cannot change the primary administrator role",
+      "adminDemoteOwnerOnly": "Only administrators can demote another administrator",
+      "cannotDeleteSelf": "You cannot delete yourself",
+      "cannotDeleteOwner": "Cannot delete the primary administrator",
+      "adminCannotDeleteAdmin": "Administrators cannot delete another administrator without appropriate access.",
+      "freeOrgLimit": "You have reached the maximum number of free organizations",
+      "disabled": "This organization is currently disabled",
+      "notFound": "Organization not found",
+      "accessDenied": "You do not have access to this organization",
+      "creationFailed": "Failed to create organization",
+      "slugTaken": "This slug is already in use",
+      "idMismatch": "Organization ID does not match"
+    },
+    "approvals": {
+      "notFound": "Approval information not found",
+      "reasonRequired": "A reason comment is required for rejection",
+      "alreadyProcessed": "This approval has already been processed"
+    }
+  },
+  "activity": {
+    "documentCreated": "Document \"{{title}}\" was created",
+    "documentCreatedFromTemplate": "Document was created from template \"{{title}}\"",
+    "documentSent": "Document was sent to {{count}} recipient(s)",
+    "documentSentAfterApproval": "Internal approval completed. Document sent externally",
+    "documentVoided": "Document was voided",
+    "documentVoidedWithReason": "Document was voided. Reason: {{reason}}",
+    "documentCompleted": "All signatures completed. Signed PDF generated (WORM-stored)",
+    "documentExpired": "Document expired automatically",
+    "reminderSent": "Reminder email sent to {{count}} unsigned recipient(s)",
+    "autoReminderSent": "Automatic reminder email sent to {{count}} unsigned recipient(s)",
+    "signatureSigned": "{{signer}} signed",
+    "signatureDeclined": "{{signer}} declined. Reason: {{reason}}",
+    "signatureDelegated": "{{signer}} forwarded signing to {{delegateName}} ({{delegateEmail}})",
+    "nextSignerNotified": "Next signer ({{signer}}) was notified",
+    "internalApprovalStarted": "Internal approval flow started ({{count}} approver(s))",
+    "internalApprovalApproved": "{{approver}} approved",
+    "internalApprovalRejected": "{{approver}} rejected",
+    "internalApprovalRejectedWithComment": "{{approver}} rejected. Comment: {{comment}}",
+    "internalApprovalRejectedRevert": "Internal approval was rejected. Document reverted to draft",
+    "event": "Activity recorded",
+    "eventWithAction": "Activity recorded: {{action}}",
+    "fallbackCreated": "Document was created",
+    "fallbackSent": "Document was sent",
+    "fallbackSigned": "Document was signed",
+    "fallbackDeclined": "Signature was declined",
+    "fallbackReminder": "Reminder was sent",
+    "fallbackCompleted": "Document was completed",
+    "fallbackVoided": "Document was voided or expired",
+    "memberRemoved": "{{name}} was removed from the organization"
+  },
+  "cookieConsent": {
+    "ariaLabel": "Cookie consent",
+    "message": "We use cookies to improve your experience. Essential cookies are required for the site to function.",
+    "learnMore": "Learn more in our Privacy Policy",
+    "acceptAll": "Accept All",
+    "essentialOnly": "Essential Only"
+  },
+  "legal": {
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: March 2026",
+      "sections": {
+        "acceptance": {
+          "title": "1. Acceptance of Terms",
+          "body": "By accessing or using Hundredth Sign, you agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our service."
+        },
+        "serviceDescription": {
+          "title": "2. Service Description",
+          "body": "Hundredth Sign provides cloud-based electronic signature services for businesses. Our service enables users to send, sign, and manage legally binding electronic documents in compliance with applicable laws including the Act on Electronic Signatures and Certified Authentication Business (Japan)."
+        },
+        "electronicSignatures": {
+          "title": "3. Legal Validity of Electronic Signatures",
+          "body": "Electronic signatures created through Hundredth Sign are legally valid under the Act on Electronic Signatures and Certified Authentication Business (電子署名法) and the Act on Electronic Books (電帳法). Each signed document includes a tamper-evident audit trail with timestamps and cryptographic hashes."
+        },
+        "userObligations": {
+          "title": "4. User Obligations",
+          "body": "You are responsible for maintaining the confidentiality of your account credentials, ensuring the accuracy of information provided in documents, obtaining proper consent from all signing parties, and complying with all applicable laws and regulations."
+        },
+        "prohibited": {
+          "title": "5. Prohibited Activities",
+          "body": "You may not use Hundredth Sign for fraudulent purposes, to forge signatures or documents, to harass or harm others, or in any way that violates applicable laws."
+        },
+        "intellectualProperty": {
+          "title": "6. Intellectual Property",
+          "body": "All intellectual property rights in Hundredth Sign, including software, design, and content, remain the property of the service provider. You retain all rights to your own documents and data."
+        },
+        "privacy": {
+          "title": "7. Privacy",
+          "body": "Your use of Hundredth Sign is also governed by our Privacy Policy, which is incorporated into these Terms by reference."
+        },
+        "limitation": {
+          "title": "8. Limitation of Liability",
+          "body": "To the maximum extent permitted by law, Hundredth Sign shall not be liable for any indirect, incidental, or consequential damages arising from your use of the service."
+        },
+        "termination": {
+          "title": "9. Termination",
+          "body": "We reserve the right to suspend or terminate your account if you violate these Terms. You may cancel your account at any time through the organization settings."
+        },
+        "governingLaw": {
+          "title": "10. Governing Law",
+          "body": "These Terms shall be governed by and construed in accordance with the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the Tokyo District Court."
+        },
+        "changes": {
+          "title": "11. Changes to Terms",
+          "body": "We may update these Terms from time to time. We will notify you of significant changes via email or in-app notification. Continued use of the service after changes constitutes acceptance."
+        }
+      }
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: March 2026",
+      "sections": {
+        "overview": {
+          "title": "1. Overview",
+          "body": "Hundredth Sign is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your personal information in compliance with the Act on the Protection of Personal Information (個人情報保護法) of Japan and GDPR where applicable."
+        },
+        "dataCollected": {
+          "title": "2. Information We Collect",
+          "body": "We collect information you provide directly (such as name, email address, and organization details), information generated through your use of the service (such as document metadata and audit logs), and technical information (such as IP addresses and browser type)."
+        },
+        "purpose": {
+          "title": "3. How We Use Your Information",
+          "body": "We use your information to provide and improve our services, send transactional emails (such as signature requests and notifications), comply with legal obligations, and prevent fraud and abuse."
+        },
+        "thirdParty": {
+          "title": "4. Third-Party Services",
+          "body": "Operators may configure trusted third-party services for document storage, email delivery, and infrastructure. The OSS distribution does not require an external identity provider by default."
+        },
+        "cookies": {
+          "title": "5. Cookies",
+          "body": "We use essential cookies for authentication and session management. We may also use analytics cookies to improve our service. You can manage your cookie preferences using the consent banner."
+        },
+        "retention": {
+          "title": "6. Data Retention",
+          "body": "We retain your account data for as long as your account is active. Signed documents and audit logs are retained for a minimum of 10 years to comply with the Electronic Books Preservation Act (電帳法). You may request deletion of your account data subject to legal obligations."
+        },
+        "rights": {
+          "title": "7. Your Rights",
+          "body": "You have the right to access, correct, or delete your personal data. EU residents have additional rights under GDPR including data portability and the right to object to processing. To exercise these rights, contact us at the address below."
+        },
+        "security": {
+          "title": "8. Security",
+          "body": "We implement industry-standard security measures including AES-256 encryption at rest, TLS in transit, and WORM (Write Once Read Many) immutable audit logs."
+        },
+        "contact": {
+          "title": "9. Contact Us",
+          "body": "For privacy-related inquiries, please contact us at support@hundredthsign.com."
+        }
+      }
+    }
+  },
+  "manual": {
+    "navAriaLabel": "Manual navigation",
+    "nav": {
+      "intro": "Introduction",
+      "setup": "Setup and Startup",
+      "basics": "Basic use",
+      "signing": "Sending and Signing",
+      "management": "Management",
+      "compliance": "Audit and WORM",
+      "inbox": "Inbox",
+      "developer": "Developer Rules",
+      "terms": "Terms",
+      "disclaimer": "Disclaimer",
+      "contact": "Contact",
+      "apiCli": "API / CLI",
+      "operations": "Operations and FAQ",
+      "title": "Manual",
+      "usersRoutes": "Users, Roles, Screens",
+      "authStaff": "Login and Staff",
+      "dashboard": "Daily Work",
+      "documents": "Documents, PDF, Fields",
+      "internalApproval": "Internal Approval",
+      "templates": "Templates",
+      "contacts": "Contacts",
+      "emailLocales": "Email and Language",
+      "api": "REST API",
+      "cli": "signctl CLI",
+      "dataModel": "DB Tables"
+    },
+    "usage": {
+      "eyebrow": "OSS Integrated Manual",
+      "title": "Hundredth Sign Complete Manual",
+      "description": "A public manual for administrators, staff, external signers, internal approvers, operators, developers, integration owners, and AI/CI operators. It covers product boundaries, daily workflows, audit, API, CLI, DB, and FAQ.",
+      "tocLabel": "Chapters",
+      "ossNotice": {
+        "title": "OSS edition assumptions",
+        "body": "This manual covers the OSS single-workspace edition. Commercial SaaS billing, tenant switching, and external customer account management are outside its scope."
+      },
+      "search": {
+        "label": "Search this manual",
+        "placeholder": "Examples: PDF, API key, migration, language",
+        "results": "{{count}} matching chapters",
+        "empty": "No matching chapter. Try another word."
+      },
+      "categoryIndex": {
+        "title": "Read by purpose"
+      },
+      "table": {
+        "item": "Item",
+        "description": "Description"
+      },
+      "contactCta": {
+        "title": "When the manual does not resolve it",
+        "body": "Include the screen name, steps, time, document ID, and visible error. Do not send secrets.",
+        "action": "View contact options"
+      },
+      "notFound": {
+        "title": "Chapter not found",
+        "description": "The requested manual chapter does not exist.",
+        "body": "Choose another item from the chapter list or search."
+      },
+      "chapters": {
+        "intro": {
+          "title": "Introduction and OSS Product Boundary",
+          "summary": "Clarifies what the OSS edition includes, what commercial SaaS functions are excluded, and where public and authenticated pages differ.",
+          "sections": {
+            "boundary": {
+              "title": "Product scope",
+              "body": [
+                "Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
+              ],
+              "bullets": [
+                "Use the public routes for signing, document viewing, approvals, legal pages, and this manual.",
+                "Use authenticated dashboard routes for daily staff operations.",
+                "Use API keys and signctl only for server-side or trusted automation contexts.",
+                "Never publish database URLs, API keys, session secrets, SMTP passwords, or storage credentials in tickets or screenshots.",
+                "Audit and system audit records are append-only operational evidence.",
+                "When behavior and documentation differ, treat the source code and product specification as the correction source and update this manual."
+              ],
+              "callouts": [
+                "This page is public. It lists variable names and procedures, but it must never include real keys, connection strings, or customer data."
+              ]
+            },
+            "publicPrivate": {
+              "title": "Route groups",
+              "body": [
+                "Routes are split by who can access them and what security boundary they represent."
+              ],
+              "rows": {
+                "public": {
+                  "label": "Public routes",
+                  "detail": "/, /manual, /manual/*, /terms, /privacy, /contact, /sign/:token, /document-view/:token, /approve/:token are reachable without staff login."
+                },
+                "authenticated": {
+                  "label": "Authenticated routes",
+                  "detail": "/dashboard and its child routes require staff authentication and are the normal working area for documents, inbox, contacts, templates, and settings."
+                },
+                "operator": {
+                  "label": "Operator setup",
+                  "detail": "/setup is used only when the instance still needs bootstrap or operational setup."
+                },
+                "integration": {
+                  "label": "Integration routes",
+                  "detail": "REST API endpoints and webhooks are not human UI pages; they are authenticated automation surfaces."
+                }
+              }
+            }
+          }
+        },
+        "usersRoutes": {
+          "title": "Users, Roles, and Screens",
+          "summary": "Explains the differences between administrators, members, signers, CC recipients, internal approvers, and integration clients.",
+          "sections": {
+            "roles": {
+              "title": "Role definitions",
+              "body": [
+                "Each actor has a different security boundary. Do not reuse a staff account or API key for a person or system that should have narrower access."
+              ],
+              "rows": {
+                "admin": {
+                  "label": "Administrator",
+                  "detail": "Manages staff, instance settings, templates, contacts, API keys, and audit review. Admins can perform high-impact configuration changes."
+                },
+                "member": {
+                  "label": "Member",
+                  "detail": "Creates documents, sends requests, checks dashboard tasks, manages assigned workflows, and uses contacts/templates according to permissions."
+                },
+                "signer": {
+                  "label": "External signer",
+                  "detail": "Uses a tokenized signing link. Does not need a staff account. May sign, decline, or delegate if the request permits it."
+                },
+                "cc": {
+                  "label": "CC recipient",
+                  "detail": "Receives visibility or completion notifications but is not a required signer unless also configured as a signer."
+                },
+                "approver": {
+                  "label": "Internal approver",
+                  "detail": "Reviews internal approval requests and approves or rejects before the downstream workflow continues."
+                },
+                "apiClient": {
+                  "label": "External integration client",
+                  "detail": "Uses API keys with explicit scopes. It is not a human user and all calls must be auditable."
+                }
+              }
+            },
+            "routes": {
+              "title": "Screen map",
+              "body": [
+                "Use this map to answer where an operation belongs before changing code or escalating a support request."
+              ],
+              "rows": {
+                "public": {
+                  "label": "Public manual/legal/signing",
+                  "detail": "Manual, terms, privacy, contact, signing, document view, and approval token routes are public surfaces."
+                },
+                "app": {
+                  "label": "Dashboard",
+                  "detail": "Dashboard, documents, document detail, inbox, contacts, and templates are authenticated staff surfaces."
+                },
+                "settings": {
+                  "label": "Settings",
+                  "detail": "Organization settings, staff, mail, language, API key, and audit-related settings belong to authenticated administrator surfaces."
+                },
+                "api": {
+                  "label": "API",
+                  "detail": "REST endpoints are for integrations and CI/AI operators. They require API key authentication and scope checks."
+                },
+                "sign": {
+                  "label": "Token pages",
+                  "detail": "Signing and approval URLs identify the request by token, not by staff session."
+                }
+              }
+            }
+          }
+        },
+        "setup": {
+          "title": "Initial Setup, Environment Variables, and Startup Conditions",
+          "summary": "Covers required and optional environment variables, startup migration checks, standard commands, and secret handling.",
+          "sections": {
+            "environment": {
+              "title": "Environment variables",
+              "body": [
+                "Keep required values in .env or the hosting secret store. Commit only example names and safe defaults.",
+                "A production-like instance must have a database URL, session secret, application URL, mail delivery configuration, and storage/proxy settings appropriate to the deployment."
+              ],
+              "rows": {
+                "databaseUrl": {
+                  "label": "DATABASE_URL",
+                  "detail": "Required. MySQL connection string used by Drizzle migrations and the application server."
+                },
+                "sessionSecret": {
+                  "label": "SESSION_SECRET",
+                  "detail": "Required in real deployments. Used to protect staff authentication sessions."
+                },
+                "appUrl": {
+                  "label": "APP_URL / PUBLIC_APP_URL",
+                  "detail": "Required for links in email, signing URLs, approval URLs, and API/CLI output."
+                },
+                "smtp": {
+                  "label": "SMTP_*",
+                  "detail": "Required for real email delivery. Local development may use a mail catcher or disabled delivery."
+                },
+                "storage": {
+                  "label": "Storage and PDF proxy variables",
+                  "detail": "Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
+                },
+                "openai": {
+                  "label": "OPENAI_API_KEY",
+                  "detail": "Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "Example .env names",
+                  "code": "DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                }
+              },
+              "callouts": [
+                "Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+              ]
+            },
+            "startup": {
+              "title": "Startup and migration check",
+              "body": [
+                "At startup, the server validates whether Drizzle migrations are applied. If migrations are missing or hashes differ, startup can stop before the UI is usable."
+              ],
+              "steps": [
+                "Install dependencies with pnpm through Corepack.",
+                "Prepare .env with required variables.",
+                "Run migrations with the project-approved command.",
+                "Start the dev server and confirm the target port.",
+                "Run test and type-check before reporting completion."
+              ],
+              "code": {
+                "commands": {
+                  "title": "Standard commands",
+                  "code": "corepack pnpm dev\ncorepack pnpm db:push\ncorepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            }
+          }
+        },
+        "authStaff": {
+          "title": "Login, Staff Management, and Instance Settings",
+          "summary": "Operational rules for login, setup, staff invitations, roles, language, and instance settings.",
+          "sections": {
+            "login": {
+              "title": "Login and account basics",
+              "body": [
+                "Staff users sign in before using dashboard functions. Public signers do not need staff accounts.",
+                "If login loops, first confirm the app URL, session secret, cookie settings, and whether the browser is using the intended hostname and protocol."
+              ],
+              "bullets": [
+                "Initial setup creates or enables the first administrator.",
+                "Forgot-password and reset-password pages handle account recovery.",
+                "The authenticated dashboard redirects unauthenticated staff to login.",
+                "Do not share staff accounts between people.",
+                "Language can be resolved from user preference, request parameter, or browser settings depending on the surface."
+              ]
+            },
+            "staff": {
+              "title": "Staff and instance settings",
+              "body": [
+                "Administrators keep the staff list, roles, organization settings, mail settings, and integration settings current."
+              ],
+              "rows": {
+                "invite": {
+                  "label": "Invite",
+                  "detail": "Add only people who should operate the workspace. Use a unique email for each person."
+                },
+                "role": {
+                  "label": "Role",
+                  "detail": "Assign the minimum role needed. Administrator privileges should be rare and reviewed."
+                },
+                "deactivate": {
+                  "label": "Deactivate",
+                  "detail": "Deactivate users who leave the organization. Do not delete evidence that belongs to completed workflows."
+                },
+                "locale": {
+                  "label": "Locale",
+                  "detail": "Store staff language preference where supported; it is used before browser fallback for staff UI and email."
+                }
+              }
+            }
+          }
+        },
+        "dashboard": {
+          "title": "Daily Operations and Dashboard",
+          "summary": "Explains daily checkpoints, document statuses, pending tasks, and starting points for common operations.",
+          "sections": {
+            "daily": {
+              "title": "Daily operating checklist",
+              "body": [
+                "The dashboard is the staff starting point for work-in-progress documents and operational alerts.",
+                "Use it to find drafts, sent requests, pending approvals, completed documents, and exceptions that need action."
+              ],
+              "bullets": [
+                "Check documents waiting for staff action.",
+                "Review signature requests that are sent, viewed, or close to expiry.",
+                "Open Inbox for tasks assigned to the current staff user.",
+                "Create a new document only after the source PDF is final.",
+                "Use templates when the same document structure repeats.",
+                "Check audit logs before assuming a workflow step did not happen.",
+                "Escalate with document ID and timestamp when support is needed."
+              ]
+            },
+            "status": {
+              "title": "Document and signature request statuses",
+              "body": [
+                "Statuses answer what can happen next. They should not be changed casually because API, Inbox, email, and audit behavior depend on them."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "draft",
+                  "detail": "Document exists but has not been sent. Fields and recipients can still be prepared."
+                },
+                "sent": {
+                  "label": "sent",
+                  "detail": "Signature request was sent to the next signer or recipient."
+                },
+                "viewed": {
+                  "label": "viewed",
+                  "detail": "Signer opened the link. This is evidence that delivery worked, not a signature."
+                },
+                "signed": {
+                  "label": "signed",
+                  "detail": "A signer completed their assigned signing action."
+                },
+                "declined": {
+                  "label": "declined",
+                  "detail": "A signer refused. The workflow should stop or follow the configured exception path."
+                },
+                "completed": {
+                  "label": "completed",
+                  "detail": "All required steps are done and completed PDF/certificate evidence should be available."
+                },
+                "expired": {
+                  "label": "expired",
+                  "detail": "The signing link is no longer valid and the request needs resend or replacement."
+                }
+              }
+            }
+          }
+        },
+        "documents": {
+          "title": "Documents, PDFs, and Signature Fields",
+          "summary": "Explains PDF upload rules, the 20 MB limit, validation, field types, and checks before sending.",
+          "sections": {
+            "pdf": {
+              "title": "PDF upload and validation",
+              "body": [
+                "The source file must be a PDF and must pass server-side validation before fields and recipients are finalized.",
+                "The current manual policy uses a 20 MB upload limit. Reject files that exceed the limit or fail PDF validation instead of trying to repair them silently."
+              ],
+              "bullets": [
+                "Confirm the PDF is final before uploading.",
+                "Do not upload password-protected PDFs unless the implementation explicitly supports them.",
+                "Keep page count and file size reasonable for browser signing.",
+                "Store the original PDF and generated signed PDF as separate evidence artifacts.",
+                "Use PDF proxying for secure viewing instead of exposing raw storage paths.",
+                "If validation fails, recreate/export the PDF from the source application.",
+                "Do not bypass validation from the UI, API, or CLI."
+              ],
+              "callouts": [
+                "A successful upload is not a completed contract. It only creates the source document for the workflow."
+              ]
+            },
+            "fields": {
+              "title": "Signature field types",
+              "body": [
+                "Fields define what a signer must provide and where the result is placed on the PDF."
+              ],
+              "rows": {
+                "signature": {
+                  "label": "Signature",
+                  "detail": "Drawn or typed signature required from a signer."
+                },
+                "initial": {
+                  "label": "Initial",
+                  "detail": "Short confirmation mark used when the document requires initials."
+                },
+                "stamp": {
+                  "label": "Stamp",
+                  "detail": "Seal/stamp image or equivalent field when business rules require it."
+                },
+                "text": {
+                  "label": "Text",
+                  "detail": "Free text input such as company name, title, or address."
+                },
+                "date": {
+                  "label": "Date",
+                  "detail": "Date field populated by the signer or system according to workflow rules."
+                },
+                "checkbox": {
+                  "label": "Checkbox",
+                  "detail": "Explicit binary confirmation such as consent or acknowledgement."
+                }
+              }
+            }
+          }
+        },
+        "signing": {
+          "title": "Sending, Signing, Decline, Delegation, and Final PDF",
+          "summary": "Covers sequential signing, access codes, signing links, decline, delegation, completion certificate, and WORM signed PDFs.",
+          "sections": {
+            "request": {
+              "title": "Sending and signing flow",
+              "body": [
+                "A signature request connects one document, recipients, field assignments, delivery email, access control, and audit records.",
+                "Sequential signing sends the next action only after the previous required signer completes their step."
+              ],
+              "bullets": [
+                "Set signer order before sending when sequential signing is required.",
+                "Use access codes when the recipient identity needs an additional shared secret.",
+                "A signing token should be treated as sensitive until the workflow completes or expires.",
+                "Signer actions must create audit log entries.",
+                "Decline captures the reason and stops or branches the workflow.",
+                "Delegation changes who can complete the step and must be recorded.",
+                "Completion generates signed PDF evidence and a completion certificate where implemented.",
+                "Signed PDFs are WORM-style evidence and must not be overwritten casually."
+              ],
+              "diagramTitle": "Sequential signing lifecycle",
+              "diagram": [
+                "Draft document",
+                "Send request",
+                "Signer opens link",
+                "Signer signs or declines",
+                "Next signer or completion",
+                "Completed PDF and certificate"
+              ]
+            },
+            "outcomes": {
+              "title": "Signer outcomes",
+              "body": [
+                "Each outcome has a different operational meaning and audit consequence."
+              ],
+              "rows": {
+                "signed": {
+                  "label": "Signed",
+                  "detail": "The signer filled required fields and confirmed. Continue to the next signer or completion."
+                },
+                "declined": {
+                  "label": "Declined",
+                  "detail": "The signer refused. Record the reason and do not treat the document as complete."
+                },
+                "delegated": {
+                  "label": "Delegated",
+                  "detail": "The signer transferred action to another person where allowed. Record original and delegated recipient."
+                },
+                "completedPdf": {
+                  "label": "Completed PDF",
+                  "detail": "Generated final PDF with signature evidence after all required steps finish."
+                },
+                "certificate": {
+                  "label": "Completion certificate",
+                  "detail": "Evidence summary such as signer, timestamp, request ID, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "internalApproval": {
+          "title": "Internal Approval",
+          "summary": "Explains approval states, approve/reject behavior, and how approvals relate to signature requests.",
+          "sections": {
+            "flow": {
+              "title": "Approval statuses",
+              "body": [
+                "Internal approvals are staff workflows that gate or document an internal decision.",
+                "Approval and signature workflows are related but separate; rejecting an approval is not the same event as an external signer declining."
+              ],
+              "rows": {
+                "draft": {
+                  "label": "draft",
+                  "detail": "Approval request is being prepared."
+                },
+                "pending": {
+                  "label": "pending",
+                  "detail": "Approver action is required."
+                },
+                "approved": {
+                  "label": "approved",
+                  "detail": "The approver accepted. Downstream work may continue according to workflow rules."
+                },
+                "rejected": {
+                  "label": "rejected",
+                  "detail": "The approver rejected. Capture reason and stop or return the document to preparation."
+                },
+                "cancelled": {
+                  "label": "cancelled",
+                  "detail": "The approval was intentionally stopped by an authorized staff user."
+                }
+              },
+              "callouts": [
+                "Approval decisions must be auditable because they explain why a signature request was sent, stopped, or changed."
+              ]
+            },
+            "actions": {
+              "title": "Approver actions",
+              "bullets": [
+                "Open the approval link or Inbox item.",
+                "Review the document, request metadata, and business context.",
+                "Approve only when the document is ready for the next workflow step.",
+                "Reject with a clear reason when correction is required.",
+                "Do not use approval comments for secrets.",
+                "Confirm the resulting status before escalating a missing task."
+              ]
+            }
+          }
+        },
+        "inbox": {
+          "title": "Staff Inbox",
+          "summary": "Clarifies that Inbox is not a mailbox; it is a virtual inbox built from existing workflow rows.",
+          "sections": {
+            "concept": {
+              "title": "Virtual Inbox concept",
+              "body": [
+                "Inbox is not an email inbox and it does not store independent mail messages.",
+                "It is a virtual view assembled from existing workflow rows such as signature requests, approvals, delegations, and CC visibility.",
+                "Because of this design, fixing Inbox issues usually means checking the underlying workflow row and status, not a separate inbox table."
+              ],
+              "callouts": [
+                "Do not add a second source of truth for Inbox unless the data model and audit rules are deliberately redesigned."
+              ]
+            },
+            "items": {
+              "title": "Inbox item types",
+              "rows": {
+                "signature": {
+                  "label": "Signature task",
+                  "detail": "A staff user has a document-related action or follow-up."
+                },
+                "approval": {
+                  "label": "Approval task",
+                  "detail": "An internal approval requires a decision."
+                },
+                "delegation": {
+                  "label": "Delegation",
+                  "detail": "A delegated signing or review action points to the current user."
+                },
+                "cc": {
+                  "label": "CC visibility",
+                  "detail": "The user is informed about progress without being the required actor."
+                }
+              }
+            }
+          }
+        },
+        "templates": {
+          "title": "Templates",
+          "summary": "Explains document reuse, field placement, variables, and cautions when changing templates.",
+          "sections": {
+            "usage": {
+              "title": "Template use",
+              "body": [
+                "Templates reduce repeated setup for common documents by preserving layout, fields, recipient patterns, and message defaults where supported.",
+                "Changing a template should not rewrite completed document evidence."
+              ],
+              "bullets": [
+                "Create templates only from reviewed document patterns.",
+                "Name templates by business purpose, not by a temporary file name.",
+                "Review fields after duplicating a template.",
+                "Keep signer roles understandable for staff and API clients.",
+                "Retire obsolete templates instead of silently changing history.",
+                "Update the manual when template behavior changes."
+              ]
+            },
+            "variables": {
+              "title": "Template variables",
+              "rows": {
+                "document": {
+                  "label": "Document variables",
+                  "detail": "Title, document ID, creation time, and request metadata."
+                },
+                "recipient": {
+                  "label": "Recipient variables",
+                  "detail": "Signer name, email, role, order, locale, and access-code requirement."
+                },
+                "sender": {
+                  "label": "Sender variables",
+                  "detail": "Staff sender, organization, reply-to, and configured branding."
+                },
+                "workflow": {
+                  "label": "Workflow variables",
+                  "detail": "Due date, reminder policy, approval state, completion links, and audit references."
+                }
+              }
+            }
+          }
+        },
+        "contacts": {
+          "title": "Contacts, Categories, and Groups",
+          "summary": "Organizes external recipient management, categories, groups, and recipient selection when sending.",
+          "sections": {
+            "directory": {
+              "title": "Contact management",
+              "body": [
+                "Contacts help staff select recurring external recipients consistently.",
+                "A contact is not a staff user and does not imply login access."
+              ],
+              "bullets": [
+                "Keep legal names and email addresses accurate.",
+                "Use categories for business classification.",
+                "Use groups for repeated recipient sets.",
+                "Check locale before sending multilingual requests.",
+                "Remove or archive obsolete contacts according to policy.",
+                "Do not store secrets in contact notes."
+              ]
+            },
+            "classification": {
+              "title": "Classification",
+              "rows": {
+                "contact": {
+                  "label": "Contact",
+                  "detail": "A reusable external recipient record."
+                },
+                "category": {
+                  "label": "Category",
+                  "detail": "Business classification such as customer, vendor, or partner."
+                },
+                "group": {
+                  "label": "Group",
+                  "detail": "Reusable set of contacts for repeated sending patterns."
+                },
+                "recipient": {
+                  "label": "Recipient",
+                  "detail": "A specific person assigned to a specific document workflow."
+                }
+              }
+            }
+          }
+        },
+        "compliance": {
+          "title": "Audit Logs, WORM, and Electronic Books Compliance",
+          "summary": "Explains activityLogs, systemAuditLogs, hash chains, PDF proxying, and the no-delete policy.",
+          "sections": {
+            "audit": {
+              "title": "Audit evidence",
+              "body": [
+                "Audit data explains who did what, when, from which workflow, and with which result.",
+                "WORM design means evidence should be appended and preserved rather than edited or deleted."
+              ],
+              "bullets": [
+                "Record login, document, signature, approval, API, and system-sensitive events.",
+                "Use activityLogs for user/workflow activity.",
+                "Use systemAuditLogs for system-level and integration-sensitive events.",
+                "Hash chains help detect tampering.",
+                "PDF proxying prevents accidental exposure of raw storage paths.",
+                "Signed PDFs and completion evidence should be treated as immutable.",
+                "Deletion policies must preserve required evidence.",
+                "If an audit row looks wrong, investigate source logic instead of editing evidence."
+              ]
+            },
+            "worm": {
+              "title": "WORM and no-delete policy",
+              "body": [
+                "Compliance behavior is a product boundary. Avoid convenience changes that weaken evidence retention."
+              ],
+              "rows": {
+                "activityLogs": {
+                  "label": "activityLogs",
+                  "detail": "Append-only workflow/user activity records."
+                },
+                "systemAuditLogs": {
+                  "label": "systemAuditLogs",
+                  "detail": "Append-only system, security, integration, and operational records."
+                },
+                "pdfProxy": {
+                  "label": "PDF proxy",
+                  "detail": "Controlled route for PDF viewing/downloading without exposing storage internals."
+                },
+                "hashChain": {
+                  "label": "Hash chain",
+                  "detail": "Links records so later tampering can be detected."
+                },
+                "deletePolicy": {
+                  "label": "Delete policy",
+                  "detail": "Completed evidence is retained. Deleting business records must not erase required audit evidence."
+                }
+              }
+            }
+          }
+        },
+        "emailLocales": {
+          "title": "Email and Language Settings",
+          "summary": "Explains email types, UI locales, email-only locales, locale priority, and the meaning of ?lng.",
+          "sections": {
+            "mail": {
+              "title": "Email types",
+              "body": [
+                "Emails are part of the workflow, not just notifications. Missing email can block signing or approval."
+              ],
+              "rows": {
+                "invitation": {
+                  "label": "Staff invitation",
+                  "detail": "Sent when a staff account is invited or activated."
+                },
+                "signatureRequest": {
+                  "label": "Signature request",
+                  "detail": "Sent to external signers with the signing link and optional access-code instructions."
+                },
+                "reminder": {
+                  "label": "Reminder",
+                  "detail": "Sent when a request is pending and reminder policy requires follow-up."
+                },
+                "completion": {
+                  "label": "Completion",
+                  "detail": "Sent when a workflow completes and evidence is ready."
+                },
+                "approval": {
+                  "label": "Approval",
+                  "detail": "Sent to internal approvers when their decision is required."
+                }
+              }
+            },
+            "locale": {
+              "title": "Locale priority and ?lng",
+              "body": [
+                "UI locales are ja, en, th, and zh-CN. Some additional locales may be email-only and should not be added to UI selectors unless the UI is translated.",
+                "?lng changes the requested language for public links when supported. It is useful for signing links, approval links, and manual verification."
+              ],
+              "bullets": [
+                "Prefer explicit ?lng when a public link must open in a specific language.",
+                "Use staff preference for authenticated staff surfaces.",
+                "Use recipient/contact locale for external emails where available.",
+                "Fall back to browser or default locale when no stored preference exists.",
+                "Do not change email-only locales when updating UI manual content."
+              ],
+              "callouts": [
+                "If raw translation keys appear, compare the manual.* key set across ja, en, th, and zh-CN."
+              ]
+            }
+          }
+        },
+        "api": {
+          "title": "External Integration REST API",
+          "summary": "Explains API key authentication, scopes, endpoints, idempotency, webhooks, and audit recording.",
+          "sections": {
+            "auth": {
+              "title": "Authentication, scopes, and idempotency",
+              "body": [
+                "The REST API is for trusted integrations. Authenticate with an API key, validate scope, and write audit records for sensitive actions.",
+                "Use an Idempotency-Key header for create operations so retries do not duplicate documents or requests."
+              ],
+              "rows": {
+                "token": {
+                  "label": "API key",
+                  "detail": "Send as a bearer token or the project-supported header. Store only in a server-side secret store."
+                },
+                "scope": {
+                  "label": "Scope",
+                  "detail": "Limits what the integration can do, such as document write, request send, or webhook management."
+                },
+                "idempotency": {
+                  "label": "Idempotency",
+                  "detail": "Required for safe retries of create/send operations."
+                },
+                "audit": {
+                  "label": "Audit",
+                  "detail": "API actions must record actor, key, scope, target, and result where implemented."
+                }
+              },
+              "code": {
+                "curl": {
+                  "title": "Example request",
+                  "code": "curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                }
+              }
+            },
+            "endpoints": {
+              "title": "Representative endpoints",
+              "rows": {
+                "createDocument": {
+                  "label": "Create document",
+                  "detail": "Uploads or registers a source document and returns the document identifier."
+                },
+                "createRequest": {
+                  "label": "Create/send signature request",
+                  "detail": "Creates recipients, fields, access rules, and sends the workflow when requested."
+                },
+                "getStatus": {
+                  "label": "Get status",
+                  "detail": "Returns document/request state for polling or reconciliation."
+                },
+                "downloadPdf": {
+                  "label": "Download completed PDF",
+                  "detail": "Returns or redirects to controlled completed-PDF access when the workflow is complete."
+                },
+                "webhooks": {
+                  "label": "Webhooks",
+                  "detail": "Notify external systems about status changes. Verify signatures and retry safely."
+                }
+              }
+            }
+          }
+        },
+        "cli": {
+          "title": "signctl CLI",
+          "summary": "Explains environment variables, main commands, output, and idempotency for AI/CI operators.",
+          "sections": {
+            "environment": {
+              "title": "CLI environment",
+              "body": [
+                "signctl is the command-line surface for operators, CI, and AI agents. It should call the public integration boundary instead of writing directly to the database."
+              ],
+              "rows": {
+                "baseUrl": {
+                  "label": "SIGN_API_BASE_URL",
+                  "detail": "Base URL of the target Hundredth Sign instance."
+                },
+                "apiKey": {
+                  "label": "SIGN_API_KEY",
+                  "detail": "API key with the minimum required scopes."
+                },
+                "idempotency": {
+                  "label": "SIGN_IDEMPOTENCY_PREFIX",
+                  "detail": "Optional prefix to make automated retries traceable."
+                },
+                "output": {
+                  "label": "--json",
+                  "detail": "Use machine-readable JSON output for CI/AI automation."
+                }
+              },
+              "code": {
+                "env": {
+                  "title": "CLI environment",
+                  "code": "SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                }
+              }
+            },
+            "commands": {
+              "title": "Main commands",
+              "body": [
+                "Exact command names should follow scripts/signctl.mjs. Keep this manual synchronized when commands change."
+              ],
+              "code": {
+                "examples": {
+                  "title": "Representative commands",
+                  "code": "node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                }
+              },
+              "callouts": [
+                "Do not give signctl a database URL. CLI automation should stay behind the audited REST API boundary."
+              ]
+            }
+          }
+        },
+        "dataModel": {
+          "title": "DB Table Overview",
+          "summary": "Gives an overview of key tables, state transitions, representative unique constraints, and no-delete data.",
+          "sections": {
+            "tables": {
+              "title": "Primary table groups",
+              "body": [
+                "The actual schema is defined in drizzle/schema.ts. This section is an operator-readable map, not a replacement for migrations."
+              ],
+              "rows": {
+                "users": {
+                  "label": "users / staff-related tables",
+                  "detail": "Staff identity, role, status, locale, and login-related data."
+                },
+                "documents": {
+                  "label": "documents",
+                  "detail": "Source document metadata, ownership, status, and file references."
+                },
+                "signatureRequests": {
+                  "label": "signatureRequests",
+                  "detail": "Sending workflow, status, order, due date, token, and completion state."
+                },
+                "signers": {
+                  "label": "signers / recipients",
+                  "detail": "Recipient identity, order, access-code flags, locale, and signer outcome."
+                },
+                "signatureFields": {
+                  "label": "signatureFields",
+                  "detail": "Field type, page, coordinates, required flag, and assigned signer."
+                },
+                "templates": {
+                  "label": "templates",
+                  "detail": "Reusable document and field definitions."
+                },
+                "contacts": {
+                  "label": "contacts / categories / groups",
+                  "detail": "External recipient directory and classification."
+                },
+                "approvals": {
+                  "label": "internal approvals",
+                  "detail": "Internal decision workflow and approver outcome."
+                },
+                "audit": {
+                  "label": "activityLogs / systemAuditLogs",
+                  "detail": "Append-only evidence and security/operational audit trail."
+                },
+                "integrations": {
+                  "label": "API keys / webhooks",
+                  "detail": "Integration credentials, scopes, webhook subscriptions, and delivery state."
+                }
+              }
+            },
+            "constraints": {
+              "title": "Constraints and invariants",
+              "bullets": [
+                "Email-like identifiers must be unique where the schema requires it.",
+                "Tokens and API keys must be unique and treated as secrets.",
+                "A signature field belongs to one document and usually one assigned signer.",
+                "A completed workflow must retain PDF and audit evidence.",
+                "Status transitions should be explicit and auditable.",
+                "Hash chain inputs must not be rewritten after evidence is recorded.",
+                "Schema changes require documentation and tests in the same change set."
+              ]
+            }
+          }
+        },
+        "operations": {
+          "title": "Operations, Troubleshooting, and FAQ",
+          "summary": "Reduces questions about login, undelivered email, PDF, signing links, API keys, audit logs, migration, and language settings.",
+          "sections": {
+            "faq": {
+              "title": "FAQ by symptom",
+              "body": [
+                "Start with the symptom, then verify the responsible boundary before changing data."
+              ],
+              "rows": {
+                "login": {
+                  "label": "Cannot log in",
+                  "detail": "Check app URL, cookie domain, session secret, account status, password reset flow, and browser hostname."
+                },
+                "mail": {
+                  "label": "Email not received",
+                  "detail": "Check SMTP settings, recipient address, spam folder, mail logs, locale template, and whether delivery is disabled in development."
+                },
+                "pdf": {
+                  "label": "PDF upload fails",
+                  "detail": "Confirm file type, 20 MB limit, password protection, PDF validation error, and server logs."
+                },
+                "signingLink": {
+                  "label": "Signing link does not open",
+                  "detail": "Check token, expiry, request status, access code, route URL, and ?lng parameter."
+                },
+                "apiKey": {
+                  "label": "API key fails",
+                  "detail": "Check key value, scope, target base URL, Authorization header, idempotency key, and audit logs."
+                },
+                "auditLog": {
+                  "label": "Audit log missing",
+                  "detail": "Check whether the action actually occurred and whether the code path inserts activityLogs or systemAuditLogs."
+                },
+                "migration": {
+                  "label": "Migration error",
+                  "detail": "Check DATABASE_URL, applied migration table, hash mismatch, statement breakpoints, and current schema."
+                },
+                "locale": {
+                  "label": "Wrong language",
+                  "detail": "Check ?lng, staff preference, recipient locale, browser language, and UI vs email-only locale support."
+                }
+              }
+            },
+            "runbook": {
+              "title": "Operational runbook",
+              "steps": [
+                "Capture screen, route, document/request ID, user or recipient, timestamp, and exact error.",
+                "Check whether the issue is UI, API, email, PDF, DB migration, or audit evidence.",
+                "Verify environment variables without exposing their real values.",
+                "Run the standard test and type-check commands after code changes.",
+                "For DB-backed fixes, apply or hand off the migration before claiming operational completion.",
+                "Update the manual and product specification when behavior changes."
+              ],
+              "code": {
+                "verify": {
+                  "title": "Verification commands",
+                  "code": "corepack pnpm test\ncorepack pnpm check\nnode scripts/verify-manual-locales.mjs # if present in your branch"
+                }
+              }
+            }
+          }
+        },
+        "developer": {
+          "title": "Developer Change Rules and Verification",
+          "summary": "Rules for keeping specs, DB, audit, translations, tests, and the manual aligned when making changes.",
+          "sections": {
+            "rules": {
+              "title": "Change rules",
+              "body": [
+                "Treat documentation, migrations, translations, and tests as part of the product surface, not cleanup work."
+              ],
+              "bullets": [
+                "Read docs/architecture.md and the relevant docs/spec file before implementation.",
+                "If drizzle/schema.ts changes, update docs/domain/data-model.md.",
+                "Never remove INSERT behavior for activityLogs or systemAuditLogs when it protects WORM evidence.",
+                "Do not hardcode secrets; read from environment variables.",
+                "Keep UI manual keys aligned across ja, en, th, and zh-CN.",
+                "Do not edit email-only locales for UI-only manual changes.",
+                "Run pnpm test and pnpm check before completion.",
+                "When a feature changes public behavior, update this manual in the same branch."
+              ],
+              "code": {
+                "commands": {
+                  "title": "Developer verification",
+                  "code": "corepack pnpm test\ncorepack pnpm check\ncorepack pnpm format"
+                }
+              }
+            },
+            "checklist": {
+              "title": "Release checklist",
+              "rows": {
+                "schema": {
+                  "label": "Schema",
+                  "detail": "Migration created/applied, data model docs updated, no unsafe data loss."
+                },
+                "audit": {
+                  "label": "Audit",
+                  "detail": "Sensitive actions write activityLogs or systemAuditLogs and preserve evidence."
+                },
+                "locale": {
+                  "label": "Locale",
+                  "detail": "No raw manual.* keys in ja/en/th/zh-CN and email-only locales untouched."
+                },
+                "manual": {
+                  "label": "Manual",
+                  "detail": "Manual reflects product-spec.ja.md and any changed behavior."
+                },
+                "test": {
+                  "label": "Tests",
+                  "detail": "Relevant unit/integration/E2E checks pass or the blocker is documented."
+                }
+              }
+            }
+          }
+        }
+      },
+      "screenshots": {
+        "openFullSize": "Open full size image",
+        "login": {
+          "alt": "Login screen",
+          "caption": "Login screen",
+          "title": "Login screen"
+        },
+        "setup": {
+          "alt": "Setup screen",
+          "caption": "Setup screen",
+          "title": "Setup screen"
+        },
+        "dashboard": {
+          "alt": "Dashboard screen",
+          "caption": "Dashboard screen",
+          "title": "Dashboard screen"
+        },
+        "documents": {
+          "alt": "Documents list",
+          "caption": "Documents list",
+          "title": "Documents list"
+        },
+        "documentNew": {
+          "alt": "New document screen",
+          "caption": "New document screen",
+          "title": "New document screen"
+        },
+        "signing": {
+          "alt": "Signing screen",
+          "caption": "Signing screen",
+          "title": "Signing screen"
+        },
+        "inbox": {
+          "alt": "Inbox screen",
+          "caption": "Inbox screen",
+          "title": "Inbox screen"
+        },
+        "templates": {
+          "alt": "Templates screen",
+          "caption": "Templates screen",
+          "title": "Templates screen"
+        },
+        "contacts": {
+          "alt": "Contacts screen",
+          "caption": "Contacts screen",
+          "title": "Contacts screen"
+        },
+        "audit": {
+          "alt": "Audit log screen",
+          "caption": "Audit log screen",
+          "title": "Audit log screen"
+        },
+        "settings": {
+          "alt": "Settings screen",
+          "caption": "Settings screen",
+          "title": "Settings screen"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "OSS terms",
+      "title": "Terms for using the OSS edition",
+      "description": "Operational terms for self-hosting Hundredth Sign OSS. Review these terms together with the repository license and your own legal, security, and compliance requirements.",
+      "sections": {
+        "scope": {
+          "title": "Scope and relationship to the license",
+          "body": {
+            "0": "These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
+            "1": "If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "2": "Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
+          }
+        },
+        "license": {
+          "title": "OSS usage and redistribution",
+          "body": {
+            "0": "The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
+            "1": "The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "2": "Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
+          }
+        },
+        "operator": {
+          "title": "Operator responsibility",
+          "body": {
+            "0": "The operating organization is responsible for accounts, staff authority, API keys, webhook secrets, database, storage, email delivery, backups, monitoring, vulnerability handling, and incident response.",
+            "1": "Before real contracts are handled, verify domain settings, APP_URL, mail delivery, restore procedures, storage retention, PDF download behavior, access restrictions, audit-log integrity checks, and staff offboarding.",
+            "2": "Production operation should define who can create administrators, issue API keys, revoke keys, inspect audit logs, restore backups, and approve emergency changes.",
+            "3": "The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+          }
+        },
+        "accounts": {
+          "title": "Accounts, roles, and access",
+          "body": {
+            "0": "The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "1": "External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
+            "2": "Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
+          }
+        },
+        "integrations": {
+          "title": "API, CLI, and webhook use",
+          "body": {
+            "0": "External systems must use the integration API or signctl rather than direct database writes. Direct writes can bypass audit, WORM, PDF completion, status transitions, and email side effects.",
+            "1": "API keys must be stored as secrets, rotated before expiry, scoped narrowly, and revoked immediately when a system, operator, or AI agent no longer needs access.",
+            "2": "Webhook receivers must verify the HMAC signature, handle duplicate deliveries, and avoid treating a delivery as the sole source of truth; Sign remains the source of record."
+          }
+        },
+        "data": {
+          "title": "Data protection and retention",
+          "body": {
+            "0": "The operator controls personal data, signed PDFs, access tokens, signatures, stamps, audit records, email logs, webhook payloads, API-key metadata, and backups stored in the self-hosted environment.",
+            "1": "Define retention, deletion, encryption, access control, backup, restore, export, and disposal policies before business use.",
+            "2": "Review personal-information rules, cross-border transfer rules, subcontractor controls, and breach-response duties that apply to your organization and jurisdiction.",
+            "3": "If real production data is used for development, support, or customization, mask or minimize it unless there is a documented operational need."
+          }
+        },
+        "compliance": {
+          "title": "Electronic signature and recordkeeping review",
+          "body": {
+            "0": "The software records document activity, signer actions, completion certificates, and WORM audit records. These features support evidence preservation but do not automatically prove legal enforceability.",
+            "1": "Electronic signature validity depends on document type, signer identity process, consent, jurisdiction, authentication, retention, and dispute-handling procedures.",
+            "2": "For Japanese tax records and electronic transactions, operators should separately confirm electronic record retention requirements, searchability, authenticity controls, and screen/output readability requirements.",
+            "3": "Consult qualified legal, tax, accounting, security, and compliance professionals before relying on the system for regulated or high-value documents."
+          }
+        },
+        "prohibited": {
+          "title": "Prohibited or unsafe use",
+          "body": {
+            "0": "Do not use the system to impersonate another person, forge consent, bypass required approvals, unlawfully collect personal data, distribute malware, or interfere with third-party systems.",
+            "1": "Do not disable audit inserts, WORM retention, token validation, access-code checks, or signed-PDF generation in a way that misrepresents evidence.",
+            "2": "Do not publish API keys, webhook secrets, database URLs, storage credentials, JWT secrets, or private signing certificates."
+          }
+        },
+        "noSupport": {
+          "title": "General support is not included",
+          "body": {
+            "0": "The OSS edition does not include ordinary product support, operational support, custom debugging, data recovery, legal review, or service-level commitments.",
+            "1": "Questions may be handled internally by the operator or separately scoped as paid customization, implementation, review, or support work.",
+            "2": "The public OSS distribution is not responsible for diagnosing your infrastructure, mail system, legal process, security posture, database state, or production incident."
+          }
+        },
+        "customization": {
+          "title": "Paid customization",
+          "body": {
+            "0": "Business-specific customization can be requested separately.",
+            "1": "Typical work includes document formats, approval routes, integrations, language behavior, reporting, deployment, and operational dashboards.",
+            "2": "Customization does not remove the operator’s responsibility to review, test, approve, and operate the resulting system."
+          }
+        },
+        "changes": {
+          "title": "Changes and precedence",
+          "body": {
+            "0": "This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "1": "A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
+            "2": "The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
+          }
+        }
+      }
+    },
+    "disclaimer": {
+      "eyebrow": "Disclaimer",
+      "title": "OSS edition disclaimer",
+      "description": "Read this before production operation, external integrations, or business-specific customization of Hundredth Sign OSS.",
+      "sections": {
+        "warranty": {
+          "title": "Provided as is",
+          "body": {
+            "0": "The OSS edition and this manual are provided as is. Availability, correctness, fitness for a particular purpose, non-infringement, legal effect, security, data preservation, and uninterrupted operation are not warranted.",
+            "1": "The operator accepts the risk of evaluating, configuring, testing, deploying, monitoring, and maintaining the system.",
+            "2": "Public OSS code can contain defects, insecure configuration choices, migration requirements, outdated documentation, or behavior that is unsuitable for a specific business.",
+            "3": "The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
+          }
+        },
+        "legal": {
+          "title": "No legal, tax, accounting, or security advice",
+          "body": {
+            "0": "The software, manual, examples, API documentation, and CLI examples are technical materials only.",
+            "1": "They are not legal, tax, accounting, privacy, security, records-management, or compliance advice.",
+            "2": "The final decision about enforceability, retention, evidentiary value, privacy compliance, and regulated use belongs to the operating organization.",
+            "3": "Confirm requirements with qualified specialists in the relevant jurisdiction before relying on the system."
+          }
+        },
+        "compliance": {
+          "title": "Electronic signature and recordkeeping limitations",
+          "body": {
+            "0": "Electronic signature laws and recordkeeping rules vary by document type, jurisdiction, identity assurance, consent process, retention period, and evidence handling.",
+            "1": "Audit logs, completion certificates, WORM records, and PDF signatures support evidence, but they do not automatically satisfy every legal, tax, or internal-control requirement.",
+            "2": "Some documents may require handwritten signatures, qualified signatures, notarization, special storage, additional identity verification, or a different retention workflow.",
+            "3": "Operators must test whether generated PDFs, logs, timestamps, search fields, and exports remain readable and retrievable for the required period."
+          }
+        },
+        "security": {
+          "title": "Security and operational risk",
+          "body": {
+            "0": "Self-hosting moves security responsibility to the operator. This includes server hardening, patching, network exposure, secrets management, TLS, authentication, IP restrictions, logging, alerting, and vulnerability response.",
+            "1": "API keys, webhook secrets, JWT secrets, database credentials, storage credentials, email credentials, and signing certificates must be protected and rotated when risk changes.",
+            "2": "Backups are useful only if restoration is tested. Monitoring is useful only if someone is responsible for responding.",
+            "3": "AI or CI automation must use narrowly scoped keys, idempotency keys for retries, and explicit approval boundaries for destructive operations."
+          }
+        },
+        "data": {
+          "title": "Data and privacy risk",
+          "body": {
+            "0": "Signed documents, signatures, stamps, names, emails, access tokens, logs, and webhook payloads can contain personal or confidential information.",
+            "1": "The OSS distribution does not automatically provide a privacy policy, data-processing agreement, breach-notification process, deletion workflow, or data-subject request process for your organization.",
+            "2": "Data loss, leakage, corruption, misdelivery, mistaken access, or unsupported customization can cause business and legal harm.",
+            "3": "Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
+          }
+        },
+        "integrations": {
+          "title": "API, CLI, and webhook risk",
+          "body": {
+            "0": "The integration API and signctl are powerful operational interfaces. A key with send, download, webhook, or API-key management scope can materially affect production workflows.",
+            "1": "Webhook delivery is best-effort with retries. Receivers must handle duplicates, failures, delayed delivery, signature verification, and reconciliation against the document status API.",
+            "2": "Direct database writes by external systems are outside the supported integration model and can break audit, WORM, status, and PDF completion behavior."
+          }
+        },
+        "ai": {
+          "title": "AI-assisted codebase and automation",
+          "body": {
+            "0": "Parts of this OSS edition may be written or modified with AI assistance.",
+            "1": "AI-assisted development and AI-operated CLI workflows can reduce effort, but they do not remove the need for code review, tests, security assessment, migration review, or operational acceptance.",
+            "2": "Changes to authentication, signing, approval, audit logs, storage, webhook delivery, and compliance behavior require extra care."
+          }
+        },
+        "customization": {
+          "title": "Customization handled separately",
+          "body": {
+            "0": "Paid customization can adapt the OSS edition to documents, approval, language, integrations, and internal operations.",
+            "1": "Customization work is scoped separately and should include requirements, security review, migration handling, acceptance tests, and rollback or recovery planning.",
+            "2": "The operator remains responsible for deciding whether the customized result is acceptable for production use."
+          }
+        },
+        "references": {
+          "title": "Reference information used when drafting this notice",
+          "body": {
+            "0": "This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "1": "Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
+            "2": "This page is a practical risk notice, not a substitute for the official legal text or professional advice."
+          }
+        }
+      }
+    }
+  },
+  "ossContact": {
+    "eyebrow": "Customization inquiry",
+    "title": "Customize Hundredth Sign OSS for your business",
+    "description": "The OSS edition is free to use, and paid customization is available for organizations that need it to match their operations.",
+    "body": {
+      "0": "Hundredth Sign OSS does not include general support for ordinary OSS use.",
+      "1": "If you want the system adapted to your contracts, approval routes, internal controls, multilingual operation, integrations, or back-office workflow, you can request paid implementation support.",
+      "2": "As AI-assisted coding becomes common, systems strongly fitted to each business will become more practical than generic SaaS workflows.",
+      "3": "Please send a concise description of the workflow, current pain points, users, document types, and desired timeline."
+    },
+    "requestTitle": "Helpful details to include",
+    "requestItems": {
+      "0": "Current document and approval workflow",
+      "1": "Required custom screens, fields, or integrations",
+      "2": "Hosting and security constraints",
+      "3": "Desired launch timing and priority"
+    },
+    "emailTitle": "Contact",
+    "emailDescription": "Send the workflow you want to customize, current issues, and desired timing to this address."
+  }
+}

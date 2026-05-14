@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>500 - Server Error | Hundredth Sign</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      border-radius: 1rem;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+      max-width: 480px;
+      width: 100%;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    .icon { font-size: 4rem; margin-bottom: 1.5rem; }
+    h1 { font-size: 3rem; font-weight: 700; color: #0f172a; margin-bottom: 0.5rem; }
+    .subtitle { font-size: 1.25rem; font-weight: 600; color: #475569; margin-bottom: 1rem; }
+    .desc { color: #64748b; line-height: 1.6; margin-bottom: 0.5rem; }
+    .btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      margin-top: 2rem; padding: 0.75rem 1.5rem;
+      background: #059669; color: white; border: none;
+      border-radius: 0.5rem; font-size: 0.9rem; font-weight: 500;
+      cursor: pointer; text-decoration: none; transition: background 0.2s;
+    }
+    .btn:hover { background: #047857; }
+    .lang { margin-top: 1rem; font-size: 0.75rem; color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon">⚠️</div>
+    <h1>500</h1>
+    <p class="subtitle" id="title">サーバーエラーが発生しました</p>
+    <p class="desc" id="desc">予期せぬエラーが発生しました。しばらくしてから再度お試しください。</p>
+    <p class="desc" id="contact">問題が続く場合はサポートにお問い合わせください。</p>
+    <a href="/" class="btn" id="home-btn">🏠 ホームに戻る</a>
+    <p class="lang"><a href="?lang=en" style="color:#94a3b8">View in English</a></p>
+  </div>
+  <script>
+    const params = new URLSearchParams(location.search);
+    if (params.get("lang") === "en") {
+      document.getElementById("title").textContent = "Server Error";
+      document.getElementById("desc").textContent = "An unexpected error occurred. Please try again later.";
+      document.getElementById("contact").textContent = "If the problem persists, please contact support.";
+      document.getElementById("home-btn").textContent = "🏠 Go Home";
+      document.documentElement.lang = "en";
+    }
+  </script>
+</body>
+</html>
