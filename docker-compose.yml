@@ -1,0 +1,46 @@
+services:
+  mysql:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:-hundredth-sign-local-password}
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-hundredth_sign}
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "mysqladmin ping -h 127.0.0.1 -uroot -p$${MYSQL_ROOT_PASSWORD} --silent",
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  app:
+    build:
+      context: .
+    restart: unless-stopped
+    depends_on:
+      mysql:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      DATABASE_URL: mysql://root:${MYSQL_ROOT_PASSWORD:-hundredth-sign-local-password}@mysql:3306/${MYSQL_DATABASE:-hundredth_sign}
+      JWT_SECRET: ${JWT_SECRET:-local-docker-secret-with-at-least-32-chars}
+      APP_URL: ${APP_URL:-http://localhost:3000}
+      TRUST_PROXY: ${TRUST_PROXY:-false}
+      SIGN_RUN_MIGRATIONS: ${SIGN_RUN_MIGRATIONS:-true}
+    ports:
+      - "${APP_PORT:-3000}:3000"
+    volumes:
+      - local-uploads:/app/tmp/local-uploads
+
+volumes:
+  mysql-data:
+  local-uploads:

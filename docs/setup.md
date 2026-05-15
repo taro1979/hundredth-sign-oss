@@ -2,10 +2,12 @@
 
 This guide covers a local or self-hosted Hundredth Sign OSS installation.
 
+For a Docker-based quick start, see `docs/docker.md`.
+
 ## 1. Install Prerequisites
 
 - Node.js 22 LTS or newer.
-- pnpm 10.x. Corepack is recommended.
+- pnpm 10.16 or newer. Corepack is recommended.
 - MySQL 8.x.
 - Docker Desktop if you want to run E2E tests.
 
@@ -31,12 +33,12 @@ Edit `.env` and set at least:
 
 ```env
 DATABASE_URL=mysql://root:password@127.0.0.1:3306/hundredth_sign
-JWT_SECRET=replace-with-a-long-random-secret
+JWT_SECRET=replace-with-at-least-32-random-characters
 APP_URL=http://localhost:3000
 ```
 
-Use a long random value for `JWT_SECRET`. Do not reuse development secrets in
-production.
+Use a long random value for `JWT_SECRET`. Production startup requires at least
+32 characters. Do not reuse development secrets in production.
 
 ## 3. Prepare MySQL
 
@@ -68,6 +70,13 @@ pnpm build
 pnpm start
 ```
 
-For production, set `NODE_ENV=production`, configure a real `APP_URL`, and use
-managed MySQL, mail, storage, backup, and secret management.
+For production, set `NODE_ENV=production`, configure a real HTTPS `APP_URL`,
+and use managed MySQL, mail, storage, backup, and secret management.
 
+Recommended production secrets:
+
+```bash
+openssl rand -base64 48  # JWT_SECRET
+openssl rand -hex 32     # STORAGE_ENCRYPTION_KEY
+openssl rand -hex 32     # PII_ENCRYPTION_KEY
+```

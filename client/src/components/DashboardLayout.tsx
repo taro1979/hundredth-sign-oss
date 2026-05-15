@@ -163,7 +163,7 @@ function DashboardLayoutContent({ children }: { children: React.ReactNode }) {
                   Hundredth Sign
                 </div>
                 <div className="text-xs text-muted-foreground">
-                  Self-hosted OSS
+                  {t("dashboard.brandSubtitle")}
                 </div>
               </button>
             )}

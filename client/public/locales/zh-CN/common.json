@@ -68,6 +68,7 @@
   },
   "dashboard": {
     "title": "仪表板",
+    "brandSubtitle": "源码公开版",
     "welcome": "欢迎回来",
     "recentDocuments": "最近的文档",
     "pendingSignatures": "等待签名",
@@ -235,7 +236,7 @@
       "messageFromSender": "来自发件人的消息",
       "documentNameLabel": "文档：{{title}}",
       "senderLabel": "发件人：{{sender}}",
-      "previewPlgHeadline": "自托管 OSS 电子签名。",
+      "previewPlgHeadline": "自托管 source-available 电子签名。",
       "previewPlgSubtext": "在自己的环境中管理签署、模板和审计日志。",
       "previewPerMonth": "自托管",
       "complete": {
@@ -398,8 +399,8 @@
       "badge": "电子签名服务",
       "titleLine1": "功能齐全，毫不妥协",
       "titleLine2": "用于自托管",
-      "subtitle": "在 OSS 部署中提供 PDF 签署、收件人邮件链接、完成证书和审计日志。",
-      "monthlyLabel": "OSS",
+      "subtitle": "在源码公开版部署中提供 PDF 签署、收件人邮件链接、完成证书和审计日志。",
+      "monthlyLabel": "源码公开版",
       "taxIncluded": "（含税）",
       "priceNote": "自托管 · 本地员工账户 · 收件人无需账户",
       "featureCertificate": "自动完成证书",
@@ -768,7 +769,7 @@
   "landing": {
     "heroTitle": "重新定义电子签名，",
     "heroTitleAccent": "用于自托管。",
-    "heroSubtitle": "自托管 OSS 电子签名，包含 PDF 发送、签署、模板、内部审批和 WORM 审计日志。",
+    "heroSubtitle": "自托管 source-available 电子签名，包含 PDF 发送、签署、模板、内部审批和 WORM 审计日志。",
     "startFree": "免费开始",
     "learnMore": "查看功能",
     "goToDashboard": "前往仪表板",
@@ -800,7 +801,7 @@
     "heroUnlimited": "员工管理 · 收件人无需账户",
     "heroUnlimitedMain": "成员无限制。",
     "heroUnlimitedSub": "外部签署人只需使用安全邮件链接。",
-    "heroRevealTitle": "以 OSS 形式提供实用电子签署流程。",
+    "heroRevealTitle": "以 source-available 形式提供实用电子签署流程。",
     "heroRevealSub": "PDF 签署、证据管理、员工权限、模板和 4 种语言签署页面，集中在一个自托管 workspace 中。",
     "diffTeam": "员工管理",
     "diffTeamDesc": "管理员发放员工账户，外部签署人无需账户。",
@@ -812,14 +813,14 @@
     "mockupVsEnterprise": "部署方式",
     "mockupVsBudget": "收件人",
     "mockupNoAccount": "无需账户",
-    "heroStat1": "OSS",
+    "heroStat1": "源码公开版",
     "heroStat1Label": "支持自托管部署",
     "heroStat2": "4",
     "heroStat2Label": "核心语言",
     "heroStat3": "无限制",
     "heroStat3Label": "团队成员数",
     "month": "莫",
-    "pageTitle": "Hundredth Sign – 自托管 OSS 电子签名",
+    "pageTitle": "Hundredth Sign – 自托管 source-available 电子签名",
     "pageKeywords": "电子签名,电子合同,合同管理,Hundredth Sign",
     "mockupNavDocs": "文档",
     "mockupNavContacts": "联系人",
@@ -929,8 +930,8 @@
     "title": "常见问题",
     "q1": "Hundredth Sign的电子签名具有法律效力吗？",
     "a1": "Hundredth Sign的设计符合电子签名法和电子账簿保存法的要求。所有签名均自动生成记录签名人、时间和IP地址的完成证书。请注意，法律效力的最终认定取决于具体合同内容和情况，如有需要请咨询法律专业人士。",
-    "q2": "OSS 版本有哪些变化？",
-    "a2": "OSS 版本是单一 workspace 的自托管应用。商业托管功能、plans、quotas 和外部 OAuth 登录已移除，同时保留 PDF 签署、模板、员工账户和审计日志。",
+    "q2": "source-available 版本有哪些变化？",
+    "a2": "source-available 版本是单一 workspace 的自托管应用。商业托管功能、plans、quotas 和外部 OAuth 登录已移除，同时保留 PDF 签署、模板、员工账户和审计日志。",
     "q3": "签名方需要账户吗？",
     "a3": "不需要。签名方无需注册账户，只需点击邮件中的链接即可签名。在PC或智能手机上，仅需浏览器即可完成签名。",
     "q4": "外部收件人需要账户吗？",
@@ -942,14 +943,14 @@
     "badge": "常见问题"
   },
   "why": {
-    "badge": "为什么选择自托管 OSS",
+    "badge": "为什么选择自托管 source-available",
     "title": "在自己的环境中掌控合同流程。",
     "titleSub": "无供应商锁定的自托管电子合同。",
-    "description": "OSS 版本面向希望摆脱供应商锁定和商业托管功能的团队。",
+    "description": "source-available 版本面向希望摆脱供应商锁定和商业托管功能的团队。",
     "aiTitle": "自托管部署",
     "aiDesc": "使用自己的数据库、存储、邮件设置和管理员账户运行应用。",
     "noSalesTitle": "无商业托管层",
-    "noSalesDesc": "Plans、quotas、payment-provider logic 和货币逻辑已从 OSS build 中移除。",
+    "noSalesDesc": "Plans、quotas、payment-provider logic 和货币逻辑已从 source-available build 中移除。",
     "noPerSeatTitle": "接收方无需账户",
     "noPerSeatDesc": "客户可通过邮件链接查看、签署、拒签并下载文档，无需创建账户。",
     "passOnTitle": "保留核心签署流程",
@@ -958,7 +959,7 @@
   "comparison": {
     "badge": "部署方式比较",
     "title": "托管服务，或自托管控制。",
-    "subtitle": "当您想以 OSS 方式拥有电子签署流程时，可以选择 Hundredth Sign。",
+    "subtitle": "当您想以 source-available 方式拥有电子签署流程时，可以选择 Hundredth Sign。",
     "price1000": "自托管",
     "colEnterprise": "企业级服务商",
     "colBudget": "低价竞争对手",
@@ -986,7 +987,7 @@
     "note": "※ 比较基于运营模式和功能范围。",
     "priceEnterprise": "商业托管服务",
     "priceBudget": "商业托管服务",
-    "priceHundredth": "由你控制的 OSS 部署",
+    "priceHundredth": "由你控制的 source-available 部署",
     "featureLabel": "功能",
     "colEnterpriseNote": "DocuSign、Adobe Sign 等",
     "colBudgetNote": "其他服务商"
@@ -997,7 +998,8 @@
     "viewPricing": "查看功能"
   },
   "footer": {
-    "tagline": "用于电子签名的自托管 OSS 基础设施。",
+    "tagline": "用于电子签名的自托管 source-available 基础设施。",
+    "licenseNotice": "source-available + PolyForm Noncommercial：源代码已公开，但本软件不是开源软件。仅允许非商业使用；商业使用需要单独的许可协议。",
     "product": "产品",
     "security": "安全性",
     "resources": "资源",
@@ -1292,24 +1294,28 @@
           "title": "6. 知识产权",
           "body": "Hundredth Sign 的所有知识产权均归服务提供商所有。"
         },
+        "license": {
+          "title": "7. source-available 许可",
+          "body": "Hundredth Sign 是 source-available + PolyForm Noncommercial。源代码已公开，但本软件不是开源软件。仅允许根据 PolyForm Noncommercial License 1.0.0 进行非商业使用。商业使用需要单独的商业许可协议。"
+        },
         "privacy": {
-          "title": "7. 隐私",
+          "title": "8. 隐私",
           "body": "您对本服务的使用还受我们隐私政策的约束。"
         },
         "limitation": {
-          "title": "8. 责任限制",
+          "title": "9. 责任限制",
           "body": "在法律允许的最大范围内，我们不对间接损失承担责任。"
         },
         "termination": {
-          "title": "9. 终止",
+          "title": "10. 终止",
           "body": "如违反本条款，我们保留暂停账户的权利。"
         },
         "governingLaw": {
-          "title": "10. 适用法律",
+          "title": "11. 适用法律",
           "body": "本条款受日本法律管辖。"
         },
         "changes": {
-          "title": "11. 条款变更",
+          "title": "12. 条款变更",
           "body": "我们可能会不时更新本条款。"
         }
       }
@@ -1332,7 +1338,7 @@
         },
         "thirdParty": {
           "title": "4. 第三方服务",
-          "body": "运营者可配置可信的第三方服务用于文档存储、邮件发送和基础设施。OSS 发行版默认不需要外部身份提供商。"
+          "body": "运营者可配置可信的第三方服务用于文档存储、邮件发送和基础设施。source-available 发行版默认不需要外部身份提供商。"
         },
         "cookies": {
           "title": "5. Cookie",
@@ -1387,13 +1393,13 @@
       "dataModel": "DB 表"
     },
     "usage": {
-      "eyebrow": "OSS 综合手册",
+      "eyebrow": "source-available 综合手册",
       "title": "Hundredth Sign 完整手册",
       "description": "面向管理员、员工、外部签署人、内部审批人、运维、开发者、外部集成负责人和 AI/CI 操作者的公开手册，覆盖产品边界、日常流程、审计、API、CLI、DB 与 FAQ。",
       "tocLabel": "章节",
       "ossNotice": {
-        "title": "OSS 版前提",
-        "body": "本手册覆盖 OSS 单工作区版本。不包含商业 SaaS 计费、租户切换或外部客户账号管理。"
+        "title": "source-available 版前提",
+        "body": "本手册覆盖 source-available 单工作区版本。不包含商业 SaaS 计费、租户切换或外部客户账号管理。"
       },
       "search": {
         "label": "搜索手册",
@@ -1420,14 +1426,14 @@
       },
       "chapters": {
         "intro": {
-          "title": "开始与 OSS 产品边界",
-          "summary": "说明 OSS 版包含的范围、商业 SaaS 不包含的功能，以及公开页面和登录后页面的边界。",
+          "title": "开始与 source-available 产品边界",
+          "summary": "说明 source-available 版包含的范围、商业 SaaS 不包含的功能，以及公开页面和登录后页面的边界。",
           "sections": {
             "boundary": {
               "title": "说明：Product scope",
               "body": [
-                "说明：Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
-                "说明：The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "说明：Hundredth Sign is a source-available electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "说明：The source-available edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
                 "说明：Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
               ],
               "bullets": [
@@ -1550,11 +1556,11 @@
                   "detail": "说明：Required. MySQL connection string used by Drizzle migrations and the application server."
                 },
                 "sessionSecret": {
-                  "label": "说明：SESSION_SECRET",
+                  "label": "说明：JWT_SECRET",
                   "detail": "说明：Required in real deployments. Used to protect staff authentication sessions."
                 },
                 "appUrl": {
-                  "label": "说明：APP_URL / PUBLIC_APP_URL",
+                  "label": "说明：APP_URL / VITE_APP_URL",
                   "detail": "说明：Required for links in email, signing URLs, approval URLs, and API/CLI output."
                 },
                 "smtp": {
@@ -1566,18 +1572,18 @@
                   "detail": "说明：Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
                 },
                 "openai": {
-                  "label": "说明：OPENAI_API_KEY",
-                  "detail": "说明：Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                  "label": "说明：STORAGE_PROXY_API_KEY",
+                  "detail": "说明：Optional. Required only when using an external storage or proxy service. Do not reuse keys from unrelated projects."
                 }
               },
               "code": {
                 "env": {
                   "title": "说明：Example .env names",
-                  "code": "说明：DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                  "code": "说明：DATABASE_URL=mysql://user:password@host:3306/sign\nJWT_SECRET=replace-with-at-least-32-random-characters\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nSTORAGE_PROXY_API_KEY=optional-storage-proxy-key"
                 }
               },
               "callouts": [
-                "说明：Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+                "说明：Never paste real DATABASE_URL, SMTP_PASS, JWT_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
               ]
             },
             "startup": {
@@ -2124,7 +2130,7 @@
               "code": {
                 "curl": {
                   "title": "说明：Example request",
-                  "code": "说明：curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                  "code": "说明：curl -X POST \"$SIGN_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
                 }
               }
             },
@@ -2166,7 +2172,7 @@
               ],
               "rows": {
                 "baseUrl": {
-                  "label": "说明：SIGN_API_BASE_URL",
+                  "label": "说明：SIGN_BASE_URL",
                   "detail": "说明：Base URL of the target Hundredth Sign instance."
                 },
                 "apiKey": {
@@ -2174,8 +2180,8 @@
                   "detail": "说明：API key with the minimum required scopes."
                 },
                 "idempotency": {
-                  "label": "说明：SIGN_IDEMPOTENCY_PREFIX",
-                  "detail": "说明：Optional prefix to make automated retries traceable."
+                  "label": "说明：--idempotency-key",
+                  "detail": "说明：Optional request key for retry-safe mutating commands."
                 },
                 "output": {
                   "label": "说明：--json",
@@ -2185,7 +2191,7 @@
               "code": {
                 "env": {
                   "title": "说明：CLI environment",
-                  "code": "说明：SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                  "code": "说明：SIGN_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_OUTPUT=json"
                 }
               }
             },
@@ -2197,7 +2203,7 @@
               "code": {
                 "examples": {
                   "title": "说明：Representative commands",
-                  "code": "说明：node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                  "code": "说明：node scripts/signctl.mjs documents create --title \"Contract\" --json\nnode scripts/signctl.mjs documents upload-pdf 42 --file ./contract.pdf --json\nnode scripts/signctl.mjs documents send 42 --signer \"Taro Yamada <taro@example.com>\" --cc \"Archive <archive@example.com>\" --locale ja --expiration-days 30 --reminder-days 3 --idempotency-key send-42-v1 --json\nnode scripts/signctl.mjs documents status 42 --json\nnode scripts/signctl.mjs webhooks test 3 --json"
                 }
               },
               "callouts": [
@@ -2449,23 +2455,23 @@
       }
     },
     "terms": {
-      "eyebrow": "OSS条款",
-      "title": "OSS版使用条款",
-      "description": "自托管OSS版的运维指引。请对照贵司法务、安全和运维要求进行审查。",
+      "eyebrow": "source-available 条款",
+      "title": "source-available 版本使用条款",
+      "description": "自托管 Hundredth Sign 的运维指引。请对照贵司法务、安全和运维要求进行审查。",
       "sections": {
         "scope": {
           "title": "指南：Scope and relationship to the license",
           "body": {
-            "0": "指南：These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
-            "1": "指南：If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "0": "指南：这些条款说明自托管 source-available 版本的建议运维条件，并不替代仓库许可、第三方许可或单独签署的定制/支持协议。",
+            "1": "指南：如果这些说明与实际许可文件冲突，软件使用权以许可文件为准。",
             "2": "指南：Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
           }
         },
         "license": {
-          "title": "指南：OSS usage and redistribution",
+          "title": "指南：source-available 使用与再分发",
           "body": {
-            "0": "指南：The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
-            "1": "指南：The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "0": "指南：本软件包是 source-available + PolyForm Noncommercial。源代码已公开，但本软件不是开源软件。",
+            "1": "指南：仅允许根据 PolyForm Noncommercial License 1.0.0 进行非商业使用。商业使用需要单独的许可协议。",
             "2": "指南：Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
           }
         },
@@ -2475,13 +2481,13 @@
             "0": "运营组织负责账号、访问控制、数据库、存储、邮件发送、备份、监控和事件响应。",
             "1": "使用真实合同前，请验证恢复流程、邮件到达、域名设置、存储留存和用户权限。",
             "2": "管理员账号应限制在确实需要文档访问的人员范围内。",
-            "3": "指南：The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+            "3": "指南：The source-available edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
           }
         },
         "accounts": {
           "title": "指南：Accounts, roles, and access",
           "body": {
-            "0": "指南：The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "0": "指南：The visible staff roles in the source-available edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
             "1": "指南：External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
             "2": "指南：Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
           }
@@ -2523,9 +2529,9 @@
         "noSupport": {
           "title": "不包含一般支持",
           "body": {
-            "0": "OSS版不包含普通产品支持、运维支持、个别调试或服务级别承诺。",
+            "0": "source-available版不包含普通产品支持、运维支持、个别调试或服务级别承诺。",
             "1": "问题可由运营方内部调查，也可作为单独的付费定制或导入支持咨询。",
-            "2": "不应期待公开OSS发行版诊断贵司基础设施、邮件系统、法律流程或数据库状态。"
+            "2": "不应期待公开source-available发行版诊断贵司基础设施、邮件系统、法律流程或数据库状态。"
           }
         },
         "customization": {
@@ -2539,7 +2545,7 @@
         "changes": {
           "title": "指南：Changes and precedence",
           "body": {
-            "0": "指南：This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "0": "指南：This manual may be updated as the source-available codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
             "1": "指南：A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
             "2": "指南：The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
           }
@@ -2548,15 +2554,15 @@
     },
     "disclaimer": {
       "eyebrow": "免责声明",
-      "title": "OSS版免责声明",
-      "description": "在生产运维或业务专属定制 Hundredth Sign OSS 前请阅读。",
+      "title": "source-available版免责声明",
+      "description": "在生产运维或业务专属定制 Hundredth Sign source-available 前请阅读。",
       "sections": {
         "warranty": {
           "title": "无担保提供",
           "body": {
-            "0": "OSS版按现状提供，不担保可用性、特定目的适用性、法律效力、安全性或不间断运行。",
+            "0": "source-available版按现状提供，不担保可用性、特定目的适用性、法律效力、安全性或不间断运行。",
             "1": "运营方必须评估系统是否满足技术、运维和法律要求。",
-            "2": "公开OSS发行版可能变化、存在缺陷，或在生产使用前需要额外审查。",
+            "2": "公开source-available发行版可能变化、存在缺陷，或在生产使用前需要额外审查。",
             "3": "指南：The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
           }
         },
@@ -2592,7 +2598,7 @@
           "body": {
             "0": "个人数据、已签署文档、凭证、数据库备份、存储和邮件设置的保护由运营方负责。",
             "1": "生产使用前，请测试备份恢复、审计留存、访问限制和事件响应。",
-            "2": "由运维或定制导致的丢失、泄露、损坏或误投递不属于一般OSS支持范围。",
+            "2": "由运维或定制导致的丢失、泄露、损坏或误投递不属于一般source-available支持范围。",
             "3": "指南：Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
           }
         },
@@ -2607,7 +2613,7 @@
         "ai": {
           "title": "AI辅助代码库",
           "body": {
-            "0": "本OSS版包含AI辅助编写的代码。",
+            "0": "本source-available版包含AI辅助编写的代码。",
             "1": "AI辅助开发可以降低定制成本，但不意味着无需审查、测试、安全评估或运维验证。",
             "2": "认证、签署、审计日志、存储和合规相关修改需要格外谨慎。"
           }
@@ -2616,14 +2622,14 @@
           "title": "定制另行处理",
           "body": {
             "0": "AI辅助开发使贴合各公司业务的后台系统比以往更容易以现实成本构建。",
-            "1": "付费定制可将OSS版适配到文档、审批、语言、外部集成和内部运营。",
+            "1": "付费定制可将source-available版适配到文档、审批、语言、外部集成和内部运营。",
             "2": "定制工作应单独确定范围，并包含运营组织的验收测试。"
           }
         },
         "references": {
           "title": "指南：Reference information used when drafting this notice",
           "body": {
-            "0": "指南：This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "0": "指南：This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and source-available no-warranty language.",
             "1": "指南：Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
             "2": "指南：This page is a practical risk notice, not a substitute for the official legal text or professional advice."
           }
@@ -2633,10 +2639,10 @@
   },
   "ossContact": {
     "eyebrow": "定制咨询",
-    "title": "为贵司业务定制 Hundredth Sign OSS",
-    "description": "OSS版可免费使用。需要贴合自身运营的组织可以咨询付费定制。",
+    "title": "为贵司业务定制 Hundredth Sign source-available",
+    "description": "source-available版可免费使用。需要贴合自身运营的组织可以咨询付费定制。",
     "body": {
-      "0": "Hundredth Sign OSS 不包含普通OSS使用的一般支持。",
+      "0": "Hundredth Sign source-available 不包含普通source-available使用的一般支持。",
       "1": "如果希望系统适配贵司合同、审批路径、内部控制、多语言运营、外部集成或后台工作流，可以咨询付费实施支持。",
       "2": "随着AI辅助编码普及，比通用SaaS流程更贴合各公司业务的系统会更加可行。",
       "3": "请简要说明希望改善的流程、当前痛点、用户、文档类型和期望时间。"

@@ -192,7 +192,7 @@ async function main() {
           "signctl documents create --title <title> [--external-system crm --external-entity-type deal --external-entity-id 123] --json",
           "signctl documents upload-pdf <document-id> --file ./contract.pdf --json",
           "signctl documents apply-template <document-id> --template-id 1 --json",
-          "signctl documents send <document-id> --signer 'Name <email@example.com>' --json",
+          "signctl documents send <document-id> --signer 'Name <email@example.com>' [--cc 'CC <cc@example.com>'] [--locale ja] [--expiration-days 30] --json",
           "signctl documents status <document-id> --json",
           "signctl documents by-external --system crm --entity-type deal --entity-id 123 --json",
           "signctl documents void <document-id> --confirm [--reason 'duplicate'] --json",
@@ -281,13 +281,28 @@ async function main() {
 
   if (group === "documents" && command === "send") {
     const documentId = rest[0];
-    const signerValues = Array.isArray(opts.signer)
-      ? opts.signer
-      : [opts.signer].filter(Boolean);
-    const signers = signerValues.map(parseSigner);
+    const signerValues = optionValues(opts.signer);
+    const ccValues = optionValues(opts.cc);
+    if (signerValues.length === 0) {
+      fail("SIGNER_REQUIRED", "documents send requires at least one --signer", opts);
+    }
+    const signers = [
+      ...signerValues.map((value, index) =>
+        parseRecipient(value, "signer", index, opts)
+      ),
+      ...ccValues.map((value, index) =>
+        parseRecipient(value, "cc", signerValues.length + index, opts)
+      ),
+    ];
     const body = {
       signers,
       sequentialRouting: Boolean(opts.sequentialRouting),
+      ...(opts.expirationDays
+        ? { expirationDays: Number(opts.expirationDays) }
+        : {}),
+      ...(opts.reminderDays
+        ? { reminderDays: Number(opts.reminderDays) }
+        : {}),
     };
     if (opts.dryRun)
       return output(
@@ -524,16 +539,37 @@ async function main() {
 }
 
 function parseSigner(value) {
+  return parseRecipient(value, "signer", 0, {});
+}
+
+function optionValues(value) {
+  if (value === undefined || value === true || value === false) return [];
+  return Array.isArray(value) ? value.map(String) : [String(value)];
+}
+
+function optionAt(opts, key, index, fallback) {
+  const values = optionValues(opts[key]);
+  if (values.length === 0) return fallback;
+  if (values.length === 1) return values[0];
+  return values[index] ?? fallback;
+}
+
+function parseRecipient(value, role, index, opts) {
   const match = String(value).match(/^\s*(.*?)\s*<([^>]+)>\s*$/);
-  if (match)
+  if (match) {
+    const accessCode = optionAt(opts, "accessCode", index);
+    const message = optionAt(opts, "message", index);
     return {
       name: match[1],
       email: match[2],
-      role: "signer",
-      order: 1,
-      locale: "ja",
+      role,
+      order: Number(optionAt(opts, "order", index, 1)),
+      locale: optionAt(opts, "locale", index, "ja"),
+      ...(accessCode ? { accessCode } : {}),
+      ...(message ? { message } : {}),
     };
-  throw new Error("Signer must be formatted as 'Name <email@example.com>'");
+  }
+  throw new Error("Recipient must be formatted as 'Name <email@example.com>'");
 }
 
 main().catch(error => {

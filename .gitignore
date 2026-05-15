@@ -9,12 +9,23 @@ build/
 
 # Environment variables
 .env
+.env.*
+!.env.example
+!.env.e2e.example
 .env.local
 .env.e2e
 .env.development.local
 .env.test.local
 .env.production.local
 .env.before-*
+
+# Private certificates and signing material
+*.p12
+*.pfx
+*.pem
+*.key
+*.crt
+*.csr
 
 # E2E test artifacts
 test-results/

@@ -68,6 +68,7 @@
   },
   "dashboard": {
     "title": "Dashboard",
+    "brandSubtitle": "Source-available",
     "welcome": "Welcome back",
     "recentDocuments": "Recent Documents",
     "pendingSignatures": "Pending Signatures",
@@ -235,7 +236,7 @@
       "messageFromSender": "Message from sender",
       "documentNameLabel": "Document: {{title}}",
       "senderLabel": "Sender: {{sender}}",
-      "previewPlgHeadline": "Self-hosted OSS electronic signatures.",
+      "previewPlgHeadline": "Self-hosted source-available electronic signatures.",
       "previewPlgSubtext": "Manage signing, templates, and audit logs in your own environment.",
       "previewPerMonth": "self-hosted",
       "complete": {
@@ -398,8 +399,8 @@
       "badge": "Electronic Signature Service",
       "titleLine1": "Full-featured, no compromise",
       "titleLine2": "for self-hosting",
-      "subtitle": "PDF signing, recipient email links, completion certificates, and audit logs in an OSS deployment.",
-      "monthlyLabel": "OSS",
+      "subtitle": "PDF signing, recipient email links, completion certificates, and audit logs in a source-available deployment.",
+      "monthlyLabel": "source-available",
       "taxIncluded": "(tax included)",
       "priceNote": "Self-hosted · local staff accounts · accountless recipients",
       "featureCertificate": "Automatic completion certificate",
@@ -768,7 +769,7 @@
   "landing": {
     "heroTitle": "Redefine e-signatures,",
     "heroTitleAccent": "for self-hosting.",
-    "heroSubtitle": "Self-hosted OSS electronic signatures with PDF sending, signing, templates, internal approvals, and WORM audit logs.",
+    "heroSubtitle": "Self-hosted source-available electronic signatures with PDF sending, signing, templates, internal approvals, and WORM audit logs.",
     "startFree": "Start for Free",
     "learnMore": "View Features",
     "goToDashboard": "Go to Dashboard",
@@ -800,7 +801,7 @@
     "heroUnlimited": "Staff management · No recipient accounts",
     "heroUnlimitedMain": "Unlimited members.",
     "heroUnlimitedSub": "External signers use secure email links only.",
-    "heroRevealTitle": "The practical e-signature workflow as OSS.",
+    "heroRevealTitle": "The practical e-signature workflow as source-available.",
     "heroRevealSub": "PDF signing, evidence management, staff permissions, templates, and 4-language signing screens in a single self-hosted workspace.",
     "diffTeam": "Staff management",
     "diffTeamDesc": "Admins issue staff accounts, while external signers never need an account.",
@@ -812,14 +813,14 @@
     "mockupVsEnterprise": "Deployment",
     "mockupVsBudget": "Recipients",
     "mockupNoAccount": "No account",
-    "heroStat1": "OSS",
+    "heroStat1": "source-available",
     "heroStat1Label": "Self-hosted deployment",
     "heroStat2": "4",
     "heroStat2Label": "Core languages",
     "heroStat3": "Unlimited",
     "heroStat3Label": "Team members",
     "month": "mo",
-    "pageTitle": "Hundredth Sign – Self-hosted OSS electronic signatures",
+    "pageTitle": "Hundredth Sign – Self-hosted source-available electronic signatures",
     "pageKeywords": "e-signature,electronic contract,contract management,e-signature law,electronic seal,Hundredth Sign",
     "mockupNavDocs": "Docs",
     "mockupNavContacts": "Contacts",
@@ -873,7 +874,7 @@
   },
   "features": {
     "sectionTitle": "Every feature,",
-    "sectionTitleAccent": "as self-hosted OSS.",
+    "sectionTitleAccent": "as self-hosted source-available.",
     "sectionSubtitle": "Hundredth Sign includes the document workflows needed to send, sign, approve, and audit contracts.",
     "highlightTitle": "Streamline contracts with intuitive design",
     "highlightDesc": "Upload a PDF, drag & drop signature fields, enter recipient emails, and send. No complex setup required.",
@@ -923,14 +924,14 @@
     "tamperTag": "Flattening",
     "lawTag": "Legal Compliance",
     "globalTag": "4 Languages",
-    "bottomNote": "Security, audit logs, and signed PDF evidence remain core parts of the OSS build."
+    "bottomNote": "Security, audit logs, and signed PDF evidence remain core parts of the source-available build."
   },
   "faq": {
     "title": "Frequently Asked Questions",
     "q1": "Are Hundredth Sign's electronic signatures legally valid?",
     "a1": "Hundredth Sign is designed to meet the requirements of Japan's Electronic Signature Act (witness-type) and Electronic Bookkeeping Act. All signatures include auto-generated certificates recording signer, time, and IP address. Please note that the final determination of legal validity depends on individual contract details and circumstances, so consult a legal professional if needed.",
-    "q2": "What changed in the OSS version?",
-    "a2": "The OSS version is a single-workspace, self-hosted application. Commercial hosted-service features, plans, quotas, and external OAuth login have been removed while core PDF signing, templates, staff accounts, and audit logs remain.",
+    "q2": "What changed in the source-available version?",
+    "a2": "The source-available version is a single-workspace, self-hosted application. Commercial hosted-service features, plans, quotas, and external OAuth login have been removed while core PDF signing, templates, staff accounts, and audit logs remain.",
     "q3": "Do signers need an account?",
     "a3": "No. Signers don't need to register. They simply click the link in their email to sign. Works on PC or smartphone with just a browser.",
     "q4": "Do external recipients need accounts?",
@@ -942,14 +943,14 @@
     "badge": "FAQ"
   },
   "why": {
-    "badge": "Why self-hosted OSS",
+    "badge": "Why self-hosted source-available",
     "title": "Control the contract workflow in your own environment.",
     "titleSub": "Self-hosted electronic contracts without vendor lock-in.",
-    "description": "The OSS edition is designed for teams that want electronic signatures without vendor lock-in or hosted commercial features.",
+    "description": "The source-available edition is designed for teams that want electronic signatures without vendor lock-in or hosted commercial features.",
     "aiTitle": "Self-hosted deployment",
     "aiDesc": "Run the application with your own database, storage, mail settings, and administrator accounts.",
     "noSalesTitle": "No hosted commercial layer",
-    "noSalesDesc": "Plans, quotas, payment-provider logic, and currency logic are removed from the OSS build.",
+    "noSalesDesc": "Plans, quotas, payment-provider logic, and currency logic are removed from the source-available build.",
     "noPerSeatTitle": "Accountless recipients",
     "noPerSeatDesc": "Customers receive email links and can view, sign, decline, and download documents without creating an account.",
     "passOnTitle": "Core signing remains",
@@ -958,7 +959,7 @@
   "comparison": {
     "badge": "Deployment comparison",
     "title": "Hosted service or self-hosted control.",
-    "subtitle": "Choose Hundredth Sign when you want OSS ownership of the electronic signature workflow.",
+    "subtitle": "Choose Hundredth Sign when you want source-available ownership of the electronic signature workflow.",
     "price1000": "Self-hosting",
     "colEnterprise": "Enterprise providers",
     "colBudget": "Budget competitors",
@@ -986,18 +987,19 @@
     "note": "* Comparison is based on operating model and feature coverage.",
     "priceEnterprise": "Commercial hosted service",
     "priceBudget": "Commercial hosted service",
-    "priceHundredth": "OSS deployment under your control",
+    "priceHundredth": "source-available deployment under your control",
     "featureLabel": "Feature",
     "colEnterpriseNote": "DocuSign, Adobe Sign etc.",
     "colBudgetNote": "HelloSign, PandaDoc etc."
   },
   "cta": {
     "title": "Run your own contract workflow",
-    "subtitle": "Use Hundredth Sign as a self-hosted OSS electronic signature system.",
+    "subtitle": "Use Hundredth Sign as a self-hosted source-available electronic signature system.",
     "viewPricing": "View Features"
   },
   "footer": {
-    "tagline": "Self-hosted OSS infrastructure for electronic signatures.",
+    "tagline": "Self-hosted source-available infrastructure for electronic signatures.",
+    "licenseNotice": "source-available + PolyForm Noncommercial. Source code is published, but this software is not open source software. Noncommercial use only; commercial use requires a separate license.",
     "product": "PRODUCT",
     "security": "Security",
     "resources": "RESOURCES",
@@ -1053,7 +1055,7 @@
     "signedPdfNotReady": "Signed PDF is not ready yet",
     "signedPdfHint": "Once all signers complete signing, the signed PDF will be generated automatically.",
     "plgLine1": "Full-featured, no compromise,",
-    "plgLine2": "as self-hosted OSS.",
+    "plgLine2": "as self-hosted source-available.",
     "monthlyExTax": "/ month (excl. tax)",
     "fullFeatures": "Full access to all features",
     "manageInDashboard": "Manage in Dashboard",
@@ -1292,24 +1294,28 @@
           "title": "6. Intellectual Property",
           "body": "All intellectual property rights in Hundredth Sign, including software, design, and content, remain the property of the service provider. You retain all rights to your own documents and data."
         },
+        "license": {
+          "title": "7. Source-available license",
+          "body": "Hundredth Sign is source-available + PolyForm Noncommercial. The source code is published, but this software is not open source software. Noncommercial use is permitted under the PolyForm Noncommercial License 1.0.0. Commercial use requires a separate commercial license agreement."
+        },
         "privacy": {
-          "title": "7. Privacy",
+          "title": "8. Privacy",
           "body": "Your use of Hundredth Sign is also governed by our Privacy Policy, which is incorporated into these Terms by reference."
         },
         "limitation": {
-          "title": "8. Limitation of Liability",
+          "title": "9. Limitation of Liability",
           "body": "To the maximum extent permitted by law, Hundredth Sign shall not be liable for any indirect, incidental, or consequential damages arising from your use of the service."
         },
         "termination": {
-          "title": "9. Termination",
+          "title": "10. Termination",
           "body": "We reserve the right to suspend or terminate your account if you violate these Terms. You may cancel your account at any time through the organization settings."
         },
         "governingLaw": {
-          "title": "10. Governing Law",
+          "title": "11. Governing Law",
           "body": "These Terms shall be governed by and construed in accordance with the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of the Tokyo District Court."
         },
         "changes": {
-          "title": "11. Changes to Terms",
+          "title": "12. Changes to Terms",
           "body": "We may update these Terms from time to time. We will notify you of significant changes via email or in-app notification. Continued use of the service after changes constitutes acceptance."
         }
       }
@@ -1332,7 +1338,7 @@
         },
         "thirdParty": {
           "title": "4. Third-Party Services",
-          "body": "Operators may configure trusted third-party services for document storage, email delivery, and infrastructure. The OSS distribution does not require an external identity provider by default."
+          "body": "Operators may configure trusted third-party services for document storage, email delivery, and infrastructure. The source-available distribution does not require an external identity provider by default."
         },
         "cookies": {
           "title": "5. Cookies",
@@ -1387,13 +1393,13 @@
       "dataModel": "DB Tables"
     },
     "usage": {
-      "eyebrow": "OSS Integrated Manual",
+      "eyebrow": "source-available Integrated Manual",
       "title": "Hundredth Sign Complete Manual",
       "description": "A public manual for administrators, staff, external signers, internal approvers, operators, developers, integration owners, and AI/CI operators. It covers product boundaries, daily workflows, audit, API, CLI, DB, and FAQ.",
       "tocLabel": "Chapters",
       "ossNotice": {
-        "title": "OSS edition assumptions",
-        "body": "This manual covers the OSS single-workspace edition. Commercial SaaS billing, tenant switching, and external customer account management are outside its scope."
+        "title": "source-available edition assumptions",
+        "body": "This manual covers the source-available single-workspace edition. Commercial SaaS billing, tenant switching, and external customer account management are outside its scope."
       },
       "search": {
         "label": "Search this manual",
@@ -1420,14 +1426,14 @@
       },
       "chapters": {
         "intro": {
-          "title": "Introduction and OSS Product Boundary",
-          "summary": "Clarifies what the OSS edition includes, what commercial SaaS functions are excluded, and where public and authenticated pages differ.",
+          "title": "Introduction and source-available Product Boundary",
+          "summary": "Clarifies what the source-available edition includes, what commercial SaaS functions are excluded, and where public and authenticated pages differ.",
           "sections": {
             "boundary": {
               "title": "Product scope",
               "body": [
-                "Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
-                "The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "Hundredth Sign is a source-available electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "The source-available edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
                 "Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
               ],
               "bullets": [
@@ -1550,11 +1556,11 @@
                   "detail": "Required. MySQL connection string used by Drizzle migrations and the application server."
                 },
                 "sessionSecret": {
-                  "label": "SESSION_SECRET",
+                  "label": "JWT_SECRET",
                   "detail": "Required in real deployments. Used to protect staff authentication sessions."
                 },
                 "appUrl": {
-                  "label": "APP_URL / PUBLIC_APP_URL",
+                  "label": "APP_URL / VITE_APP_URL",
                   "detail": "Required for links in email, signing URLs, approval URLs, and API/CLI output."
                 },
                 "smtp": {
@@ -1566,18 +1572,18 @@
                   "detail": "Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
                 },
                 "openai": {
-                  "label": "OPENAI_API_KEY",
-                  "detail": "Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                  "label": "STORAGE_PROXY_API_KEY",
+                  "detail": "Optional. Required only when using an external storage or proxy service. Do not reuse keys from unrelated projects."
                 }
               },
               "code": {
                 "env": {
                   "title": "Example .env names",
-                  "code": "DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                  "code": "DATABASE_URL=mysql://user:password@host:3306/sign\nJWT_SECRET=replace-with-at-least-32-random-characters\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nSTORAGE_PROXY_API_KEY=optional-storage-proxy-key"
                 }
               },
               "callouts": [
-                "Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+                "Never paste real DATABASE_URL, SMTP_PASS, JWT_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
               ]
             },
             "startup": {
@@ -2124,7 +2130,7 @@
               "code": {
                 "curl": {
                   "title": "Example request",
-                  "code": "curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                  "code": "curl -X POST \"$SIGN_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
                 }
               }
             },
@@ -2166,7 +2172,7 @@
               ],
               "rows": {
                 "baseUrl": {
-                  "label": "SIGN_API_BASE_URL",
+                  "label": "SIGN_BASE_URL",
                   "detail": "Base URL of the target Hundredth Sign instance."
                 },
                 "apiKey": {
@@ -2174,8 +2180,8 @@
                   "detail": "API key with the minimum required scopes."
                 },
                 "idempotency": {
-                  "label": "SIGN_IDEMPOTENCY_PREFIX",
-                  "detail": "Optional prefix to make automated retries traceable."
+                  "label": "--idempotency-key",
+                  "detail": "Optional request key for retry-safe mutating commands."
                 },
                 "output": {
                   "label": "--json",
@@ -2185,7 +2191,7 @@
               "code": {
                 "env": {
                   "title": "CLI environment",
-                  "code": "SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                  "code": "SIGN_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_OUTPUT=json"
                 }
               }
             },
@@ -2197,7 +2203,7 @@
               "code": {
                 "examples": {
                   "title": "Representative commands",
-                  "code": "node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                  "code": "node scripts/signctl.mjs documents create --title \"Contract\" --json\nnode scripts/signctl.mjs documents upload-pdf 42 --file ./contract.pdf --json\nnode scripts/signctl.mjs documents send 42 --signer \"Taro Yamada <taro@example.com>\" --cc \"Archive <archive@example.com>\" --locale ja --expiration-days 30 --reminder-days 3 --idempotency-key send-42-v1 --json\nnode scripts/signctl.mjs documents status 42 --json\nnode scripts/signctl.mjs webhooks test 3 --json"
                 }
               },
               "callouts": [
@@ -2449,23 +2455,23 @@
       }
     },
     "terms": {
-      "eyebrow": "OSS terms",
-      "title": "Terms for using the OSS edition",
-      "description": "Operational terms for self-hosting Hundredth Sign OSS. Review these terms together with the repository license and your own legal, security, and compliance requirements.",
+      "eyebrow": "Source-available terms",
+      "title": "Terms for using the source-available edition",
+      "description": "Operational terms for self-hosting Hundredth Sign. Review these terms together with the repository license and your own legal, security, and compliance requirements.",
       "sections": {
         "scope": {
           "title": "Scope and relationship to the license",
           "body": {
-            "0": "These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
-            "1": "If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "0": "These terms explain recommended operating conditions for the self-hosted source-available edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
+            "1": "If there is a conflict between these explanatory terms and the actual license file, the license file controls software usage rights.",
             "2": "Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
           }
         },
         "license": {
-          "title": "OSS usage and redistribution",
+          "title": "Source-available usage and redistribution",
           "body": {
-            "0": "The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
-            "1": "The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "0": "The package is source-available + PolyForm Noncommercial. The source code is published, but this software is not open source software.",
+            "1": "Noncommercial use is permitted under the PolyForm Noncommercial License 1.0.0. Commercial use requires a separate commercial license agreement.",
             "2": "Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
           }
         },
@@ -2475,13 +2481,13 @@
             "0": "The operating organization is responsible for accounts, staff authority, API keys, webhook secrets, database, storage, email delivery, backups, monitoring, vulnerability handling, and incident response.",
             "1": "Before real contracts are handled, verify domain settings, APP_URL, mail delivery, restore procedures, storage retention, PDF download behavior, access restrictions, audit-log integrity checks, and staff offboarding.",
             "2": "Production operation should define who can create administrators, issue API keys, revoke keys, inspect audit logs, restore backups, and approve emergency changes.",
-            "3": "The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+            "3": "The source-available edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
           }
         },
         "accounts": {
           "title": "Accounts, roles, and access",
           "body": {
-            "0": "The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "0": "The visible staff roles in the source-available edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
             "1": "External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
             "2": "Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
           }
@@ -2523,9 +2529,9 @@
         "noSupport": {
           "title": "General support is not included",
           "body": {
-            "0": "The OSS edition does not include ordinary product support, operational support, custom debugging, data recovery, legal review, or service-level commitments.",
+            "0": "The source-available edition does not include ordinary product support, operational support, custom debugging, data recovery, legal review, or service-level commitments.",
             "1": "Questions may be handled internally by the operator or separately scoped as paid customization, implementation, review, or support work.",
-            "2": "The public OSS distribution is not responsible for diagnosing your infrastructure, mail system, legal process, security posture, database state, or production incident."
+            "2": "The public source-available distribution is not responsible for diagnosing your infrastructure, mail system, legal process, security posture, database state, or production incident."
           }
         },
         "customization": {
@@ -2539,7 +2545,7 @@
         "changes": {
           "title": "Changes and precedence",
           "body": {
-            "0": "This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "0": "This manual may be updated as the source-available codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
             "1": "A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
             "2": "The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
           }
@@ -2548,15 +2554,15 @@
     },
     "disclaimer": {
       "eyebrow": "Disclaimer",
-      "title": "OSS edition disclaimer",
-      "description": "Read this before production operation, external integrations, or business-specific customization of Hundredth Sign OSS.",
+      "title": "source-available edition disclaimer",
+      "description": "Read this before production operation, external integrations, or business-specific customization of Hundredth Sign source-available.",
       "sections": {
         "warranty": {
           "title": "Provided as is",
           "body": {
-            "0": "The OSS edition and this manual are provided as is. Availability, correctness, fitness for a particular purpose, non-infringement, legal effect, security, data preservation, and uninterrupted operation are not warranted.",
+            "0": "The source-available edition and this manual are provided as is. Availability, correctness, fitness for a particular purpose, non-infringement, legal effect, security, data preservation, and uninterrupted operation are not warranted.",
             "1": "The operator accepts the risk of evaluating, configuring, testing, deploying, monitoring, and maintaining the system.",
-            "2": "Public OSS code can contain defects, insecure configuration choices, migration requirements, outdated documentation, or behavior that is unsuitable for a specific business.",
+            "2": "Public source-available code can contain defects, insecure configuration choices, migration requirements, outdated documentation, or behavior that is unsuitable for a specific business.",
             "3": "The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
           }
         },
@@ -2591,7 +2597,7 @@
           "title": "Data and privacy risk",
           "body": {
             "0": "Signed documents, signatures, stamps, names, emails, access tokens, logs, and webhook payloads can contain personal or confidential information.",
-            "1": "The OSS distribution does not automatically provide a privacy policy, data-processing agreement, breach-notification process, deletion workflow, or data-subject request process for your organization.",
+            "1": "The source-available distribution does not automatically provide a privacy policy, data-processing agreement, breach-notification process, deletion workflow, or data-subject request process for your organization.",
             "2": "Data loss, leakage, corruption, misdelivery, mistaken access, or unsupported customization can cause business and legal harm.",
             "3": "Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
           }
@@ -2607,7 +2613,7 @@
         "ai": {
           "title": "AI-assisted codebase and automation",
           "body": {
-            "0": "Parts of this OSS edition may be written or modified with AI assistance.",
+            "0": "Parts of this source-available edition may be written or modified with AI assistance.",
             "1": "AI-assisted development and AI-operated CLI workflows can reduce effort, but they do not remove the need for code review, tests, security assessment, migration review, or operational acceptance.",
             "2": "Changes to authentication, signing, approval, audit logs, storage, webhook delivery, and compliance behavior require extra care."
           }
@@ -2615,7 +2621,7 @@
         "customization": {
           "title": "Customization handled separately",
           "body": {
-            "0": "Paid customization can adapt the OSS edition to documents, approval, language, integrations, and internal operations.",
+            "0": "Paid customization can adapt the source-available edition to documents, approval, language, integrations, and internal operations.",
             "1": "Customization work is scoped separately and should include requirements, security review, migration handling, acceptance tests, and rollback or recovery planning.",
             "2": "The operator remains responsible for deciding whether the customized result is acceptable for production use."
           }
@@ -2623,7 +2629,7 @@
         "references": {
           "title": "Reference information used when drafting this notice",
           "body": {
-            "0": "This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "0": "This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and source-available no-warranty language.",
             "1": "Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
             "2": "This page is a practical risk notice, not a substitute for the official legal text or professional advice."
           }
@@ -2633,10 +2639,10 @@
   },
   "ossContact": {
     "eyebrow": "Customization inquiry",
-    "title": "Customize Hundredth Sign OSS for your business",
-    "description": "The OSS edition is free to use, and paid customization is available for organizations that need it to match their operations.",
+    "title": "Customize Hundredth Sign source-available for your business",
+    "description": "The source-available edition is available for noncommercial use under PolyForm Noncommercial, and paid customization is available for organizations that need it to match their operations.",
     "body": {
-      "0": "Hundredth Sign OSS does not include general support for ordinary OSS use.",
+      "0": "Hundredth Sign source-available does not include general support for ordinary source-available use.",
       "1": "If you want the system adapted to your contracts, approval routes, internal controls, multilingual operation, integrations, or back-office workflow, you can request paid implementation support.",
       "2": "As AI-assisted coding becomes common, systems strongly fitted to each business will become more practical than generic SaaS workflows.",
       "3": "Please send a concise description of the workflow, current pain points, users, document types, and desired timeline."

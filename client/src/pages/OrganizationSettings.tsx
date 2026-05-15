@@ -355,7 +355,7 @@ export default function OrganizationSettings() {
                   アプリ設定
                 </CardTitle>
                 <CardDescription>
-                  OSS版では単一ワークスペースとして動作します。ここではこのインスタンスの表示名だけを管理します。
+                  source-available 版では単一ワークスペースとして動作します。ここではこのインスタンスの表示名だけを管理します。
                 </CardDescription>
               </CardHeader>
               <CardContent>

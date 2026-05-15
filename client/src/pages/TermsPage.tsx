@@ -11,6 +11,7 @@ export default function TermsPage() {
     "userObligations",
     "prohibited",
     "intellectualProperty",
+    "license",
     "privacy",
     "limitation",
     "termination",

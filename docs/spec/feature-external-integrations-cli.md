@@ -182,7 +182,7 @@ Available commands:
 pnpm signctl -- documents create --title "NDA" --external-system crm --external-entity-type deal --external-entity-id 123 --json
 pnpm signctl -- documents upload-pdf 42 --file ./nda.pdf --json
 pnpm signctl -- documents apply-template 42 --template-id 7 --json
-pnpm signctl -- documents send 42 --signer "Taro Yamada <taro@example.com>" --idempotency-key send-42-v1 --json
+pnpm signctl -- documents send 42 --signer "Taro Yamada <taro@example.com>" --cc "Archive <archive@example.com>" --locale ja --expiration-days 30 --reminder-days 3 --idempotency-key send-42-v1 --json
 pnpm signctl -- documents status 42 --json
 pnpm signctl -- documents by-external --system crm --entity-type deal --entity-id 123 --json
 pnpm signctl -- documents wait 42 --status completed --timeout 900 --json

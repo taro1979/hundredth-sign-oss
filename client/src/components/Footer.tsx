@@ -17,6 +17,9 @@ export default function Footer() {
             <p className="mt-4 text-sm text-gray-400 leading-relaxed max-w-sm [text-wrap:pretty]">
               {t("footer.tagline")}
             </p>
+            <p className="mt-3 text-xs leading-relaxed text-gray-500 max-w-sm [text-wrap:pretty]">
+              {t("footer.licenseNotice")}
+            </p>
           </div>
 
           {/* Product */}

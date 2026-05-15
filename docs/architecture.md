@@ -1,12 +1,13 @@
 # Architecture
 
-Hundredth Sign is now an OSS, self-hosted electronic contract system for a single workspace.
+Hundredth Sign is now a source-available, noncommercial, self-hosted electronic
+contract system for a single workspace.
 
 ## Product Shape
 
 - Internal staff sign in with database-managed email and password.
 - The first administrator is created from `/setup`.
-- Administrators can create and manage staff accounts. The OSS UI exposes only
+- Administrators can create and manage staff accounts. The source-available UI exposes only
   two staff roles: administrator and member.
 - External recipients never need accounts. They receive email links and use signed tokens to view, sign, decline, and download documents.
 - Commercial hosted-service features, tenant switching, external customer accounts, workspace import, and arbitrary mailbox sending are removed.
@@ -23,7 +24,7 @@ client/     React + Vite frontend
 server/     Express + tRPC backend
 shared/     Shared validation, locales, and utility types
 drizzle/    MySQL schema
-docs/       OSS self-hosting and domain documentation
+docs/       Source-available self-hosting and domain documentation
 ```
 
 ## Core Flows
@@ -85,7 +86,7 @@ docs/       OSS self-hosting and domain documentation
 - `orgManagerProcedure`: internal membership manager/owner boundary used by
   shared organization-scoped admin operations.
 - `orgOwnerProcedure`: legacy name for administrator-only workspace settings;
-  the OSS product does not expose an owner role in the staff UI.
+  the source-available product does not expose an owner role in the staff UI.
 - `superAdminProcedure`: system-level maintenance.
 - `/api/integrations/*`: API-key authenticated REST endpoints for third-party systems and `signctl`.
 - `organization.*IntegrationApiKey`: administrator-only tRPC procedures for
@@ -102,8 +103,8 @@ docs/       OSS self-hosting and domain documentation
 ## Required Environment
 
 - `DATABASE_URL`
-- `JWT_SECRET`
-- `APP_URL`
+- `JWT_SECRET` with at least 32 random characters
+- `APP_URL` as a valid HTTP(S) URL
 
 Optional:
 
