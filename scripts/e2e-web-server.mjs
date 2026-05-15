@@ -5,7 +5,7 @@ import { config } from "dotenv";
 
 config({ path: ".env.e2e" });
 
-const port = process.env.PORT ?? "3001";
+const port = process.env.PORT ?? "4818";
 const baseURL = process.env.BASE_URL ?? `http://localhost:${port}`;
 
 await run("tsx", ["server/_core/index.ts"], {

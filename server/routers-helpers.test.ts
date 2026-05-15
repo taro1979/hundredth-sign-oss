@@ -11,7 +11,7 @@ describe("getAppUrlOrThrow", () => {
   it("uses localhost request origin in development even when APP_URL is configured", () => {
     const originalAppUrl = ENV.appUrl;
     const originalIsProduction = ENV.isProduction;
-    (ENV as any).appUrl = "http://localhost:3000";
+    (ENV as any).appUrl = "http://localhost:4817";
     (ENV as any).isProduction = false;
 
     try {

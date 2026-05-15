@@ -6,7 +6,7 @@ import { createConnection } from "mysql2/promise.js";
 
 const API_KEY_PREFIX = "hsign_sk_";
 const DEFAULT_OUTPUT = process.env.SIGN_OUTPUT || "text";
-const DEFAULT_BASE_URL = process.env.SIGN_BASE_URL || "http://localhost:3000";
+const DEFAULT_BASE_URL = process.env.SIGN_BASE_URL || "http://localhost:4817";
 const DEFAULT_API_KEY = process.env.SIGN_API_KEY || "";
 const DEFAULT_EXPIRES_IN_DAYS = 90;
 const MAX_EXPIRES_IN_DAYS = 365;

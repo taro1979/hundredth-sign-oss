@@ -10,7 +10,7 @@ type StorageConfig = { baseUrl: string; apiKey: string };
 
 /** Local uploads directory for dev/test when forge credentials are absent */
 const LOCAL_UPLOADS_DIR = join(process.cwd(), "tmp", "local-uploads");
-const DEFAULT_LOCAL_PORT = "3000";
+const DEFAULT_LOCAL_PORT = "4817";
 
 /**
  * Returns true when BOTH forge credentials are absent — use local filesystem fallback.

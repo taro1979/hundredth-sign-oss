@@ -38,7 +38,7 @@ function readAppUrl(): string {
   const raw =
     process.env.APP_URL ||
     process.env.VITE_APP_URL ||
-    (process.env.NODE_ENV === "production" ? "" : "http://localhost:3000");
+    (process.env.NODE_ENV === "production" ? "" : "http://localhost:4817");
 
   if (!raw && process.env.NODE_ENV === "production") {
     requireEnv("APP_URL", 8);

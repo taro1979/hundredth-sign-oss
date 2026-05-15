@@ -174,7 +174,7 @@ describe("env-startup-error-message: requireEnv error messages", () => {
     await expect(import("./env")).rejects.toThrow("APP_URL");
   });
 
-  it("H-21: development ENV uses http://localhost:3000 fallback when APP_URL unset", async () => {
+  it("H-21: development ENV uses http://localhost:4817 fallback when APP_URL unset", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "development");
     vi.stubEnv("JWT_SECRET", "a".repeat(32));
@@ -182,7 +182,7 @@ describe("env-startup-error-message: requireEnv error messages", () => {
     vi.stubEnv("APP_URL", "");
     vi.stubEnv("VITE_APP_URL", "");
     const { ENV } = await import("./env");
-    expect(ENV.appUrl).toBe("http://localhost:3000");
+    expect(ENV.appUrl).toBe("http://localhost:4817");
   });
 });
 
@@ -202,7 +202,7 @@ describe("APP_URL startup validation", () => {
     vi.stubEnv("APP_URL", "");
     vi.stubEnv("VITE_APP_URL", "");
     const { ENV } = await import("./env");
-    expect(ENV.appUrl).toBe("http://localhost:3000");
+    expect(ENV.appUrl).toBe("http://localhost:4817");
     expect(warnSpy).not.toHaveBeenCalledWith(
       expect.stringContaining("[STARTUP] APP_URL is not set")
     );

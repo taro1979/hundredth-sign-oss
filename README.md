@@ -45,7 +45,7 @@ shell-specific syntax where practical.
 docker compose up --build
 ```
 
-Then open `http://localhost:3000/setup` and create the first administrator. The
+Then open `http://localhost:4817/setup` and create the first administrator. The
 Compose stack starts the production app and MySQL, waits for the database,
 applies committed SQL migrations, and keeps MySQL plus local PDF uploads in
 Docker volumes.
@@ -64,7 +64,7 @@ pnpm db:push
 pnpm dev
 ```
 
-Then open `http://localhost:3000/setup` and create the first administrator.
+Then open `http://localhost:4817/setup` and create the first administrator.
 
 On macOS, use the same commands with `cp .env.example .env` instead of
 `Copy-Item`.
@@ -87,6 +87,43 @@ E2E tests require Docker:
 pnpm test:e2e:setup
 pnpm test:e2e
 pnpm test:e2e:teardown
+```
+
+## Directory Structure
+
+```text
+.
+├── client/                  # React + Vite frontend
+│   ├── public/              # Static assets and i18n locale JSON
+│   └── src/
+│       ├── _core/           # Core hooks, contexts, and shared providers
+│       ├── components/      # Reusable UI components
+│       ├── contexts/        # React context providers
+│       ├── hooks/           # Custom React hooks
+│       ├── lib/             # Frontend utilities (tRPC client, helpers)
+│       └── pages/           # Route-level page components
+├── server/                  # Express + tRPC backend (Node.js)
+│   ├── _core/               # Bootstrap, env, middleware, rate-limit, vite
+│   ├── routers/             # tRPC routers grouped by feature
+│   ├── fonts/               # Embedded fonts used for PDF signing
+│   └── *.ts                 # Domain modules (PDF, email, storage, audit, ...)
+├── shared/                  # Code shared between client and server
+│   └── _core/               # Shared type definitions and constants
+├── e2e/                     # Playwright end-to-end tests
+├── drizzle/                 # Drizzle ORM migrations and metadata
+├── docs/                    # Setup, operations, architecture, specs
+│   └── spec/                # Product and feature specifications
+├── scripts/                 # Node-based dev/deploy/CLI scripts (signctl, etc.)
+├── patches/                 # pnpm patch-package overrides
+├── Dockerfile               # Production container image
+├── docker-compose.yml       # Local production-mode Compose stack
+├── docker-compose.e2e.yml   # MySQL + Mailpit for E2E tests
+├── playwright.config.ts     # Playwright runner configuration
+├── vite.config.ts           # Vite frontend bundler configuration
+├── vitest.config.ts         # Vitest unit/integration test configuration
+├── tsconfig.json            # TypeScript configuration
+├── package.json             # Project manifest (required by pnpm/npm/yarn)
+└── pnpm-lock.yaml           # pnpm dependency lockfile
 ```
 
 ## Documentation

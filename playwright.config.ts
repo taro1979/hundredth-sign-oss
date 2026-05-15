@@ -1,7 +1,7 @@
 import { defineConfig } from "@playwright/test";
 
 const shouldReuseExistingServer = process.env.PW_REUSE_SERVER === "1";
-const baseURL = process.env.BASE_URL ?? "http://localhost:3001";
+const baseURL = process.env.BASE_URL ?? "http://localhost:4818";
 const parsedBaseURL = new URL(baseURL);
 const serverPort = Number(
   parsedBaseURL.port || (parsedBaseURL.protocol === "https:" ? 443 : 80)

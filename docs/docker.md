@@ -12,7 +12,7 @@ docker compose up --build
 Then open:
 
 ```text
-http://localhost:3000/setup
+http://localhost:4817/setup
 ```
 
 Compose starts:
@@ -39,7 +39,7 @@ MYSQL_ROOT_PASSWORD=replace-with-a-strong-database-password
 MYSQL_DATABASE=hundredth_sign
 JWT_SECRET=replace-with-at-least-32-random-characters
 APP_URL=https://your-sign.example.com
-APP_PORT=3000
+APP_PORT=4817
 SIGN_RUN_MIGRATIONS=true
 ```
 

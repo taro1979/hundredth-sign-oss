@@ -34,7 +34,7 @@ Edit `.env` and set at least:
 ```env
 DATABASE_URL=mysql://root:password@127.0.0.1:3306/hundredth_sign
 JWT_SECRET=replace-with-at-least-32-random-characters
-APP_URL=http://localhost:3000
+APP_URL=http://localhost:4817
 ```
 
 Use a long random value for `JWT_SECRET`. Production startup requires at least
@@ -60,7 +60,7 @@ pnpm db:push
 pnpm dev
 ```
 
-Open `http://localhost:3000/setup` and create the first administrator. After
+Open `http://localhost:4817/setup` and create the first administrator. After
 setup, staff users sign in at `/login`.
 
 ## 5. Production Build
