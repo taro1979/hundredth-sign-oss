@@ -1,6 +1,5 @@
 /**
  * Tests for sdk.verifySession — name フィールドの検証ルール
- * spec: docs/spec/fix-org-auto-creation-on-fresh-db.md (AC-005, AC-006, AC-007)
  */
 import { describe, it, expect } from "vitest";
 import { ENV } from "./_core/env";

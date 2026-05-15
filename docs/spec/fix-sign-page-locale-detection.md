@@ -40,4 +40,4 @@
 ## 5. Cross-Reference
 
 - `fix-sign-url-locale-param.md`: email links must include `?lng={locale}`.
-- `feature-i18n.md`: supported UI locales are `en`, `ja`, `th`, and `zh-CN`.
+- `product-spec.md` (i18n section): supported UI locales are `en`, `ja`, `th`, and `zh-CN`.

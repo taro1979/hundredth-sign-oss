@@ -76,7 +76,7 @@
 
 | 関連仕様 | 接点 |
 |---|---|
-| `feature-signature-flow.md` | テンプレートから文書作成（ディープコピー） |
+| `product-spec.md` (Signing flow) | テンプレートから文書作成（ディープコピー） |
 | `oss-single-workspace.md` | テンプレートは organizationId に帰属 |
 | `feature-audit-worm.md` | テンプレート操作が監査ログに記録される |
 

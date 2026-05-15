@@ -76,9 +76,9 @@
 
 | 関連仕様 | 接点 |
 |---|---|
-| `feature-signature-flow.md` | 稟議完了後に署名フローが開始 |
+| `product-spec.md` (Signing flow) | 稟議完了後に署名フローが開始 |
 | `oss-single-workspace.md` | 文書は organizationId に帰属 |
-| `feature-security.md` | 認証・セッション管理 |
+| `product-spec.md` (Security & auth) | 認証・セッション管理 |
 
 ## 11. Out of Scope
 

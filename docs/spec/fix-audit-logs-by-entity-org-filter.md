@@ -124,7 +124,7 @@ return getAuditLogsByEntity(input.entityType as any, input.entityId, orgId, inpu
 ## 9. Cross-Reference
 
 - 関連仕様: `docs/spec/feature-audit-worm.md` — WORM 監査ログ全体仕様
-- 関連仕様: `docs/spec/feature-security-encryption.md` — セキュリティ全領域マップ
+- 関連仕様: `docs/spec/product-spec.md` — セキュリティ・暗号化の全体マップ
 - 実装: `server/auditLog.ts:364-382`
 - 実装: `server/routers/auditLog.ts:35-45`
 - テスト: `server/auditLog.test.ts:328-372`
@@ -135,4 +135,4 @@ return getAuditLogsByEntity(input.entityType as any, input.entityId, orgId, inpu
 
 - `activityLogs` の組織分離（別テーブル・別クエリ群、既存でフィルタ済み）
 - `getAuditLogsByOrg`, `getAuditLogsPaginated` など他の監査ログクエリ（すでに organizationId フィルタ実装済み）
-- 監査ログ PII 暗号化（`docs/spec/feature-security-encryption.md` の P2 課題として別管理）
+- 監査ログ PII 暗号化（後続フェーズで別管理）
