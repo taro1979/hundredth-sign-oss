@@ -4,7 +4,7 @@
 
 - **目的**: 日本語など CJK 文字を含む署名者名で「タイプ署名」を使用した際、生成 PDF に「X」（.notdef グリフ）が表示されるバグを修正する
 - **対象ユーザー**: 日本語名の署名者（Dancing Script / Great Vibes 等 Latin 専用フォントを選択した場合）
-- **スコープ**: `server/pdf.ts` の署名描画ロジック（`embedSignaturesIntoPdf` 内の `signature` フィールド処理）、および `docs/spec/feature-signature-flow.md` の FR-008-b/c・AC-012 の更新
+- **スコープ**: `server/pdf.ts` の署名描画ロジック（`embedSignaturesIntoPdf` 内の `signature` フィールド処理）。署名フロー全体の挙動は `docs/spec/product-spec.md` の Signing flow セクションを参照。
 
 ## 2. User Stories
 
@@ -142,15 +142,15 @@ if (sig.signatureFont) {
 - [ ] **AC-FIX-008**: 日付テキスト描画（`japaneseFont`）は全ケースで引き続き正常に表示される
 - [ ] **AC-FIX-009**: 既存テスト（`server/pdf.test.ts`）が全てパスする
 
-## 8. 関連仕様の修正
+## 8. 署名描画ロジックの変更点
 
-`feature-signature-flow.md` の以下の記述は本修正により意味が変わるため、同時に更新する:
+本修正で `embedSignaturesIntoPdf` の挙動が以下のように変わる。署名フロー全体の現行仕様は `docs/spec/product-spec.md` §8 Document Lifecycle を参照:
 
-| 箇所 | 現行記述（バグあり） | 修正後 |
+| 項目 | 修正前（バグあり） | 修正後 |
 |---|---|---|
-| FR-008-b | "PDF 生成時は signatureFont がある場合にフォント描画を優先し、フォント取得/埋め込み失敗時は signatureDataUrl（PNG）へフォールバックする" | "PDF 生成時は signatureDataUrl（PNG）が存在する場合は PNG 画像を優先して使用する。PNG が存在しない場合のみ signatureFont でフォント描画を試行し、それも失敗した場合は japaneseFont でテキスト描画する" |
-| FR-008-c | "signatureFont と signatureDataUrl の両方が存在する場合、通常時はフォント描画を採用する" | "signatureFont と signatureDataUrl の両方が存在する場合、PNG 画像を採用する（ブラウザのフォントフォールバックにより CJK/Latin 問わず正確に描画されているため）" |
-| AC-012 | "PDF 生成はフォント描画を優先し、失敗時のみ PNG にフォールバックする" | "PDF 生成は PNG 画像を優先し、PNG がない場合のみフォント描画を試行する" |
+| 描画優先順位 | PDF 生成時は signatureFont がある場合にフォント描画を優先し、フォント取得/埋め込み失敗時は signatureDataUrl（PNG）へフォールバック | PDF 生成時は signatureDataUrl（PNG）が存在する場合は PNG 画像を優先。PNG が存在しない場合のみ signatureFont でフォント描画を試行し、それも失敗した場合は japaneseFont でテキスト描画 |
+| 両方存在時の挙動 | signatureFont と signatureDataUrl の両方が存在する場合、通常時はフォント描画を採用 | signatureFont と signatureDataUrl の両方が存在する場合、PNG 画像を採用（ブラウザのフォントフォールバックにより CJK/Latin 問わず正確に描画されているため） |
+| 受け入れ基準 | PDF 生成はフォント描画を優先し、失敗時のみ PNG にフォールバック | PDF 生成は PNG 画像を優先し、PNG がない場合のみフォント描画を試行 |
 
 ## 9. Edge Cases
 
@@ -167,9 +167,9 @@ if (sig.signatureFont) {
 
 | 関連仕様 | 接点 | 調整有無 |
 |---|---|---|
-| `feature-signature-flow.md` | FR-008-b, FR-008-c, AC-012 を本修正に合わせて更新 | **要更新**（本仕様書内に記載） |
+| `product-spec.md` §8 Document Lifecycle | 署名描画優先順位を本修正に合わせる（詳細は本仕様書 §8 を参照） | **本仕様書 §8 を反映済み** |
 | `fix-post-sign-loading-hang.md` | PDF 生成フロー共通 | 変更なし |
-| `feature-encryption-at-rest.md` | PDF 生成後の暗号化保存フロー | 変更なし |
+| `product-spec.md` §13 WORM Storage | PDF 生成後の暗号化保存フロー | 変更なし |
 
 ## 11. Out of Scope
 

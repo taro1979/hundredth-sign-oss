@@ -757,14 +757,13 @@ Additional verification by change type:
 
 ## 22. Known Documentation Gaps
 
-These are documentation quality issues observed while compiling this spec:
+These are documentation quality notes observed while compiling this spec:
 
-- Some legacy docs and source comments contain mojibake. New documentation
-  should use clean UTF-8 Japanese or English.
+- New documentation should use clean UTF-8 Japanese or English.
 - `docs/spec/` contains many feature/fix specs but did not previously have a
-  single master product specification.
-- `docs/local-dev.md` should be rewritten in clean Japanese before being treated
-  as an operator-grade setup guide.
+  single master product specification — this file fills that gap.
+- Operator-grade setup guidance lives in `docs/setup.md`; day-to-day developer
+  workflow lives in `docs/local-dev.md`.
 
 ## 23. Change Control Rules
 

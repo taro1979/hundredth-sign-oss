@@ -149,9 +149,9 @@
 
 | 関連仕様 | 接点 | 調整有無 |
 |---|---|---|
-| `feature-signature-flow.md` | メッセージは `signatureRequests.message` に保存（FR-006 参照）。API は変更なし | なし |
+| `product-spec.md` §8 Document Lifecycle | メッセージは `signatureRequests.message` に保存。API は変更なし | なし |
 | `fix-email-cultural-formatting.md` | RTL対応の前提として `isRtlLanguage()` が既実装。`hundredthSignEmailLayout` 内のRTLは対応済みだが、メッセージブロックは対象外だった | メッセージブロックのみ追加対応 |
-| `feature-i18n.md` | `SupportedLanguage` 型・`isRtlLocale()` を利用 | なし |
+| `product-spec.md` §15 Email And Localization | `SupportedLanguage` 型・`isRtlLocale()` を利用 | なし |
 
 ---
 

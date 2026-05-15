@@ -121,8 +121,8 @@ ccNotification: {
 
 | 関連仕様 | 接点 | 調整有無 |
 |---|---|---|
-| `feature-i18n.md` | EmailLocale の定義・メール翻訳の仕組み | なし（拡張のみ） |
-| `feature-signature-flow.md` | メール送信フロー・lang パラメータ | なし（翻訳レイヤーのみ変更） |
+| `product-spec.md` §15 Email And Localization | EmailLocale の定義・メール翻訳の仕組み | なし（拡張のみ） |
+| `product-spec.md` §8 Document Lifecycle | メール送信フロー・lang パラメータ | なし（翻訳レイヤーのみ変更） |
 
 ## 10. Out of Scope
 

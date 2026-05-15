@@ -106,7 +106,7 @@
 
 | 関連仕様 | 接点 |
 |---|---|
-| `feature-signature-flow.md` | 署名完了時に WORM 記録 |
+| `product-spec.md` §8 Document Lifecycle | 署名完了時に WORM 記録 |
 | `oss-single-workspace.md` | 監査ログに internal workspace の organizationId を含む |
 
 ## 11. Out of Scope
