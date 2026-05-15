@@ -144,7 +144,7 @@ if (sig.signatureFont) {
 
 ## 8. 署名描画ロジックの変更点
 
-本修正で `embedSignaturesIntoPdf` の挙動が以下のように変わる。署名フロー全体の現行仕様は `docs/spec/product-spec.md` (Signing flow) を参照:
+本修正で `embedSignaturesIntoPdf` の挙動が以下のように変わる。署名フロー全体の現行仕様は `docs/spec/product-spec.md` §8 Document Lifecycle を参照:
 
 | 項目 | 修正前（バグあり） | 修正後 |
 |---|---|---|
@@ -167,9 +167,9 @@ if (sig.signatureFont) {
 
 | 関連仕様 | 接点 | 調整有無 |
 |---|---|---|
-| `product-spec.md` (Signing flow) | 署名描画優先順位を本修正に合わせる（詳細は本仕様書 §8 を参照） | **本仕様書 §8 を反映済み** |
+| `product-spec.md` §8 Document Lifecycle | 署名描画優先順位を本修正に合わせる（詳細は本仕様書 §8 を参照） | **本仕様書 §8 を反映済み** |
 | `fix-post-sign-loading-hang.md` | PDF 生成フロー共通 | 変更なし |
-| `product-spec.md` (Encryption at rest) | PDF 生成後の暗号化保存フロー | 変更なし |
+| `product-spec.md` §13 WORM Storage | PDF 生成後の暗号化保存フロー | 変更なし |
 
 ## 11. Out of Scope
 

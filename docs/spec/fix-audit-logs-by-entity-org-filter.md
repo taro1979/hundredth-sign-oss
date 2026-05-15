@@ -124,7 +124,7 @@ return getAuditLogsByEntity(input.entityType as any, input.entityId, orgId, inpu
 ## 9. Cross-Reference
 
 - 関連仕様: `docs/spec/feature-audit-worm.md` — WORM 監査ログ全体仕様
-- 関連仕様: `docs/spec/product-spec.md` — セキュリティ・暗号化の全体マップ
+- 関連仕様: `docs/spec/product-spec.md` §13 Audit, WORM, And Compliance — セキュリティ・暗号化の全体マップ
 - 実装: `server/auditLog.ts:364-382`
 - 実装: `server/routers/auditLog.ts:35-45`
 - テスト: `server/auditLog.test.ts:328-372`

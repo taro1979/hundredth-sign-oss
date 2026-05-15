@@ -145,7 +145,7 @@ Row 3 — signer のときのみ (grid-cols-1 sm:grid-cols-2):
 
 | 関連仕様 | 接点 | 調整有無 |
 |---|---|---|
-| `product-spec.md` (i18n) | Language セレクターの動作仕様 | 変更なし（アイコン・配置のみ） |
+| `product-spec.md` §15 Email And Localization | Language セレクターの動作仕様 | 変更なし（アイコン・配置のみ） |
 | `feature-support-portal-link.md` | Support リンク先 URL | 変更なし（アイコン変更のみ） |
 
 ---
