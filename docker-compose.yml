@@ -30,14 +30,14 @@ services:
         condition: service_healthy
     environment:
       NODE_ENV: production
-      PORT: 3000
+      PORT: 4817
       DATABASE_URL: mysql://root:${MYSQL_ROOT_PASSWORD:-hundredth-sign-local-password}@mysql:3306/${MYSQL_DATABASE:-hundredth_sign}
       JWT_SECRET: ${JWT_SECRET:-local-docker-secret-with-at-least-32-chars}
-      APP_URL: ${APP_URL:-http://localhost:3000}
+      APP_URL: ${APP_URL:-http://localhost:4817}
       TRUST_PROXY: ${TRUST_PROXY:-false}
       SIGN_RUN_MIGRATIONS: ${SIGN_RUN_MIGRATIONS:-true}
     ports:
-      - "${APP_PORT:-3000}:3000"
+      - "${APP_PORT:-4817}:4817"
     volumes:
       - local-uploads:/app/tmp/local-uploads
 
