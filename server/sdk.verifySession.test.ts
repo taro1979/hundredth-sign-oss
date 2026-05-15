@@ -3,13 +3,14 @@
  * spec: docs/spec/fix-org-auto-creation-on-fresh-db.md (AC-005, AC-006, AC-007)
  */
 import { describe, it, expect } from "vitest";
+import { ENV } from "./_core/env";
 import { sdk } from "./_core/sdk";
 
 describe("sdk.verifySession", () => {
   async function makeToken(fields: { openId?: string; appId?: string; name?: unknown }) {
     // signSession with partial overrides via direct JWT construction
     const { SignJWT } = await import("jose");
-    const secret = new TextEncoder().encode("test-secret-key-minimum-32-chars!!");
+    const secret = new TextEncoder().encode(ENV.cookieSecret);
     return new SignJWT(fields as Record<string, unknown>)
       .setProtectedHeader({ alg: "HS256", typ: "JWT" })
       .setExpirationTime(Math.floor(Date.now() / 1000) + 3600)
