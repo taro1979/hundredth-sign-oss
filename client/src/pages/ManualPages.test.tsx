@@ -128,7 +128,7 @@ describe("OSS manual and contact pages", () => {
     expect(keySets[3]).toEqual(keySets[0]);
   });
 
-  it("renders the OSS terms page", () => {
+  it("renders the source-available terms page", () => {
     render(<ManualTermsPage />);
 
     expect(

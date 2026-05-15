@@ -1,10 +1,10 @@
-# Feature Specification: OSS Manual And Customization Contact Pages
+# Feature Specification: Source-Available Manual And Customization Contact Pages
 
 ## Overview
 
-Hundredth Sign OSS does not expose the previous HelpTicket support portal.
-The OSS build uses public manual pages and a static paid-customization contact
-page instead.
+Hundredth Sign source-available + PolyForm Noncommercial distribution does not
+expose the previous HelpTicket support portal. The self-hosted build uses
+public manual pages and a static paid-customization contact page instead.
 
 ## Functional Requirements
 
@@ -24,7 +24,7 @@ page instead.
 
 The `/manual` page is a GitBook-style reference covering:
 
-- OSS product model, roles, workspace boundary, recipients, and WORM audit terms.
+- Source-available product model, roles, workspace boundary, recipients, and WORM audit terms.
 - Initial setup, required environment values, admin creation, and staff sign-in.
 - Dashboard, document list, document creation, recipient settings, field
   placement, and recipient signing.
@@ -58,11 +58,12 @@ Expected screenshots:
 - `audit-log.png`
 - `inbox.png`
 
-## OSS Terms And Disclaimer Coverage
+## Source-Available Terms And Disclaimer Coverage
 
 The legal pages explain:
 
-- OSS use is free under applicable repository and open-source license terms.
+- Noncommercial source-available use is permitted under PolyForm
+  Noncommercial. Commercial use requires a separate license agreement.
 - Hosting, database, storage, email, backup, monitoring, security, and incident
   response are operator responsibilities.
 - General support and individual troubleshooting are not included in the OSS

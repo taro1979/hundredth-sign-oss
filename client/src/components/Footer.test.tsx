@@ -17,5 +17,6 @@ describe("Footer OSS resource links", () => {
     expect(
       screen.getByRole("link", { name: "footer.customizationContact" })
     ).toHaveAttribute("href", "/contact");
+    expect(screen.getByText("footer.licenseNotice")).toBeInTheDocument();
   });
 });

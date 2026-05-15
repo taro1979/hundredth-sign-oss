@@ -1,0 +1,13 @@
+description: "Source-available electronic signature app for one self-hosted workspace. PolyForm Noncommercial; not open source software."
+topics:
+  - electronic-signature
+  - digital-signature
+  - self-hosted
+  - source-available
+  - polyform-noncommercial
+  - react
+  - vite
+  - express
+  - trpc
+  - drizzle
+  - mysql

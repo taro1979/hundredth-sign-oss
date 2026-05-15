@@ -10,6 +10,7 @@ type StorageConfig = { baseUrl: string; apiKey: string };
 
 /** Local uploads directory for dev/test when forge credentials are absent */
 const LOCAL_UPLOADS_DIR = join(process.cwd(), "tmp", "local-uploads");
+const DEFAULT_LOCAL_PORT = "4817";
 
 /**
  * Returns true when BOTH forge credentials are absent — use local filesystem fallback.
@@ -41,7 +42,7 @@ function localStoragePut(
   const filePath = join(LOCAL_UPLOADS_DIR, key);
   mkdirSync(dirname(filePath), { recursive: true });
   writeFileSync(filePath, typeof data === "string" ? Buffer.from(data) : data);
-  const port = process.env.PORT ?? "3001";
+  const port = process.env.PORT ?? DEFAULT_LOCAL_PORT;
   const url = `http://localhost:${port}/local-uploads/${key}`;
   return { key, url };
 }
@@ -126,7 +127,7 @@ export async function storagePut(
 export async function storageGet(relKey: string): Promise<{ key: string; url: string; }> {
   if (isLocalMode()) {
     const key = normalizeKey(relKey);
-    const port = process.env.PORT ?? "3001";
+    const port = process.env.PORT ?? DEFAULT_LOCAL_PORT;
     return { key, url: `http://localhost:${port}/local-uploads/${key}` };
   }
   const { baseUrl, apiKey } = getStorageConfig();

@@ -1,6 +1,7 @@
 # Business Model
 
-Hundredth Sign is an OSS self-hosted electronic contract application.
+Hundredth Sign is a source-available, noncommercial self-hosted electronic
+contract application.
 
 ## Roles
 
@@ -14,7 +15,7 @@ Hundredth Sign is an OSS self-hosted electronic contract application.
 
 ## Rules
 
-- The product is single-workspace for OSS self-hosting.
+- The product is single-workspace for source-available self-hosting.
 - External customers/recipients do not register, log in, or belong to a workspace.
 - Internal staff accounts are managed by administrators using email/password.
 - The product UI exposes administrator and member only. Legacy internal

@@ -7,9 +7,11 @@ This directory contains Hundredth Sign specifications.
 - `product-spec.ja.md`: Japanese master product specification for human readers.
   Read this first when you want to understand the current product in one place.
 - `product-spec.md`: English master product specification for implementation
-  reference. It covers the current OSS self-hosted build, implemented routes,
-  API boundaries, data model, operations, and verification rules.
-- `oss-single-workspace.md`: single-workspace OSS product boundary.
+  reference. It covers the current source-available self-hosted build,
+  implemented routes, API boundaries, data model, operations, and verification
+  rules.
+- `oss-single-workspace.md`: single-workspace source-available product
+  boundary.
 - `feature-*.md`: feature-level specifications.
 - `fix-*.md`: bug/fix specifications with root cause and acceptance criteria.
 - `_template.md`: template for future specifications.

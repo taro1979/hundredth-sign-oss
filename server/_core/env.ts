@@ -1,3 +1,5 @@
+const HEX_64_RE = /^[0-9a-fA-F]{64}$/;
+
 function requireEnv(name: string, minLength = 1): string {
   const value = process.env[name];
   if (!value || value.length < minLength) {
@@ -17,18 +19,49 @@ function requireEnv(name: string, minLength = 1): string {
   return value;
 }
 
+function assertHttpUrl(name: string, value: string): string {
+  try {
+    const parsed = new URL(value);
+    if (parsed.protocol !== "http:" && parsed.protocol !== "https:") {
+      throw new Error("unsupported protocol");
+    }
+    return value.replace(/\/+$/, "");
+  } catch {
+    throw new Error(
+      `[STARTUP] Environment variable ${name} must be a valid http(s) URL. ` +
+      `Fix: Set ${name}=https://your-sign.example.com`
+    );
+  }
+}
+
+function readAppUrl(): string {
+  const raw =
+    process.env.APP_URL ||
+    process.env.VITE_APP_URL ||
+    (process.env.NODE_ENV === "production" ? "" : "http://localhost:4817");
+
+  if (!raw && process.env.NODE_ENV === "production") {
+    requireEnv("APP_URL", 8);
+  }
+
+  if (!raw && process.env.NODE_ENV !== "test") {
+    console.warn("[STARTUP] APP_URL is not set. Email links will be broken. Set APP_URL in your environment variables.");
+    return "";
+  }
+
+  return raw ? assertHttpUrl(process.env.APP_URL ? "APP_URL" : "VITE_APP_URL", raw) : "";
+}
+
+function isHex64(value: string): boolean {
+  return HEX_64_RE.test(value);
+}
+
 export const ENV = {
   appId: process.env.VITE_APP_ID ?? "",
-  cookieSecret: process.env.NODE_ENV === "test" ? (process.env.JWT_SECRET ?? "test-secret-key-minimum-32-chars!!") : requireEnv("JWT_SECRET", 22),
+  cookieSecret: process.env.NODE_ENV === "test" ? (process.env.JWT_SECRET ?? "test-secret-key-minimum-32-chars!!") : requireEnv("JWT_SECRET", 32),
   databaseUrl: process.env.NODE_ENV === "test" ? (process.env.DATABASE_URL ?? "") : requireEnv("DATABASE_URL", 20),
   /** Canonical app URL for email links (e.g. "https://app.example.com"). No trailing slash. */
-  appUrl: (() => {
-    const url = (process.env.APP_URL || process.env.VITE_APP_URL || (process.env.NODE_ENV === "production" ? "" : "http://localhost:5000")).replace(/\/+$/, "");
-    if (!url && process.env.NODE_ENV !== "test") {
-      console.warn("[STARTUP] APP_URL is not set. Email links will be broken. Set APP_URL in your environment variables.");
-    }
-    return url;
-  })(),
+  appUrl: readAppUrl(),
   isProduction: process.env.NODE_ENV === "production",
   /**
    * Trusted proxy configuration for safe IP extraction.
@@ -46,7 +79,7 @@ export const ENV = {
   /** 32-byte hex key for PII field encryption (AES-256-GCM). Empty = encryption disabled (plaintext). */
   piiEncryptionKey: (() => {
     const key = process.env.PII_ENCRYPTION_KEY ?? "";
-    if (key && key.length !== 64 && process.env.NODE_ENV !== "test") {
+    if (key && !isHex64(key) && process.env.NODE_ENV !== "test") {
       // Warn instead of throw so a bad optional key does not prevent startup.
       // piiEncryption.ts will ignore the invalid key and skip encryption.
       console.warn(
@@ -63,7 +96,7 @@ export const ENV = {
   /** AES-256-GCM encryption key for PDF at-rest encryption. 64 hex chars (32 bytes). Empty = disabled. */
   storageEncryptionKey: (() => {
     const key = process.env.STORAGE_ENCRYPTION_KEY ?? "";
-    if (key && key.length !== 64 && process.env.NODE_ENV !== "test") {
+    if (key && !isHex64(key) && process.env.NODE_ENV !== "test") {
       throw new Error(
         "[STARTUP] STORAGE_ENCRYPTION_KEY must be exactly 64 hex chars (32 bytes). " +
         `Current: ${key.length} chars. Generate with: openssl rand -hex 32`
@@ -81,7 +114,7 @@ export const ENV = {
   /** Previous PII encryption key for key rotation. Must be 64 hex chars if set. */
   piiEncryptionKeyPrev: (() => {
     const key = process.env.PII_ENCRYPTION_KEY_PREV ?? "";
-    if (key && key.length !== 64 && process.env.NODE_ENV !== "test") {
+    if (key && !isHex64(key) && process.env.NODE_ENV !== "test") {
       throw new Error(
         "[STARTUP] PII_ENCRYPTION_KEY_PREV must be exactly 64 hex chars (32 bytes). " +
         `Current: ${key.length} chars.`
@@ -92,7 +125,7 @@ export const ENV = {
   /** Previous storage encryption key for key rotation. Must be 64 hex chars if set. */
   storageEncryptionKeyPrev: (() => {
     const key = process.env.STORAGE_ENCRYPTION_KEY_PREV ?? "";
-    if (key && key.length !== 64 && process.env.NODE_ENV !== "test") {
+    if (key && !isHex64(key) && process.env.NODE_ENV !== "test") {
       throw new Error(
         "[STARTUP] STORAGE_ENCRYPTION_KEY_PREV must be exactly 64 hex chars (32 bytes). " +
         `Current: ${key.length} chars.`

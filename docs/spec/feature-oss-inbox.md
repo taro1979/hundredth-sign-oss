@@ -1,8 +1,8 @@
-# OSS Pseudo Inbox Specification
+# Source-Available Pseudo Inbox Specification
 
 ## Summary
 
-The OSS build includes a staff-only pseudo inbox at `/dashboard/inbox`.
+The source-available self-hosted build includes a staff-only pseudo inbox at `/dashboard/inbox`.
 It is not a mail client and does not introduce mailbox storage. Inbox items are derived from existing workflow rows so staff can handle requests addressed to their own email inside the admin UI.
 
 ## Source Rows

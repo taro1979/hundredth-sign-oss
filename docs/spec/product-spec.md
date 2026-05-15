@@ -2,7 +2,8 @@
 
 Last reviewed: 2026-05-14
 
-This is the master product specification for the current OSS self-hosted build.
+This is the master product specification for the current source-available
+self-hosted build.
 Feature-specific and fix-specific specifications remain under `docs/spec/`, but
 this file is the highest-level source for the implemented product surface.
 
@@ -14,7 +15,7 @@ supporting multilingual recipient communication and public token-based signing.
 
 The current product is not a hosted multi-tenant SaaS. Commercial tenant
 switching, customer accounts, payment plans, send limits, workspace import, and
-arbitrary mailbox features are outside the OSS product boundary.
+arbitrary mailbox features are outside the source-available product boundary.
 
 Core value:
 
@@ -129,9 +130,9 @@ details for organization-scoped authorization.
 | `/privacy` | Privacy page. |
 | `/manual` | Manual top page. |
 | `/manual/:chapter` | Manual chapter page. |
-| `/manual/terms` | OSS terms for manual/legal use. |
-| `/manual/disclaimer` | OSS disclaimer. |
-| `/contact` | OSS customization contact page. |
+| `/manual/terms` | Source-available terms for manual/legal use. |
+| `/manual/disclaimer` | Source-available disclaimer. |
+| `/contact` | Customization contact page. |
 | `/404` | Explicit not-found page. |
 
 ### Authenticated Staff Routes
@@ -181,7 +182,7 @@ Security requirements:
 
 ## 7. Workspace And Staff Management
 
-The OSS build uses one internal organization row as the workspace boundary.
+The source-available build uses one internal organization row as the workspace boundary.
 This boundary scopes documents, templates, contacts, audit logs, integration
 keys, webhooks, and allowed IPs.
 
@@ -626,8 +627,8 @@ Startup behavior:
 Required environment:
 
 - `DATABASE_URL`
-- `JWT_SECRET`
-- `APP_URL` or `VITE_APP_URL` for correct email links
+- `JWT_SECRET` with at least 32 random characters
+- `APP_URL` or `VITE_APP_URL` as a valid HTTP(S) URL for correct email links
 
 Important optional environment:
 
@@ -693,6 +694,11 @@ Key constraints:
 Security:
 
 - Secrets and connection strings must come from environment variables.
+- Production startup must fail when `JWT_SECRET`, `DATABASE_URL`, or `APP_URL`
+  is missing or invalid.
+- `STORAGE_ENCRYPTION_KEY`, `STORAGE_ENCRYPTION_KEY_PREV`,
+  `PII_ENCRYPTION_KEY`, and `PII_ENCRYPTION_KEY_PREV` must be 64-character hex
+  strings when set outside tests.
 - API keys, passwords, and reset tokens must be hashed at rest.
 - Access-code verification is rate-limited in production.
 - Public recipient flows use high-entropy tokens.
@@ -770,6 +776,6 @@ These are documentation quality issues observed while compiling this spec:
 - Never remove `activityLogs` or `systemAuditLogs` writes from critical workflow
   code without replacing them with equivalent or stronger compliance evidence.
 - Do not reintroduce hosted SaaS billing, tenant switching, or external customer
-  accounts unless the OSS product boundary is explicitly changed.
+  accounts unless the source-available product boundary is explicitly changed.
 - Do not couple external systems directly to Sign database tables; use the API,
   webhooks, and CLI surfaces.

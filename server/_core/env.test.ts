@@ -4,15 +4,15 @@ import type { Request } from "express";
 // ==================== auth-session-security: env & cookie tests ====================
 
 describe("auth-session-security: ENV configuration", () => {
-  it("cookieSecret requires JWT_SECRET with minimum 22 chars in production (AC-001)", async () => {
-    // ENV.cookieSecret reads JWT_SECRET via requireEnv("JWT_SECRET", 22) in non-test mode.
+  it("cookieSecret requires JWT_SECRET with minimum 32 chars in production (AC-001)", async () => {
+    // ENV.cookieSecret reads JWT_SECRET via requireEnv("JWT_SECRET", 32) in non-test mode.
     // In test mode it uses process.env.JWT_SECRET if set, otherwise falls back to a hardcoded test secret.
     // This test validates that cookieSecret is defined and non-empty.
     const { ENV } = await import("./env");
     expect(ENV.cookieSecret.length).toBeGreaterThan(0);
-    // In production, requireEnv enforces >= 22 chars; in test mode we just verify it's set.
+    // In production, requireEnv enforces >= 32 chars; in test mode we just verify it's set.
     if (process.env.NODE_ENV !== "test") {
-      expect(ENV.cookieSecret.length).toBeGreaterThanOrEqual(22);
+      expect(ENV.cookieSecret.length).toBeGreaterThanOrEqual(32);
     }
   });
 
@@ -131,15 +131,15 @@ describe("env-startup-error-message: requireEnv error messages", () => {
     }
   });
 
-  it("22-char JWT_SECRET starts container without error (AC-008)", async () => {
+  it("32-char JWT_SECRET starts container without error (AC-008)", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
     const { ENV } = await import("./env");
-    expect(ENV.cookieSecret.length).toBe(22);
+    expect(ENV.cookieSecret.length).toBe(32);
   });
 
   it("error message says 'not set' when JWT_SECRET is absent in production", async () => {
@@ -155,77 +155,75 @@ describe("env-startup-error-message: requireEnv error messages", () => {
     }
   });
 
-  it("21-char JWT_SECRET throws [STARTUP] error (AC-009)", async () => {
+  it("31-char JWT_SECRET throws [STARTUP] error (AC-009)", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(21));
+    vi.stubEnv("JWT_SECRET", "a".repeat(31));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     await expect(import("./env")).rejects.toThrow("[STARTUP]");
   });
 
-  it("H-21: missing APP_URL in production falls back to empty string", async () => {
+  it("missing APP_URL in production fails startup", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     vi.stubEnv("APP_URL", "");
     vi.stubEnv("VITE_APP_URL", "");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
-    const { ENV } = await import("./env");
-    expect(ENV.appUrl).toBe("");
+    await expect(import("./env")).rejects.toThrow("APP_URL");
   });
 
-  it("H-21: development ENV uses http://localhost:5000 fallback when APP_URL unset", async () => {
+  it("H-21: development ENV uses http://localhost:4817 fallback when APP_URL unset", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "development");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     vi.stubEnv("APP_URL", "");
     vi.stubEnv("VITE_APP_URL", "");
     const { ENV } = await import("./env");
-    expect(ENV.appUrl).toBe("http://localhost:5000");
+    expect(ENV.appUrl).toBe("http://localhost:4817");
   });
 });
 
-describe("manus-app-url-optional v2: startup warning (AC-006)", () => {
+describe("APP_URL startup validation", () => {
   afterEach(() => {
     vi.unstubAllEnvs();
     vi.resetModules();
     vi.restoreAllMocks();
   });
 
-  it("warns when APP_URL is empty in non-test environment", async () => {
+  it("does not warn in development when APP_URL is empty because localhost fallback is used", async () => {
     vi.resetModules();
     const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
     vi.stubEnv("NODE_ENV", "development");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     vi.stubEnv("APP_URL", "");
     vi.stubEnv("VITE_APP_URL", "");
-    // In development, fallback is http://localhost:5000, so no warning
-    // Test production instead where fallback is ""
-    warnSpy.mockRestore();
-
-    vi.resetModules();
-    const warnSpy2 = vi.spyOn(console, "warn").mockImplementation(() => {});
-    vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
-    vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
-    vi.stubEnv("APP_URL", "");
-    vi.stubEnv("VITE_APP_URL", "");
-    vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
-    await import("./env");
-    expect(warnSpy2).toHaveBeenCalledWith(
+    const { ENV } = await import("./env");
+    expect(ENV.appUrl).toBe("http://localhost:4817");
+    expect(warnSpy).not.toHaveBeenCalledWith(
       expect.stringContaining("[STARTUP] APP_URL is not set")
     );
-    warnSpy2.mockRestore();
+    warnSpy.mockRestore();
+  });
+
+  it("rejects invalid APP_URL protocols in production", async () => {
+    vi.resetModules();
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
+    vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
+    vi.stubEnv("APP_URL", "ftp://app.example.com");
+    vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
+    await expect(import("./env")).rejects.toThrow("valid http(s) URL");
   });
 
   it("does not warn when APP_URL is set", async () => {
     vi.resetModules();
     const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://user:pass@host:3306/db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
@@ -297,8 +295,9 @@ describe("piiEncryptionKeyPrev validation (H-07)", () => {
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
     vi.stubEnv("PII_ENCRYPTION_KEY_PREV", "tooshort");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
+    vi.stubEnv("APP_URL", "https://app.example.com");
     await expect(import("./env")).rejects.toThrow("PII_ENCRYPTION_KEY_PREV must be exactly 64 hex chars");
     vi.unstubAllEnvs();
     vi.resetModules();
@@ -336,8 +335,9 @@ describe("storageEncryptionKeyPrev validation (H-07)", () => {
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
     vi.stubEnv("STORAGE_ENCRYPTION_KEY_PREV", "bad_key");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
+    vi.stubEnv("APP_URL", "https://app.example.com");
     await expect(import("./env")).rejects.toThrow("STORAGE_ENCRYPTION_KEY_PREV must be exactly 64 hex chars");
     vi.unstubAllEnvs();
     vi.resetModules();
@@ -391,7 +391,7 @@ describe("piiEncryptionKey validation (H-07)", () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("PII_ENCRYPTION_KEY", "tooshort");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
@@ -406,7 +406,7 @@ describe("piiEncryptionKey validation (H-07)", () => {
   it("returns empty string in production when PII_ENCRYPTION_KEY is not set (encryption disabled)", async () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     const origPii = process.env.PII_ENCRYPTION_KEY;
@@ -423,11 +423,27 @@ describe("piiEncryptionKey validation (H-07)", () => {
     vi.resetModules();
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     const { ENV } = await import("./env");
     expect(ENV.piiEncryptionKey).toBe("a".repeat(64));
+  });
+
+  it("warns and disables PII encryption when key is 64 chars but not hex", async () => {
+    vi.resetModules();
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("PII_ENCRYPTION_KEY", "g".repeat(64));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
+    vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
+    vi.stubEnv("APP_URL", "https://app.example.com");
+    const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
+    const { ENV } = await import("./env");
+    expect(ENV.piiEncryptionKey).toBe("");
+    expect(warnSpy).toHaveBeenCalledWith(
+      expect.stringContaining("PII_ENCRYPTION_KEY must be exactly 64 hex chars"),
+    );
+    warnSpy.mockRestore();
   });
 });
 
@@ -442,7 +458,7 @@ describe("storageEncryptionKey validation (H-07)", () => {
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
     vi.stubEnv("STORAGE_ENCRYPTION_KEY", "tooshort");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     await expect(import("./env")).rejects.toThrow("STORAGE_ENCRYPTION_KEY must be exactly 64 hex chars");
@@ -452,7 +468,7 @@ describe("storageEncryptionKey validation (H-07)", () => {
     vi.resetModules();
     const warnSpy = vi.spyOn(console, "warn").mockImplementation(() => {});
     vi.stubEnv("NODE_ENV", "production");
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
@@ -474,11 +490,22 @@ describe("storageEncryptionKey validation (H-07)", () => {
     vi.stubEnv("NODE_ENV", "production");
     vi.stubEnv("STORAGE_ENCRYPTION_KEY", "b".repeat(64));
     vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
-    vi.stubEnv("JWT_SECRET", "a".repeat(22));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
     vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
     vi.stubEnv("APP_URL", "https://app.example.com");
     const { ENV } = await import("./env");
     expect(ENV.storageEncryptionKey).toBe("b".repeat(64));
+  });
+
+  it("throws when STORAGE_ENCRYPTION_KEY is 64 chars but not hex", async () => {
+    vi.resetModules();
+    vi.stubEnv("NODE_ENV", "production");
+    vi.stubEnv("STORAGE_ENCRYPTION_KEY", "z".repeat(64));
+    vi.stubEnv("PII_ENCRYPTION_KEY", "a".repeat(64));
+    vi.stubEnv("JWT_SECRET", "a".repeat(32));
+    vi.stubEnv("DATABASE_URL", "mysql://localhost/test_db");
+    vi.stubEnv("APP_URL", "https://app.example.com");
+    await expect(import("./env")).rejects.toThrow("STORAGE_ENCRYPTION_KEY must be exactly 64 hex chars");
   });
 });
 

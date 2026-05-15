@@ -1,12 +1,17 @@
-# Hundredth Sign OSS
+# Hundredth Sign
 
 Self-hosted electronic contract and signature system for one internal workspace.
 Hundredth Sign is designed for Japanese business workflows, accountless external
 recipients, PDF signing, internal approval, immutable audit evidence, and
 automation through a controlled API and CLI.
 
-This repository is the OSS distribution. It does not include the hosted SaaS
-tenant-switching, billing, quota, workspace import, or customer-account layers.
+This repository is source-available + PolyForm Noncommercial. The source code is
+published, but this software is not open source software. Noncommercial use is
+permitted only under the PolyForm Noncommercial License 1.0.0. Commercial use
+requires a separate commercial license agreement.
+
+This distribution does not include the hosted SaaS tenant-switching, billing,
+quota, workspace import, or customer-account layers.
 
 ## Features
 
@@ -23,10 +28,11 @@ tenant-switching, billing, quota, workspace import, or customer-account layers.
 
 ## Requirements
 
+- Docker Desktop or another Docker Compose compatible runtime for the quickest
+  evaluation path.
 - Node.js 22 LTS or newer.
-- pnpm 10.x via Corepack or a local pnpm install.
+- pnpm 10.16 or newer via Corepack or a local pnpm install.
 - MySQL 8.x.
-- Docker Desktop, optional but recommended for E2E tests.
 - SMTP, AWS SES, or another configured mail path for real email delivery.
 - S3-compatible storage or the local development storage fallback.
 
@@ -34,6 +40,21 @@ Windows PowerShell and macOS Terminal are both supported. Project scripts avoid
 shell-specific syntax where practical.
 
 ## Quick Start
+
+```bash
+docker compose up --build
+```
+
+Then open `http://localhost:4817/setup` and create the first administrator. The
+Compose stack starts the production app and MySQL, waits for the database,
+applies committed SQL migrations, and keeps MySQL plus local PDF uploads in
+Docker volumes.
+
+Use this path for evaluation and self-hosting smoke tests. For production,
+review [Docker guide](docs/docker.md), set real secrets, configure HTTPS
+`APP_URL`, and back up the database and PDF storage together.
+
+## Development Quick Start
 
 ```powershell
 corepack enable
@@ -43,7 +64,7 @@ pnpm db:push
 pnpm dev
 ```
 
-Then open `http://localhost:3000/setup` and create the first administrator.
+Then open `http://localhost:4817/setup` and create the first administrator.
 
 On macOS, use the same commands with `cp .env.example .env` instead of
 `Copy-Item`.
@@ -68,14 +89,55 @@ pnpm test:e2e
 pnpm test:e2e:teardown
 ```
 
+## Directory Structure
+
+```text
+.
+├── client/                  # React + Vite frontend
+│   ├── public/              # Static assets and i18n locale JSON
+│   └── src/
+│       ├── _core/           # Core hooks, contexts, and shared providers
+│       ├── components/      # Reusable UI components
+│       ├── contexts/        # React context providers
+│       ├── hooks/           # Custom React hooks
+│       ├── lib/             # Frontend utilities (tRPC client, helpers)
+│       └── pages/           # Route-level page components
+├── server/                  # Express + tRPC backend (Node.js)
+│   ├── _core/               # Bootstrap, env, middleware, rate-limit, vite
+│   ├── routers/             # tRPC routers grouped by feature
+│   ├── fonts/               # Embedded fonts used for PDF signing
+│   └── *.ts                 # Domain modules (PDF, email, storage, audit, ...)
+├── shared/                  # Code shared between client and server
+│   └── _core/               # Shared type definitions and constants
+├── e2e/                     # Playwright end-to-end tests
+├── drizzle/                 # Drizzle ORM migrations and metadata
+├── docs/                    # Setup, operations, architecture, specs
+│   └── spec/                # Product and feature specifications
+├── scripts/                 # Node-based dev/deploy/CLI scripts (signctl, etc.)
+├── patches/                 # pnpm patch-package overrides
+├── Dockerfile               # Production container image
+├── docker-compose.yml       # Local production-mode Compose stack
+├── docker-compose.e2e.yml   # MySQL + Mailpit for E2E tests
+├── playwright.config.ts     # Playwright runner configuration
+├── vite.config.ts           # Vite frontend bundler configuration
+├── vitest.config.ts         # Vitest unit/integration test configuration
+├── tsconfig.json            # TypeScript configuration
+├── package.json             # Project manifest (required by pnpm/npm/yarn)
+└── pnpm-lock.yaml           # pnpm dependency lockfile
+```
+
 ## Documentation
 
 - [Setup guide](docs/setup.md)
+- [Docker guide](docs/docker.md)
 - [Operations guide](docs/operations.md)
 - [Troubleshooting](docs/troubleshooting.md)
 - [Architecture](docs/architecture.md)
 - [Product specification](docs/spec/product-spec.md)
 - [External API and CLI specification](docs/spec/feature-external-integrations-cli.md)
+- [Source-available readiness checklist](docs/oss-readiness.md)
+- [Contributing guide](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
 
 ## Configuration
 
@@ -92,6 +154,25 @@ signing, maintenance mode, and integration CLI defaults.
 Never commit real secrets, connection strings, API keys, or private signing
 material.
 
+For production, `JWT_SECRET` must be at least 32 random characters and `APP_URL`
+must be a valid HTTP(S) URL. Encryption keys, when set, must be 64-character hex
+strings generated with `openssl rand -hex 32`.
+
 ## License
 
-MIT
+source-available + PolyForm Noncommercial
+
+This software is source-available under the
+[PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0).
+The source code is published, but this software is not open source software.
+Noncommercial use only is permitted. Commercial use requires a separate license
+agreement.
+
+## GitHub Repository Metadata
+
+Recommended GitHub About settings:
+
+- Description: `Source-available electronic signature app for one self-hosted workspace. PolyForm Noncommercial; not open source software.`
+- Topics: `electronic-signature`, `digital-signature`, `self-hosted`, `source-available`, `polyform-noncommercial`, `react`, `vite`, `express`, `trpc`, `drizzle`, `mysql`
+- License display: use the repository `LICENSE`; this software is not open
+  source software.

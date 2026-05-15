@@ -3,9 +3,13 @@
 ## Required Operational Controls
 
 - Keep `.env` and production secrets outside Git.
+- Use pnpm 10.16+ with the committed lockfile and `.npmrc` supply-chain
+  guardrails.
 - Back up MySQL regularly.
 - Back up signed PDF storage and WORM registry metadata together.
 - Keep `APP_URL` correct so email links point to the deployed instance.
+- Use HTTPS for production `APP_URL`; startup fails if it is missing or not an
+  HTTP(S) URL.
 - Monitor mail delivery failures and webhook retry failures.
 
 ## Database
@@ -18,6 +22,11 @@ pnpm db:push
 
 Before production upgrades, take a database backup and verify that the target
 database is the one referenced by `DATABASE_URL`.
+
+Docker Compose can apply committed SQL migrations at container startup when
+`SIGN_RUN_MIGRATIONS=true`. For controlled production deployments, prefer a
+separate migration step and keep `SIGN_RUN_MIGRATIONS=false` on the web
+container.
 
 ## Signed PDFs And WORM Evidence
 
@@ -41,6 +50,20 @@ Important variables:
 - `APP_URL`
 - `SES_FROM_EMAIL` or `SMTP_FROM_EMAIL`
 - Provider host, region, user, and password values.
+
+## Secrets And Encryption
+
+Generate production secrets outside Git:
+
+```bash
+openssl rand -base64 48  # JWT_SECRET
+openssl rand -hex 32     # STORAGE_ENCRYPTION_KEY
+openssl rand -hex 32     # PII_ENCRYPTION_KEY
+```
+
+`STORAGE_ENCRYPTION_KEY`, `STORAGE_ENCRYPTION_KEY_PREV`,
+`PII_ENCRYPTION_KEY`, and `PII_ENCRYPTION_KEY_PREV` must be 64-character hex
+strings when set. Keep previous-key variables only during key rotation.
 
 ## Integrations
 
@@ -68,3 +91,8 @@ pnpm build
 For browser workflow changes, run the E2E setup and Playwright tests when Docker
 is available.
 
+For Docker packaging changes, also run:
+
+```bash
+docker compose config
+```

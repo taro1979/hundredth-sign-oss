@@ -68,6 +68,7 @@
   },
   "dashboard": {
     "title": "แดชบอร์ด",
+    "brandSubtitle": "เปิดเผยซอร์สโค้ด",
     "welcome": "ยินดีต้อนรับกลับ",
     "recentDocuments": "เอกสารล่าสุด",
     "pendingSignatures": "รอการลงนาม",
@@ -235,7 +236,7 @@
       "messageFromSender": "ข้อความจากผู้ส่ง",
       "documentNameLabel": "เอกสาร: {{title}}",
       "senderLabel": "ผู้ส่ง: {{sender}}",
-      "previewPlgHeadline": "ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted",
+      "previewPlgHeadline": "ลายเซ็นอิเล็กทรอนิกส์ source-available แบบ self-hosted",
       "previewPlgSubtext": "จัดการการลงนาม เทมเพลต และบันทึกตรวจสอบในสภาพแวดล้อมของคุณ",
       "previewPerMonth": "ติดตั้งเอง",
       "complete": {
@@ -398,8 +399,8 @@
       "badge": "บริการลายเซ็นอิเล็กทรอนิกส์",
       "titleLine1": "คุณสมบัติครบถ้วน ไม่มีการประนีประนอม",
       "titleLine2": "สำหรับ self-hosting",
-      "subtitle": "การลงนาม PDF ลิงก์อีเมลผู้รับ ใบรับรองการเสร็จสิ้น และบันทึกตรวจสอบใน OSS deployment",
-      "monthlyLabel": "OSS",
+      "subtitle": "การลงนาม PDF ลิงก์อีเมลผู้รับ ใบรับรองการเสร็จสิ้น และบันทึกตรวจสอบในการติดตั้งแบบเปิดเผยซอร์สโค้ด",
+      "monthlyLabel": "เปิดเผยซอร์สโค้ด",
       "taxIncluded": "(รวมภาษีแล้ว)",
       "priceNote": "self-hosted · บัญชีพนักงานภายใน · ผู้รับไม่ต้องมีบัญชี",
       "featureCertificate": "ใบรับรองการเสร็จสิ้นอัตโนมัติ",
@@ -768,7 +769,7 @@
   "landing": {
     "heroTitle": "นิยามใหม่ของลายเซ็นอิเล็กทรอนิกส์",
     "heroTitleAccent": "สำหรับ self-hosting",
-    "heroSubtitle": "ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted สำหรับส่ง PDF ลงนาม เทมเพลต การอนุมัติภายใน และบันทึกตรวจสอบ WORM",
+    "heroSubtitle": "ลายเซ็นอิเล็กทรอนิกส์ source-available แบบ self-hosted สำหรับส่ง PDF ลงนาม เทมเพลต การอนุมัติภายใน และบันทึกตรวจสอบ WORM",
     "startFree": "เริ่มต้นฟรี",
     "learnMore": "ดูฟีเจอร์",
     "goToDashboard": "ไปที่แดชบอร์ด",
@@ -800,7 +801,7 @@
     "heroUnlimited": "จัดการพนักงาน · ผู้รับไม่ต้องมีบัญชี",
     "heroUnlimitedMain": "สมาชิกไม่จำกัด",
     "heroUnlimitedSub": "ผู้ลงนามภายนอกใช้ลิงก์อีเมลที่ปลอดภัยเท่านั้น",
-    "heroRevealTitle": "เวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์ในรูปแบบ OSS",
+    "heroRevealTitle": "เวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์ในรูปแบบ source-available",
     "heroRevealSub": "การลงนาม PDF การจัดการหลักฐาน สิทธิ์พนักงาน เทมเพลต และหน้าลงนาม 4 ภาษา ใน workspace แบบ self-hosted เดียว",
     "diffTeam": "การจัดการพนักงาน",
     "diffTeamDesc": "ผู้ดูแลออกบัญชีพนักงานได้ ส่วนผู้ลงนามภายนอกไม่ต้องมีบัญชี",
@@ -812,14 +813,14 @@
     "mockupVsEnterprise": "รูปแบบติดตั้ง",
     "mockupVsBudget": "ผู้รับ",
     "mockupNoAccount": "ไม่ต้องมีบัญชี",
-    "heroStat1": "OSS",
+    "heroStat1": "เปิดเผยซอร์สโค้ด",
     "heroStat1Label": "รองรับ self-hosted",
     "heroStat2": "4",
     "heroStat2Label": "ภาษาหลัก",
     "heroStat3": "ไม่จำกัด",
     "heroStat3Label": "สมาชิกทีม",
     "month": "เดือน",
-    "pageTitle": "Hundredth Sign – ลายเซ็นอิเล็กทรอนิกส์ OSS แบบ self-hosted",
+    "pageTitle": "Hundredth Sign – ลายเซ็นอิเล็กทรอนิกส์ source-available แบบ self-hosted",
     "pageKeywords": "ลายเซ็นอิเล็กทรอนิกส์,สัญญาอิเล็กทรอนิกส์,จัดการสัญญา,Hundredth Sign",
     "mockupNavDocs": "เอกสาร",
     "mockupNavContacts": "ผู้ติดต่อ",
@@ -929,8 +930,8 @@
     "title": "คำถามที่พบบ่อย",
     "q1": "ลายเซ็นอิเล็กทรอนิกส์ของ Hundredth Sign ถูกต้องตามกฎหมายหรือไม่?",
     "a1": "Hundredth Sign ออกแบบให้สอดคล้องกับข้อกำหนดของกฎหมายลายเซ็นอิเล็กทรอนิกส์และกฎหมายการบัญชีอิเล็กทรอนิกส์ ลายเซ็นทั้งหมดมีใบรับรองที่สร้างอัตโนมัติซึ่งบันทึกผู้ลงนาม เวลา และที่อยู่ IP โปรดทราบว่าการพิจารณาความถูกต้องตามกฎหมายขั้นสุดท้ายขึ้นอยู่กับรายละเอียดและสถานการณ์ของสัญญาแต่ละฉบับ ดังนั้นควรปรึกษาผู้เชี่ยวชาญด้านกฎหมายหากจำเป็น",
-    "q2": "เวอร์ชัน OSS เปลี่ยนอะไรบ้าง?",
-    "a2": "เวอร์ชัน OSS เป็นแอป self-hosted แบบ single workspace โดยตัด commercial hosted-service features, plans, quotas และ OAuth ภายนอกออก แต่ยังคงการลงนาม PDF เทมเพลต บัญชีพนักงาน และบันทึกตรวจสอบไว้",
+    "q2": "เวอร์ชัน source-available เปลี่ยนอะไรบ้าง?",
+    "a2": "เวอร์ชัน source-available เป็นแอป self-hosted แบบ single workspace โดยตัด commercial hosted-service features, plans, quotas และ OAuth ภายนอกออก แต่ยังคงการลงนาม PDF เทมเพลต บัญชีพนักงาน และบันทึกตรวจสอบไว้",
     "q3": "ผู้ลงนามต้องมีบัญชีหรือไม่?",
     "a3": "ไม่ ผู้ลงนามไม่ต้องลงทะเบียน เพียงคลิกลิงก์ในอีเมลเพื่อลงนาม ใช้งานได้บน PC หรือสมาร์ทโฟนด้วยเบราว์เซอร์เท่านั้น",
     "q4": "ผู้รับภายนอกต้องมีบัญชีหรือไม่?",
@@ -942,14 +943,14 @@
     "badge": "คำถามที่พบบ่อย"
   },
   "why": {
-    "badge": "ทำไมต้อง self-hosted OSS",
+    "badge": "ทำไมต้อง self-hosted source-available",
     "title": "ควบคุมเวิร์กโฟลว์สัญญาในสภาพแวดล้อมของคุณเอง",
     "titleSub": "สัญญาอิเล็กทรอนิกส์แบบติดตั้งเองโดยไม่ผูกกับผู้ให้บริการ",
-    "description": "เวอร์ชัน OSS เหมาะกับทีมที่ต้องการลายเซ็นอิเล็กทรอนิกส์โดยไม่ผูกกับผู้ให้บริการหรือ commercial hosted-service features",
+    "description": "เวอร์ชัน source-available เหมาะกับทีมที่ต้องการลายเซ็นอิเล็กทรอนิกส์โดยไม่ผูกกับผู้ให้บริการหรือ commercial hosted-service features",
     "aiTitle": "การติดตั้งแบบ self-hosted",
     "aiDesc": "รันแอปด้วยฐานข้อมูล พื้นที่จัดเก็บ อีเมล และบัญชีผู้ดูแลของคุณเอง",
     "noSalesTitle": "ไม่มี commercial hosted layer",
-    "noSalesDesc": "Plans, quotas, payment-provider logic และ logic สกุลเงินถูกตัดออกจาก OSS build",
+    "noSalesDesc": "Plans, quotas, payment-provider logic และ logic สกุลเงินถูกตัดออกจาก source-available build",
     "noPerSeatTitle": "ผู้รับไม่ต้องมีบัญชี",
     "noPerSeatDesc": "ลูกค้าเปิดลิงก์จากอีเมลเพื่อดู ลงนาม ปฏิเสธ และดาวน์โหลดเอกสารได้โดยไม่ต้องสมัครบัญชี",
     "passOnTitle": "คง workflow หลักไว้",
@@ -958,7 +959,7 @@
   "comparison": {
     "badge": "เปรียบเทียบรูปแบบติดตั้ง",
     "title": "บริการ hosted หรือการควบคุมแบบ self-hosted",
-    "subtitle": "เลือก Hundredth Sign เมื่อต้องการเป็นเจ้าของเวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์แบบ OSS",
+    "subtitle": "เลือก Hundredth Sign เมื่อต้องการเป็นเจ้าของเวิร์กโฟลว์ลายเซ็นอิเล็กทรอนิกส์แบบ source-available",
     "price1000": "ติดตั้งเอง",
     "colEnterprise": "ผู้ให้บริการระดับองค์กร",
     "colBudget": "คู่แข่งราคาประหยัด",
@@ -986,7 +987,7 @@
     "note": "* การเปรียบเทียบอ้างอิงจากรูปแบบการใช้งานและขอบเขตฟีเจอร์",
     "priceEnterprise": "บริการโฮสต์เชิงพาณิชย์",
     "priceBudget": "บริการโฮสต์เชิงพาณิชย์",
-    "priceHundredth": "ติดตั้ง OSS ภายใต้การควบคุมของคุณ",
+    "priceHundredth": "ติดตั้ง source-available ภายใต้การควบคุมของคุณ",
     "featureLabel": "ฟีเจอร์",
     "colEnterpriseNote": "DocuSign, Adobe Sign เป็นต้น",
     "colBudgetNote": "บริการอื่นๆ"
@@ -997,7 +998,8 @@
     "viewPricing": "ดูฟีเจอร์"
   },
   "footer": {
-    "tagline": "โครงสร้างพื้นฐาน OSS แบบ self-hosted สำหรับลายเซ็นอิเล็กทรอนิกส์",
+    "tagline": "โครงสร้างพื้นฐาน source-available แบบ self-hosted สำหรับลายเซ็นอิเล็กทรอนิกส์",
+    "licenseNotice": "source-available + PolyForm Noncommercial: เผยแพร่ซอร์สโค้ด แต่ซอฟต์แวร์นี้ไม่ใช่โอเพนซอร์ส อนุญาตเฉพาะการใช้งานที่ไม่ใช่เชิงพาณิชย์ และการใช้งานเชิงพาณิชย์ต้องมีสัญญาไลเซนส์แยกต่างหาก",
     "product": "ผลิตภัณฑ์",
     "security": "ความปลอดภัย",
     "resources": "ทรัพยากร",
@@ -1292,24 +1294,28 @@
           "title": "6. ทรัพย์สินทางปัญญา",
           "body": "สิทธิ์ในทรัพย์สินทางปัญญาของ Hundredth Sign เป็นของผู้ให้บริการ"
         },
+        "license": {
+          "title": "7. ไลเซนส์ source-available",
+          "body": "Hundredth Sign เป็น source-available + PolyForm Noncommercial มีการเผยแพร่ซอร์สโค้ด แต่ซอฟต์แวร์นี้ไม่ใช่โอเพนซอร์ส อนุญาตเฉพาะการใช้งานที่ไม่ใช่เชิงพาณิชย์ภายใต้ PolyForm Noncommercial License 1.0.0 การใช้งานเชิงพาณิชย์ต้องมีสัญญาไลเซนส์แยกต่างหาก"
+        },
         "privacy": {
-          "title": "7. ความเป็นส่วนตัว",
+          "title": "8. ความเป็นส่วนตัว",
           "body": "การใช้บริการของคุณอยู่ภายใต้นโยบายความเป็นส่วนตัวของเราด้วย"
         },
         "limitation": {
-          "title": "8. การจำกัดความรับผิด",
+          "title": "9. การจำกัดความรับผิด",
           "body": "เราจะไม่รับผิดชอบต่อความเสียหายทางอ้อมที่เกิดจากการใช้บริการ"
         },
         "termination": {
-          "title": "9. การยกเลิก",
+          "title": "10. การยกเลิก",
           "body": "เราสงวนสิทธิ์ระงับบัญชีหากคุณละเมิดข้อกำหนดเหล่านี้"
         },
         "governingLaw": {
-          "title": "10. กฎหมายที่ใช้บังคับ",
+          "title": "11. กฎหมายที่ใช้บังคับ",
           "body": "ข้อกำหนดเหล่านี้อยู่ภายใต้กฎหมายของประเทศญี่ปุ่น"
         },
         "changes": {
-          "title": "11. การเปลี่ยนแปลงข้อกำหนด",
+          "title": "12. การเปลี่ยนแปลงข้อกำหนด",
           "body": "เราอาจอัปเดตข้อกำหนดเหล่านี้เป็นครั้งคราว"
         }
       }
@@ -1332,7 +1338,7 @@
         },
         "thirdParty": {
           "title": "4. บริการของบุคคลที่สาม",
-          "body": "ผู้ดูแลระบบอาจกำหนดบริการภายนอกที่เชื่อถือได้สำหรับการจัดเก็บเอกสาร การส่งอีเมล และโครงสร้างพื้นฐาน รุ่น OSS ไม่จำเป็นต้องใช้ผู้ให้บริการตัวตนภายนอกเป็นค่าเริ่มต้น"
+          "body": "ผู้ดูแลระบบอาจกำหนดบริการภายนอกที่เชื่อถือได้สำหรับการจัดเก็บเอกสาร การส่งอีเมล และโครงสร้างพื้นฐาน รุ่น source-available ไม่จำเป็นต้องใช้ผู้ให้บริการตัวตนภายนอกเป็นค่าเริ่มต้น"
         },
         "cookies": {
           "title": "5. คุกกี้",
@@ -1387,13 +1393,13 @@
       "dataModel": "ตาราง DB"
     },
     "usage": {
-      "eyebrow": "คู่มือ OSS",
+      "eyebrow": "คู่มือ source-available",
       "title": "คู่มือ Hundredth Sign ฉบับสมบูรณ์",
       "description": "คู่มือสาธารณะสำหรับผู้ดูแลระบบ พนักงาน ผู้ลงนามภายนอก ผู้อนุมัติภายใน ทีมปฏิบัติการ นักพัฒนา ทีมเชื่อมต่อระบบ และผู้ใช้ AI/CI ครอบคลุมขอบเขตผลิตภัณฑ์ งานประจำวัน audit, API, CLI, DB และ FAQ",
       "tocLabel": "บท",
       "ossNotice": {
-        "title": "สมมติฐานของ OSS edition",
-        "body": "คู่มือนี้ครอบคลุม OSS แบบ single workspace เท่านั้น ไม่รวม billing ของ SaaS, tenant switching และบัญชีลูกค้าภายนอก"
+        "title": "สมมติฐานของ source-available edition",
+        "body": "คู่มือนี้ครอบคลุม source-available แบบ single workspace เท่านั้น ไม่รวม billing ของ SaaS, tenant switching และบัญชีลูกค้าภายนอก"
       },
       "search": {
         "label": "ค้นหาในคู่มือ",
@@ -1420,14 +1426,14 @@
       },
       "chapters": {
         "intro": {
-          "title": "เริ่มต้นและขอบเขต OSS",
-          "summary": "อธิบายสิ่งที่ OSS edition รองรับ สิ่งที่ไม่รวมใน commercial SaaS และขอบเขตระหว่างหน้าสาธารณะกับหน้าหลังเข้าสู่ระบบ",
+          "title": "เริ่มต้นและขอบเขต source-available",
+          "summary": "อธิบายสิ่งที่ source-available edition รองรับ สิ่งที่ไม่รวมใน commercial SaaS และขอบเขตระหว่างหน้าสาธารณะกับหน้าหลังเข้าสู่ระบบ",
           "sections": {
             "boundary": {
               "title": "คำอธิบาย: Product scope",
               "body": [
-                "คำอธิบาย: Hundredth Sign is an OSS electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
-                "คำอธิบาย: The OSS edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
+                "คำอธิบาย: Hundredth Sign is a source-available electronic signature system for the Japanese market. It implements document upload, signature request workflows, internal approvals, audit logs, WORM-style evidence, locale-aware emails, REST API, and a CLI-friendly integration surface.",
+                "คำอธิบาย: The source-available edition is a single-workspace product. A single operator organization owns staff, documents, contacts, templates, settings, API keys, and audit records.",
                 "คำอธิบาย: Commercial SaaS features such as billing, plan management, tenant switching, multi-customer administration, and external customer accounts are intentionally outside this manual."
               ],
               "bullets": [
@@ -1550,11 +1556,11 @@
                   "detail": "คำอธิบาย: Required. MySQL connection string used by Drizzle migrations and the application server."
                 },
                 "sessionSecret": {
-                  "label": "คำอธิบาย: SESSION_SECRET",
+                  "label": "คำอธิบาย: JWT_SECRET",
                   "detail": "คำอธิบาย: Required in real deployments. Used to protect staff authentication sessions."
                 },
                 "appUrl": {
-                  "label": "คำอธิบาย: APP_URL / PUBLIC_APP_URL",
+                  "label": "คำอธิบาย: APP_URL / VITE_APP_URL",
                   "detail": "คำอธิบาย: Required for links in email, signing URLs, approval URLs, and API/CLI output."
                 },
                 "smtp": {
@@ -1566,18 +1572,18 @@
                   "detail": "คำอธิบาย: Required when uploaded PDFs or signed PDFs are stored outside the local filesystem."
                 },
                 "openai": {
-                  "label": "คำอธิบาย: OPENAI_API_KEY",
-                  "detail": "คำอธิบาย: Optional. Only required for features that call OpenAI APIs. Do not reuse keys from unrelated projects."
+                  "label": "คำอธิบาย: STORAGE_PROXY_API_KEY",
+                  "detail": "คำอธิบาย: Optional. Required only when using an external storage or proxy service. Do not reuse keys from unrelated projects."
                 }
               },
               "code": {
                 "env": {
                   "title": "คำอธิบาย: Example .env names",
-                  "code": "คำอธิบาย: DATABASE_URL=mysql://user:password@host:3306/sign\nSESSION_SECRET=replace-with-random-secret\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nOPENAI_API_KEY=optional-only-when-ai-features-are-enabled"
+                  "code": "คำอธิบาย: DATABASE_URL=mysql://user:password@host:3306/sign\nJWT_SECRET=replace-with-at-least-32-random-characters\nAPP_URL=https://example.invalid\nSMTP_HOST=smtp.example.invalid\nSMTP_PORT=587\nSMTP_USER=replace-with-user\nSMTP_PASS=replace-with-password\nSTORAGE_PROXY_API_KEY=optional-storage-proxy-key"
                 }
               },
               "callouts": [
-                "คำอธิบาย: Never paste real DATABASE_URL, SMTP_PASS, SESSION_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
+                "คำอธิบาย: Never paste real DATABASE_URL, SMTP_PASS, JWT_SECRET, or API keys into the manual, screenshots, issue comments, or chat logs."
               ]
             },
             "startup": {
@@ -2124,7 +2130,7 @@
               "code": {
                 "curl": {
                   "title": "คำอธิบาย: Example request",
-                  "code": "คำอธิบาย: curl -X POST \"$SIGN_API_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
+                  "code": "คำอธิบาย: curl -X POST \"$SIGN_BASE_URL/api/v1/documents\" \\\n  -H \"Authorization: Bearer $SIGN_API_KEY\" \\\n  -H \"Idempotency-Key: demo-document-001\" \\\n  -H \"Content-Type: application/json\" \\\n  --data '{\"title\":\"Example contract\"}'"
                 }
               }
             },
@@ -2166,7 +2172,7 @@
               ],
               "rows": {
                 "baseUrl": {
-                  "label": "คำอธิบาย: SIGN_API_BASE_URL",
+                  "label": "คำอธิบาย: SIGN_BASE_URL",
                   "detail": "คำอธิบาย: Base URL of the target Hundredth Sign instance."
                 },
                 "apiKey": {
@@ -2174,8 +2180,8 @@
                   "detail": "คำอธิบาย: API key with the minimum required scopes."
                 },
                 "idempotency": {
-                  "label": "คำอธิบาย: SIGN_IDEMPOTENCY_PREFIX",
-                  "detail": "คำอธิบาย: Optional prefix to make automated retries traceable."
+                  "label": "คำอธิบาย: --idempotency-key",
+                  "detail": "คำอธิบาย: Optional request key for retry-safe mutating commands."
                 },
                 "output": {
                   "label": "คำอธิบาย: --json",
@@ -2185,7 +2191,7 @@
               "code": {
                 "env": {
                   "title": "คำอธิบาย: CLI environment",
-                  "code": "คำอธิบาย: SIGN_API_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_IDEMPOTENCY_PREFIX=ci-2026-05"
+                  "code": "คำอธิบาย: SIGN_BASE_URL=https://example.invalid\nSIGN_API_KEY=replace-with-api-key\nSIGN_OUTPUT=json"
                 }
               }
             },
@@ -2197,7 +2203,7 @@
               "code": {
                 "examples": {
                   "title": "คำอธิบาย: Representative commands",
-                  "code": "คำอธิบาย: node scripts/signctl.mjs documents:create --file ./contract.pdf --title \"Contract\" --json\nnode scripts/signctl.mjs requests:send --document-id doc_123 --recipient signer@example.com --json\nnode scripts/signctl.mjs requests:status --request-id req_123 --json\nnode scripts/signctl.mjs webhooks:test --url https://example.invalid/webhook --json"
+                  "code": "คำอธิบาย: node scripts/signctl.mjs documents create --title \"Contract\" --json\nnode scripts/signctl.mjs documents upload-pdf 42 --file ./contract.pdf --json\nnode scripts/signctl.mjs documents send 42 --signer \"Taro Yamada <taro@example.com>\" --cc \"Archive <archive@example.com>\" --locale ja --expiration-days 30 --reminder-days 3 --idempotency-key send-42-v1 --json\nnode scripts/signctl.mjs documents status 42 --json\nnode scripts/signctl.mjs webhooks test 3 --json"
                 }
               },
               "callouts": [
@@ -2449,23 +2455,23 @@
       }
     },
     "terms": {
-      "eyebrow": "เงื่อนไข OSS",
-      "title": "เงื่อนไขการใช้รุ่น OSS",
-      "description": "แนวทางสำหรับใช้งานรุ่น OSS แบบโฮสต์เอง โปรดตรวจเทียบกับข้อกำหนดกฎหมาย ความปลอดภัย และการดำเนินงานขององค์กร",
+      "eyebrow": "เงื่อนไข source-available",
+      "title": "เงื่อนไขการใช้รุ่น source-available",
+      "description": "แนวทางสำหรับใช้งาน Hundredth Sign แบบโฮสต์เอง โปรดตรวจเทียบกับข้อกำหนดกฎหมาย ความปลอดภัย และการดำเนินงานขององค์กร",
       "sections": {
         "scope": {
           "title": "คู่มือ: Scope and relationship to the license",
           "body": {
-            "0": "คู่มือ: These terms explain recommended operating conditions for the self-hosted OSS edition. They do not replace the repository license, third-party licenses, or a separately signed customization or support agreement.",
-            "1": "คู่มือ: If there is a conflict between these explanatory terms and the actual open-source license file, the license file controls software usage rights.",
+            "0": "คู่มือ: เงื่อนไขนี้อธิบายแนวทางการใช้งานรุ่น source-available แบบ self-hosted และไม่แทนที่ไลเซนส์ของ repository ไลเซนส์ของบุคคลที่สาม หรือสัญญาปรับแต่ง/สนับสนุนที่ทำแยกต่างหาก",
+            "1": "คู่มือ: หากคำอธิบายนี้ขัดแย้งกับไฟล์ไลเซนส์จริง ให้ไฟล์ไลเซนส์เป็นตัวกำหนดสิทธิ์การใช้ซอฟต์แวร์",
             "2": "คู่มือ: Organizations that operate, modify, redistribute, or provide the system to others must review copyright notices, license notices, trademark use, and any third-party component obligations."
           }
         },
         "license": {
-          "title": "คู่มือ: OSS usage and redistribution",
+          "title": "คู่มือ: การใช้งานและแจกจ่ายรุ่น source-available",
           "body": {
-            "0": "คู่มือ: The package is distributed as open-source software under the license declared by the repository. The package metadata currently declares MIT, which generally permits use, copy, modification, distribution, sublicensing, and sale if copyright and permission notices are preserved.",
-            "1": "คู่มือ: The OSS edition does not include hosted infrastructure, managed service operation, individual troubleshooting, legal confirmation, security certification, or service-level commitments.",
+            "0": "คู่มือ: แพ็กเกจนี้เป็น source-available + PolyForm Noncommercial มีการเผยแพร่ซอร์สโค้ด แต่ซอฟต์แวร์นี้ไม่ใช่โอเพนซอร์ส",
+            "1": "คู่มือ: อนุญาตเฉพาะการใช้งานที่ไม่ใช่เชิงพาณิชย์ภายใต้ PolyForm Noncommercial License 1.0.0 การใช้งานเชิงพาณิชย์ต้องมีสัญญาไลเซนส์แยกต่างหาก",
             "2": "คู่มือ: Redistributors and operators are responsible for making their own notices, privacy policy, support terms, and commercial terms clear to their users."
           }
         },
@@ -2475,13 +2481,13 @@
             "0": "องค์กรผู้ใช้งานรับผิดชอบบัญชี การควบคุมสิทธิ์ ฐานข้อมูล สตอเรจ อีเมล สำรองข้อมูล มอนิเตอร์ และเหตุการณ์ผิดปกติ",
             "1": "ก่อนใช้สัญญาจริง ให้ตรวจขั้นตอนกู้คืน การส่งอีเมล โดเมน การเก็บข้อมูล และสิทธิ์ผู้ใช้",
             "2": "ควรจำกัดบัญชีผู้ดูแลให้เฉพาะผู้ที่ต้องเข้าถึงเอกสาร",
-            "3": "คู่มือ: The OSS edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
+            "3": "คู่มือ: The source-available edition is not a tenant-switching SaaS product. It is intended to operate as a single self-hosted workspace."
           }
         },
         "accounts": {
           "title": "คู่มือ: Accounts, roles, and access",
           "body": {
-            "0": "คู่มือ: The visible staff roles in the OSS edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
+            "0": "คู่มือ: The visible staff roles in the source-available edition are administrator and member. Administrators manage users, instance settings, audit logs, and API integration keys. Members perform daily document, template, contact, inbox, and signing-related work within their permissions.",
             "1": "คู่มือ: External recipients do not create accounts. They access signing, approval, or document-view pages through token links and any configured access-code or email verification flow.",
             "2": "คู่มือ: Administrators must deactivate staff accounts that no longer need access and should issue the smallest necessary privileges to each person."
           }
@@ -2523,9 +2529,9 @@
         "noSupport": {
           "title": "ไม่รวมการสนับสนุนทั่วไป",
           "body": {
-            "0": "รุ่น OSS ไม่รวมการสนับสนุนผลิตภัณฑ์ การดูแลระบบ การดีบักเฉพาะราย หรือข้อตกลงระดับบริการ",
+            "0": "รุ่น source-available ไม่รวมการสนับสนุนผลิตภัณฑ์ การดูแลระบบ การดีบักเฉพาะราย หรือข้อตกลงระดับบริการ",
             "1": "คำถามอาจตรวจภายในโดยผู้ดำเนินระบบ หรือขอเป็นงานปรับแต่งหรือช่วยติดตั้งแบบมีค่าใช้จ่าย",
-            "2": "ไม่ควรคาดหวังให้ชุด OSS สาธารณะวิเคราะห์โครงสร้างพื้นฐาน อีเมล กระบวนการกฎหมาย หรือสถานะฐานข้อมูลของคุณ"
+            "2": "ไม่ควรคาดหวังให้ชุด source-available สาธารณะวิเคราะห์โครงสร้างพื้นฐาน อีเมล กระบวนการกฎหมาย หรือสถานะฐานข้อมูลของคุณ"
           }
         },
         "customization": {
@@ -2539,7 +2545,7 @@
         "changes": {
           "title": "คู่มือ: Changes and precedence",
           "body": {
-            "0": "คู่มือ: This manual may be updated as the OSS codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
+            "0": "คู่มือ: This manual may be updated as the source-available codebase changes. Operators should keep their deployed version, manual version, migration state, and internal operating procedures aligned.",
             "1": "คู่มือ: A separately executed written agreement for paid customization or managed support takes precedence for the scope covered by that agreement.",
             "2": "คู่มือ: The operator should retain a copy of the terms, license notices, and configuration used at the time each production release is adopted."
           }
@@ -2548,15 +2554,15 @@
     },
     "disclaimer": {
       "eyebrow": "ข้อจำกัดความรับผิด",
-      "title": "ข้อจำกัดความรับผิดของรุ่น OSS",
-      "description": "โปรดอ่านก่อนนำ Hundredth Sign OSS ไปใช้งานจริงหรือปรับแต่งเฉพาะธุรกิจ",
+      "title": "ข้อจำกัดความรับผิดของรุ่น source-available",
+      "description": "โปรดอ่านก่อนนำ Hundredth Sign source-available ไปใช้งานจริงหรือปรับแต่งเฉพาะธุรกิจ",
       "sections": {
         "warranty": {
           "title": "ให้บริการโดยไม่มีการรับประกัน",
           "body": {
-            "0": "รุ่น OSS ให้ตามสภาพจริง ไม่รับประกันความพร้อมใช้ ความเหมาะสม วัตถุประสงค์เฉพาะ ผลทางกฎหมาย ความปลอดภัย หรือการทำงานไม่สะดุด",
+            "0": "รุ่น source-available ให้ตามสภาพจริง ไม่รับประกันความพร้อมใช้ ความเหมาะสม วัตถุประสงค์เฉพาะ ผลทางกฎหมาย ความปลอดภัย หรือการทำงานไม่สะดุด",
             "1": "ผู้ดำเนินระบบต้องประเมินว่าระบบตรงกับข้อกำหนดทางเทคนิค การดำเนินงาน และกฎหมายหรือไม่",
-            "2": "ชุด OSS สาธารณะอาจเปลี่ยนแปลง มีข้อบกพร่อง หรือจำเป็นต้องตรวจเพิ่มก่อนใช้งานจริง",
+            "2": "ชุด source-available สาธารณะอาจเปลี่ยนแปลง มีข้อบกพร่อง หรือจำเป็นต้องตรวจเพิ่มก่อนใช้งานจริง",
             "3": "คู่มือ: The repository license may contain its own warranty and liability wording; read the actual license file before distribution or production use."
           }
         },
@@ -2592,7 +2598,7 @@
           "body": {
             "0": "การปกป้องข้อมูลส่วนบุคคล เอกสารที่ลงนามแล้ว ข้อมูลรับรอง สำรองฐานข้อมูล สตอเรจ และอีเมล เป็นความรับผิดชอบของผู้ดำเนินระบบ",
             "1": "ก่อนใช้งานจริง ให้ทดสอบการกู้คืนสำรอง การเก็บบันทึกตรวจสอบ การจำกัดสิทธิ์ และการตอบสนองเหตุการณ์",
-            "2": "การสูญหาย รั่วไหล เสียหาย หรือส่งผิดจากการดำเนินงานหรือปรับแต่ง ไม่อยู่ในขอบเขตสนับสนุน OSS ทั่วไป",
+            "2": "การสูญหาย รั่วไหล เสียหาย หรือส่งผิดจากการดำเนินงานหรือปรับแต่ง ไม่อยู่ในขอบเขตสนับสนุน source-available ทั่วไป",
             "3": "คู่มือ: Minimize production data in development and support environments, and ensure exports and logs do not expose more information than necessary."
           }
         },
@@ -2607,7 +2613,7 @@
         "ai": {
           "title": "โค้ดที่พัฒนาด้วยความช่วยเหลือของ AI",
           "body": {
-            "0": "รุ่น OSS นี้มีโค้ดที่เขียนด้วยความช่วยเหลือของ AI",
+            "0": "รุ่น source-available นี้มีโค้ดที่เขียนด้วยความช่วยเหลือของ AI",
             "1": "การพัฒนาด้วย AI ช่วยลดต้นทุนปรับแต่ง แต่ไม่ทำให้ไม่ต้องรีวิว ทดสอบ ประเมินความปลอดภัย หรือทวนสอบการใช้งาน",
             "2": "การเปลี่ยนแปลงด้านยืนยันตัวตน การลงนาม บันทึกตรวจสอบ สตอเรจ และกำกับดูแลต้องระวังเป็นพิเศษ"
           }
@@ -2616,14 +2622,14 @@
           "title": "การปรับแต่งทำแยกต่างหาก",
           "body": {
             "0": "การพัฒนาด้วย AI ทำให้ระบบหลังบ้านที่เหมาะกับแต่ละธุรกิจมีต้นทุนเป็นจริงมากขึ้น",
-            "1": "การปรับแต่งแบบมีค่าใช้จ่ายสามารถปรับรุ่น OSS ให้เข้ากับเอกสาร การอนุมัติ ภาษา การเชื่อมต่อ และงานภายใน",
+            "1": "การปรับแต่งแบบมีค่าใช้จ่ายสามารถปรับรุ่น source-available ให้เข้ากับเอกสาร การอนุมัติ ภาษา การเชื่อมต่อ และงานภายใน",
             "2": "งานปรับแต่งต้องกำหนดขอบเขตแยกต่างหากและควรรวมการทดสอบยอมรับโดยองค์กรผู้ใช้งาน"
           }
         },
         "references": {
           "title": "คู่มือ: Reference information used when drafting this notice",
           "body": {
-            "0": "คู่มือ: This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and OSS no-warranty language.",
+            "0": "คู่มือ: This notice reflects public reference themes around electronic signatures, electronic record retention, personal-information governance, security operations, and source-available no-warranty language.",
             "1": "คู่มือ: Reference materials can change. Operators should review the current official sources that apply to their business before production use.",
             "2": "คู่มือ: This page is a practical risk notice, not a substitute for the official legal text or professional advice."
           }
@@ -2633,10 +2639,10 @@
   },
   "ossContact": {
     "eyebrow": "ปรึกษาการปรับแต่ง",
-    "title": "ปรับแต่ง Hundredth Sign OSS ให้เข้ากับธุรกิจของคุณ",
-    "description": "รุ่น OSS ใช้งานได้ฟรี และมีบริการปรับแต่งแบบมีค่าใช้จ่ายสำหรับองค์กรที่ต้องการให้ตรงกับงานจริง",
+    "title": "ปรับแต่ง Hundredth Sign source-available ให้เข้ากับธุรกิจของคุณ",
+    "description": "รุ่น source-available ใช้งานได้ฟรี และมีบริการปรับแต่งแบบมีค่าใช้จ่ายสำหรับองค์กรที่ต้องการให้ตรงกับงานจริง",
     "body": {
-      "0": "Hundredth Sign OSS ไม่มีบริการสนับสนุนทั่วไปสำหรับการใช้ OSS ตามปกติ",
+      "0": "Hundredth Sign source-available ไม่มีบริการสนับสนุนทั่วไปสำหรับการใช้ source-available ตามปกติ",
       "1": "หากต้องการให้ระบบตรงกับสัญญา เส้นทางอนุมัติ การควบคุมภายใน การทำงานหลายภาษา การเชื่อมต่อ หรือเวิร์กโฟลว์หลังบ้าน สามารถขอการพัฒนาแบบมีค่าใช้จ่ายได้",
       "2": "เมื่อการเขียนโค้ดด้วย AI เป็นเรื่องปกติ ระบบที่เข้ากับธุรกิจแต่ละแห่งมากกว่ากระบวนการ SaaS ทั่วไปจะทำได้จริงขึ้น",
       "3": "โปรดส่งคำอธิบายสั้น ๆ เกี่ยวกับงานที่ต้องการปรับ ปัญหาปัจจุบัน ผู้ใช้ ประเภทเอกสาร และช่วงเวลาที่ต้องการ"

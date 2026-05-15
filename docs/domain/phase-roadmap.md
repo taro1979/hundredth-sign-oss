@@ -4,10 +4,10 @@ Last updated: 2026-05-12
 
 ## Current Direction
 
-Hundredth Sign is now an OSS, self-hosted, single-workspace electronic signature
-application. Hosted SaaS features such as paid plans, quotas, external OAuth,
-workspace invites, and customer inbox/import flows are intentionally outside the
-current product scope.
+Hundredth Sign is now a source-available, noncommercial, self-hosted,
+single-workspace electronic signature application. Hosted SaaS features such as
+paid plans, quotas, external OAuth, workspace invites, and customer inbox/import
+flows are intentionally outside the current product scope.
 
 ## Completed Milestones
 
@@ -18,9 +18,9 @@ current product scope.
 | Phase 21-32 | Templates, scheduling, contacts, UX improvements | Done | 2025 late |
 | Phase 33-44 | i18n and regression fixes | Done | 2026 Q1 |
 | Phase 45-60 | UI polish, bug fixes, synchronization | Done | 2026-02 to 2026-03 |
-| OSS Refactor | Single workspace, local auth, no commercial hosted-service layer | In progress | 2026-05 |
+| Source-available Refactor | Single workspace, local auth, no commercial hosted-service layer | In progress | 2026-05 |
 
-## OSS Roadmap Candidates
+## Source-Available Roadmap Candidates
 
 | Feature | Category | Summary |
 |---|---|---|
